@@ -210,7 +210,7 @@ LOCAL["paver-patios"] = {
         ),
         faq(
             "Why does the base under a Myakka City patio sometimes run thicker than normal?",
-            "Myakka fine sand, the dominant soil series across much of this area, holds a seasonal high water table within about a foot and a half of the surface for part of most years, which calls for extra compacted aggregate under the pavers on the wetter stretches of a lot."
+            "Myakka fine sand, the dominant soil series across much of this area, is rated poorly to very poorly drained, and groundwater can rise to knee height on a shovel for a few months most years, which calls for extra compacted aggregate under the pavers on the wetter stretches of a lot."
         ),
         faq(
             "Does a bigger acreage lot mean a bigger patio by default?",
@@ -248,8 +248,8 @@ LOCAL["artificial-turf"] = {
         "Converting a well-watered lawn to turf on a one-acre lot, worked out in square feet",
         "<p>A homeowner on a one-acre Myakka City lot is tired of running the home well dry keeping 2,400 square feet of front lawn green under the county's one-day watering window, and wants the "
         "front yard converted to turf while keeping the back acre in pasture grass for a couple of horses. At " + price("artificial-turf") + " per " + per("artificial-turf") + ", the front-yard "
-        "conversion runs $24,000 to $60,000, with most comparable jobs landing in the typical " + price("artificial-turf", typical=True) + " band, near $28,800 to $43,200, once backing weight and pile "
-        "height are chosen. The old zone's sprinkler heads get capped below grade before the washed-rock base goes in, and the well's draw drops the moment the old lawn stops needing water at all.</p>"
+        "swap costs $24,000 to $60,000 across the full range, settling closer to $28,800–$43,200 once backing weight and pile height are picked within the usual " + price("artificial-turf", typical=True) +
+        " window. The old zone's sprinkler heads get capped below grade before the washed-rock base goes in, and the well's draw drops the moment the old lawn stops needing water at all.</p>"
     ),
     "faqs": [
         faq(
