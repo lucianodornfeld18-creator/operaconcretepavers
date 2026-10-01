@@ -1,21 +1,31 @@
-pages: 55
+pages: 78
 FAIL: 0
-WARN: 16
+WARN: 26
 
 
-WARN  words 2972 < 3000 (home): /
+WARN  words 2983 < 3000 (home): /
 WARN  density 'artificial turf' 6.9%: /404/
-WARN  density 'pavers' 5.4%: /blog/
+WARN  density 'pavers' 4.6%: /blog/
 WARN  density 'concrete driveway' 5.0%: /compare/
 WARN  density 'pavers' 13.4%: /compare/
+WARN  density 'pavers' 4.8%: /blog/permeable-pavers-and-drainage-florida/
 WARN  density 'pavers' 4.4%: /compare/clay-brick-vs-concrete-pavers/
 WARN  density 'pavers' 4.5%: /compare/stamped-concrete-vs-pavers/
 WARN  density 'pavers' 4.5%: /compare/travertine-vs-concrete-pavers/
+WARN  density 'pavers' 4.1%: /faq/pavers/
 WARN  inlinks 0 < 3: /about/
 WARN  inlinks 0 < 3: /accessibility/
-WARN  inlinks 1 < 3: /blog/
-WARN  inlinks 2 < 3: /process/
+WARN  inlinks 1 < 3: /blog/oil-and-tire-stains-on-driveways/
+WARN  inlinks 2 < 3: /blog/pavers-and-concrete-in-hurricanes/
+WARN  inlinks 2 < 3: /faq/artificial-turf/
+WARN  inlinks 1 < 3: /faq/concrete/
+WARN  inlinks 1 < 3: /faq/pavers/
 WARN  inlinks 0 < 3: /terms/
+WARN  sentence on 3 pages: "how hot do pool decks get in florida" e.g. ['/blog/', '/blog/how-hot-do-pool-decks-get-florida/', '/stamped-concrete/']
 WARN  sentence on 3 pages: "a herringbonepattern paver driveway and walkway leading to a garage" e.g. ['/paver-driveway-cost/', '/paver-driveways/', '/paver-sealing/']
+WARN  sentence on 2 pages: "why do pavers sink in florida and how is it fixed" e.g. ['/blog/', '/blog/why-pavers-sink-in-florida/']
+WARN  sentence on 2 pages: "what is the white haze on new pavers and concrete efflorescence" e.g. ['/blog/', '/blog/efflorescence-on-pavers-and-concrete/']
 WARN  sentence on 2 pages: "statewide sinkhole claims concentrate heavily in hernando pasco and hillsborough counties " e.g. ['/compare/cool-deck-vs-pavers-vs-travertine/', '/concrete-pool-decks/']
+WARN  sentence on 2 pages: "how hot does artificial turf get in florida and how do you keep it cooler" e.g. ['/blog/', '/blog/artificial-turf-heat-in-florida/']
 WARN  sentence on 2 pages: "a row of paver driveways along a palmlined florida street" e.g. ['/paver-driveway-cost/', '/paver-driveways/']
+WARN  sentence on 2 pages: "a closeup topdown view of gray interlocking concrete pavers fitted tightly together" e.g. ['/blog/saltwater-pools-and-coastal-salt-air-hardscape/', '/paver-sealing/']
