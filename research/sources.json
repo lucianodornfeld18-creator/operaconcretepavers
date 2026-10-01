@@ -1,0 +1,770 @@
+{
+ "homeguide-concrete-driveway": [
+  "HomeGuide — Concrete Driveway Cost",
+  "https://homeguide.com/costs/concrete-driveway-cost"
+ ],
+ "homeguide-concrete-patio": [
+  "HomeGuide — Concrete Patio Cost",
+  "https://homeguide.com/costs/concrete-patio-cost"
+ ],
+ "homeguide-concrete-slab": [
+  "HomeGuide — Concrete Slab Cost",
+  "https://homeguide.com/costs/concrete-slab-cost"
+ ],
+ "homeguide-stamped": [
+  "HomeGuide — Stamped Concrete Patio Cost",
+  "https://homeguide.com/costs/stamped-concrete-patio-cost"
+ ],
+ "homeguide-exposed-aggregate": [
+  "HomeGuide — Exposed Aggregate Patio Cost",
+  "https://homeguide.com/costs/exposed-aggregate-patio-cost"
+ ],
+ "homeguide-sidewalk": [
+  "HomeGuide — Concrete Sidewalk Cost",
+  "https://homeguide.com/costs/concrete-sidewalk-cost"
+ ],
+ "homeguide-pool-deck": [
+  "HomeGuide — Pool Deck Cost",
+  "https://homeguide.com/costs/pool-deck-cost"
+ ],
+ "homeguide-pool-deck-resurfacing": [
+  "HomeGuide — Pool Deck Resurfacing Cost",
+  "https://homeguide.com/costs/pool-deck-resurfacing-cost"
+ ],
+ "homeguide-concrete-resurfacing": [
+  "HomeGuide — Concrete Resurfacing Cost",
+  "https://homeguide.com/costs/concrete-resurfacing-cost"
+ ],
+ "homeguide-concrete-removal": [
+  "HomeGuide — Concrete Removal Cost",
+  "https://homeguide.com/costs/concrete-removal-cost"
+ ],
+ "homeguide-driveway-repair": [
+  "HomeGuide — Driveway Repair Cost",
+  "https://homeguide.com/costs/driveway-repair-cost"
+ ],
+ "homeguide-mudjacking": [
+  "HomeGuide — Mudjacking Cost",
+  "https://homeguide.com/costs/mudjacking-cost"
+ ],
+ "homeguide-polyjacking": [
+  "HomeGuide — Polyjacking Cost",
+  "https://homeguide.com/costs/polyjacking-cost"
+ ],
+ "homeguide-concrete-leveling": [
+  "HomeGuide — Concrete Leveling Cost",
+  "https://homeguide.com/costs/concrete-leveling-cost"
+ ],
+ "homeguide-driveway-pavers": [
+  "HomeGuide — Driveway Pavers Cost",
+  "https://homeguide.com/costs/driveway-pavers-cost"
+ ],
+ "homeguide-paver-patio": [
+  "HomeGuide — Paver Patio Installation Cost",
+  "https://homeguide.com/costs/paver-patio-installation-cost"
+ ],
+ "homeguide-pavers-sqft": [
+  "HomeGuide — Pavers Cost per Square Foot",
+  "https://homeguide.com/costs/pavers-cost-per-square-foot"
+ ],
+ "homeguide-paver-walkway": [
+  "HomeGuide — Paver Walkway Cost",
+  "https://homeguide.com/costs/paver-walkway-cost"
+ ],
+ "homeguide-travertine": [
+  "HomeGuide — Travertine Pavers Cost",
+  "https://homeguide.com/costs/travertine-pavers-cost"
+ ],
+ "homeguide-seal-pavers": [
+  "HomeGuide — Cost to Seal Pavers",
+  "https://homeguide.com/costs/cost-to-seal-pavers"
+ ],
+ "homeguide-pressure-wash": [
+  "HomeGuide — Pressure Wash Driveway Cost",
+  "https://homeguide.com/costs/pressure-wash-driveway-cost"
+ ],
+ "homeguide-retaining-wall": [
+  "HomeGuide — Retaining Wall Cost",
+  "https://homeguide.com/costs/retaining-wall-cost"
+ ],
+ "homeguide-artificial-grass": [
+  "HomeGuide — Artificial Grass Cost",
+  "https://homeguide.com/costs/artificial-grass-cost"
+ ],
+ "homeguide-putting-green": [
+  "HomeGuide — Backyard Putting Green Cost",
+  "https://homeguide.com/costs/backyard-putting-green-cost"
+ ],
+ "homeguide-concrete-prices": [
+  "HomeGuide — Concrete Prices (per yard)",
+  "https://homeguide.com/costs/concrete-prices"
+ ],
+ "angi-driveway-orlando": [
+  "Angi — Concrete Driveway Cost, Orlando FL",
+  "https://www.angi.com/articles/how-much-does-concrete-driveway-cost/fl/orlando"
+ ],
+ "angi-driveway-tampa": [
+  "Angi — Concrete Driveway Cost, Tampa FL",
+  "https://www.angi.com/articles/how-much-does-concrete-driveway-cost/fl/tampa"
+ ],
+ "angi-pave-driveway-tampa": [
+  "Angi — Cost to Pave a Driveway, Tampa FL",
+  "https://www.angi.com/articles/how-much-does-it-cost-pave-driveway/fl/tampa"
+ ],
+ "angi-slab-orlando": [
+  "Angi — Concrete Slab Cost, Orlando FL",
+  "https://www.angi.com/articles/concrete-slab-cost/fl/orlando"
+ ],
+ "angi-driveway-repair-orlando": [
+  "Angi — Concrete Driveway Repair Cost, Orlando FL",
+  "https://www.angi.com/articles/cracks-concrete-driveway-repair-vs-replace/fl/orlando"
+ ],
+ "angi-mudjacking-orlando": [
+  "Angi — Mudjacking Cost, Orlando FL",
+  "https://www.angi.com/articles/how-much-does-mudjacking-cost/fl/orlando"
+ ],
+ "angi-turf-orlando": [
+  "Angi — Synthetic Grass Installation Cost, Orlando FL",
+  "https://www.angi.com/articles/how-much-does-artificial-turf-cost/fl/orlando"
+ ],
+ "angi-turf-tampa": [
+  "Angi — Synthetic Grass Installation Cost, Tampa FL",
+  "https://www.angi.com/articles/how-much-does-artificial-turf-cost/fl/tampa"
+ ],
+ "angi-turf-national": [
+  "Angi — Artificial Grass Installation Cost",
+  "https://www.angi.com/articles/how-much-does-artificial-turf-cost.htm"
+ ],
+ "angi-putting-green": [
+  "Angi — Backyard Putting Green Cost",
+  "https://www.angi.com/articles/backyard-putting-green-cost.htm"
+ ],
+ "angi-patio-repair": [
+  "Angi — Patio Repair Cost",
+  "https://www.angi.com/articles/patio-repair-cost.htm"
+ ],
+ "angi-paver-driveway": [
+  "Angi — Paver Driveway Cost",
+  "https://www.angi.com/articles/paver-driveway-cost.htm"
+ ],
+ "homewyse-concrete-driveway": [
+  "Homewyse — Cost to Install Concrete Driveway",
+  "https://www.homewyse.com/services/cost_to_install_concrete_driveway.html"
+ ],
+ "homewyse-stamped": [
+  "Homewyse — Cost to Install Stamped Concrete",
+  "https://www.homewyse.com/services/cost_to_install_stamped_concrete.html"
+ ],
+ "homeyou-pavers-orlando": [
+  "homeyou — Driveway Pavers Orlando FL Costs",
+  "https://www.homeyou.com/fl/driveway-pavers-orlando-costs"
+ ],
+ "homeyou-pavers-sarasota": [
+  "homeyou — Driveway Pavers Sarasota FL Costs",
+  "https://www.homeyou.com/fl/driveway-pavers-sarasota-costs"
+ ],
+ "promatcher-driveways-sarasota": [
+  "ProMatcher — Sarasota Driveways Costs",
+  "https://driveways.promatcher.com/cost/sarasota-fl-driveways-costs-prices.aspx"
+ ],
+ "poolmechanic-pooldeck-cfl": [
+  "Pool Mechanic — Pool Deck Resurfacing in Central Florida (contractor)",
+  "https://www.pool-mechanic.com/post/pool-deck-resurfacing-in-central-florida-a-complete-guide"
+ ],
+ "concretesolutions-pooldeck-sfl": [
+  "Concrete Solutions FL — Pool Deck Resurfacing Cost South Florida (contractor, snippet)",
+  "https://concretesolutionsfl.com/blog/pool-deck-resurfacing-cost-south-florida-2026/"
+ ],
+ "castle-paver-sealing-cfl": [
+  "Castle Clean & Seal — Paver Sealing Cost Central Florida (contractor)",
+  "https://www.castlecleanandseal.com/articles/paver-sealing-cost-central-florida"
+ ],
+ "craftpavers-fl-pricing": [
+  "Craft Pavers — Paver Prices in Florida (contractor)",
+  "https://craft-pavers.com/pricing/"
+ ],
+ "outdoorlifepros-paver-repair-capecoral": [
+  "Outdoor Life Pros — Paver Repair Cost Cape Coral (contractor, snippet)",
+  "https://www.outdoorlifepros.com/paver-repair-cost-in-cape-coral-fl-2026-homeowner-guide"
+ ],
+ "installartificial-pet-turf": [
+  "InstallArtificial — Cost of Pet Turf (CA figures)",
+  "https://www.installartificial.com/how/cost-of-pet-friendly-turf"
+ ],
+ "concretecalc-fl-readymix": [
+  "ConcreteCalc.us — Concrete Prices in Florida (calculator site)",
+  "https://concretecalc.us/concrete-prices-in-florida/"
+ ],
+ "lakeland-readymix": [
+  "Lakeland Concrete Contractors — Ready Mix Prices (lead-gen)",
+  "https://www.lakelandconcretecontractors.org/costs/ready-mix-concrete-prices"
+ ],
+ "fs489-105": [
+  "F.S. 489.105 (2026) Definitions",
+  "https://www.flsenate.gov/Laws/Statutes/2026/489.105"
+ ],
+ "fs489-117": [
+  "F.S. 489.117 (2026) Registration; specialty contractors",
+  "https://www.flsenate.gov/Laws/Statutes/2026/489.117"
+ ],
+ "fs489-103": [
+  "F.S. 489.103 (2026) Exemptions",
+  "https://www.flsenate.gov/Laws/Statutes/2026/489.103"
+ ],
+ "fs489-115": [
+  "F.S. 489.115 (2026) Certification and registration; insurance",
+  "https://www.flsenate.gov/Laws/Statutes/2026/489.115"
+ ],
+ "fs489-119": [
+  "F.S. 489.119 (2026) Business organizations; advertising",
+  "https://www.flsenate.gov/Laws/Statutes/2026/489.119"
+ ],
+ "fs489-126": [
+  "F.S. 489.126 (2026) Moneys received by contractors",
+  "https://www.flsenate.gov/Laws/Statutes/2026/489.126"
+ ],
+ "fs489-128": [
+  "F.S. 489.128 (2026) Unlicensed contracts unenforceable",
+  "https://www.flsenate.gov/Laws/Statutes/2026/489.128"
+ ],
+ "fs489-1425": [
+  "F.S. 489.1425 (2026) Recovery fund notice",
+  "https://www.flsenate.gov/Laws/Statutes/2026/489.1425"
+ ],
+ "fs163-211": [
+  "F.S. 163.211 (2026) Licensing of occupations preempted to state",
+  "https://www.flsenate.gov/Laws/Statutes/2026/163.211"
+ ],
+ "hb735-er": [
+  "Enrolled HB 735 (2021), ch. 2021-214",
+  "https://flsenate.gov/Session/Bill/2021/735/BillText/er/PDF"
+ ],
+ "hb735-page": [
+  "HB 735 (2021) bill page",
+  "https://www.flsenate.gov/Session/Bill/2021/735"
+ ],
+ "fac61g4-15-100": [
+  "Fla. Admin. Code R. 61G4-15.100 Certified Specialty Contractors (LII)",
+  "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-61G4-15-100"
+ ],
+ "flrules61g4-15-100": [
+  "FLRules 61G4-15.100",
+  "https://www.flrules.org/gateway/ruleNo.asp?id=61G4-15.100"
+ ],
+ "fac61g4-15-015": [
+  "Fla. Admin. Code R. 61G4-15.015 Specialty Structure (LII)",
+  "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-61G4-15-015"
+ ],
+ "fac61g4-15-003": [
+  "Fla. Admin. Code R. 61G4-15.003 Public Liability Insurance (LII)",
+  "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-61G4-15-003"
+ ],
+ "flrules61g4-15": [
+  "FLRules Chapter 61G4-15 index",
+  "https://flrules.org/gateway/ChapterHome.asp?Chapter=61G4-15"
+ ],
+ "dbpr-hot": [
+  "DBPR CILB Hot Topics",
+  "https://www2.myfloridalicense.com/construction-industry/hot-topics/"
+ ],
+ "dbpr-search": [
+  "DBPR License Search",
+  "https://www.myfloridalicense.com/wl11.asp"
+ ],
+ "md-preempt": [
+  "Miami-Dade Contractor License Category Preemption",
+  "https://www.miamidade.gov/global/license.page?Mduid_license=lic1648488034544767"
+ ],
+ "manatee-lic": [
+  "Manatee County Contractor Licensing Section",
+  "https://www.mymanatee.org/departments/development-services-department/building-division/contractor-licensing-division"
+ ],
+ "manatee-reg": [
+  "Manatee County Register Your Contractor License",
+  "https://www.mymanatee.org/services-and-amenities/service-listing/service-details/contractor-licensing"
+ ],
+ "orange-bldg": [
+  "Orange County Division of Building Safety",
+  "https://www.orangecountyfl.net/PermitsLicenses/DivisionOfBuildingSafety.aspx"
+ ],
+ "sarasota-22-122": [
+  "Sarasota Co. Code §22-122 (elaws; not loaded)",
+  "http://sarasotacounty.elaws.us/code/coor_ch22_artv_sec22-122"
+ ],
+ "fs440-02": [
+  "F.S. 440.02 (2025) Workers' comp definitions",
+  "https://www.flsenate.gov/Laws/Statutes/2025/440.02"
+ ],
+ "fs713-02": [
+  "F.S. 713.02 (2026) Types of lienors and exemptions",
+  "https://www.flsenate.gov/Laws/Statutes/2026/713.02"
+ ],
+ "fs713-13": [
+  "F.S. 713.13 (2026) Notice of commencement",
+  "https://www.flsenate.gov/Laws/Statutes/2026/713.13"
+ ],
+ "fs713-135": [
+  "F.S. 713.135 (2026) NOC and applicability of lien",
+  "https://www.flsenate.gov/Laws/Statutes/2026/713.135"
+ ],
+ "fs713-015": [
+  "F.S. 713.015 (2026) Mandatory provisions for direct contracts",
+  "https://www.flsenate.gov/Laws/Statutes/2026/713.015"
+ ],
+ "fs713-06": [
+  "F.S. 713.06 (2026) Liens of persons not in privity",
+  "https://www.flsenate.gov/Laws/Statutes/2026/713.06"
+ ],
+ "fs501-021": [
+  "F.S. 501.021 (2025) Home solicitation sale definitions",
+  "https://www.flsenate.gov/Laws/Statutes/2025/501.021"
+ ],
+ "fs501-025": [
+  "F.S. 501.025 (2026) Buyer's right to cancel",
+  "https://www.flsenate.gov/Laws/Statutes/2026/501.025"
+ ],
+ "fs720-3035": [
+  "F.S. 720.3035 (2026) Architectural control covenants",
+  "https://www.flsenate.gov/Laws/Statutes/2026/720.3035"
+ ],
+ "fs720-3045": [
+  "F.S. 720.3045 (2026) Installation, display, and storage of items",
+  "https://www.flsenate.gov/Laws/Statutes/2026/720.3045"
+ ],
+ "fs125-572": [
+  "F.S. 125.572 (2026) Regulation of synthetic turf",
+  "https://www.flsenate.gov/Laws/Statutes/2026/125.572"
+ ],
+ "fs125-572-2025": [
+  "F.S. 125.572 (2025)",
+  "https://www.flsenate.gov/Laws/Statutes/2025/125.572"
+ ],
+ "hb683-analysis": [
+  "HB 683 (2025) Final Bill Analysis",
+  "https://www.flsenate.gov/Session/Bill/2025/683/Analyses/h0683z2.IPA.PDF"
+ ],
+ "flrules62-308-100": [
+  "FLRules 62-308.100 Synthetic Turf",
+  "https://www.flrules.org/gateway/ruleNo.asp?id=62-308.100"
+ ],
+ "rule62-308-100-text": [
+  "Rule 62-308.100 adopted text (.doc)",
+  "https://www.flrules.org/gateway/readFile.asp?sid=0&tid=30839130&type=1&file=62-308.100.doc"
+ ],
+ "nrcs-smyrna-osd": [
+  "NRCS OSD Smyrna",
+  "https://soilseries.sc.egov.usda.gov/OSD_Docs/S/SMYRNA.html"
+ ],
+ "nrcs-myakka-osd": [
+  "NRCS OSD Myakka",
+  "https://soilseries.sc.egov.usda.gov/OSD_Docs/M/MYAKKA.html"
+ ],
+ "nrcs-candler-osd": [
+  "NRCS OSD Candler",
+  "https://soilseries.sc.egov.usda.gov/OSD_Docs/C/CANDLER.html"
+ ],
+ "nrcs-tavares-osd": [
+  "NRCS OSD Tavares",
+  "https://soilseries.sc.egov.usda.gov/OSD_Docs/T/TAVARES.html"
+ ],
+ "nrcs-astatula-osd": [
+  "NRCS OSD Astatula",
+  "https://soilseries.sc.egov.usda.gov/OSD_Docs/A/ASTATULA.html"
+ ],
+ "nrcs-pomona-osd": [
+  "NRCS OSD Pomona",
+  "https://soilseries.sc.egov.usda.gov/OSD_Docs/P/POMONA.html"
+ ],
+ "nrcs-basinger-osd": [
+  "NRCS OSD Basinger",
+  "https://soilseries.sc.egov.usda.gov/OSD_Docs/B/BASINGER.html"
+ ],
+ "nrcs-eaugallie-osd": [
+  "NRCS OSD EauGallie",
+  "https://soilseries.sc.egov.usda.gov/OSD_Docs/E/EAUGALLIE.html"
+ ],
+ "nrcs-immokalee-osd": [
+  "NRCS OSD Immokalee",
+  "https://soilseries.sc.egov.usda.gov/OSD_Docs/I/IMMOKALEE.html"
+ ],
+ "nrcs-pomello-osd": [
+  "NRCS OSD Pomello",
+  "https://soilseries.sc.egov.usda.gov/OSD_Docs/P/POMELLO.html"
+ ],
+ "nrcs-felda-osd": [
+  "NRCS OSD Felda",
+  "https://soilseries.sc.egov.usda.gov/OSD_Docs/F/FELDA.html"
+ ],
+ "fl-dos-state-soil": [
+  "Florida Dept. of State - State Soil",
+  "https://dos.fl.gov/florida-facts/florida-state-symbols/state-soil/"
+ ],
+ "ifas-sl441-ag-soils": [
+  "UF/IFAS EDIS SL441 Agricultural Soils of Florida",
+  "https://ask.ifas.ufl.edu/publication/SS655"
+ ],
+ "ncei-annual-prcp": [
+  "NOAA NCEI 1991-2020 annual precip normals (MCO, SRQ)",
+  "https://www.ncei.noaa.gov/access/services/data/v1?dataTypes=ANN-PRCP-NORMAL&dataset=normals-annualseasonal-1991-2020&stations=USW00012871,USW00012815&format=json"
+ ],
+ "ncei-srq-monthly": [
+  "NOAA NCEI 1991-2020 monthly precip normals SRQ",
+  "https://www.ncei.noaa.gov/access/services/data/v1?dataTypes=MLY-PRCP-NORMAL&dataset=normals-monthly-1991-2020&stations=USW00012871&format=json"
+ ],
+ "fcc-orlando-normals": [
+  "Florida Climate Center - Orlando 1991-2020 normals",
+  "https://climatecenter.fsu.edu/products-services/data/1991-2020-normals/orlando"
+ ],
+ "fcc-bradenton-normals": [
+  "Florida Climate Center - Bradenton 1991-2020 normals",
+  "https://climatecenter.fsu.edu/products-services/data/1991-2020-normals/bradenton"
+ ],
+ "nws-mlb-wetdry": [
+  "NWS Melbourne Wet/Dry Season Onset",
+  "https://www.weather.gov/mlb/wetdry"
+ ],
+ "nws-tbw-tstm-climo": [
+  "NWS Tampa Bay Thunderstorm Climatology Quick Reference",
+  "https://www.weather.gov/tbw/TBWTstmClimoQuickReference"
+ ],
+ "fbc-wind-factsheet": [
+  "FBC 7th Ed. ASCE 7-16 Wind Loads Fact Sheet",
+  "https://www.floridabuilding.org/fbc/thecode/2020_7edition/ASCE_7-16_Fact_Sheet_final_2_column_format052820final.pdf"
+ ],
+ "fbc-2023-1609-3": [
+  "2023 FBC Building Sec. 1609.3 Ultimate design wind speed",
+  "https://codes.iccsafe.org/s/FLBC2023P1/chapter-16-structural-design/FLBC2023P1-Ch16-Sec1609.3"
+ ],
+ "fema-coastal-firm": [
+  "FEMA - Features of Flood Insurance Rate Maps in Coastal Areas",
+  "https://www.fema.gov/flood-maps/coastal/insurance-rate-maps"
+ ],
+ "fema-msc": [
+  "FEMA Flood Map Service Center",
+  "https://msc.fema.gov/"
+ ],
+ "fgs-sinkhole-faq": [
+  "FDEP / Florida Geological Survey Sinkhole FAQ",
+  "https://floridadep.gov/fgs/sinkholes/content/sinkhole-faq"
+ ],
+ "fl-senate-2011-104": [
+  "Florida Senate Interim Report 2011-104 (sinkhole insurance)",
+  "https://www.flsenate.gov/UserContent/Session/2011/Publications/InterimReports/pdf/2011-104bi.pdf"
+ ],
+ "floir-2010-sinkhole": [
+  "FL OIR Report on Review of the 2010 Sinkhole Data Call",
+  "https://www.floir.gov/docs-sf/default-source/property-and-casualty/other-property-casualty-reports/2010_sinkhole_data_call_report.pdf"
+ ],
+ "clickorlando-sinkholes": [
+  "ClickOrlando - Sinkholes in Florida (secondary)",
+  "https://www.clickorlando.com/weather/2026/04/17/sinkholes-in-florida-are-common-in-florida-heres-what-you-need-to-know/"
+ ],
+ "fs-627-706": [
+  "Florida Statutes 627.706",
+  "https://www.flsenate.gov/Laws/Statutes/2025/627.706"
+ ],
+ "nrmca-cip12": [
+  "NRMCA CIP 12 Hot Weather Concreting",
+  "https://www.nrmca.org/wp-content/uploads/2021/01/12pr.pdf"
+ ],
+ "nrmca-cip5": [
+  "NRMCA CIP 5 Plastic Shrinkage Cracking",
+  "https://www.nrmca.org/wp-content/uploads/2021/01/05pr.pdf"
+ ],
+ "nrmca-cip6": [
+  "NRMCA CIP 6 Joints in Concrete Slabs on Grade",
+  "https://www.nrmca.org/wp-content/uploads/2021/01/06pr.pdf"
+ ],
+ "aci-faq-maxtemp": [
+  "ACI FAQ - Maximum temperature limits for hot-weather concreting",
+  "https://www.concrete.org/frequentlyaskedquestions.aspx?faqid=15"
+ ],
+ "aci-ci-evap-2007": [
+  "ACI Concrete International Q&A - Estimating Evaporation Rates (Snell, 2007)",
+  "https://www.concrete.org/publications/internationalconcreteabstractsportal/m/details/id/20064"
+ ],
+ "aci-308r01-copy": [
+  "ACI 308R-01 Guide to Curing Concrete (reproduced copy)",
+  "https://civillabs.kashanu.ac.ir/file/download/page/1621070592-308r-01.pdf-curing.pdf"
+ ],
+ "aci-330r08-preview": [
+  "ACI 330R-08 preview",
+  "https://www.concrete.org/portals/0/files/pdf/previews/330r-08web.pdf"
+ ],
+ "fbcr-2020-ch5": [
+  "2020 FBC Residential Ch. 5 Floors (UpCodes)",
+  "https://up.codes/viewer/florida/fl-residential-code-2020/chapter/5/floors"
+ ],
+ "fbcr-2020-ch4": [
+  "2020 FBC Residential Ch. 4 Foundations (UpCodes)",
+  "https://up.codes/viewer/florida/fl-residential-code-2020/chapter/4/foundations"
+ ],
+ "icpi-ts2": [
+  "ICPI Tech Spec 2 Construction of Interlocking Concrete Pavements (2020)",
+  "https://www.orco.com/wp-content/uploads/2022/08/ICPI-TechSpec2-ORCO.pdf"
+ ],
+ "icpi-ts3": [
+  "ICPI Tech Spec 3 Edge Restraints (2020)",
+  "https://www.angeluspavingstones.com/wp-content/uploads/2025/04/AngelusCoverSheet-TechSpec3.pdf"
+ ],
+ "icpi-ts5": [
+  "ICPI Tech Spec 5 Cleaning, Sealing and Joint Sand Stabilization (2020)",
+  "https://www.angeluspavingstones.com/wp-content/uploads/2025/04/AngelusCoverSheet-TechSpec5.pdf"
+ ],
+ "mortex-kooldeck-brochure": [
+  "Mortex Kool Deck consumer brochure (manufacturer claim)",
+  "https://mortex.com/pdf/KoolDeck-Consumer.pdf"
+ ],
+ "mortex-kooldeck-page": [
+  "Mortex Keystone Kool Deck product page (manufacturer claim)",
+  "https://mortex.com/products/kd.html"
+ ],
+ "epa-cool-pavements": [
+  "EPA Using Cool Pavements to Reduce Heat Islands",
+  "https://www.epa.gov/heatislands/using-cool-pavements-reduce-heat-islands"
+ ],
+ "signature-landscape-blog": [
+  "Signature Landscape blog - pool deck surface temps (secondary, unverified)",
+  "https://www.signaturelandscape.com/heat-resistant-pavers-for-orange-county-pool-decks-surface-temperature-comparison/"
+ ],
+ "sjrwmd-watering": [
+  "SJRWMD Watering Restrictions",
+  "https://www.sjrwmd.com/wateringrestrictions/"
+ ],
+ "swfwmd-restrictions": [
+  "SWFWMD District Water Restrictions",
+  "https://www.swfwmd.state.fl.us/business/epermitting/district-water-restrictions"
+ ],
+ "swfwmd-utility-manual": [
+  "SWFWMD Utility Reference Manual (year-round measures 40D-22)",
+  "https://www.swfwmd.state.fl.us/sites/default/files/calendar/others/Utility_Reference_Manual.pdf"
+ ],
+ "manatee-phase3": [
+  "Manatee County - Modified Phase III water shortage restrictions",
+  "https://www.mymanatee.org/connect/news-and-information/news-and-information/article-detail/utilities-water-division-blog/2026/01/28/manatee-county-to-follow-modified-phase-iii-water-shortage-restrictions"
+ ],
+ "sarasota-city-phase3": [
+  "City of Sarasota - SWFWMD Modified Phase III extended",
+  "https://www.sarasotafl.gov/News-articles/SWFWMD-Modified-Phase-III-Extreme-Water-Shortage"
+ ],
+ "scgov-restrictions-news": [
+  "Sarasota County news - watering restrictions (403, title only)",
+  "https://www.scgov.net/Home/Components/News/News/9179/6288?widgetId=14938"
+ ],
+ "census-pep-v2025": [
+  "Census Bureau PEP, City and Town Population Totals, Vintage 2025 (July 1, 2025)",
+  "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/cities/totals/sub-est2025.csv"
+ ],
+ "census-pep-v2024": [
+  "Census Bureau PEP, City and Town Population Totals, Vintage 2024 (July 1, 2024)",
+  "https://www2.census.gov/programs-surveys/popest/datasets/2020-2024/cities/totals/sub-est2024.csv"
+ ],
+ "census-orlando": [
+  "Census QuickFacts, Orlando city, FL (not fetchable, 403)",
+  "https://www.census.gov/quickfacts/fact/table/orlandocityflorida/PST045224"
+ ],
+ "census-kissimmee": [
+  "Census QuickFacts, Kissimmee city, FL (not fetchable, 403)",
+  "https://www.census.gov/quickfacts/fact/table/kissimmeecityflorida/PST045224"
+ ],
+ "census-clermont": [
+  "Census QuickFacts, Clermont city, FL (not fetchable, 403)",
+  "https://www.census.gov/quickfacts/fact/table/clermontcityflorida/PST045224"
+ ],
+ "census-oviedo": [
+  "Census QuickFacts, Oviedo city, FL (not fetchable, 403)",
+  "https://www.census.gov/quickfacts/fact/table/oviedocityflorida/PST045224"
+ ],
+ "census-wintergarden": [
+  "Census QuickFacts, Winter Garden city, FL (not fetchable, 403)",
+  "https://www.census.gov/quickfacts/fact/table/wintergardencityflorida/PST045224"
+ ],
+ "census-windermere": [
+  "Census QuickFacts, Windermere town, FL (not fetchable, 403)",
+  "https://www.census.gov/quickfacts/fact/table/windermeretownflorida/PST045224"
+ ],
+ "census-sarasota": [
+  "Census QuickFacts, Sarasota city, FL (not fetchable, 403)",
+  "https://www.census.gov/quickfacts/fact/table/sarasotacityflorida/PST045224"
+ ],
+ "census-lakewoodranch": [
+  "Census QuickFacts, Lakewood Ranch CDP, FL (not fetchable, 403)",
+  "https://www.census.gov/quickfacts/fact/table/lakewoodranchcdpflorida/PST045224"
+ ],
+ "census-bradenton": [
+  "Census QuickFacts, Bradenton city, FL (not fetchable, 403)",
+  "https://www.census.gov/quickfacts/fact/table/bradentoncityflorida/PST045224"
+ ],
+ "census-venice": [
+  "Census QuickFacts, Venice city, FL (not fetchable, 403)",
+  "https://www.census.gov/quickfacts/fact/table/venicecityflorida/PST045224"
+ ],
+ "acs-orlando": [
+  "Census Reporter, Orlando FL (ACS 2020-2024 5-yr, B25035)",
+  "https://censusreporter.org/profiles/16000US1253000-orlando-fl/"
+ ],
+ "acs-kissimmee": [
+  "Census Reporter, Kissimmee FL (ACS 2020-2024 5-yr, B25035)",
+  "https://censusreporter.org/profiles/16000US1236950-kissimmee-fl/"
+ ],
+ "acs-clermont": [
+  "Census Reporter, Clermont FL (ACS 2020-2024 5-yr, B25035)",
+  "https://censusreporter.org/profiles/16000US1212925-clermont-fl/"
+ ],
+ "acs-oviedo": [
+  "Census Reporter, Oviedo FL (ACS 2020-2024 5-yr, B25035)",
+  "https://censusreporter.org/profiles/16000US1253575-oviedo-fl/"
+ ],
+ "acs-wintergarden": [
+  "Census Reporter, Winter Garden FL (ACS 2020-2024 5-yr, B25035)",
+  "https://censusreporter.org/profiles/16000US1278250-winter-garden-fl/"
+ ],
+ "acs-windermere": [
+  "Census Reporter, Windermere FL (ACS 2020-2024 5-yr, B25035)",
+  "https://censusreporter.org/profiles/16000US1278050-windermere-fl/"
+ ],
+ "acs-sarasota": [
+  "Census Reporter, Sarasota FL (ACS 2020-2024 5-yr, B25035)",
+  "https://censusreporter.org/profiles/16000US1264175-sarasota-fl/"
+ ],
+ "acs-lakewoodranch": [
+  "Census Reporter, Lakewood Ranch CDP FL (ACS 2020-2024 5-yr, B01003/B25035)",
+  "https://censusreporter.org/profiles/16000US1239067-lakewood-ranch-fl/"
+ ],
+ "acs-bradenton": [
+  "Census Reporter, Bradenton FL (ACS 2020-2024 5-yr, B25035)",
+  "https://censusreporter.org/profiles/16000US1207950-bradenton-fl/"
+ ],
+ "acs-venice": [
+  "Census Reporter, Venice FL (ACS 2020-2024 5-yr, B25035)",
+  "https://censusreporter.org/profiles/16000US1273900-venice-fl/"
+ ],
+ "lwr-cdp-counties": [
+  "Census Reporter geography parents, Lakewood Ranch CDP",
+  "https://api.censusreporter.org/1.0/geo/tiger2024/16000US1239067/parents"
+ ],
+ "census-gazetteer-fl": [
+  "Census 2024 Gazetteer, Florida places",
+  "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_gaz_place_12.txt"
+ ],
+ "orlando-bp-history": [
+  "City of Orlando, Baldwin Park/NTC Main Base: A Brief History",
+  "https://www.orlando.gov/files/78953af6-1e7a-4559-8346-bf2945f25138/BaldwinPark-History.pdf"
+ ],
+ "bp-network": [
+  "Baldwin Park Network, Residential Owners Association / ARC",
+  "https://www.baldwinparknetwork.com/"
+ ],
+ "bp-guidelines": [
+  "Baldwin Park Residential Guidelines (Updated 2024)",
+  "https://www.baldwinparknetwork.com/content/filearchive/28E14186-B6BA-C49E-7F706291DD55555F/Baldwin%20Park%20Residential%20Guidelines%20%28UPDATED%202024%29%2Epdf"
+ ],
+ "lakenona-about": [
+  "Lake Nona, About",
+  "https://lakenona.com/resources/"
+ ],
+ "laureatepark-faq": [
+  "Laureate Park Master Association FAQ",
+  "https://www.laureateparkhoa.com/frequently-asked-questions.html"
+ ],
+ "orlando-tree-ord": [
+  "City of Orlando Ordinance 2020-13 (Tree Preservation, Ch. 60 Part 2B)",
+  "https://orlando.novusagenda.com/AgendaPublic/AttachmentViewer.ashx?AttachmentID=92967&ItemID=50991"
+ ],
+ "winterpark-tree-ord": [
+  "City of Winter Park Ordinance 3320-24 (tree preservation)",
+  "https://cityofwinterpark.org/docs/government/ordinances-resolutions/ORD3320-24.pdf"
+ ],
+ "winterpark-tree-permit": [
+  "City of Winter Park, Tree Removal Permit Application",
+  "https://cityofwinterpark.org/departments/parks-recreation/urban-forestry/tree-removal-permit-application/"
+ ],
+ "usgs-orange-gw": [
+  "USGS WRI 03-4257, Hydrogeology and Quality of Ground Water in Orange County, Florida",
+  "https://pubs.usgs.gov/wri/wri034257/resources/wri03_4257_adamski.pdf"
+ ],
+ "kissimmee-parks": [
+  "City of Kissimmee, Parks",
+  "https://www.kissimmee.gov/Parks"
+ ],
+ "celebration-arc": [
+  "Celebration, Architectural Review Committee",
+  "https://celebration.fl.us/events/architectural-review-committee-43/"
+ ],
+ "clermont-econ": [
+  "City of Clermont, Economic Information",
+  "https://www.clermontfl.gov/189/Economic-Information"
+ ],
+ "wiki-sugarloaf": [
+  "Wikipedia, Sugarloaf Mountain (Florida)",
+  "https://en.wikipedia.org/wiki/Sugarloaf_Mountain_(Florida)"
+ ],
+ "oviedo-otp": [
+  "City of Oviedo, Oviedo on the Park",
+  "https://www.cityofoviedo.net/511/Oviedo-on-the-Park"
+ ],
+ "ocfl-horizonwest": [
+  "Orange County, Horizon West",
+  "https://www.ocfl.net/PlanningDevelopment/HorizonWest.aspx"
+ ],
+ "ocfl-tree-permit": [
+  "Orange County, Tree Removal Permit",
+  "https://www.orangecountyfl.net/PermitsLicenses/Permits/TreeRemovalPermit.aspx"
+ ],
+ "sarasota-tree": [
+  "City of Sarasota, Tree Protection",
+  "https://www.sarasotafl.gov/Department-Pages/Development-Services/Tree-Protection"
+ ],
+ "palmerranch": [
+  "Palmer Ranch Master Association",
+  "https://www.palmerranch.net/"
+ ],
+ "fdot-sdg": [
+  "FDOT Structures Design Guidelines Vol. 1, §1.3.2 environmental classification",
+  "https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/content/structures/structuresmanual/currentrelease/Vol1SDG.pdf"
+ ],
+ "lwr-about": [
+  "Lakewood Ranch / Schroeder-Manatee Ranch, About Us",
+  "https://lakewoodranch.com/about-us/"
+ ],
+ "lwr-ceva-manual": [
+  "Lakewood Ranch Town Hall, CEVA Homeowners' Manual 2022",
+  "https://content.civicplus.com/api/assets/07e300e3-1105-41c9-b71a-8f514fb7521e"
+ ],
+ "lwr-ceva-form": [
+  "Lakewood Ranch CEVA Modification Request Form",
+  "https://content.civicplus.com/api/assets/12d6c811-993f-4b28-8037-19a92d533e1f"
+ ],
+ "lwr-gbva-srva-form": [
+  "Lakewood Ranch GBVA-SRVA Modification Request Form",
+  "https://content.civicplus.com/api/assets/da597a78-9dca-4610-b61a-6a1700827dc4"
+ ],
+ "lwr-mod-form-2015": [
+  "Lakewood Ranch Modification Request Form (rev. 09/29/15)",
+  "https://content.civicplus.com/api/assets/4c8a7932-b81c-4c4d-833c-a03dc5947885"
+ ],
+ "lwr-didyouknow": [
+  "Lakewood Ranch 'DID YOU KNOW…' (content not verified)",
+  "https://content.civicplus.com/api/assets/a5c987e7-c178-4ef2-9144-231beaad61fb"
+ ],
+ "lwr-townhall": [
+  "Lakewood Ranch Town Hall (lakewoodranchgov.org redirect target)",
+  "https://mylwr.com/cms/town-hall"
+ ],
+ "bradenton-city": [
+  "City of Bradenton",
+  "https://www.cityofbradenton.com/"
+ ],
+ "wiki-nolen-venice": [
+  "Wikipedia, John Nolen Plan of Venice Historic District",
+  "https://en.wikipedia.org/wiki/John_Nolen_Plan_of_Venice_Historic_District"
+ ],
+ "venetian-acc-app": [
+  "Venetian Golf & River Club POA, ACC Application 04.16.26",
+  "https://img1.wsimg.com/blobby/go/9771004e-4c48-48de-b5b3-d2a698ae623a/downloads/2dbcf307-d484-4c91-8173-7cf2ca76a901/ACC%20Application%2004.16.26.pdf?ver=1790705617734"
+ ],
+ "venetian-poa": [
+  "Venetian Golf & River Club POA",
+  "https://venetianpoa.com/"
+ ]
+}

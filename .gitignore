@@ -1,0 +1,5 @@
+images/incoming/
+__pycache__/
+*.pyc
+research/_smoke.html
+images/stock/*.jpg

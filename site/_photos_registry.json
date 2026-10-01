@@ -1,0 +1,466 @@
+{
+ "home-hero": {
+  "stem": "opera-florida-homes-paver-driveways-palms",
+  "alt": "Sunny street of Mediterranean-style Florida homes with paver driveways, palm trees, and manicured lawns",
+  "name": "Florida street with paver driveways and palms",
+  "services": [
+   "paver-driveways"
+  ],
+  "w": 1600,
+  "h": 1059,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "thumbs": [
+   480,
+   672,
+   1024
+  ],
+  "stock": true,
+  "license": "Unsplash License",
+  "source_page": "https://unsplash.com/photos/4T4AcGJvARQ",
+  "photographer": "FilterGrade"
+ },
+ "concrete-driveway-modern": {
+  "stem": "opera-broom-finish-concrete-driveway-modern-home",
+  "alt": "Wide broom-finish concrete driveway leading to a modern white house with a dark garage door and landscaping",
+  "name": "Broom-finish concrete driveway",
+  "services": [
+   "concrete-driveways"
+  ],
+  "w": 1600,
+  "h": 1301,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "thumbs": [
+   480,
+   672,
+   1024
+  ],
+  "stock": true,
+  "license": "Unsplash License",
+  "source_page": "https://unsplash.com/photos/W7XqqixNnII",
+  "photographer": "Salvo Media LLC"
+ },
+ "concrete-driveway-two-car": {
+  "stem": "opera-two-car-concrete-driveway-white-house",
+  "alt": "Large smooth concrete driveway in front of a modern white house with two dark garage doors",
+  "name": "Two-car concrete driveway",
+  "services": [
+   "concrete-driveways",
+   "concrete-slabs"
+  ],
+  "w": 1600,
+  "h": 1067,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "thumbs": [
+   480,
+   672,
+   1024
+  ],
+  "stock": true,
+  "license": "Unsplash License",
+  "source_page": "https://unsplash.com/photos/mledaZ8XtVM",
+  "photographer": "Salvo Media LLC"
+ },
+ "concrete-driveway-joints": {
+  "stem": "opera-concrete-driveway-control-joints-garage",
+  "alt": "Clean broom-finish concrete driveway with control joints leading up to a white garage door and brick wall",
+  "name": "Concrete driveway with control joints",
+  "services": [
+   "concrete-driveways",
+   "concrete-repair"
+  ],
+  "w": 1600,
+  "h": 1280,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "thumbs": [
+   480,
+   672,
+   1024
+  ],
+  "stock": true,
+  "license": "Unsplash License",
+  "source_page": "https://unsplash.com/photos/hpg1LexD52Q",
+  "photographer": "web seo"
+ },
+ "stamped-flagstone": {
+  "stem": "opera-stamped-concrete-flagstone-pattern",
+  "alt": "Close-up of gray stamped concrete patterned to resemble irregular hexagonal flagstone pavers",
+  "name": "Stamped concrete in a flagstone pattern",
+  "services": [
+   "stamped-concrete",
+   "concrete-patios"
+  ],
+  "w": 1600,
+  "h": 898,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "thumbs": [
+   480,
+   672,
+   1024
+  ],
+  "stock": true,
+  "license": "Unsplash License",
+  "source_page": "https://unsplash.com/photos/zoLBzThs4cE",
+  "photographer": "Hansel Gonzalez"
+ },
+ "paver-patio-circle": {
+  "stem": "opera-circular-paver-patio-garden",
+  "alt": "Circular paver patio bordered by granite edging stones in a landscaped garden with shrubs and tall grass",
+  "name": "Circular paver patio",
+  "services": [
+   "paver-patios",
+   "retaining-walls"
+  ],
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "thumbs": [
+   480,
+   672,
+   1024
+  ],
+  "stock": true,
+  "license": "Unsplash License",
+  "source_page": "https://unsplash.com/photos/NvApISBMvXY",
+  "photographer": "Sergej"
+ },
+ "covered-patio": {
+  "stem": "opera-covered-patio-outdoor-dining",
+  "alt": "Covered patio with paved tile flooring, wooden dining table, blue sectional sofa, and a lawn with a play set behind",
+  "name": "Covered patio with dining set",
+  "services": [
+   "concrete-patios",
+   "paver-patios"
+  ],
+  "w": 1600,
+  "h": 1067,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "thumbs": [
+   480,
+   672,
+   1024
+  ],
+  "stock": true,
+  "license": "Pexels License",
+  "source_page": "https://www.pexels.com/photo/blue-couch-near-the-brown-wooden-table-4713248/",
+  "photographer": "Curtis Adams"
+ },
+ "paver-patio-firepit": {
+  "stem": "opera-paver-patio-stone-fire-pit",
+  "alt": "Paver patio behind a brick house with a stone fire pit, wooden chairs, umbrella table, and wicker furniture",
+  "name": "Paver patio with a fire pit",
+  "services": [
+   "paver-patios",
+   "paver-sealing"
+  ],
+  "w": 1600,
+  "h": 1067,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "thumbs": [
+   480,
+   672,
+   1024
+  ],
+  "stock": true,
+  "license": "Pexels License",
+  "source_page": "https://www.pexels.com/photo/villa-with-fire-pit-in-yard-8583822/",
+  "photographer": "Curtis Adams"
+ },
+ "paver-driveway-herringbone": {
+  "stem": "opera-herringbone-paver-driveway-walkway",
+  "alt": "Herringbone-pattern paver driveway and walkway leading to a modern house garage with landscaped planting beds",
+  "name": "Herringbone paver driveway",
+  "services": [
+   "paver-driveways",
+   "paver-sealing"
+  ],
+  "w": 1600,
+  "h": 1068,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "thumbs": [
+   480,
+   672,
+   1024
+  ],
+  "stock": true,
+  "license": "Pexels License",
+  "source_page": "https://www.pexels.com/photo/pexels-photo-8134848/",
+  "photographer": "Max Vakhtbovych"
+ },
+ "pool-deck-pavers": {
+  "stem": "opera-paver-pool-deck-palms-fire-pit",
+  "alt": "Paver pool deck with wicker sofas, a linear fire pit, and palm trees beside a resort-style pool",
+  "name": "Paver pool deck with palms",
+  "services": [
+   "pool-deck-pavers"
+  ],
+  "w": 1600,
+  "h": 1451,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "thumbs": [
+   480,
+   672,
+   1024
+  ],
+  "stock": true,
+  "license": "Pexels License",
+  "source_page": "https://www.pexels.com/photo/sunny-outdoor-patio-with-poolside-view-palm-trees-and-cozy-seating-at-a-tropical-resort-9173342/",
+  "photographer": "Al Garcia"
+ },
+ "concrete-pool-deck": {
+  "stem": "opera-concrete-pool-deck-modern-home",
+  "alt": "Light gray concrete and tile pool deck around a modern pool and spa beside a white contemporary house",
+  "name": "Concrete pool deck and spa",
+  "services": [
+   "concrete-pool-decks"
+  ],
+  "w": 1600,
+  "h": 1067,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "thumbs": [
+   480,
+   672,
+   1024
+  ],
+  "stock": true,
+  "license": "Unsplash License",
+  "source_page": "https://unsplash.com/photos/-atd5-2ciHc",
+  "photographer": "Salvo Media LLC"
+ },
+ "interlocking-pavers": {
+  "stem": "opera-interlocking-concrete-pavers-close-up",
+  "alt": "Close-up top-down view of gray interlocking zigzag-shaped concrete pavers fitted tightly together",
+  "name": "Interlocking concrete pavers, close up",
+  "services": [
+   "paver-driveways",
+   "paver-sealing",
+   "pool-deck-pavers"
+  ],
+  "w": 1600,
+  "h": 992,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "thumbs": [
+   480,
+   672,
+   1024
+  ],
+  "stock": true,
+  "license": "Pexels License",
+  "source_page": "https://www.pexels.com/photo/gaps-between-pavers-15360454/",
+  "photographer": "Moussa Idrissi"
+ },
+ "finishing-concrete": {
+  "stem": "opera-finishing-fresh-concrete-slab",
+  "alt": "Construction worker in a high-visibility vest finishing a freshly poured concrete slab, face not shown",
+  "name": "Finishing a freshly poured slab",
+  "services": [
+   "concrete-slabs",
+   "concrete-repair",
+   "concrete-walkways"
+  ],
+  "w": 1600,
+  "h": 1488,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "thumbs": [
+   480,
+   672,
+   1024
+  ],
+  "stock": true,
+  "license": "Unsplash License",
+  "source_page": "https://unsplash.com/photos/2KzShWIa1NQ",
+  "photographer": "Mélyna Côté"
+ },
+ "retaining-wall-crib": {
+  "stem": "opera-modular-concrete-retaining-wall-slope",
+  "alt": "Modular concrete crib-style retaining wall with gravel fill, built into a grassy slope",
+  "name": "Modular concrete retaining wall on a slope",
+  "services": [
+   "retaining-walls"
+  ],
+  "w": 1600,
+  "h": 1067,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "thumbs": [
+   480,
+   672,
+   1024
+  ],
+  "stock": true,
+  "license": "Unsplash License",
+  "source_page": "https://unsplash.com/photos/KSGiWaE4uPs",
+  "photographer": "nhxl bdl"
+ },
+ "turf-pavers-pool": {
+  "stem": "opera-artificial-turf-concrete-pavers-pool",
+  "alt": "Backyard with bright green artificial turf lawn bordered by large gray concrete pavers, pool, and modern house",
+  "name": "Artificial turf between large pavers by a pool",
+  "services": [
+   "artificial-turf",
+   "pool-deck-pavers"
+  ],
+  "w": 1600,
+  "h": 1067,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "thumbs": [
+   480,
+   672,
+   1024
+  ],
+  "stock": true,
+  "license": "Unsplash License",
+  "source_page": "https://unsplash.com/photos/e5b1RBCHP2w",
+  "photographer": "Salvo Media LLC"
+ },
+ "green-lawn-patio": {
+  "stem": "opera-green-lawn-covered-patio-home",
+  "alt": "House exterior with a large manicured green lawn, covered patio, and outdoor seating area",
+  "name": "Green lawn beside a covered patio",
+  "services": [
+   "artificial-turf",
+   "concrete-patios"
+  ],
+  "w": 1600,
+  "h": 1087,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "thumbs": [
+   480,
+   672,
+   1024
+  ],
+  "stock": true,
+  "license": "Pexels License",
+  "source_page": "https://www.pexels.com/photo/house-backyard-with-lawn-green-grass-7546775/",
+  "photographer": "Max Vakhtbovych"
+ },
+ "stepping-stone-walkway": {
+  "stem": "opera-paver-stepping-stone-front-walkway",
+  "alt": "Concrete paver stepping-stone path crossing a green front lawn toward a house entrance with landscaping",
+  "name": "Stepping-stone walkway to a front door",
+  "services": [
+   "concrete-walkways",
+   "paver-patios"
+  ],
+  "w": 1600,
+  "h": 1392,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "thumbs": [
+   480,
+   672,
+   1024
+  ],
+  "stock": true,
+  "license": "Unsplash License",
+  "source_page": "https://unsplash.com/photos/y_ibWWpOiL0",
+  "photographer": "Mike Von"
+ },
+ "pressure-washing-pavers": {
+  "stem": "opera-pressure-washing-paver-patio",
+  "alt": "Worker in hat and gloves pressure-washing a paver patio in front of a stucco house, face shadowed and not the focus",
+  "name": "Pressure-washing a paver patio",
+  "services": [
+   "paver-sealing"
+  ],
+  "w": 1600,
+  "h": 1392,
+  "widths": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "thumbs": [
+   480,
+   672,
+   1024
+  ],
+  "stock": true,
+  "license": "Pexels License",
+  "source_page": "https://www.pexels.com/photo/gardener-cleaning-sidewalk-20296972/",
+  "photographer": "Shivansh Sharma"
+ }
+}

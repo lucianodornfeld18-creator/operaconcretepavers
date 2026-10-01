@@ -1,0 +1,149 @@
+{
+ "concrete-driveway": [
+  6,
+  15,
+  8,
+  12,
+  "sq ft installed",
+  [
+   "angi-driveway-orlando",
+   "angi-driveway-tampa",
+   "homeguide-concrete-driveway"
+  ]
+ ],
+ "concrete-patio": [
+  6,
+  13,
+  7,
+  10,
+  "sq ft installed",
+  [
+   "homeguide-concrete-patio",
+   "angi-slab-orlando"
+  ]
+ ],
+ "concrete-pool-deck": [
+  5,
+  15,
+  7,
+  12,
+  "sq ft installed",
+  [
+   "homeguide-pool-deck",
+   "homeguide-pool-deck-resurfacing",
+   "poolmechanic-pooldeck-cfl"
+  ]
+ ],
+ "stamped-concrete": [
+  8,
+  19,
+  12,
+  16,
+  "sq ft installed",
+  [
+   "homeguide-stamped",
+   "homeguide-concrete-driveway"
+  ]
+ ],
+ "concrete-walkway": [
+  7,
+  17,
+  8,
+  12,
+  "sq ft installed",
+  [
+   "homeguide-sidewalk"
+  ]
+ ],
+ "concrete-slab": [
+  4,
+  10,
+  6,
+  8,
+  "sq ft installed",
+  [
+   "angi-slab-orlando",
+   "homeguide-concrete-slab"
+  ]
+ ],
+ "concrete-repair": [
+  3,
+  10,
+  4,
+  7,
+  "sq ft (resurfacing)",
+  [
+   "homeguide-concrete-resurfacing",
+   "angi-driveway-repair-orlando",
+   "homeguide-driveway-repair"
+  ]
+ ],
+ "paver-driveway": [
+  10,
+  30,
+  12,
+  20,
+  "sq ft installed",
+  [
+   "homeguide-driveway-pavers",
+   "angi-paver-driveway",
+   "craftpavers-fl-pricing"
+  ]
+ ],
+ "paver-patio": [
+  10,
+  17,
+  12,
+  16,
+  "sq ft installed",
+  [
+   "homeguide-paver-patio",
+   "homeguide-pavers-sqft"
+  ]
+ ],
+ "pool-deck-pavers": [
+  12,
+  30,
+  14,
+  22,
+  "sq ft installed",
+  [
+   "homeguide-paver-patio",
+   "homeguide-travertine",
+   "poolmechanic-pooldeck-cfl"
+  ]
+ ],
+ "paver-sealing": [
+  1.5,
+  3.25,
+  1.75,
+  2.75,
+  "sq ft (clean, re-sand, seal)",
+  [
+   "homeguide-seal-pavers",
+   "castle-paver-sealing-cfl"
+  ]
+ ],
+ "retaining-wall": [
+  15,
+  40,
+  20,
+  35,
+  "sq ft of wall face",
+  [
+   "homeguide-retaining-wall"
+  ]
+ ],
+ "artificial-turf": [
+  10,
+  25,
+  12,
+  18,
+  "sq ft installed",
+  [
+   "homeguide-artificial-grass",
+   "angi-turf-national",
+   "angi-turf-orlando"
+  ]
+ ]
+}
