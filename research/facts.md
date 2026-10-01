@@ -267,6 +267,424 @@ Method: the statute text comes from flsenate.gov (the 2026 Florida Statutes, com
 - The exact content of ch. 2023-271 (HB 1383) and ch. 2024-212 (SB 1142), beyond the secondary descriptions from DBPR and Miami-Dade and the history notes on 163.211 and 489.117.
 - The rest of the ch. 2026-164 changes, beyond the 125.572(3)(b) CDD carve-out and the 720.3035(1)(c) permit-prerequisite ban that appear in the 2026 statute text.
 
+<!-- from part3a_permits_orlando.md -->
+# Part 3a: Driveway, patio, paver and retaining-wall permits in 13 Orlando-area jurisdictions
+
+Researched 2026-10-01. Every bullet comes from a source that was read. Where a rule could only be read through a search-engine snippet of a primary page (the page is now a 404, or it's a JavaScript-only Municode page), the bullet says **[snippet]**. Confirm those by phone before publishing them as fact.
+
+## Statewide context: HB 803, effective July 1, 2026
+
+- Since July 1, 2026, local governments must exempt owners of single-family homes, and their contractors, from **building** permits for work valued under $7,500. The exemption does not cover electrical, plumbing, mechanical, gas or structural work, or flood-hazard-area properties. A project can't be split up to get under the threshold. The owner or contractor still has to file a written exemption request (City of Orlando — HB803 Residential Building Permit Exemption Guide — https://www.orlando.gov/Building-Development/Permits-Inspections/Apply-for-Residential-Building-Permit-Exemption/Residential-Building-Permit-Exemption-Guide).
+- Orlando's guide says: "Applicable land development, planning, civil-related permits are not included in the exemption and may require approval from those applicable disciplines." So right-of-way, engineering and zoning permits for driveways and pavers still apply (City of Orlando — HB803 guide — same URL).
+
+## City of Orlando
+
+- **Department and contact:** Permitting Services Division, 400 S. Orange Ave., 1st Floor; 407.246.2271; digitalpermits@orlando.gov (City of Orlando — Apply for an Engineering Permit — https://www.orlando.gov/Building-Development/Permits-Inspections/Other/Apply-for-an-Engineering-Permit).
+- **(a) Driveway or apron:** The city requires an engineering permit, not a building permit. "If you are installing/removing pavers, asphalt, concrete or expanding your driveway, an engineering permit application is required." (City of Orlando — Apply for an Engineering Permit — https://www.orlando.gov/Building-Development/Permits-Inspections/Other/Apply-for-an-Engineering-Permit)
+- **(a) Work in the right-of-way:** Any work "in the street, under the sidewalk or in the grassy area next to the street" needs a Right-of-Way Permit, which may be covered if a larger permit already exists. Plans are reviewed within 10 business days (City of Orlando — Apply for a Right-of-Way Permit — https://www.orlando.gov/Building-Development/Permits-Inspections/Other/Apply-for-a-Right-of-Way-Permit).
+- **Engineering Standards Manual (ESM) §2.02.01:** Anyone who wants to "construct, reconstruct, install or repair a driveway, sidewalk, pavement… in, on, under or over a public street, sidewalk or parkway or to lower, raise or change a curb" must get an Engineering Permit. The contractor bond under City Code §14.08–14.12 is also required (City of Orlando — Engineering Standards Manual, 5th ed. — https://www.orlando.gov/files/sharedassets/public/documents/engineering/platting/engineeringstandardsmanual.pdf).
+- **ESM §8.11, driveway dimensions** (City of Orlando — Engineering Standards Manual — URL above):
+  - Single-family driveways are 7 ft minimum and 18 ft maximum, measured at the throat.
+  - Ribbon driveways are 23–36 in per ribbon, with 28 in between ribbons.
+  - The curb opening can't exceed the driveway width by more than 3 ft on each side.
+  - Driveways must be at least 3 ft from the property line, and no single-family driveway may sit in an intersection's radius return.
+  - No curb cut within 3 ft of a drainage inlet.
+  - Where a driveway crosses a sidewalk or bike path, the slope is 2% maximum.
+- **ESM §8.11, construction:** The apron (the part of the driveway in the right-of-way) must be at least 3,000 psi concrete, at least 6 in thick, with a break joint at the property line. Brick pavers are allowed in the apron if they meet §6.09, "However the sidewalk section through the drive way must be at least 3000 psi concrete at least 6 inches in thickness." A paver driveway in the right-of-way needs a City Paver's Memorandum of Understanding. New driveways must be paved at least 15 ft into the property (City of Orlando — Engineering Standards Manual — URL above).
+- **Front-yard ISR and driveway width (Parking Code Amendments, Ord. 2022-45):** The source is the strike-through/underline adoption draft. Check the codified Chapter 61 text.
+  - The impervious surface ratio (ISR) of the required front or street-side yard "may not exceed 0.40 for any driveway, parking, or turn around configuration." Patios count; sidewalks in city easements do not.
+  - Driveways are 7–18 ft wide at the property line and no wider than 20 ft through the front setback. The driveway width must match the apron.
+  - The outside edge of the driveway must be at least 4 ft from the side line at the right-of-way and at least 2 ft elsewhere.
+  - Flares for perpendicular spaces must be at least 3 ft from the front property line. Hammerheads aren't allowed on Local Streets.
+  - (City of Orlando — Ordinance 2022-45 Parking Code Amendments — https://orlando.novusagenda.com/agendapublic/AttachmentViewer.ashx?AttachmentID=118079&ItemID=60841)
+- **What to submit for a driveway or paver permit:**
+  - The Engineering Permit Application.
+  - A survey with dimensions (L × W) and the distance to the property line.
+  - Lot and front-yard ISR calculations on the city ISR worksheet.
+  - For apron work, MOT notes and the driveway detail sheet.
+  - A Certificate of Appropriateness in historic districts.
+  - A recorded Notice of Commencement if the job is over $5,000.
+  - (City of Orlando — Residential Permitting Requirements — https://www.orlando.gov/Building-Development/Permits-Inspections/Get-a-Permit/Permitting-Checklists/Residential-Permitting-Requirements)
+- **(b) Patio or pool-deck slab, and (c) pavers:** Both go through the same engineering permit ("pavers, asphalt, concrete"). Artificial turf also needs an engineering permit because it counts as impervious, and it isn't allowed within 50 ft of a water body (City of Orlando — Residential Permitting Requirements — URL above).
+- **(d) Retaining walls:** I found no city page that gives a height threshold. **Gap.** Ask Permitting Services at 407.246.2271.
+
+## Orange County (unincorporated)
+
+- **Department and contact for building and zoning:** Division of Building Safety, 407-836-5550, PermittingServices@ocfl.net (Orange County — Do I Need a Permit — https://www.orangecountyfl.net/PermitsLicenses/DoINeedaPermit.aspx).
+- **(b) Concrete and (c) pavers:** For driveways, walkways and concrete pads, the county says: "Yes, anytime you are pouring concrete or placing pavers, a permit is required. Pavers require a Zoning permit only." (Orange County — Do I Need a Permit — URL above)
+- **Residential paver permit:**
+  - Submit a dimensioned site plan showing structures, the paver location, property lines and easements, plus an Easement Acknowledgement form if the pavers are in an easement.
+  - Fees are a $38 permit fee and a $38 Development Engineering review fee, plus $40 if the permit comes from a code violation.
+  - Review takes 4 business days.
+  - "Residential private open space shall be forty (40) percent" (Code §24-29(a)).
+  - Zoning Division: 407-836-3111, zoning@ocfl.net.
+  - (Orange County — Residential Pavers — https://www.orangecountyfl.net/PermitsLicenses/Permits/ResidentialPavers.aspx)
+- **(a) Driveway in the county right-of-way:** "a driveway is normally not an E-Plan but a Right-of-Way Permit," and the Permitting Section reviews it. The Plan Review Section is at 4200 S. John Young Pkwy, 407-836-7974 (Orange County — Plan Review — https://www.orangecountyfl.net/PermitsLicenses/Permits/PlanReview.aspx).
+- **Right-of-Way Utilization permits:** Development Engineering Permitting, 407-836-7920 (Orange County — ROW Utilization Permit directory — https://newsroom.ocfl.net/directory/right-of-way-utilization-permit-or-vacate-request/). The regulations are in Orange County Code Ch. 21, Art. VI (Orange County — Municode Ch. 21 Art. VI — https://library.municode.com/fl/orange_county/codes/code_of_ordinances?nodeId=PTIIORCOCO_CH21HIBRMIPUPL_ARTVIRI-WUTRE_DIV2PE_S21-202LECR) **[snippet]**.
+- **Driveway, apron, culvert and sidewalk rules** (Residential Lot Grading Policy, Public Works Development Engineering, rev. 05/01/2023):
+  - #19: "Driveways shall be constructed of a minimum 6" thick - 3,000 psi concrete. Use 6" of non-steel reinforced concrete in Right-of-Way (including sidewalk section)."
+  - #20: Driveways at least 3 ft from the property line.
+  - #22: One driveway maximum if frontage is under 100 ft.
+  - #23: Pavers are OK in the right-of-way but not on the crosswalk or sidewalk.
+  - #24: Ditch fronts need a culvert with mitered ends.
+  - #25: "Culverts shall be 15" RCP minimum."
+  - (Orange County — Residential Lot Grading Policy 2023 — https://www.ocfl.net/Portals/0/resource%20library/traffic%20-%20transportation/Orange%20County%20Lot%20Grading%20Policy%2005.01.2023-CMcert.pdf)
+- **(d) Retaining walls:** "Signed and sealed engineering is required for retaining walls." The thresholds come from FBC-Residential R404.4: walls that retain more than 48 in of unbalanced fill and aren't supported at the top, or walls over 24 in that resist lateral loads in addition to soil (Orange County — A Guide for Residential Plan Approval — https://www.orangecountyfl.net/Portals/0/resource%20library/permits%20-%20licenses/A%20Guide%20for%20Residential%20Plan%20Approval-CERT.pdf).
+
+## City of Kissimmee
+
+- **(a) Driveway or sidewalk:** Engineering Division, 101 Church St., 3rd Floor; 407-518-2278; engineering@kissimmee.gov. Apply in EnerGov under "Driveway / Sidewalk Construction." Staff tell you which documents you need. Routing takes at least 2 business days. The city notes that some rights-of-way belong to FDOT or Osceola County (City of Kissimmee — Apply for Driveway/Sidewalk Construction — https://www.kissimmee.gov/Business-Development/Development/Engineering/Apply-for-Driveway-Sidewalk-Construction).
+- **(a) Right-of-way permits** cover work "in a street, under a sidewalk, or in the grassy area next to a street."
+  - Fees start at a $25 minimum. Open cut on a paved street is $150, unpaved $25, and bore and jack $50.
+  - Contact Aaron Mendez, 407-518-2536, or engineeringpermitting@kissimmee.gov.
+  - (City of Kissimmee — Apply for Right-of-Way Permits — https://www.kissimmee.gov/Business-Development/Development/Engineering/Apply-for-Right-of-Way-Permits)
+- **(b) Slab:** The building permit types include "Slab With/Without Footer." Pool, hot tub and spa is its own type, and "Fences & Walls" covers masonry walls. Permitting: 407-518-2379, permitting@kissimmee.gov (City of Kissimmee — Types of Permits — https://www.kissimmee.gov/Business-Development/Permits-Inspections/File-for-a-Permit/Types-of-Permits).
+- **(c) Pavers and (d) retaining walls:** Neither has its own entry on the permit-types page. **Gap.** Driveway width, apron and ISR rules weren't found either; they're in the LDC on Municode, which I couldn't read.
+
+## Osceola County (unincorporated)
+
+- **Department:** Community Development / Building Office, 1 Courthouse Square, Suite 1400, Kissimmee; 407-742-0200 (Osceola County — Right-of-Way Permit Information — https://www.osceola.org/Doing-Business/Building-and-Permits/Permit-Information/Right-of-Way-Permit-Information).
+- **(a) Driveway, Code §22-50.6:** "(a) Residential driveways shall not exceed twenty-four (24) feet in width unless approved by conditional use. (b) Residential driveway construction or widening shall be authorized by the issuance of a driveway permit by Osceola County." (Ord. 12-10) (Osceola County — Parking Ordinance, Ch. 22 Art. II — https://www.osceola.org/files/assets/county/v/1/services/transportation-and-transit-dept-services/documents/osceola-county-parking-ordinance.pdf)
+- **(a) Right-of-way permits:**
+  - The county's right-of-way page is written mostly for utility work and points to LDC §4.12.2.
+  - Disturbed areas must be regraded within 48 hours.
+  - Lane-closure hours are Mon/Tue/Thu/Fri 9am–3pm and Wed 9am–1pm.
+  - No fee amount is published.
+  - (Osceola County — Right-of-Way Permit Information — URL above)
+- **HB 803:** The county applies the exemption using an "Owner Disclosure of Exempt Work" form sent to buildingmailbox@osceola.org **[snippet]** (Osceola County — Permit Information — https://www.osceola.org/Doing-Business/Building-and-Permits/Permit-Information).
+- **(b) Slabs, (c) pavers and (d) retaining walls:** The Homeowners page says nothing about these. **Gap.** Ask the Building Office at 407-742-0200 (Osceola County — Homeowners — https://www.osceola.org/Doing-Business/Building-and-Permits/Permit-Information/Homeowners).
+- Note: search results for "Osceola County" mix in Osceola County, Iowa and the Osceola County Road Commission in Michigan. Ignore those.
+
+## City of Clermont
+
+- **Contact:** City Hall, 685 W. Montrose St.; 352-394-4081. Building Services is at 352-241-7315 **[snippet]** (City of Clermont — Building Services FAQ — https://www.clermontfl.gov/faq.aspx?TID=17).
+- **(a)/(c) Driveway or sidewalk on private property:**
+  - "a building permit is not required; however, a zoning approval is required."
+  - Submit a signed, notarized zoning application and a survey with dimensions, and show the site's impervious surface. Side setbacks apply.
+  - The fee is $45 and no inspection is required.
+  - **[snippet]** The checklist page now returns 404 (City of Clermont — Permit Checklists — https://www.clermontfl.gov/departments/building-services/Permit%20Checklists.stml).
+- **(a) Driveway apron in the city right-of-way:**
+  - Submit a zoning application and a survey showing the apron width. The apron must be built "per City Standards."
+  - The fee is $45 and a city driveway inspection is required.
+  - **[snippet]** (City of Clermont — Permit Checklists — same URL).
+  - A Right-of-Way Application form exists at /DocumentCenter/View/177 (City of Clermont — Applications & Forms — https://www.clermontfl.gov/170/Applications-Forms).
+- **(b) Concrete patio:** The permit type list includes "Concrete/Driveway/Patio-Concrete only on grade (no footers)" (City of Clermont — Permit Type Descriptions — https://www.clermontfl.gov/DocumentCenter/View/141/Permit-Type-Descriptions-PDF).
+- **(d) Retaining walls:** "Retaining Walls less than 3 ft in heights still require a permit, however do not require engineered plans unless they are over 3 ft in height." (City of Clermont — Permit Type Descriptions — URL above)
+- **ISR:** In R-1, total impervious coverage is 55% maximum, and the principal building plus driveway and walkways are limited to 45% **[snippet]** (City of Clermont — Municode Ch. 125 Div. 5 R-1 — https://library.municode.com/fl/clermont/codes/code_of_ordinances?nodeId=SPBLADECO_CH125ZO_ARTIIIDI_DIV5SIMIMEDEREDI_S125-165PEUS).
+
+## Lake County (unincorporated)
+
+- **(b)/(c) Building exemption:** The county's excerpt of FBC 105.2 #2 reads: "Sidewalks and driveways not more than 30 inches (762 mm) above adjacent grade, and not over any basement or story below and are not part of an accessible route." Masonry or concrete fences 4 ft or shorter are exempt, "Zoning and flood requirements shall be met as required." (Lake County — Residential Work Exempt from Permits — https://cdn.lakecountyfl.gov/media/jjxphp10/residential-work-exempt-from-permits.pdf)
+- **(a) Driveway or apron in the county right-of-way:** A driveway permit is required to build a new driveway, modify an existing one, or install a temporary construction entrance in the right-of-way of county-maintained roads.
+  - The apron is 10 ft minimum and 24 ft maximum at the property line.
+  - It needs either an 8 ft radius or 8 ft × 4 ft flares, for a maximum of 32 ft at the road edge.
+  - A culvert, if required, matches the neighborhood's culverts, or is at least 15 in diameter and 30 ft long miter-to-miter.
+  - Inspections: Public Works, 352-253-6019. Applications go to pwpermits@lakecountyfl.gov.
+  - **[snippet]** The PDF now returns 404 (Lake County — Residential Driveway Apron Permit — https://cdn.lakecountyfl.gov/media/31yc1h0o/bf14_driveway_permit_residential.pdf).
+- **LDR Appendix A (transportation standards):**
+  - Parcels with 100 ft of frontage or less get one driveway.
+  - Single-family driveways are 10 ft minimum width, with an 8 ft radius or 8 ft × 4 ft flares.
+  - Single-family driveways must be at least 10 ft from the property corner.
+  - Single-family driveways must be paved at least 10 ft from the edge of pavement.
+  - On curbed roads, valley gutters are required in driveways.
+  - (Lake County — LDR Appendix A Transportation Standards — https://cdn.lakecountyfl.gov/media/svzhjaw5/lc_ldr_appendix_a_transdesignconstr_standards.pdf)
+- **Right-of-Way Use Permit:** Required for any work in the county right-of-way (Lake County — Right-of-Way Permit — https://lakecountyfl.gov/public-works/engineering/right-of-way) **[snippet; JavaScript page]**.
+- **(d) Retaining walls:** No county-specific threshold found. **Gap.** Building Services: 352-343-9634 **[snippet]** (Lake County — Building Services — https://lakecountyfl.gov/building-services).
+
+## City of Oviedo
+
+- **HB 803:** Exemption 1 is in effect. But under "Non-Structural residential work that would still require a planning and zoning permit through the Planning Department," the city lists:
+  - "Pavers/driveways/sidewalks on private property. (Engineering Department right-of-way permits are required for driveway/sidewalk work in the right of way)"
+  - "Non-structural 4" concrete slabs on grade."
+  - Residential fences.
+  - Building Services: 407-971-5755, buildingpermits@cityofoviedo.net.
+  - (City of Oviedo — Building Services — https://www.cityofoviedo.net/151/Building-Services)
+- **(a) Right-of-Way Type I application:**
+  - Development Review Division, 400 Alexandria Blvd., 407-971-5796.
+  - The application fee is $79.00 plus a $25.00 tech fee (form revised 10.26.23).
+  - You also need a sealed boundary survey, an MOT plan and a certificate of insurance.
+  - (City of Oviedo — Right of Way Type I Application — https://www.cityofoviedo.net/DocumentCenter/View/6909/Right-of-Way-Type-I)
+- **(b)/(c) Slab or paver permit package:** a notarized building permit application, the contractor's license, general liability and workers' comp insurance naming the city, and two site plans with distances to the property line (City of Oviedo — Slab/Paver Permit Guidelines, Jan 2021 — https://www.cityofoviedo.net/DocumentCenter/View/5203/Slab-Paver-Permit-Guidelines).
+- **(d) Retaining walls:** The wall permit guideline (freestanding and retaining) requires "signed and sealed engineered drawings" with wind design data. No height threshold is stated (City of Oviedo — Permit Guidelines — https://www.cityofoviedo.net/DocumentCenter/View/7509/Oviedo-Permit-Guidelines).
+- **ISR:** Not found. **Gap.**
+
+## Seminole County (unincorporated)
+
+- **(a) Residential Driveway Construction Application / Permit:** Development Review Division; Plandesk@seminolecountyfl.gov; 407-665-7371. Call for inspection 24–48 hours before construction at 407-665-7409. The form's driveway requirements say:
+  - "Use 6" of non-steel reinforced concrete in ROW (including sidewalk section)." Fiber-reinforced concrete is OK. 3,000 psi minimum.
+  - Pavers are OK in the right-of-way but not in the crosswalk or sidewalk, and the county won't replace them.
+  - Crosswalks are 2% maximum. A new driveway means the sidewalk section is replaced at 6 in thick.
+  - "Culverts must be 18" minimum or per Engineer's specification."
+  - "Driveways can be a maximum of 18' with 3' flares. This would total 24' at the roadway."
+  - Driveways must be 5 ft from the property line and at least 6 ft from the neighbor's flare.
+  - (Seminole County — Residential Driveway Construction Application — https://www.seminolecountyfl.gov/docs/default-source/pdf/row-driveway-application-ada9374f1d4-2d72-44db-8736-e2360bade3af.pdf?sfvrsn=bd3e5de0_3)
+- **Fee and timing:** The form leaves the fee blank. A $45 fee and about 3 business days were seen only in a snippet **[snippet]** (Seminole County — Residential Driveway Permit Application (older) — https://www.seminolecountyfl.gov/core/fileparse.php/3293/urlt/residential_driveway_permit_application.pdf).
+- **HB 803:** The county's list of non-structural exempt items covers fences (not masonry), pergolas, floating docks, non-bearing interior walls, cabinets, and sheds of 200 sq ft or less. It doesn't mention driveways, pavers, slabs or retaining walls. Building Division: 407-665-7050 (Seminole County — New State Legislation Affecting Permits — https://www.seminolecountyfl.gov/departments-services/development-services/building/new-state-legislation-affecting-permits).
+- **(b)/(c)/(d) Patio slabs, pavers and retaining walls:** No county rule found. **Gap.** Call 407-665-7050.
+
+## City of Winter Garden
+
+- **Contact:** Community Development, Building Division, 300 W. Plant St.; 407-656-4111 ext. 5136 (also listed as 407-877-5136) (City of Winter Garden — Building FAQs — https://www.cwgdn.com/faq.aspx?TID=27).
+- **ISR worksheet:** Required when you extend or add solid surfaces, "as each lot has maximum impervious surface limits." The worksheet counts driveways, walkways, porches and lanais, A/C pads and pool equipment, and pool deck. It says: "NOTE: PAVERS ARE IMPERVIOUS." It cites the definition in Code §106-2 (City of Winter Garden — Impervious Area Calculation Worksheet — https://www.cwgdn.com/DocumentCenter/View/187/Impervious-Area-Calculation-Worksheet).
+- **ISR limit:** No numeric limit was found. The R-1A district has a 35% lot coverage limit, which may not be the same thing as ISR **[snippet]** (City of Winter Garden — Municode R-1A — https://library.municode.com/fl/winter_garden/codes/code_of_ordinances?nodeId=PTIICOOR_CH118ZO_ARTIVDIRE_DIV2SIMIREDI_S118-261IN).
+- **(a) Right-of-way:** The Right-of-Way Utilization application is emailed to engineering@cwgdn.com. You must give 24 hours' notice before work. It adopts Orange County's Right-of-Way Utilization Regulations and Road Construction Specifications "as adopted and modified by the City" (City of Winter Garden — Right-of-Way Permit Application — https://www.cwgdn.com/DocumentCenter/View/147/Right-of-Way-Permit-Application-PDF).
+- **(b)/(c)/(d):** The general FAQ says a permit applies to "every public and private building, structure or appurtenances," and after-the-fact permits cost triple. No paver- or slab-specific exemption and no retaining-wall threshold were found. **Gap.** (City of Winter Garden — When is a permit required? — https://www.cwgdn.com/Faq.aspx?QID=201)
+
+## Town of Windermere
+
+- **Building department:** Run by PDCS LLC, 407-277-9795, permit@pdcsllc.com. Town Hall is at 614 Main St., 407-876-2563 (PDCS — Windermere — https://pdcsllc.com/cities/windermere/).
+- **(a) Right-of-Way Use Application** (2.2024):
+  - The checkboxes include "REPAIR DRIVEWAY" and "NEW DRIVEWAY."
+  - Fees: $75 application, $50 inspection, and $50 for a reinspection.
+  - Pre-pour and final inspections go through Public Works at 407-909-5333 or pdavid@town.windermere.fl.us, with 24 hours' notice.
+  - (Town of Windermere/PDCS — Right-of-Way Use Application 2.2024 — https://pdcsllc.com/wp-content/uploads/2024/02/Right-of-Way-Use-Application-Form-2.2024.pdf)
+- **Residential driveway conditions:**
+  - The site plan must be done by an FL-licensed engineer or surveyor and show culvert sizes and swale cross-sections.
+  - Culverts are ACCMP, aluminum or RCP, "no less than 15"," with mitered ends.
+  - No driveway within 5 ft of a side property line or 40 ft of an intersection.
+  - Concrete aprons: 6 in minimum, 3,000 psi, fiber mesh, saw-cut road edge, 5 ft minimum flares on each side.
+  - Paver aprons must meet ASTM C902 inside a 1 ft wide × 6 in thick ribbon curb, or FDOT Section 526 where there's no sidewalk.
+  - If a paver driveway meets a paved road, the apron from edge of pavement to property line must be 6 in concrete.
+  - (Town of Windermere/PDCS — Right-of-Way Use Application — URL above)
+- **ISR:** The maximum is 0.45 for residential districts. ISR includes "buildings, accessory structures, swimming pools, patios, decks, driveways, parking areas" **[snippet]** (Town of Windermere — Municode LDC Art. VI §6.01 — https://library.municode.com/fl/windermere/codes/code_of_ordinances?nodeId=PTIIILADECO_ARTVIDEDEIMST_DIV6.01.00LOARLOCOSEHE_S6.01.03BUSERE).
+- **(b)/(c)/(d) Patio slabs, pavers and retaining walls on private lots:** No town rule found. **Gap.** Ask PDCS at 407-277-9795.
+
+## City of St. Cloud
+
+- **Building, "No Permit Required" list:** "Pavers (Driveways/Sidewalks - Please see Public Works Department)" and "Driveway: reseal existing on-site asphalt… (any work within the right-of-way requires Public Works and Engineering approval)."
+- **Building, "Permit Required" list:** "Residential Other – … Concrete Pad," "Subdivision or Retaining Wall," and "Swimming Pool and Spa."
+- City Hall, 1300 9th St.; 407-957-7300.
+- (City of St. Cloud — Permit Information — https://www.stcloudfl.gov/50/Permit-Information)
+- **(a) Right-of-way utilization fees for single-family homes:** $110 basic fee per permit, $30 per curb cut, $100 per driveway inspection, $60 for sidewalks (City of St. Cloud — Public Works Fees — https://www.stcloudfl.gov/1809/Public-Works-Fees).
+- **(d) Retaining walls:** A permit is required, but no height threshold is published. **Gap.**
+- **ISR, driveway width and apron specs:** Not found. **Gap.**
+
+## City of Winter Park
+
+- **Building and Permitting Services:** 401 S. Park Ave.; 407-599-3237; permits@cityofwinterpark.org. A building or miscellaneous permit is required for "deck (wood, concrete, or other hard surfaces)… driveway… walls (including a retaining wall)." Work started without a permit costs triple the fee. The document cites the 2014 FBC (5th ed.), so it predates HB 803 (City of Winter Park — Do I Need a Permit — https://cityofwinterpark.org/docs/departments/building-permitting-services/do-i-need-permit.pdf).
+- **ISR, Code §58-65 (R-1A, R-1AA, R-1AAA):** "Buildings, accessory structures, patios, decks, drives and other impervious surfaces shall not cover more than 50 percent of the total land area of the lot and at least 50 percent of the front yard area must consist of pervious surfaces with landscaping material." In the front yard, hard surfaces (concrete, asphalt, brick, pavers) and stone or gravel driveways may cover at most 50%. "Mulch drives are prohibited." (City of Winter Park — Sec. 58-65 R-1A districts, Supp. 67 — https://winterparkperspective.org/wp-content/uploads/2025/01/Sec._58_65._R1A_districts.pdf)
+- **Driveway Permit Requirements worksheet:**
+  - 50% maximum impervious lot coverage, which includes "artificial turf."
+  - Front-yard landscape coverage of at least 50%, which excludes all driveway surfaces, "pervious & impervious."
+  - Stormwater from the driveway must be kept on site.
+  - 2 ft minimum side and rear setbacks.
+  - "New or replaced curb and/or sidewalk in the public right-of-way requires a separate permit from the Engineering Division" (407-599-3273). The right-of-way includes "sidewalks, curbs and driveway approaches."
+  - Call for inspection at 407-599-3350, 24 hours before you pour or place pavers.
+  - (City of Winter Park — Driveway Permit Requirements — https://cityofwinterpark.org/docs/departments/building-permitting-services/permit-application-forms-resources/Zoning/driveway-permit-requirements-application.pdf)
+- **Single-family coverage worksheet** (Dec. 2022): the same 50% impervious limit and 50% front-yard limit, plus floor-area-ratio (FAR) limits (City of Winter Park — Setback/Coverage Worksheet — https://cityofwinterpark.org/docs/departments/building-permitting-services/permit-application-forms-resources/Zoning/single-family-home-coverage-worksheet.pdf).
+- **(a)/(d) Right-of-way FAQ:** "A city right of way permit is required for work or activities in the right of way including… installation of planters, retaining walls, mailbox… landscaping." Public Works: 407-599-3233. Engineering: 407-450-0815 (City of Winter Park — Right of Way FAQ — https://cityofwinterpark.org/departments/public-works-transportation/engineering/right-of-way-faq/).
+
+## City of Sanford
+
+- **Building Division:** 407-688-5150, Building@Sanfordfl.gov. All permits go through the Citizenserve portal (City of Sanford — Building Division — https://sanfordfl.gov/government/development-services/building-division/).
+- **(a) Driveway access, LDR Schedule N:**
+  - "A City permit is required for all proposals to access City right-of-way." A Seminole County permit is needed for county roads and an FDOT permit for state roads.
+  - Single-family driveways must be at least 10 ft from an adjacent driveway and at least 35 ft from parallel street pavement, reduced proportionally on corner lots under 60 ft.
+  - Driveway aprons are 3,000 psi.
+  - Sidewalks are 4 in thick, "except at vehicular access points or driveways in which case sidewalks shall be a minimum of 6" thick."
+  - (City of Sanford — LDR Schedule N, Ord. 25-4827 — https://sanfordfl.gov/wp-content/uploads/2021/10/LDRScheduleN.pdf?ver=1753463512)
+- **Fees, LDR Article VII:** "Single Family Residential Driveway $250.00." "Right-of-Way Utilization Activities" is $40.00, but the PDF's column alignment is ambiguous, so verify (City of Sanford — LDR Article VII Fees, Ord. 25-4819 — https://sanfordfl.gov/wp-content/uploads/2021/10/Article-VII-INSTALLATIONANDMAINT.pdf).
+- **ISR, Schedule F §5.0:** Impervious surface includes "concrete, pavers, asphalt, compacted gravel or mulch, and artificial turf." Every application must include ISR calculations. "No more than 50% entire lot ISR" applies in SR-1AA, SR-1A, SR-1, MR-2 and MR-3. PD zoning is limited to 60% under its development order (City of Sanford — LDR Schedule F, Ord. 23-4755 — https://sanfordfl.gov/wp-content/uploads/2020/07/Schedule-F-Requirements-for-Buildings-Parcels-Yards-Building-Setbacks-and-Lighting.pdf).
+- **(d) Walls:** "Fences and walls allowed within the applicable zoning district require a building permit." Walls over 6 ft need the Building Official's approval, and front-yard walls are limited to 4 ft. No retaining-specific threshold was found (City of Sanford — LDR Schedule F — URL above).
+- **(b)/(c) Slab and paver building-permit status:** Not found. **Gap.**
+
+## Sources
+
+<!-- from part3b_permits_sarasota.md -->
+# Part 3b — Permit rules for concrete / pavers / turf work: Sarasota–Manatee area
+
+Researched 2026-10-01. Only what was read in the source is recorded. Municode text was read through the Municode public API (same text as library.municode.com). Each bullet says how sure we are:
+
+- **[code]** means the text was read in the codified ordinance.
+- **[doc]** means it was read in an official PDF, DOCX or web page.
+- **[excerpt]** means the official page refused direct access (HTTP 403). The text comes only from a search-engine summary of that page. Verify it before publishing.
+
+**Statewide note (applies to every jurisdiction below):** Florida HB 803 took effect July 1, 2026. It lets single-family owners skip a building permit for some non-structural work under $7,500, but only after filing a written exemption request with the contract. It does not apply to structural, electrical, plumbing, mechanical or gas work, or to any property partly or wholly in a flood hazard area. It never replaces a right-of-way (ROW), zoning or CCCL approval. (Manatee County "What Does Not Require a Permit", updated 6-16-26 — https://www.mymanatee.org/media/docs/default-source/development-services-department-documents/permitting/building-forms---updated-address/what-does-not-require-a-permit-updated-6-16-26.docx)
+
+---
+
+## 1. City of Sarasota
+
+- **(a) Driveway / apron in ROW: permit required.** [code] Sec. 29.5-7: "It shall be unlawful for any person to cut or cause to be cut a street curb within the public right-of-way or cause to be constructed any driveway unless the owner, or an agent of the owner, first obtains a permit from the city engineer…" Construction must follow the Engineering Design Criteria Manual. The fee is set by Sec. 30-10. (City of Sarasota Code §29.5-7 — https://library.municode.com/fl/sarasota/codes/code_of_ordinances?nodeId=PTIITHCO_CH29.5SIIMNGDECR_S29.5-7CUCUDR)
+- **Who issues ROW permits.** [doc] The Engineering Division (Public Works) regulates the public rights-of-way: "streets, alleys, parkways, sidewalks, drainage facilities…". A ROW permit is required to construct or place structures in the ROW. Contact: 1575 2nd St, Sarasota FL 34236, (941) 263-6793, ROWerosion@sarasotafl.gov, Mon–Fri 7:30–4:30. (City of Sarasota Engineering — https://www.sarasotafl.gov/Department-Pages/Public-Works/Engineering)
+- **Grading and fill.** [code] Sec. 29.5-8 requires an erosion and siltation control permit from the city engineer before "cutting, filling, grading or altering the natural topography". It exempts "minor land disturbing activities, such as garden work or individual home landscaping, repairs and home maintenance work". (City of Sarasota Code §29.5-8 — https://library.municode.com/fl/sarasota/codes/code_of_ordinances?nodeId=PTIITHCO_CH29.5SIIMNGDECR_S29.5-8ERSICOPE)
+- **(b)/(c) Patio slab, pool deck, pavers: no specific rule published.** [doc] The city's "Building Permit Requirement Guidelines" (dated 12/20, Ordinance 08-4778) say no permit is needed in two cases:
+  - repairs worth $1,000 or less with no structural or technical-code work;
+  - work exempt under FBC 105.2.
+
+  The 105.2 list it prints covers only gas, mechanical and plumbing items. It does not mention driveways, patios, slabs or pavers. The guideline says: "When in doubt… call the City Building Division at (941) 263-6494." (City of Sarasota Building Permit Requirement Guidelines — https://www.sarasotafl.gov/files/assets/city/v/1/ds/documents/building-amp-permitting/whenbpisneede.pdf)
+- **Impervious coverage (zoning).** [code] Table VI-203 sets maximum impervious coverage on a single-family zoning lot:
+
+  | Zone | Max impervious coverage |
+  |---|---|
+  | RSF-E | 60% |
+  | RSF-1 | 70% |
+  | RSF-2, RSF-3, RSF-4 | 75% |
+  | RSM-9 | 75% |
+  | RTD-9 detached | "none" |
+  | RTD-9 attached | 75% |
+
+  The permit applicant must show the impervious percentage. The director may require a PE-sealed impervious surface plan. (City of Sarasota Zoning Code §VI-203 — https://library.municode.com/fl/sarasota/codes/zoning?nodeId=ARTVIZODI_DIV2SIFAZODI_SVI-203REUSDEST)
+- **Coastal islands (Lido, St. Armands, Bird Key and similar).** [code] The Impervious Surface Overlay District caps impervious coverage at 70% on parcels on the coastal islands, "except as otherwise delineated on the map". (City of Sarasota Zoning Code §VI-907 — https://library.municode.com/fl/sarasota/codes/zoning?nodeId=ARTVIZODI_DIV9SPPUINOVDI_SVI-907COISOVDI)
+- **(d) Retaining walls: no height threshold found** in the city sources reviewed. Ask the Building Division at (941) 263-6494.
+- **Where to apply.** Online permitting portal: https://ftgportal.sarasotafl.gov/
+
+## 2. Sarasota County (unincorporated, including Siesta Key and the Sarasota side of Lakewood Ranch)
+
+- **(a) Any work in a County ROW needs a permit.** [code]
+  - UDC §124-48(b)(1)a: "A Right-of-Way Use Permit application is required for all work within the County right-of-way." (Sarasota County Code §124-48 — https://library.municode.com/fl/sarasota_county/codes/code_of_ordinances?nodeId=PTIICOOR_CH124UNDECO_ART5DEREPR_S124-48RI-WUSPEREPR)
+  - §98-3 (fees): "The installation of driveway culverts shall require a culvert permit", and "All other work performed within County rights-of-way shall be subject to a right-of-way use permit". The culvert permit fee includes County surveying of line and grade. (Sarasota County Code §98-3 — https://library.municode.com/fl/sarasota_county/codes/code_of_ordinances?nodeId=PTIICOOR_CH98ROBR_ARTIINGE_S98-3FEDRCUPEOTRI-WUSPE)
+- **Culvert rules.** [code] §124-255:
+  - A culvert permit, a sub-class of the ROW Use Permit, "shall be required for residential access driveways and full front culvert projects within County rights-of-way with open drainage systems".
+  - Culvert pipe goes in before home construction starts.
+  - The County Engineer sets size and swale elevation.
+  - Driveway culverts must be 20 ft minimum and 24 ft maximum in length (more if the ditch is deeper).
+  - Pipe: reinforced or asphalt-coated corrugated metal, or another type the County Engineer approves.
+  - In easements: "No walkways or driveways or other paved surfaces shall be located in the easement" (drainage easement provision).
+
+  (Sarasota County Code §124-255 — https://library.municode.com/fl/sarasota_county/codes/code_of_ordinances?nodeId=PTIICOOR_CH124UNDECO_ART13SUSIDEPLRE_S124-255ADPR)
+- **(b)/(c) Patio, pool deck, pavers.** [excerpt] Search summaries of the County Building page say:
+  - Driveway repair or replacement may be permit-exempt "only when culverts are not involved".
+  - On-grade residential patios without footings may not need a building permit.
+  - HB 803 work under $7,500 is handled through County "Bulletin 2026-0002".
+
+  scgov.net returned HTTP 403 and could not be read directly. Verify these points. (Sarasota County Building — https://www.scgov.net/government/planning-and-development-services/building)
+- **Lot coverage.** [code] RSF-1 through RSF-4 cap **building** coverage at 35% for residential use. This is a building limit, not an impervious-surface limit. (Sarasota County Code §124-76 — https://library.municode.com/fl/sarasota_county/codes/code_of_ordinances?nodeId=PTIICOOR_CH124UNDECO_ART6GEBAINZODIDEST_S124-76DIDESTASDI)
+- **Impervious limit on old RMF lots.** [code] Nonconforming RMF lots of record (recorded on or before Nov 11, 1975) have a maximum impervious coverage of 50%. It counts "roof structures, swimming pools and pool decks, as well as concrete, asphalt, pavers". It excludes "grass, shell or other surfaces that allow water to substantially penetrate". (Sarasota County Code §124-283 — https://library.municode.com/fl/sarasota_county/codes/code_of_ordinances?nodeId=PTIICOOR_CH124UNDECO_ART15NO_S124-283NOLORE)
+- **No general single-family ISR found** in the County UDC.
+- **Coastal (Siesta Key, Casey Key, Manasota Key).** [code] The County's own Gulf Beach Setback Line (GBSL) prohibits "Construction or Excavation" seaward of the GBSL or waterward of the Barrier Island Pass Hazard Line. Exceptions are only as the article allows; projects need a coastal setback variance. This applies in addition to the state FDEP CCCL permit (see §10). (Sarasota County Code §54-723 — https://library.municode.com/fl/sarasota_county/codes/code_of_ordinances?nodeId=PTIICOOR_CH54ENNARE_ARTXXIICOSECO_S54-723GUBESELIGBBAISPATWARHALIPHRE)
+- **(d) Retaining walls.** [code] The County pool-code amendment requires engineered drawings for "all retaining walls greater than four feet in height", measured from grade at any point along the wall. (Sarasota County Code §22-63 — https://library.municode.com/fl/sarasota_county/codes/code_of_ordinances?nodeId=PTIICOOR_CH22BUBURE_ARTIIISWPOCO_S22-63MOCESESTSWPOCO1994ED)
+- **Contact.** [excerpt] Building/Planning & Development Services 941-861-5000. Online permitting (Accela): https://www.scgov.net/government/planning-and-development-services/online-permitting
+
+## 3. City of Venice
+
+- **(a) Driveway / ROW.** [code] The LDR defines a "Right-of-Way Use Permit" as "the right-of-way utilization permit required under this Code prior to commencement of any placement or maintenance of facilities in the public rights-of-way". (Venice LDR §9.1 — https://library.municode.com/fl/venice/codes/code_of_ordinances?nodeId=SPBLADERE_CH87LADECO_S9GEDE_9.1DETE)
+- **Driveway count.** [code] Residential lots under 80 ft of frontage get at most one driveway opening per street. Lots with 80–200 ft get at most two. Above 200 ft, one more opening is allowed per extra 100 ft. (Venice LDR §3.1 — https://library.municode.com/fl/venice/codes/code_of_ordinances?nodeId=SPBLADERE_CH87LADECO_S3DEST_3.1GEDEST)
+- **Engineering process.** [excerpt] A right-of-way use authorization must come from the Engineering Department before any construction in city ROW. A License Agreement is granted only for hardship or special exceptions, "for example, pavers installed over concrete per city details". The city has Paver Installation Guidelines. The page returned 403 to direct fetch. (Venice Engineering — Permits, Forms and Applications — https://www.venicegov.com/government/engineering/permits-forms-and-applications)
+- **(b)/(c) Patio, slab, pavers.** [doc, older] A City of Venice "Building Permit Guidelines" sheet, written against FBC 2014 and hosted on a third-party site, lists "Decks and patios directly on grade and without footings" and "Decks or patios on grade without footers (Non Buildable Slab)" as not requiring a permit. Confirm it is current with the Building Division. (Venice Building Permit Guidelines (3rd-party copy) — https://www.mywaterfrontc.com/files/documents/Venice%20Building%20Permit%20Guidelines.pdf)
+- **Lot coverage.** [code] Lot coverage counts building footprint only. It "does not include paved areas such as parking lots, pools, driveways or pedestrian walkways". No residential ISR cap was found in LDR Ch. 87. (Venice LDR §3.1 — https://library.municode.com/fl/venice/codes/code_of_ordinances?nodeId=SPBLADERE_CH87LADECO_S3DEST_3.1GEDEST)
+- **(d) Retaining walls.** [code] §3.8 (fences, walls, berms, retaining walls):
+  - These need a zoning permit "unless otherwise permitted through building permits".
+  - None may enter a visibility triangle.
+  - In residential districts, a retaining wall's height counts toward any fence on top of it.
+  - Slopes in setbacks may not exceed 1 ft rise in 4 ft.
+  - No numeric height threshold for engineering was found.
+
+  (Venice LDR §3.8 — https://library.municode.com/fl/venice/codes/code_of_ordinances?nodeId=SPBLADERE_CH87LADECO_S3DEST_3.8FEWABEREWA)
+- **Contact.** [excerpt] Building Department 941-882-7547. Online permitting only; paper applications are not accepted. (Venice Building Division FAQ — https://www.venicegov.com/government/building-division/faq-s)
+
+## 4. City of North Port
+
+- **(a) Driveway / culvert / ROW: permit required.** [doc] North Port's "Application for a Right of Way Use Permit" (revised Aug 2022) lists "Culvert/Driveway/Sidewalk/Concrete Slab" as a work type. The applicant must restore the roadway, ROW and swales before Public Works final approval. Contact: Neighborhood Development Services, 4970 City Hall Blvd, (941) 429-7044, bldginfo@northportfl.gov. (North Port ROW Use Permit application — https://www.northportfl.gov/files/assets/main/v/5/building-amp-planning/application-for-row-use-permit.pdf)
+- **Culvert permit.** [code] ULDC App. A.1.1.1: "No developer shall install culvert pipe or other structures within City-maintained rights-of-way or easements without first having obtained a Public Works permit". Public Works sets line and grade and inspects with 24-hour notice. (North Port ULDC App. A.1.1.1 — https://library.municode.com/fl/north_port/codes/unified_land_development_code?nodeId=APA_ARTIITESP_A.1.1.1PUWOPEINRE)
+- **Driveway rules.** [code] ULDC §4.4.1.E:
+  - One- and two-family homes must connect to the ROW by a driveway of "concrete, brick paver, or other material approved by the Public Works Department".
+  - "Driveway aprons in the City right-of-way shall be constructed of impervious material, such as concrete, asphalt, or brick pavers."
+  - Front-load garage: driveway at least 18 ft long and at least 10 ft wide at the property line.
+  - Side-load garage: at least 30 ft wide in front of the garage, narrowing to 10 ft at the property line.
+  - Homes on collector roads or larger must have a circular or hammerhead drive. This takes effect July 1, 2027.
+
+  (North Port ULDC §4.4.1 — https://library.municode.com/fl/north_port/codes/unified_land_development_code?nodeId=CH4SIDEST_ARTIVDEST_S4.4.1OMIDE)
+- **ISR.** [code]
+  - Maximum ISR is set per zoning district in the §3.2.3 tables. The per-district numbers did not come through as text.
+  - "Overall maximum impervious surface area and open space requirements are not applicable for General Development Corporation (GDC) platted lots in the Port Charlotte Subdivision". (North Port ULDC §3.2.3 — https://library.municode.com/fl/north_port/codes/unified_land_development_code?nodeId=CH3ZO_ARTIISTDI_S3.2.3STDIDEINDIST)
+  - Pervious pavers: "Impervious surface areas may be offset with pervious pavers or other permeable surface materials". The owner must keep them pervious. (North Port ULDC §3.6.13 — https://library.municode.com/fl/north_port/codes/unified_land_development_code?nodeId=CH3ZO_ARTVIBOIN_S3.6.13PEPEPA)
+- **(b)/(c) Patio, pool deck, pavers.** No city-published flatwork exemption was found; the Permitting page returned 403. [excerpt] The city applies the HB 803 under-$7,500 exemption through a written request to the Building Department. Ask (941) 429-7044. (North Port Permitting — https://www.northportfl.gov/Building-Planning/Permitting)
+- **(d) Retaining walls.** [code] In regulated floodways, retaining walls, sidewalks and driveways that place fill must meet the floodway limits. No height threshold was found. (North Port ULDC §6.5.15.3 — https://library.municode.com/fl/north_port/codes/unified_land_development_code?nodeId=CH6NARE_ARTVFLDAPRRE_DIV15OTDE_S6.5.15.3REWASIDRREFL)
+- **Public Works.** [excerpt] 1100 N. Chamberlain Blvd, (941) 240-8050. (North Port Public Works — https://www.northportfl.gov/City-Services-and-Safety/Public-Works)
+
+## 5. Manatee County (unincorporated, including the Manatee side of Lakewood Ranch and Parrish)
+
+- **(a) Driveway / apron / sidewalk / culvert in ROW: permit required.** [code] LDC §1004.2.A: "No portion of a driveway which extends from the property line outwards toward the edge of the abutting roadway pavement shall be constructed, improved, or enlarged without an access and drainage permit". "Driveway" here includes "a sidewalk, culvert, drainage or stormwater structure, swale, driveway apron, roadway shoulder or handicap ramp within the rights-of-way". "A permit is not required for regular driveway maintenance." (Manatee County LDC §1004.2 — https://library.municode.com/fl/manatee_county/codes/land_development_code?nodeId=CH10TRMA_S1004DRRE_1004.2ACDRPERE)
+- **How to apply.** [doc] The Driveway/Culvert permit is handled by the Public Works Infrastructure Engineering Division and covers residential access in County ROW. Apply in Accela under BUILDING > PUBLIC WORKS > DRIVEWAY/CULVERT. Contact: 311, 311@mymanatee.org, Mon–Fri 7:30–3:30. (Manatee — Request a Driveway or Culvert Permit — https://www.mymanatee.org/services-and-amenities/service-listing/service-details/request-a-driveway-or-culvert-permit)
+- **Driveway specs (from the application).** [doc] The Driveway and Culvert Application says:
+  - "Minimum 12' and Maximum 24' width for residential driveways."
+  - "Residential driveways will be 6" thick from edge of pavement to right of way."
+  - Expansion joint between curb and concrete drive.
+  - At least 3 ft from catch basins; drive edges at least 3 ft from mitered ends.
+  - Type "F" curb removed within the drive.
+  - Culvert and swale grades set by County staff.
+  - "No Shell Driveway Aprons allowed adjacent to paved roadways".
+  - Residential applications go to Building & Development Services, 1112 Manatee Ave W, (941) 749-3047.
+
+  (Manatee Driveway & Culvert Application — https://www.mymanatee.org/media/docs/default-source/development-services-department-documents/development-services-department-documents/permitting/driveway-appl-pdf-2022.pdf)
+- **Paver driveway inspections.** [doc]
+  - The grade is cut 6 in. so that compacted sub-base plus paver equals 6 in.
+  - Width is 12 ft minimum and 24 ft maximum, "or up to 30 feet wide for a street-facing three-car garage".
+  - Flares add 3 ft each side at the roadway and are 8 ft long.
+  - Concrete sidewalk crossing the drive must be 4 in. thick and 5 ft wide, framed from side lot line to side lot line, broom finish, saw cuts every 10 ft.
+
+  (Manatee — Inspections Required for Paver Driveways — https://www.mymanatee.org/media/docs/default-source/development-services-department-documents/development-services-department-documents/permitting/inspections-required-for-paver-driveways-102821.pdf)
+- **(b)/(c) Patio, slab, pavers.** [doc] The "What Does Not Require a Permit" list (updated 6-16-26) puts "Non-structural concrete/paver patio" under no-permit work. "Concrete slab with footers" and swimming pools require a permit. Detached decks under 30 in. high and under 120 sq ft are exempt; all attached decks need a permit. Development Services: 941-748-4501 ext. 3800. (Manatee — What Does Not Require a Permit (6-16-26) — https://www.mymanatee.org/media/docs/default-source/development-services-department-documents/permitting/building-forms---updated-address/what-does-not-require-a-permit-updated-6-16-26.docx)
+- **Pool deck setbacks.** [code] Single-family pools, screen enclosures and "pool decks on grade may be located a minimum of five (5) feet from any lot line or shoreline in the side or rear yard". "Single-family swimming pools, pool cages, decks or patios… shall not be considered a yard encroachment." (Manatee County LDC §511.16 — https://library.municode.com/fl/manatee_county/codes/land_development_code?nodeId=CH5STACSPUSST_PTIISTACUSST_S511SPACUSSTAL_511.16SWPOSPSCEN)
+- **(d) Retaining walls.** [doc] "Masonry fences/walls and columns (Residential and Commercial)" require a permit. No separate height threshold for retaining walls was found. (Manatee — What Does Not Require a Permit (6-16-26) — https://www.mymanatee.org/media/docs/default-source/development-services-department-documents/permitting/building-forms---updated-address/what-does-not-require-a-permit-updated-6-16-26.docx)
+- **ISR.** No general single-family ISR was found in the LDC. Overlay districts (Watershed Protection, Coastal) require applications to state the maximum percentage of impervious surface. (Manatee County LDC §403.10 — https://library.municode.com/fl/manatee_county/codes/land_development_code?nodeId=CH4ZO_S403OVDI_403.10WAPROVDIWP)
+
+## 6. City of Bradenton
+
+- **(a) Driveway / curb cut / sidewalk in ROW: Public Works approval required.** [code] LUR §4.1.4.3:
+  - "Curb cuts in public rights-of-way are subject to the review and approval of the director of public works and, if on a state or county right-of-way, to the approval of those bodies."
+  - Homes with up to 6 units: one driveway per street frontage. Circular drives are allowed at 12 ft maximum per curb cut with at least 25 ft between cuts.
+  - "Single access points shall be limited to 24 feet in width."
+  - Curb cuts must be at least ⅔ of the lot frontage or 100 ft (whichever is less) from intersections.
+
+  (Bradenton LUR §4.1 — https://library.municode.com/fl/bradenton/codes/code_of_ordinances?nodeId=PTIIILAUSRE_CH4.0GERE_4.1LAAL)
+- **ROW affidavit.** [doc] Driveway or sidewalk work in or on a public ROW requires a "Driveway/Sidewalk Affidavit & Indemnification Agreement" with Public Works & Utilities (1411 9th St W) (form dated 12/2024). The owner must maintain the work and remove or relocate it at their own cost if the City asks. (Bradenton Driveway Affidavit — https://cityofbradenton.com/vertical/Sites/%7B98CFEB92-7265-45CB-AF6F-7115C2CD7C81%7D/uploads/DRIVEWAY_AFFIDAVIT_2024.pdf)
+- **Zoning permit for paving.** [code] LUR §2.2.1: "A zoning permit must be issued by the PCD director before the construction or alteration of any structure… such as signs, fences and parking areas, except for recurring maintenance, regardless of cost". Building a "street, driveway, access road, or parking area" requires a scaled site plan. (Bradenton LUR §2.2 — https://library.municode.com/fl/bradenton/codes/code_of_ordinances?nodeId=PTIIILAUSRE_CH2.0ADPR_2.2REPEAP)
+- **Sidewalks.** [code] "Sidewalks shall be concrete and shall be a minimum of four inches thick and five feet wide in residential areas". (Bradenton LUR §4.1 — https://library.municode.com/fl/bradenton/codes/code_of_ordinances?nodeId=PTIIILAUSRE_CH4.0GERE_4.1LAAL)
+- **ISR.** [code + doc] Maximum impervious surface is R-1 50%, R-2 60%, R-3 70%, UV 70%, R-4 70%. It includes "building footprint, paved drives, paved terraces, impervious decks, swimming pools, and other impervious surfaces". The city provides an Impervious Coverage Calculation worksheet. (Bradenton LUR §3.2 — https://library.municode.com/fl/bradenton/codes/code_of_ordinances?nodeId=PTIIILAUSRE_CH3.0DIRE_3.2STLAUSATDIRE; Bradenton Impervious Coverage Worksheet — https://cityofbradenton.com/vertical/Sites/%7B98CFEB92-7265-45CB-AF6F-7115C2CD7C81%7D/uploads/IMPERVIOUS_COVERAGE_CALCULATION.pdf)
+- **(b)/(c) Patio, pavers.** There is no published flatwork building-permit exemption. Patios and decks count toward ISR and fall under the zoning permit rule above.
+- **(d) Retaining walls.** [code] In residential districts "retaining walls and solid walls cannot be located in drainage and utility easements". Height is measured "from the outside, lower grade inclusive of any fence or wall" on top. No engineering threshold was found. (Bradenton LUR §5.1 — https://library.municode.com/fl/bradenton/codes/code_of_ordinances?nodeId=PTIIILAUSRE_CH5.0ACUSSTSI_5.1REBU)
+- **Contact.** [doc] Building and Permitting Division, 101 Old Main St (12th St W), main number (941) 932-9414. Hours Mon–Thu 7:30–4:30, Fri 7:30–3:30. Accela portal: https://aca-prod.accela.com/BRADENTON/Default.aspx (Bradenton Permitting — https://cityofbradenton.com/permitting)
+
+## 7. City of Palmetto
+
+- **(a) Driveways, curbs, sidewalks, culverts in ROW: permit required.** [code] Sec. 25-2(a): it is unlawful for any "public or private utility, contractor, or other commercial entity" to place or construct "culverts, driveways, curbs, or sidewalks within any public street, alley or other public right-of-way in the city unless application shall first be made to and a written permit obtained from the department of public works." (Palmetto Code §25-2 — https://library.municode.com/fl/palmetto/codes/code_of_ordinances?nodeId=CD_ORD_CH25STSIOTPUPL_ARTIINGE_S25-2PEREUSSTRI-W)
+- **ROW form.** [doc] Public Works "Right of Way Use Application/Permit" (rev. 27 Jun 2019):
+  - Notify Public Works at least 48 hours before starting.
+  - Start within 60 days of issue and finish within 30 days.
+  - Restore to City standards; Public Works does the final inspection.
+
+  (Palmetto ROW Use Permit — https://www.palmettofl.org/DocumentCenter/View/117/Right-of-Way-Permit-PDF)
+- **(b)/(c) Patio, slab, pavers: not addressed.** [doc] The Building Department page says only that permits are required for building, electrical, plumbing and mechanical work, fences and "other minor construction projects such as storage sheds". "If you are not sure whether or not a permit is required, call the Building Department at (941) 721-2166". Address 601 17th St W; inspection line 941-721-2534. (Palmetto Building Department — https://www.palmettofl.org/79/Building-Department)
+- **(d) Retaining walls: permit required at any height.** [code] Sec. 10-46: "It shall be unlawful for any person to construct, alter, repair, remove or demolish any seawall, retaining wall or bulkhead until an application for a permit therefor has been filed…". Sec. 10-47 fee: $10 plus $0.10 per linear foot. (Palmetto Code §10-46 — https://library.municode.com/fl/palmetto/codes/code_of_ordinances?nodeId=CD_ORD_CH10COARWA_ARTIISE_DIV2PE_S10-46RE)
+- **ISR.** No residential ISR found. The only impervious-area rule found is the stormwater fee, based on impervious area (§29-207). (Palmetto Code §29-207 — https://library.municode.com/fl/palmetto/codes/code_of_ordinances?nodeId=CD_ORD_CH29UT_ARTVIISTMA_S29-207FESTMASE)
+
+## 8. Lakewood Ranch (unincorporated; county permits plus community architectural approval)
+
+- **Permits come from the county.** Building and ROW permits come from Manatee County (§5 above) or Sarasota County (§2 above), depending on which side of the county line the home sits. No separate municipal permit code exists.
+- **Community modification approval: process not found.**
+  - The Inter-District Authority / Town Hall site (lakewoodranchgov.org) now redirects (301) to https://mylwr.com/cms/town-hall. That page is a JavaScript app whose content could not be read without a browser.
+  - The only Modification Request Form found is in the Wayback Machine, from 2015 (lakewoodranchgov.org/LWRcontent/documents/Modification Request Form.pdf). It is too old to cite as current.
+  - **Gap:** confirm the current Modifications Committee / ARC submittal steps, fees and contact by calling LWR Town Hall or reading mylwr.com in a browser. (LWR Town Hall (redirect target) — https://mylwr.com/cms/town-hall)
+
+## 9. Town of Longboat Key
+
+- **(a) Any work in the ROW: permit required.** [code] §57.03(A): "It shall be unlawful for any person… to construct, install, remove, relocate, or perform other work activities on utilities or installations within, on, under, or above rights-of-way without first having obtained a rights-of-way use permit." Work must start within 90 days of issue. (Longboat Key Code §57.03 — https://library.municode.com/fl/longboat_key/codes/code_of_ordinances?nodeId=TIT5PUWO_CH57RI-WUS_57.03RI-WUSPE)
+- **Gulf of Mexico Drive is a state road.** [doc] Gulf of Mexico Drive (SR 789) "is owned and maintained by the Florida Department of Transportation (FDOT)", so driveway connections to it are FDOT matters. Town Public Works: 941-316-1988. (Longboat Key Streets & Rights-of-Way — https://www.longboatkey.org/267/Streets-Rights-of-Way)
+- **Driveway width.** [code] Drives from parking spaces to the street are limited to "12 feet for a one-way drive and 24 feet for a two-way drive". (Longboat Key Code §158.100 — https://library.municode.com/fl/longboat_key/codes/code_of_ordinances?nodeId=TIT15LADECO_CH158ZOCO_ARTVSUDEST_DIV4OREPALO_158.100OREPA)
+- **(b)/(c) Driveways, decks, patios on grade: no building permit, but zoning sign-off.** [code] §150.30(D)(11) lists as "minor work": "Driveways, decks and patios directly on grade (must meet specific zoning criteria and must be approved by zoning department as an exception)". Minor work can still need a permit if it is part of a larger project. It can need a FEMA "tracking permit" if the building is FEMA-noncompliant or the work is below base flood elevation. (Longboat Key Code §150.30 — https://library.municode.com/fl/longboat_key/codes/code_of_ordinances?nodeId=TIT15LADECO_CH150BU_CEPE_150.30BUPERE)
+- **Open space / impermeable surface.** [code]
+  - "Impermeable surface" includes "structures, pools, driveways, walks, and parking areas". It excludes permeable wood decks, trellises, walls under 12 in. wide, fences, and Har-Tru, clay or grass courts. (Longboat Key Code §158.144 — https://library.municode.com/fl/longboat_key/codes/code_of_ordinances?nodeId=TIT15LADECO_CH158ZOCO_ARTXDE_158.144DE)
+  - "All residential development shall preserve a minimum of 50 percent of the gross land areas as open space". Driveways, paved or not, and pools do not count as open space. A licensed design professional must verify the calculation. (Longboat Key Code §158.030 — https://library.municode.com/fl/longboat_key/codes/code_of_ordinances?nodeId=TIT15LADECO_CH158ZOCO_ARTIIIDEREPR_DIV5SIDEPL_158.030PESTSIDEPL)
+  - Single-family district tables: minimum open space 50% in every district. Maximum building coverage is 25% in R-1SF, R-2SF and R-3SF, and 30% in R-4SF and R-6SF. (Longboat Key Code §158.062 (R-3SF) — https://library.municode.com/fl/longboat_key/codes/code_of_ordinances?nodeId=TIT15LADECO_CH158ZOCO_ARTIVZODI_DIV1REDI_158.062FSIMILDINSREDI)
+- **(d) Retaining walls.** [code]
+  - Lot grades between a property line and a structure may not exceed 1 vertical to 4 horizontal.
+  - A retaining wall "may only be constructed for the purpose of achieving the required one-to-four slope over a minimum distance of four feet unless the wall meets the required setback. In any event, the retaining wall cannot exceed eight feet in height." (Longboat Key Code §158.118 — https://library.municode.com/fl/longboat_key/codes/code_of_ordinances?nodeId=TIT15LADECO_CH158ZOCO_ARTVSUDEST_DIV10LOEXGRFR_158.118LOEXGRFR)
+  - If a retaining wall is combined with a wall or fence, height is the highest resulting measurement, determined at site plan review. (Longboat Key Code §158.102 — https://library.municode.com/fl/longboat_key/codes/code_of_ordinances?nodeId=TIT15LADECO_CH158ZOCO_ARTVSUDEST_DIV5LASC_158.102WAFEHEBELALOFI)
+- **CCCL.** [code] Site development plans must note the need for other agency permits, "e.g., FDEP Coastal Construction Control Line permit". New development seaward of the CCCL also triggers sea-turtle lighting review (Ch. 100). (Longboat Key Code §158.030 — https://library.municode.com/fl/longboat_key/codes/code_of_ordinances?nodeId=TIT15LADECO_CH158ZOCO_ARTIIIDEREPR_DIV5SIDEPL_158.030PESTSIDEPL; Longboat Key Code §100.04 — https://library.municode.com/fl/longboat_key/codes/code_of_ordinances?nodeId=TIT9GERE_CH100MATUPR_100.04PEAPNEDE)
+- **Contact.** [doc] Planning, Zoning & Building, 501 Bay Isles Rd, 941-316-1966. Building Official ext. 2521. Accela since April 22, 2025: https://aca-prod.accela.com/LONGBOAT/Default.aspx (Longboat Key Building Division — https://www.longboatkey.org/202/Building-Division)
+
+## 10. State overlay: FDEP Coastal Construction Control Line (Longboat Key, Siesta Key, Anna Maria and other Gulf beaches)
+
+- **What the program regulates.** [doc] The CCCL Program "regulates structures and activities that can cause beach erosion, destabilize dunes, damage upland properties or interfere with public access". The application page says "a permit is required from DEP for construction and excavation activities seaward of the CCCL." (FDEP CCCL Program — https://floridadep.gov/rcp/coastal-construction-control-line; FDEP — Apply for a CCCL permit — https://floridadep.gov/rcp/coastal-construction-control-line/content/apply-coastal-construction-control-line-cccl)
+- **Contact.** [doc] 850-245-2094 / 850-245-8570, CCCL@FloridaDEP.gov. (FDEP CCCL Program — https://floridadep.gov/rcp/coastal-construction-control-line)
+- **Gap.** The specific field-permit or exemption categories for minor hardscape (patios, pavers, driveways) were not readable on the pages fetched. They are in Rule 62B-33 and the CCCL Permit Application Guidelines.
+- **Sarasota County beaches (Siesta, Casey, Manasota Keys).** The County's own GBSL prohibition (§54-723, see §2) applies in addition to the FDEP permit.
+- **Anna Maria Island.** The cities of Anna Maria, Holmes Beach and Bradenton Beach were not researched; they are outside this assignment's list.
+
+---
+
 <!-- from part4_soil_climate.md -->
 # Part 4: Soil, climate, hazards, concrete/paver specs, water rules (researched 2026-10-01)
 
