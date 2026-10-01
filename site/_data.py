@@ -164,7 +164,7 @@ _C = {
     "casselberry": ("Casselberry", "seminole", 3, 28.6778, -81.3279, "city"),
     "maitland": ("Maitland", "orange", 3, 28.6278, -81.3631, "city"),
     "groveland": ("Groveland", "lake", 3, 28.5581, -81.8512, "city"),
-    "hunters-creek": ("Hunters Creek", "orange", 3, 28.3606, -81.4223, "community"),
+    "hunters-creek": ("Hunter's Creek", "orange", 3, 28.3606, -81.4223, "community"),
     "championsgate": ("ChampionsGate", "osceola", 3, 28.2611, -81.6201, "community"),
     "poinciana": ("Poinciana", "osceola", 3, 28.1403, -81.4584, "community"),
     "avalon-park": ("Avalon Park", "orange", 3, 28.5130, -81.1530, "community"),

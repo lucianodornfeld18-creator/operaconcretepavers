@@ -12,7 +12,7 @@ WIKI_LWRNWR_URL = "https://en.wikipedia.org/wiki/Lake_Wales_Ridge_National_Wildl
 CENSUS_DAVENPORT_URL = "http://censusreporter.org/profiles/16000US1216450-davenport-fl/"
 
 SRC = [
-    "census-pep-v2025", "fs713-13", "fs713-135", "fl-senate-2011-104", "swfwmd-restrictions",
+    "census-pep-v2025", "fl-senate-2011-104", "swfwmd-restrictions",
     "nrcs-candler-osd", "nrcs-astatula-osd", "dep-rule", "fs125572",
     ("City of Davenport, Building Department", DAVENPORT_BUILDING_URL),
     ("Polk County, Building FAQ", POLK_FAQ_URL),
@@ -26,7 +26,7 @@ SRC = [
 
 HUB_BODY = "".join([
     sec("Davenport sits at the edge of an area the Census Bureau calls Four Corners",
-        f"<p>Lake, Orange, Osceola and Polk counties all meet a few miles northeast of downtown Davenport, in a census-designated place officially named Citrus Ridge but almost universally called Four Corners, and ChampionsGate sits inside that same overlap "
+        f"<p>Lake, Orange, Osceola and Polk counties all meet a few miles northeast of downtown Davenport, inside a census-designated place the Census Bureau itself calls Four Corners, a name that replaced the older \"Citrus Ridge\" label used back in the 2000 count, and ChampionsGate sits inside that same overlap "
         f"({ext(WIKI_FOURCORNERS_URL, 'Wikipedia, Four Corners, Florida')}). U.S. 27, which runs along the place's western edge, is the road most of that growth was built around, and the 2020 census counted 56,381 residents there, more than double the 26,116 counted in 2010 "
         f"({ext(WIKI_FOURCORNERS_URL, 'Wikipedia, Four Corners, Florida')}). {svc('concrete-driveways', 'A driveway or paver job')} anywhere along that stretch of US-27 is worth checking against both a city address and the county line before a permit application goes in.</p>"),
     sec("Davenport itself is growing about as fast as any town the Orlando unit covers",
@@ -54,7 +54,7 @@ HUB_BODY = "".join([
 
 HUB_FAQS = [
     faq("Is the City of Davenport the same place as Four Corners?",
-        f"Not exactly. Four Corners, officially the Citrus Ridge census-designated place, is the broader area where Lake, Orange, Osceola and Polk counties meet, and ChampionsGate sits inside it; Davenport is the incorporated city whose own limits sit at that area's western edge along US-27 "
+        f"Not exactly. Four Corners is the Census Bureau's current name for the broader census-designated place where Lake, Orange, Osceola and Polk counties meet, and ChampionsGate sits inside it; Davenport is the separate incorporated city whose own limits sit at that area's western edge along US-27 "
         f"({ext(WIKI_FOURCORNERS_URL, 'Wikipedia, Four Corners, Florida')})."),
     faq("Does a short-term rental home near Davenport follow different pool deck or patio rules?",
         "Not under the permit process itself. Whether a house turns over renters weekly or houses the same family year-round, a pool deck, patio or driveway built for it still goes through the same building department, the same site-plan and setback review, and the same impervious-surface math as any other house on the same street."),
@@ -308,7 +308,7 @@ LOCAL["artificial-turf"] = {
          f"({src('swfwmd-restrictions', 'SWFWMD, District Water Restrictions')}). New sod trying to take root under that calendar struggles more than it would under the district's old twice-weekly allowance, and on a yard that absorbs daily foot traffic from a rotating set of guests, the bare, trampled patches show up within weeks rather than months.</p>"),
         ("Florida's 2026 turf standard treats a Davenport yard no differently than one on the coast",
          f"<p>DEP Rule 62-308.100, in force since May 19, 2026, is what actually governs the build: a washed aggregate base that drains, edges and seams anchored down, and a 10-foot buffer kept between the turf and any pond, lake or canal, dropped only where a seawall is doing that separating job instead "
-         f"({src('dep-rule', 'Florida Administrative Code, Rule 62-308.100')}). A separate 2026 statute caps how aggressively a city or county can tighten residential turf rules on top of that floor, though it has no bearing on what a homeowners' association chooses to require "
+         f"({src('dep-rule', 'Florida Administrative Code, Rule 62-308.100')}). A separate state statute caps how aggressively a city or county can tighten residential turf rules on top of that floor, though it has no bearing on what a homeowners' association chooses to require "
          f"({src('fs125572', 'Florida Statutes §125.572')}).</p>"),
     ],
     "scenario": ("Turf for a worn side yard, run through the numbers",
