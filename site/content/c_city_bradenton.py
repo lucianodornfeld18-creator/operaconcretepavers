@@ -448,7 +448,7 @@ LOCAL = {
     "concrete-slabs": {
         "title": "Concrete Slabs in Bradenton, FL – Fill & ISR",
         "meta": "Concrete slabs in Bradenton, FL need fill sized to flatwoods soil and count toward LUR 3.2 coverage; market range is " + price("concrete-slab") + " per " + per("concrete-slab") + ", Oct. 2026.",
-        "h1": "Concrete Slabs for Sheds, AC Pads and Parking",
+        "h1": "Bradenton Concrete Slabs for Sheds, Boats and RVs",
         "lede": capsule(
             "As of October 2026, a concrete slab in Bradenton for a shed, an AC pad or boat and RV parking costs " + price("concrete-slab") + " per " + per("concrete-slab") + ". "
             "Which soil series sits under a given pad, more than the slab's finished size, is usually what decides how much fill the job needs."

@@ -1,8 +1,7 @@
 pages: 200
-FAIL: 1
+FAIL: 0
 WARN: 56
 
-FAIL  duplicate h1 'Concrete Slabs for Sheds, AC Pads and Parking': /bradenton-fl/concrete-slabs/, /sarasota-fl/concrete-slabs/
 
 WARN  density 'artificial turf' 6.9%: /404/
 WARN  density 'concrete driveway' 5.0%: /compare/
