@@ -1,10 +1,9 @@
-pages: 314
+pages: 392
 FAIL: 0
-WARN: 58
+WARN: 57
 
 
 WARN  density 'artificial turf' 6.9%: /404/
-WARN  density 'pavers' 3.5%: /blog/
 WARN  density 'concrete driveway' 5.0%: /compare/
 WARN  density 'pavers' 13.4%: /compare/
 WARN  density 'pavers' 4.8%: /blog/permeable-pavers-and-drainage-florida/
@@ -16,7 +15,7 @@ WARN  density 'pavers' 4.1%: /faq/pavers/
 WARN  inlinks 0 < 3: /about/
 WARN  inlinks 0 < 3: /accessibility/
 WARN  inlinks 2 < 3: /blog/artificial-turf-in-florida-rain-and-storms/
-WARN  inlinks 2 < 3: /blog/prepare-your-yard-for-hardscape-installation/
+WARN  inlinks 2 < 3: /blog/how-to-choose-an-artificial-turf-installer/
 WARN  inlinks 2 < 3: /faq/artificial-turf/
 WARN  inlinks 1 < 3: /faq/concrete/
 WARN  inlinks 1 < 3: /faq/pavers/
@@ -29,35 +28,35 @@ WARN  sentence on 8 pages: "what a flatwoods lot means for the subgrade much of 
 WARN  sentence on 8 pages: "wet weak native soil will not compact to a stable subgrade no matter how long a plate comp" e.g. ['/clermont-fl/concrete-driveways/', '/kissimmee-fl/concrete-driveways/', '/lakewood-ranch-fl/concrete-driveways/']
 WARN  sentence on 8 pages: "we still compact that base in lifts and check it against 98 percent of standard proctor de" e.g. ['/clermont-fl/paver-patios/', '/kissimmee-fl/paver-patios/', '/lakewood-ranch-fl/paver-patios/']
 WARN  sentence on 8 pages: "we set that twodirection grade into the subgrade before any base goes down typically shapi" e.g. ['/clermont-fl/concrete-pool-decks/', '/kissimmee-fl/concrete-pool-decks/', '/lakewood-ranch-fl/concrete-pool-decks/']
+WARN  sentence on 8 pages: "we pour those footers first and set an isolation strip between the footer and the surround" e.g. ['/apopka-fl/concrete-pool-decks/', '/bradenton-fl/concrete-pool-decks/', '/dr-phillips-fl/concrete-pool-decks/']
+WARN  sentence on 8 pages: "we build that grade into the compacted base itself shaping it before the bedding sand goes" e.g. ['/apopka-fl/pool-deck-pavers/', '/bradenton-fl/pool-deck-pavers/', '/dr-phillips-fl/pool-deck-pavers/']
+WARN  sentence on 8 pages: "under a patio where the base only needs to carry foot traffic and outdoor furniture rather" e.g. ['/apopka-fl/concrete-patios/', '/bradenton-fl/concrete-patios/', '/dr-phillips-fl/concrete-patios/']
+WARN  sentence on 8 pages: "the spec also sets a surface tolerance of plus or minus threeeighths of an inch over 10 fe" e.g. ['/apopka-fl/paver-driveways/', '/bradenton-fl/paver-driveways/', '/dr-phillips-fl/paver-driveways/']
+WARN  sentence on 8 pages: "that sounds like easier ground to build on but loose excessively drained sand does not hol" e.g. ['/apopka-fl/concrete-driveways/', '/bradenton-fl/concrete-driveways/', '/dr-phillips-fl/concrete-driveways/']
+WARN  sentence on 8 pages: "that number comes from a plate compactor working the base in lifts of 4 to 6 inches not on" e.g. ['/apopka-fl/paver-driveways/', '/bradenton-fl/paver-driveways/', '/dr-phillips-fl/paver-driveways/']
 WARN  sentence on 8 pages: "that minimum isnt the end of the math on wet or poorly drained ground the same spec calls " e.g. ['/clermont-fl/paver-driveways/', '/kissimmee-fl/paver-driveways/', '/lakewood-ranch-fl/paver-driveways/']
 WARN  sentence on 8 pages: "that is workable ground for a driveway but only if we test it before pouring instead of as" e.g. ['/clermont-fl/concrete-driveways/', '/kissimmee-fl/concrete-driveways/', '/lakewood-ranch-fl/concrete-driveways/']
 WARN  sentence on 8 pages: "that is workable ground but only once the saturated layer is identified and removed rather" e.g. ['/clermont-fl/stamped-concrete/', '/kissimmee-fl/stamped-concrete/', '/lakewood-ranch-fl/stamped-concrete/']
 WARN  sentence on 8 pages: "slope has two jobs on a pool deck not just one a patio only needs to slope away from the h" e.g. ['/clermont-fl/concrete-pool-decks/', '/kissimmee-fl/concrete-pool-decks/', '/lakewood-ranch-fl/concrete-pool-decks/']
+WARN  sentence on 8 pages: "skipping that step on a sandy lot shows up later as a soft spot under one corner of the sl" e.g. ['/apopka-fl/concrete-patios/', '/bradenton-fl/concrete-patios/', '/dr-phillips-fl/concrete-patios/']
+WARN  sentence on 8 pages: "skipping that step on a decorative driveway is a costlier mistake than on a plain one sinc" e.g. ['/apopka-fl/stamped-concrete/', '/bradenton-fl/stamped-concrete/', '/dr-phillips-fl/stamped-concrete/']
+WARN  sentence on 8 pages: "skip that step and the driveway can still settle later just for the opposite reason a flat" e.g. ['/apopka-fl/concrete-driveways/', '/bradenton-fl/concrete-driveways/', '/dr-phillips-fl/concrete-driveways/']
+WARN  sentence on 8 pages: "ridge sand needs wetting before it will compact for a driveway west of orlando sand ridge " e.g. ['/apopka-fl/stamped-concrete/', '/bradenton-fl/stamped-concrete/', '/dr-phillips-fl/stamped-concrete/']
+WARN  sentence on 8 pages: "ridge sand doesnt behave like flatwoods soil the sand ridge soils west of orlando candler " e.g. ['/apopka-fl/concrete-driveways/', '/bradenton-fl/concrete-driveways/', '/dr-phillips-fl/concrete-driveways/']
+WARN  sentence on 8 pages: "on the excessively drained ridge sands west of orlando water already moves through the san" e.g. ['/apopka-fl/artificial-turf/', '/bradenton-fl/artificial-turf/', '/dr-phillips-fl/artificial-turf/']
 WARN  sentence on 8 pages: "on flatwoods soils like myakka smyrna or eaugallie which hold a water table within 18 inch" e.g. ['/clermont-fl/concrete-patios/', '/kissimmee-fl/concrete-patios/', '/lakewood-ranch-fl/concrete-patios/']
 WARN  sentence on 8 pages: "icpi tech spec 2 calls for at least 4 inches of compacted base under a patio or walkway on" e.g. ['/clermont-fl/paver-patios/', '/kissimmee-fl/paver-patios/', '/lakewood-ranch-fl/paver-patios/']
+WARN  sentence on 8 pages: "grading a paver deck to the drains not just away from the house like any pool deck a paver" e.g. ['/apopka-fl/pool-deck-pavers/', '/bradenton-fl/pool-deck-pavers/', '/dr-phillips-fl/pool-deck-pavers/']
+WARN  sentence on 8 pages: "grading a patio to slope away from the house before any base goes in we set the finished g" e.g. ['/apopka-fl/paver-patios/', '/bradenton-fl/paver-patios/', '/dr-phillips-fl/paver-patios/']
+WARN  sentence on 8 pages: "getting the slope right in the base is cheaper than fixing it after the pavers are down" e.g. ['/apopka-fl/paver-patios/', '/bradenton-fl/paver-patios/', '/dr-phillips-fl/paver-patios/']
 WARN  sentence on 8 pages: "flatwoods water tables under a stamped pool deck a stamped pool deck sits close to grade a" e.g. ['/clermont-fl/stamped-concrete/', '/kissimmee-fl/stamped-concrete/', '/lakewood-ranch-fl/stamped-concrete/']
+WARN  sentence on 8 pages: "dep rule 62308100 still calls for a defined subgrade of washed crushed rock or crushed con" e.g. ['/apopka-fl/artificial-turf/', '/bradenton-fl/artificial-turf/', '/dr-phillips-fl/artificial-turf/']
 WARN  sentence on 8 pages: "dep rule 62308100 requires the subgrade under residential turf to be washed crushed rock o" e.g. ['/clermont-fl/artificial-turf/', '/kissimmee-fl/artificial-turf/', '/lakewood-ranch-fl/artificial-turf/']
+WARN  sentence on 8 pages: "coordinating footer layout with the screen company before the deck forms go up keeps that " e.g. ['/apopka-fl/concrete-pool-decks/', '/bradenton-fl/concrete-pool-decks/', '/dr-phillips-fl/concrete-pool-decks/']
+WARN  sentence on 8 pages: "base work where a screen cage footer lands on the deck most pool decks in this market get " e.g. ['/apopka-fl/concrete-pool-decks/', '/bradenton-fl/concrete-pool-decks/', '/dr-phillips-fl/concrete-pool-decks/']
 WARN  sentence on 8 pages: "base depth for a paver deck follows the patio spec not the driveway spec a paver pool deck" e.g. ['/clermont-fl/pool-deck-pavers/', '/kissimmee-fl/pool-deck-pavers/', '/lakewood-ranch-fl/pool-deck-pavers/']
 WARN  sentence on 8 pages: "a pool deck does that too but it also has to carry water toward deck drains or a perimeter" e.g. ['/clermont-fl/concrete-pool-decks/', '/kissimmee-fl/concrete-pool-decks/', '/lakewood-ranch-fl/concrete-pool-decks/']
+WARN  sentence on 8 pages: "a patio graded flat or tipped back toward the house holds that water against the slider or" e.g. ['/apopka-fl/paver-patios/', '/bradenton-fl/paver-patios/', '/dr-phillips-fl/paver-patios/']
 WARN  sentence on 8 pages: "a crew that quotes 6 inches for every lot skipped the step where someone checks the soil a" e.g. ['/clermont-fl/paver-driveways/', '/kissimmee-fl/paver-driveways/', '/lakewood-ranch-fl/paver-driveways/']
 WARN  sentence on 8 pages: "a compacted aggregate lift that still drains is the only way to keep the lawn from holding" e.g. ['/clermont-fl/artificial-turf/', '/kissimmee-fl/artificial-turf/', '/lakewood-ranch-fl/artificial-turf/']
-WARN  sentence on 5 pages: "we pour those footers first and set an isolation strip between the footer and the surround" e.g. ['/bradenton-fl/concrete-pool-decks/', '/lake-nona-fl/concrete-pool-decks/', '/st-cloud-fl/concrete-pool-decks/']
-WARN  sentence on 5 pages: "we build that grade into the compacted base itself shaping it before the bedding sand goes" e.g. ['/bradenton-fl/pool-deck-pavers/', '/lake-nona-fl/pool-deck-pavers/', '/st-cloud-fl/pool-deck-pavers/']
-WARN  sentence on 5 pages: "under a patio where the base only needs to carry foot traffic and outdoor furniture rather" e.g. ['/bradenton-fl/concrete-patios/', '/lake-nona-fl/concrete-patios/', '/st-cloud-fl/concrete-patios/']
-WARN  sentence on 5 pages: "the spec also sets a surface tolerance of plus or minus threeeighths of an inch over 10 fe" e.g. ['/bradenton-fl/paver-driveways/', '/lake-nona-fl/paver-driveways/', '/st-cloud-fl/paver-driveways/']
-WARN  sentence on 5 pages: "that sounds like easier ground to build on but loose excessively drained sand does not hol" e.g. ['/bradenton-fl/concrete-driveways/', '/lake-nona-fl/concrete-driveways/', '/st-cloud-fl/concrete-driveways/']
-WARN  sentence on 5 pages: "that number comes from a plate compactor working the base in lifts of 4 to 6 inches not on" e.g. ['/bradenton-fl/paver-driveways/', '/lake-nona-fl/paver-driveways/', '/st-cloud-fl/paver-driveways/']
 WARN  sentence on 5 pages: "ten criteria for choosing a concrete contractor covers the rest" e.g. ['/clermont-fl/', '/kissimmee-fl/', '/venice-fl/']
-WARN  sentence on 5 pages: "skipping that step on a sandy lot shows up later as a soft spot under one corner of the sl" e.g. ['/bradenton-fl/concrete-patios/', '/lake-nona-fl/concrete-patios/', '/st-cloud-fl/concrete-patios/']
-WARN  sentence on 5 pages: "skipping that step on a decorative driveway is a costlier mistake than on a plain one sinc" e.g. ['/bradenton-fl/stamped-concrete/', '/lake-nona-fl/stamped-concrete/', '/st-cloud-fl/stamped-concrete/']
-WARN  sentence on 5 pages: "skip that step and the driveway can still settle later just for the opposite reason a flat" e.g. ['/bradenton-fl/concrete-driveways/', '/lake-nona-fl/concrete-driveways/', '/st-cloud-fl/concrete-driveways/']
-WARN  sentence on 5 pages: "ridge sand needs wetting before it will compact for a driveway west of orlando sand ridge " e.g. ['/bradenton-fl/stamped-concrete/', '/lake-nona-fl/stamped-concrete/', '/st-cloud-fl/stamped-concrete/']
-WARN  sentence on 5 pages: "ridge sand doesnt behave like flatwoods soil the sand ridge soils west of orlando candler " e.g. ['/bradenton-fl/concrete-driveways/', '/lake-nona-fl/concrete-driveways/', '/st-cloud-fl/concrete-driveways/']
-WARN  sentence on 5 pages: "on the excessively drained ridge sands west of orlando water already moves through the san" e.g. ['/bradenton-fl/artificial-turf/', '/lake-nona-fl/artificial-turf/', '/st-cloud-fl/artificial-turf/']
-WARN  sentence on 5 pages: "grading a paver deck to the drains not just away from the house like any pool deck a paver" e.g. ['/bradenton-fl/pool-deck-pavers/', '/lake-nona-fl/pool-deck-pavers/', '/st-cloud-fl/pool-deck-pavers/']
-WARN  sentence on 5 pages: "grading a patio to slope away from the house before any base goes in we set the finished g" e.g. ['/bradenton-fl/paver-patios/', '/lake-nona-fl/paver-patios/', '/st-cloud-fl/paver-patios/']
-WARN  sentence on 5 pages: "getting the slope right in the base is cheaper than fixing it after the pavers are down" e.g. ['/bradenton-fl/paver-patios/', '/lake-nona-fl/paver-patios/', '/st-cloud-fl/paver-patios/']
-WARN  sentence on 5 pages: "dep rule 62308100 still calls for a defined subgrade of washed crushed rock or crushed con" e.g. ['/bradenton-fl/artificial-turf/', '/lake-nona-fl/artificial-turf/', '/st-cloud-fl/artificial-turf/']
-WARN  sentence on 5 pages: "coordinating footer layout with the screen company before the deck forms go up keeps that " e.g. ['/bradenton-fl/concrete-pool-decks/', '/lake-nona-fl/concrete-pool-decks/', '/st-cloud-fl/concrete-pool-decks/']
-WARN  sentence on 5 pages: "base work where a screen cage footer lands on the deck most pool decks in this market get " e.g. ['/bradenton-fl/concrete-pool-decks/', '/lake-nona-fl/concrete-pool-decks/', '/st-cloud-fl/concrete-pool-decks/']
-WARN  sentence on 5 pages: "a patio graded flat or tipped back toward the house holds that water against the slider or" e.g. ['/bradenton-fl/paver-patios/', '/lake-nona-fl/paver-patios/', '/st-cloud-fl/paver-patios/']

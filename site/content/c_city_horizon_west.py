@@ -64,8 +64,8 @@ HUB_FAQS = [
 HUB = page("/horizon-west-fl/", "city", "Concrete, Pavers & Turf Contractor in Horizon West, FL",
            "Concrete, pavers and turf in Horizon West, FL: Orange County's lot-width garage code, the area's 300%-plus growth, and county permitting, October 2026.",
            "Concrete, Pavers and Artificial Turf for Horizon West Homes",
-           capsule(f"Opera pours concrete and lays pavers and artificial turf across Horizon West, the roughly 20,704-acre unincorporated planning area about 16 miles southwest of downtown Orlando. "
-                   f"A new driveway runs {price('concrete-driveway')} per {per('concrete-driveway')} this October 2026, and whether that driveway faces the street or a rear alley is set by a lot-width rule in the county's own design code, not by the builder's preference."),
+           capsule(f"Opera pours concrete and lays pavers and artificial turf across Horizon West, the roughly 20,704-acre unincorporated planning area southwest of Winter Garden and Windermere, about 16 miles from downtown Orlando. "
+                   f"Pricing for a new driveway sits at {price('concrete-driveway')} per {per('concrete-driveway')} heading into the final months of 2026, though the county's own lot-width rule, not the builder, decides whether it faces the street or a rear alley."),
            HUB_BODY, faqs=HUB_FAQS, sources=SRC, city=SLUG,
            crumbs=[("Service areas", "/service-areas/"), ("Orlando & Central Florida", "/central-florida/")], crumb="Horizon West",
            related=[("/central-florida/", "The Orlando-unit coverage area"),
@@ -255,7 +255,7 @@ LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Horizon West, FL – Street Rules",
     "meta": "Stamped concrete contractors in Horizon West, FL: the county's block-face variety rule and the walkway every narrow lot must have, October 2026.",
     "h1": "Stamped Concrete Driveways and Walkways in Horizon West",
-    "lede": capsule(f"Stamped concrete in Horizon West falls in the {price('stamped-concrete')} {per('stamped-concrete')} range as of October 2026, set by the pattern and the number of colors chosen. "
+    "lede": capsule(f"A stamped concrete job in Horizon West costs {price('stamped-concrete')} per {per('stamped-concrete')} as of October 2026, with the final number set by the pattern and color count rather than the square footage alone. "
                      "Unlike a typical Orlando-area subdivision, the county's own design code already limits how many identical-looking homes can sit on one block, which makes a stamped pattern a real way to set an entry walk or driveway apart rather than just a cosmetic upgrade."),
     "sections": [
         ("A rule against repetition, written into the zoning code itself",
@@ -288,7 +288,7 @@ LOCAL["artificial-turf"] = {
     "sections": [
         ("A layout built around water from day one",
          f"<p>Orange County describes Horizon West's villages and Town Center as surrounded by greenbelts "
-         f"({src('ocfl-horizonwest', 'Orange County, Horizon West')}), and that conservation-and-stormwater framework means retention ponds and buffer strips run through the community at a density an older, piecemeal-built suburb doesn't usually have. Florida's rule for synthetic turf still applies the same way regardless: at least 10 feet back from a pond, lake or canal, unless a seawall forms that edge, with no buried irrigation underneath and a washed-stone base instead "
+         f"({src('ocfl-horizonwest', 'Orange County, Horizon West')}), and that conservation-and-stormwater framework means retention ponds and buffer strips run through the community at a density an older, piecemeal-built suburb doesn't usually have. None of that changes the state's own turf standard, which calls for a 10-foot buffer off any pond, lake or canal edge not already lined by a seawall, a washed-stone base rather than soil, and no sprinkler lines buried beneath the finished lawn "
          f"({src('dep-rule', 'the DEP turf rule')}).</p>"),
         ("A newer lot means measuring the pond edge fresh, not relying on an old survey",
          f"<p>On a lot finished within the past year or two, the pond or swale edge nearby was shaped as part of the subdivision's own stormwater design, so the 10-foot line is worth measuring directly off the current grading rather than assumed from a plat drawing that predates the final landscaping. As of 2026, state law also limits a homeowners association to restricting {svc('artificial-turf', 'turf')} only where it's visible from the street or an adjoining lot "

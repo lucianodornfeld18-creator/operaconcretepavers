@@ -69,8 +69,8 @@ HUB_FAQS = [
 HUB = page("/dr-phillips-fl/", "city", "Concrete, Pavers & Turf Contractor in Dr. Phillips, FL",
            "Concrete, pavers and turf in Dr. Phillips, FL: unincorporated Orange County permits, the Butler Chain's protected water and Restaurant Row, October 2026.",
            "Concrete, Pavers and Artificial Turf for Dr. Phillips Homes",
-           capsule(f"Opera pours concrete and lays pavers and artificial turf for Dr. Phillips, an unincorporated Orange County community of roughly 12,984 residents as of the latest estimate, about 9 miles southwest of downtown Orlando. "
-                   f"A new driveway runs {price('concrete-driveway')} per {per('concrete-driveway')} this October 2026, reviewed by the county's Division of Building Safety rather than a city office, since Dr. Phillips sits outside Orlando's municipal line."),
+           capsule(f"Opera pours concrete and lays pavers and artificial turf for Dr. Phillips, an unincorporated Orange County community of roughly 12,984 residents as of the latest estimate. "
+                   f"A new concrete driveway costs {price('concrete-driveway')} per {per('concrete-driveway')} this October 2026, and because the community sits about 9 miles from downtown Orlando outside any municipal line, the county's own Division of Building Safety handles the permit instead of a city office."),
            HUB_BODY, faqs=HUB_FAQS, sources=SRC, city=SLUG,
            crumbs=[("Service areas", "/service-areas/"), ("Orlando & Central Florida", "/central-florida/")], crumb="Dr. Phillips",
            related=[("/central-florida/", "The Orlando-unit coverage area"),
@@ -263,7 +263,7 @@ LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Dr. Phillips, FL",
     "meta": "Stamped concrete contractors in Dr. Phillips, FL: matching a pattern to a golf-course or lakefront entry, and the county's permit, October 2026.",
     "h1": "Stamped Concrete Driveways and Patios in Dr. Phillips",
-    "lede": capsule(f"Stamped concrete in Dr. Phillips falls in the {price('stamped-concrete')} {per('stamped-concrete')} range as of October 2026, set by the pattern and the number of colors used. "
+    "lede": capsule(f"Stamped concrete pricing in Dr. Phillips runs {price('stamped-concrete')} per {per('stamped-concrete')} this October 2026, moving up or down inside that span with the pattern chosen and how many colors go into it. "
                      "With no historic district here and no single HOA covering the whole community, the finish a homeowner picks is mostly a question of matching the surrounding streetscape, whether that's a golf-course frontage in Bay Hill or a citrus-era ranch house in Sand Lake Hills."),
     "sections": [
         ("No citywide design board, just the county's standard review",
