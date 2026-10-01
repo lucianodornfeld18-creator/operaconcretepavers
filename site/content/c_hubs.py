@@ -42,7 +42,7 @@ def cost_hub():
              ["Three-car (24 × 36 ft)", "864", f"${864 * PRICES['concrete-driveway'][0]:,}–${864 * PRICES['concrete-driveway'][1]:,}", f"${864 * PRICES['paver-driveway'][0]:,}–${864 * PRICES['paver-driveway'][1]:,}"]]
     body = "".join([
         sec("Florida price ranges for every service we offer",
-            f"<p>The table below lists the installed market range for each service as of {PRICE_DATE}, compiled from Angi's Orlando and Tampa city pages, HomeGuide's national guides and published Florida contractor pricing. Each service name links to its own cost guide with worked examples and the factors that move the price.</p>"
+            f"<p>The table below lists the installed market range for each service as of {PRICE_DATE}, compiled from Angi's Orlando and Tampa city pages, HomeGuide's national guides and published Florida contractor pricing. Each service name links to its own cost guide with worked examples, size tables and the site conditions that push a bid toward the top or the bottom of the range.</p>"
             + table(f"Installed cost by service, Florida, {PRICE_DATE}", ["Service", "Market range", "Unit", "Typical middle"], rows, price_note())),
         sec("What does a new driveway cost by size?",
             f"<p>Standard driveway sizes come from HomeGuide and Angi: a one-car driveway is about 200 to 288 square feet, a two-car 400 to 576 and a three-car 864 to 900 ({src('homeguide-concrete-driveway', 'HomeGuide')}). Multiplying by the market ranges gives the spread below. Angi's Orlando page puts the average concrete driveway project at $6,490, inside the two-car band ({src('angi-driveway-orlando', 'Angi Orlando, May 2026')}).</p>"

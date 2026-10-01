@@ -1,0 +1,22 @@
+pages: 26
+FAIL: 0
+WARN: 17
+
+
+WARN  words 2967 < 3000 (home): /
+WARN  density 'pavers' 5.4%: /blog/
+WARN  density 'concrete driveway' 5.0%: /compare/
+WARN  density 'pavers' 13.4%: /compare/
+WARN  words 1761 < 1800 (price): /cost/
+WARN  inlinks 0 < 3: /about/
+WARN  inlinks 0 < 3: /accessibility/
+WARN  inlinks 1 < 3: /blog/
+WARN  inlinks 0 < 3: /compare/
+WARN  inlinks 2 < 3: /concrete-repair/
+WARN  inlinks 2 < 3: /concrete-slabs/
+WARN  inlinks 1 < 3: /concrete-walkways/
+WARN  inlinks 2 < 3: /process/
+WARN  inlinks 2 < 3: /retaining-walls/
+WARN  inlinks 2 < 3: /service-areas/
+WARN  inlinks 0 < 3: /terms/
+WARN  sentence on 2 pages: "a herringbonepattern paver driveway and walkway leading to a garage" e.g. ['/paver-driveways/', '/paver-sealing/']

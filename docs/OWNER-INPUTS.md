@@ -1,0 +1,14 @@
+# What the site still needs from the owner
+
+Internal. Each item says where it plugs in.
+
+1. **Phone numbers** — one for the Orlando unit, one for the Sarasota unit. Put them in `site/_data.py` → `UNITS[...]["phone_e164"]` (+1XXXXXXXXXX) and `["phone_display"]` ((XXX) XXX-XXXX), rebuild, push. They then appear in the top bar, footer, forms, unit pages, schema and llms.txt at once. If they are Twilio numbers, set their voice/SMS webhooks (opera-portal brands `opera-orlando` id 10 and `opera-sarasota` id 11 already exist; add `twilio_number` there).
+2. **E-mail** — `EMAIL` in `site/_data.py`. Email Routing for the domain is not set up yet (hello@ → inbox), on request.
+3. **20 job photos** — drop them in `images/incoming/`, register them in `brand/make_photos.py` (replace the STOCK entries or add new ones without `stock`), say which service each shows and, if known, the town. The current 18 photos are licensed stock (Unsplash / Pexels licence, list in `images/stock/stock.json`) and the site never claims them as our work.
+4. **DNS** — two proxied CNAMEs on the Cloudflare zone: `@` and `www` → `operaconcretepavers.pages.dev` (the API token here has no DNS scope). Optional: a Redirect Rule www → apex.
+5. **License number (legal risk)** — Florida F.S. 489.119(5)(b) requires a contractor's license number in every advertisement, including websites, when the work requires a license. Driveway installation is exempt (F.S. 489.117(4)(a)1), but structural slabs, foundations and walls fall under the state structural-masonry specialty certificate. If Opera (Opera Services Corp) holds a state certificate or county license, send the number and it goes in the footer and schema. Until then the site never claims to be licensed.
+6. **Legal entity, insurance, warranty, financing, years in business, owner/estimator names, reviews** — none are on the site because none were supplied. Each one adds trust and E-E-A-T; send them and they go in About, the footer and schema (`LocalBusiness` founder, `aggregateRating` only from real reviews).
+7. **Google Business Profile** — one per unit (service-area business, no street address shown). This is the strongest local-ranking signal; once live, add the profile URLs to `sameAs` in `templates.business_node()` / `_unit_dept()`.
+8. **Search Console and Bing Webmaster Tools** — verify the domain, submit `https://operaconcretepavers.com/sitemap.xml`.
+9. **Services marked "if offered"** in the research (putting greens, concrete leveling by foam/mudjacking) are described as services on the site; confirm or tell us to remove them.
+10. **Overlap with the owner's other sites** — kissimmeeartificialturf.com and the concrete hubs target some of the same searches (e.g. "artificial turf Kissimmee", "concrete driveway Sarasota"). This site does not link to or mention them.
