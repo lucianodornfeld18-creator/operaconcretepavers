@@ -1,60 +1,62 @@
-pages: 118
+pages: 152
 FAIL: 0
-WARN: 55
+WARN: 57
 
 
-WARN  words 2990 < 3000 (home): /
 WARN  density 'artificial turf' 6.9%: /404/
-WARN  density 'pavers' 4.1%: /blog/
+WARN  density 'pavers' 3.8%: /blog/
 WARN  density 'concrete driveway' 5.0%: /compare/
 WARN  density 'pavers' 13.4%: /compare/
 WARN  density 'pavers' 4.8%: /blog/permeable-pavers-and-drainage-florida/
 WARN  density 'pavers' 4.4%: /compare/clay-brick-vs-concrete-pavers/
 WARN  density 'pavers' 4.5%: /compare/stamped-concrete-vs-pavers/
+WARN  density 'stamped concrete' 3.6%: /compare/stamped-concrete-vs-pavers/
 WARN  density 'pavers' 4.5%: /compare/travertine-vs-concrete-pavers/
 WARN  density 'pavers' 4.1%: /faq/pavers/
 WARN  inlinks 0 < 3: /about/
 WARN  inlinks 0 < 3: /accessibility/
-WARN  inlinks 1 < 3: /blog/artificial-turf-in-florida-rain-and-storms/
+WARN  inlinks 2 < 3: /blog/artificial-turf-in-florida-rain-and-storms/
 WARN  inlinks 2 < 3: /faq/artificial-turf/
 WARN  inlinks 1 < 3: /faq/concrete/
 WARN  inlinks 1 < 3: /faq/pavers/
 WARN  inlinks 0 < 3: /terms/
+WARN  sentence on 4 pages: "why a paver patios base isnt the same as a driveways patios and driveways both sit on a co" e.g. ['/kissimmee-fl/paver-patios/', '/lakewood-ranch-fl/paver-patios/', '/orlando-fl/paver-patios/']
+WARN  sentence on 4 pages: "why a patios base doesnt need a driveways depth a patio never carries a cars rolling weigh" e.g. ['/kissimmee-fl/concrete-patios/', '/lakewood-ranch-fl/concrete-patios/', '/orlando-fl/concrete-patios/']
+WARN  sentence on 4 pages: "whats different around a pool is how much more moisture the base near the waters edge sees" e.g. ['/kissimmee-fl/pool-deck-pavers/', '/lakewood-ranch-fl/pool-deck-pavers/', '/orlando-fl/pool-deck-pavers/']
+WARN  sentence on 4 pages: "what goes under artificial turf on florida soil floridas new turf rule treats the base as " e.g. ['/kissimmee-fl/artificial-turf/', '/lakewood-ranch-fl/artificial-turf/', '/orlando-fl/artificial-turf/']
+WARN  sentence on 4 pages: "what a flatwoods lot means for the subgrade much of greater orlando and the suncoast sits " e.g. ['/kissimmee-fl/concrete-driveways/', '/lakewood-ranch-fl/concrete-driveways/', '/orlando-fl/concrete-driveways/']
+WARN  sentence on 4 pages: "wet weak native soil will not compact to a stable subgrade no matter how long a plate comp" e.g. ['/kissimmee-fl/concrete-driveways/', '/lakewood-ranch-fl/concrete-driveways/', '/orlando-fl/concrete-driveways/']
+WARN  sentence on 4 pages: "we still compact that base in lifts and check it against 98 percent of standard proctor de" e.g. ['/kissimmee-fl/paver-patios/', '/lakewood-ranch-fl/paver-patios/', '/orlando-fl/paver-patios/']
+WARN  sentence on 4 pages: "we set that twodirection grade into the subgrade before any base goes down typically shapi" e.g. ['/kissimmee-fl/concrete-pool-decks/', '/lakewood-ranch-fl/concrete-pool-decks/', '/orlando-fl/concrete-pool-decks/']
+WARN  sentence on 4 pages: "that minimum isnt the end of the math on wet or poorly drained ground the same spec calls " e.g. ['/kissimmee-fl/paver-driveways/', '/lakewood-ranch-fl/paver-driveways/', '/orlando-fl/paver-driveways/']
+WARN  sentence on 4 pages: "that is workable ground for a driveway but only if we test it before pouring instead of as" e.g. ['/kissimmee-fl/concrete-driveways/', '/lakewood-ranch-fl/concrete-driveways/', '/orlando-fl/concrete-driveways/']
+WARN  sentence on 4 pages: "that is workable ground but only once the saturated layer is identified and removed rather" e.g. ['/kissimmee-fl/stamped-concrete/', '/lakewood-ranch-fl/stamped-concrete/', '/orlando-fl/stamped-concrete/']
+WARN  sentence on 4 pages: "slope has two jobs on a pool deck not just one a patio only needs to slope away from the h" e.g. ['/kissimmee-fl/concrete-pool-decks/', '/lakewood-ranch-fl/concrete-pool-decks/', '/orlando-fl/concrete-pool-decks/']
+WARN  sentence on 4 pages: "on flatwoods soils like myakka smyrna or eaugallie which hold a water table within 18 inch" e.g. ['/kissimmee-fl/concrete-patios/', '/lakewood-ranch-fl/concrete-patios/', '/orlando-fl/concrete-patios/']
+WARN  sentence on 4 pages: "icpi tech spec 2 calls for at least 4 inches of compacted base under a patio or walkway on" e.g. ['/kissimmee-fl/paver-patios/', '/lakewood-ranch-fl/paver-patios/', '/orlando-fl/paver-patios/']
+WARN  sentence on 4 pages: "flatwoods water tables under a stamped pool deck a stamped pool deck sits close to grade a" e.g. ['/kissimmee-fl/stamped-concrete/', '/lakewood-ranch-fl/stamped-concrete/', '/orlando-fl/stamped-concrete/']
+WARN  sentence on 4 pages: "dep rule 62308100 requires the subgrade under residential turf to be washed crushed rock o" e.g. ['/kissimmee-fl/artificial-turf/', '/lakewood-ranch-fl/artificial-turf/', '/orlando-fl/artificial-turf/']
+WARN  sentence on 4 pages: "base depth for a paver deck follows the patio spec not the driveway spec a paver pool deck" e.g. ['/kissimmee-fl/pool-deck-pavers/', '/lakewood-ranch-fl/pool-deck-pavers/', '/orlando-fl/pool-deck-pavers/']
+WARN  sentence on 4 pages: "a pool deck does that too but it also has to carry water toward deck drains or a perimeter" e.g. ['/kissimmee-fl/concrete-pool-decks/', '/lakewood-ranch-fl/concrete-pool-decks/', '/orlando-fl/concrete-pool-decks/']
+WARN  sentence on 4 pages: "a crew that quotes 6 inches for every lot skipped the step where someone checks the soil a" e.g. ['/kissimmee-fl/paver-driveways/', '/lakewood-ranch-fl/paver-driveways/', '/orlando-fl/paver-driveways/']
+WARN  sentence on 4 pages: "a compacted aggregate lift that still drains is the only way to keep the lawn from holding" e.g. ['/kissimmee-fl/artificial-turf/', '/lakewood-ranch-fl/artificial-turf/', '/orlando-fl/artificial-turf/']
+WARN  sentence on 3 pages: "should you seal a concrete driveway in florida" e.g. ['/blog/', '/blog/should-you-seal-a-concrete-driveway-florida/', '/concrete-repair/']
 WARN  sentence on 3 pages: "how hot do pool decks get in florida" e.g. ['/blog/', '/blog/how-hot-do-pool-decks-get-florida/', '/stamped-concrete/']
 WARN  sentence on 3 pages: "a herringbonepattern paver driveway and walkway leading to a garage" e.g. ['/paver-driveway-cost/', '/paver-driveways/', '/paver-sealing/']
+WARN  sentence on 2 pages: "within a wet season or two the same crack usually reappears in almost the same spot right " e.g. ['/lakewood-ranch-fl/concrete-repair/', '/orlando-fl/concrete-repair/']
 WARN  sentence on 2 pages: "why do pavers sink in florida and how is it fixed" e.g. ['/blog/', '/blog/why-pavers-sink-in-florida/']
-WARN  sentence on 2 pages: "why a paver patios base isnt the same as a driveways patios and driveways both sit on a co" e.g. ['/orlando-fl/paver-patios/', '/sarasota-fl/paver-patios/']
-WARN  sentence on 2 pages: "why a patios base doesnt need a driveways depth a patio never carries a cars rolling weigh" e.g. ['/orlando-fl/concrete-patios/', '/sarasota-fl/concrete-patios/']
-WARN  sentence on 2 pages: "whats different around a pool is how much more moisture the base near the waters edge sees" e.g. ['/orlando-fl/pool-deck-pavers/', '/sarasota-fl/pool-deck-pavers/']
+WARN  sentence on 2 pages: "why a cutout panel needs its own base not a patch on the old one replacing a single damage" e.g. ['/kissimmee-fl/concrete-repair/', '/sarasota-fl/concrete-repair/']
+WARN  sentence on 2 pages: "where the tree is large enough to be regulated protection thresholds range from about 4 12" e.g. ['/kissimmee-fl/concrete-walkways/', '/sarasota-fl/concrete-walkways/']
 WARN  sentence on 2 pages: "what is the white haze on new pavers and concrete efflorescence" e.g. ['/blog/', '/blog/efflorescence-on-pavers-and-concrete/']
-WARN  sentence on 2 pages: "what goes under artificial turf on florida soil floridas new turf rule treats the base as " e.g. ['/orlando-fl/artificial-turf/', '/sarasota-fl/artificial-turf/']
-WARN  sentence on 2 pages: "what a flatwoods lot means for the subgrade much of greater orlando and the suncoast sits " e.g. ['/orlando-fl/concrete-driveways/', '/sarasota-fl/concrete-driveways/']
-WARN  sentence on 2 pages: "wet weak native soil will not compact to a stable subgrade no matter how long a plate comp" e.g. ['/orlando-fl/concrete-driveways/', '/sarasota-fl/concrete-driveways/']
-WARN  sentence on 2 pages: "we still compact that base in lifts and check it against 98 percent of standard proctor de" e.g. ['/orlando-fl/paver-patios/', '/sarasota-fl/paver-patios/']
-WARN  sentence on 2 pages: "we set that twodirection grade into the subgrade before any base goes down typically shapi" e.g. ['/orlando-fl/concrete-pool-decks/', '/sarasota-fl/concrete-pool-decks/']
 WARN  sentence on 2 pages: "watching the patched holes after a mudjacking or polyjacking job the small patched circles" e.g. ['/orlando-fl/concrete-repair/', '/sarasota-fl/concrete-repair/']
 WARN  sentence on 2 pages: "watching for the sign that its time to reseal not a date on a calendar since theres no fix" e.g. ['/orlando-fl/paver-sealing/', '/sarasota-fl/paver-sealing/']
 WARN  sentence on 2 pages: "watching for an early bulge or lean not just a collapse a wall thats starting to fail usua" e.g. ['/orlando-fl/retaining-walls/', '/sarasota-fl/retaining-walls/']
 WARN  sentence on 2 pages: "walking the perimeter of the pad after any major landscaping work and confirming water sti" e.g. ['/orlando-fl/concrete-slabs/', '/sarasota-fl/concrete-slabs/']
-WARN  sentence on 2 pages: "that minimum isnt the end of the math on wet or poorly drained ground the same spec calls " e.g. ['/orlando-fl/paver-driveways/', '/sarasota-fl/paver-driveways/']
-WARN  sentence on 2 pages: "that is workable ground for a driveway but only if we test it before pouring instead of as" e.g. ['/orlando-fl/concrete-driveways/', '/sarasota-fl/concrete-driveways/']
-WARN  sentence on 2 pages: "that is workable ground but only once the saturated layer is identified and removed rather" e.g. ['/orlando-fl/stamped-concrete/', '/sarasota-fl/stamped-concrete/']
+WARN  sentence on 2 pages: "the fix usually means breaking out and repouring just that section not the whole walkway b" e.g. ['/lakewood-ranch-fl/concrete-walkways/', '/orlando-fl/concrete-walkways/']
+WARN  sentence on 2 pages: "the base under one panel gets the same attention the base under a whole driveway would" e.g. ['/kissimmee-fl/concrete-repair/', '/sarasota-fl/concrete-repair/']
+WARN  sentence on 2 pages: "that distinction matters most on flatwoods ground with a seasonal high water table within " e.g. ['/kissimmee-fl/retaining-walls/', '/sarasota-fl/retaining-walls/']
 WARN  sentence on 2 pages: "statewide sinkhole claims concentrate heavily in hernando pasco and hillsborough counties " e.g. ['/compare/cool-deck-vs-pavers-vs-travertine/', '/concrete-pool-decks/']
-WARN  sentence on 2 pages: "slope has two jobs on a pool deck not just one a patio only needs to slope away from the h" e.g. ['/orlando-fl/concrete-pool-decks/', '/sarasota-fl/concrete-pool-decks/']
-WARN  sentence on 2 pages: "on flatwoods soils like myakka smyrna or eaugallie which hold a water table within 18 inch" e.g. ['/orlando-fl/concrete-patios/', '/sarasota-fl/concrete-patios/']
-WARN  sentence on 2 pages: "on flatwoods lots where the water table already sits close to the surface for months at a " e.g. ['/orlando-fl/concrete-slabs/', '/sarasota-fl/concrete-slabs/']
-WARN  sentence on 2 pages: "icpi tech spec 2 calls for at least 4 inches of compacted base under a patio or walkway on" e.g. ['/orlando-fl/paver-patios/', '/sarasota-fl/paver-patios/']
-WARN  sentence on 2 pages: "how hot does artificial turf get in florida and how do you keep it cooler" e.g. ['/blog/', '/blog/artificial-turf-heat-in-florida/']
-WARN  sentence on 2 pages: "flatwoods water tables under a stamped pool deck a stamped pool deck sits close to grade a" e.g. ['/orlando-fl/stamped-concrete/', '/sarasota-fl/stamped-concrete/']
-WARN  sentence on 2 pages: "does artificial turf hold up to florida rain flooding and storms" e.g. ['/blog/', '/blog/artificial-turf-in-florida-rain-and-storms/']
-WARN  sentence on 2 pages: "do you need a permit for a driveway patio or pavers in orlando and orange county" e.g. ['/blog/', '/blog/orange-county-orlando-driveway-patio-permits/']
-WARN  sentence on 2 pages: "dep rule 62308100 requires the subgrade under residential turf to be washed crushed rock o" e.g. ['/orlando-fl/artificial-turf/', '/sarasota-fl/artificial-turf/']
-WARN  sentence on 2 pages: "catching heave early sometimes lets a contractor address just the affected panel without d" e.g. ['/orlando-fl/concrete-walkways/', '/sarasota-fl/concrete-walkways/']
-WARN  sentence on 2 pages: "because tree protection thresholds differ by town roughly 4 12 inches in diameter in saras" e.g. ['/orlando-fl/concrete-walkways/', '/sarasota-fl/concrete-walkways/']
-WARN  sentence on 2 pages: "base depth for a paver deck follows the patio spec not the driveway spec a paver pool deck" e.g. ['/orlando-fl/pool-deck-pavers/', '/sarasota-fl/pool-deck-pavers/']
-WARN  sentence on 2 pages: "a wall that looks the same two wet seasons in a row is generally a wall whose drainage is " e.g. ['/orlando-fl/retaining-walls/', '/sarasota-fl/retaining-walls/']
-WARN  sentence on 2 pages: "a row of paver driveways along a palmlined florida street" e.g. ['/paver-driveway-cost/', '/paver-driveways/']
-WARN  sentence on 2 pages: "a pool deck does that too but it also has to carry water toward deck drains or a perimeter" e.g. ['/orlando-fl/concrete-pool-decks/', '/sarasota-fl/concrete-pool-decks/']
-WARN  sentence on 2 pages: "a crew that quotes 6 inches for every lot skipped the step where someone checks the soil a" e.g. ['/orlando-fl/paver-driveways/', '/sarasota-fl/paver-driveways/']
-WARN  sentence on 2 pages: "a compacted aggregate lift that still drains is the only way to keep the lawn from holding" e.g. ['/orlando-fl/artificial-turf/', '/sarasota-fl/artificial-turf/']
-WARN  sentence on 2 pages: "a closeup topdown view of gray interlocking concrete pavers fitted tightly together" e.g. ['/blog/saltwater-pools-and-coastal-salt-air-hardscape/', '/paver-sealing/']
+WARN  sentence on 2 pages: "skipping that step on a garage floor that will carry a vehicles full weight parked rather " e.g. ['/kissimmee-fl/concrete-slabs/', '/sarasota-fl/concrete-slabs/']
+WARN  sentence on 2 pages: "sealing over efflorescence traps it instead of letting it clear the whitish calcium carbon" e.g. ['/lakewood-ranch-fl/paver-sealing/', '/orlando-fl/paver-sealing/']
+WARN  sentence on 2 pages: "sealing over an active bloom before its had a chance to wear off can trap it under the coa" e.g. ['/lakewood-ranch-fl/paver-sealing/', '/orlando-fl/paver-sealing/']
+WARN  sentence on 2 pages: "sealing it on a schedule and avoiding harsh degreasers in the first few months protects th" e.g. ['/kissimmee-fl/concrete-repair/', '/lakewood-ranch-fl/concrete-repair/']

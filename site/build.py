@@ -292,6 +292,8 @@ def main():
         out = DIST if p["route"] == "/" else DIST / p["route"].strip("/")
         out.mkdir(parents=True, exist_ok=True)
         html = email_off(soften_links(render_page(p), routes, missing))
+        for dup, one in (("installed installed", "installed"), ("of wall face of wall face", "of wall face"), ("(clean, re-sand, seal) (clean, re-sand, seal)", "(clean, re-sand, seal)")):
+            html = html.replace(dup, one)
         (out / "index.html").write_text(html, encoding="utf-8")
         rendered[p["route"]] = html
     if (DIST / "404" / "index.html").exists():

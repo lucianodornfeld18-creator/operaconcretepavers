@@ -442,7 +442,7 @@ LOCAL["retaining-walls"] = {
     "title": "Retaining Walls in Orlando, FL – Engineering Rules",
     "meta": "Retaining wall contractors in Orlando, FL: the city's unpublished height trigger, the statewide 48-inch engineering threshold, October 2026.",
     "h1": "Retaining Walls for Orlando Yards",
-    "lede": capsule(f"A retaining wall in Orlando runs {price('retaining-wall')} per {per('retaining-wall')} of wall face as of October 2026. "
+    "lede": capsule(f"A retaining wall in Orlando runs {price('retaining-wall')} per {per('retaining-wall')} as of October 2026. "
                      "The city's own permitting pages don't publish a stand-alone height that triggers engineering review for a wall, so we confirm the threshold with Permitting Services directly, working from the statewide code figure used elsewhere in the region as the likely baseline."),
     "sections": [
         ("Orlando publishes no stand-alone height trigger for a retaining wall",
@@ -454,7 +454,7 @@ LOCAL["retaining-walls"] = {
          f"({src('laureatepark-faq', 'Laureate Park Master Association FAQ')}), language broad enough to cover a retaining or seat wall built to manage a sloped yard. On the gently rolling lots common around Lake Nona, a low seat wall is as often a landscape feature as a structural necessity, but either way the neighborhood's review happens before, not after, the city's own permit process.</p>"),
     ],
     "scenario": ("A sloped-yard retaining wall near Lake Nona, worked out in square feet",
-                 f"<p>Say a sloped lot near Laureate Park needs a 30 linear foot segmental block wall, 3 feet tall, 90 square feet of wall face. At {price('retaining-wall')} per {per('retaining-wall')} of wall face, that lands between roughly $1,350 and $3,600 before drainage behind the wall or an engineering review is added in. "
+                 f"<p>Say a sloped lot near Laureate Park needs a 30 linear foot segmental block wall, 3 feet tall, 90 square feet of wall face. At {price('retaining-wall')} per {per('retaining-wall')}, that lands between roughly $1,350 and $3,600 before drainage behind the wall or an engineering review is added in. "
                  "Because the wall stays under the 48-inch statewide threshold for unbalanced fill, it's less likely to need a sealed engineering drawing than a taller wall would, though confirming that with the city is still worth the phone call.</p>"),
     "faqs": [
         faq("Does Orlando publish a retaining wall height that requires a permit?",
