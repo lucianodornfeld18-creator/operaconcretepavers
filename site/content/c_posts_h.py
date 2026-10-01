@@ -43,8 +43,9 @@ def p_extend_patio_under_screen_enclosure():
             "work and does not reach land development, engineering or zoning permits, so a screen enclosure's framing and a right-of-way-adjacent "
             f"flatwork permit generally still apply regardless of the dollar figure ({src('orlando-hb803-guide', 'City of Orlando, HB 803 exemption guide')}). "
             f"Manatee County exempts a non-structural concrete or paver patio from a permit but still requires one once footers are involved "
-            f"({src('manatee-no-permit-list', 'Manatee County')}), which is exactly the condition a screen enclosure's posts create. On a contract "
-            f"over $2,500, Florida's lien law also calls for a recorded Notice of Commencement before work starts ({src('fs713-13', 'F.S. 713.13')}). "
+            f"({src('manatee-no-permit-list', 'Manatee County')}), which is exactly the condition a screen enclosure's posts create. A project "
+            f"over $2,500 also triggers Florida's Notice of Commencement requirement under the state's lien law, recorded before either trade "
+            f"breaks ground ({src('fs713-13', 'F.S. 713.13')}). "
             f"{post('orange-county-orlando-driveway-patio-permits', 'Our Orange County and Orlando permit guide')} and "
             f"{post('sarasota-county-driveway-patio-permits', 'our Sarasota County permit guide')} go further on what each department asks for.</p>"),
         sec("How Does Drainage Change Once a Screen Enclosure Covers the New Patio?",
@@ -68,11 +69,11 @@ def p_extend_patio_under_screen_enclosure():
                      ["Grading and downspout tie-ins", "Paving crew, using the enclosure's gutter plan", "Set before the final paver course or pour"]],
                     "A project that sequences these out of order is the most common source of rework on a cage-and-patio job.")),
         sec("Where This Overlaps With HOA Review",
-            f"<p>A screen enclosure is one of the more visible changes a homeowners association reviews, since it sits in the same sightline as "
-            f"the pool and the back of the house, and most architectural guidelines ask for the enclosure's height and roofline separately from "
-            f"the patio flooring underneath it. {post('hoa-approval-for-pavers-and-concrete', 'Our guide to HOA approval for pavers and concrete')} "
-            f"covers what that review typically asks to see, and {post('lakewood-ranch-arc-approval-hardscape', 'our Lakewood Ranch ARC guide')} "
-            f"walks through one community's process in detail. {a('/paver-patio-cost/', 'Our paver patio cost guide')} and "
+            f"<p>An architectural review committee generally wants to see the enclosure's height, roofline and screen color as its own line "
+            f"item, separate from whatever finish the patio flooring underneath it uses, so a single submission package that treats both as "
+            f"one project tends to move faster than two filed apart. {post('lakewood-ranch-arc-approval-hardscape', 'the Lakewood Ranch ARC process')} "
+            f"is one example of a community that reviews enclosures on its own form, and {post('hoa-approval-for-pavers-and-concrete', 'our broader HOA approval guide')} "
+            f"covers the submission basics that apply more generally. {a('/paver-patio-cost/', 'Our paver patio cost guide')} and "
             f"{a('/concrete-patio-cost/', 'our concrete patio cost guide')} break down pricing for the flooring side of a project like this once "
             f"the layout with the enclosure contractor is settled.</p>"),
     ])
@@ -115,9 +116,10 @@ def p_fire_pit_on_pavers_florida():
             "radius around it for anyone standing up or stepping back from the heat. Orange County's open-burning rule, which governs Orlando "
             "and the rest of the county, caps an open fire at 3 feet across and 2 feet tall unless it burns inside a contained outdoor fireplace, "
             "grill or barbecue pit, which almost any manufactured or built-in fire pit insert qualifies as "
-            f"({src('orange-open-burning-faq', 'Orange County Open Burning FAQ')}). Sarasota County's rule reaches the same conclusion through a "
-            "different route, defining a fire bowl, chiminea or built-in outdoor fireplace as a \"warming type container\" with its own shorter "
-            f"setback from a structure ({src('sarasota-county-54-116-open-burning', 'Sarasota County Code, Open Burning')}).</p>"
+            f"({ext('https://www.orangecountyfl.net/Portals/0/Library/Environment/docs/Open%20Burning%20Frequently%20Asked%20Questions-CERT.pdf', 'Orange County, Open Burning FAQ')}). "
+            "Sarasota County's rule reaches the same conclusion through a different route, defining a fire bowl, chiminea or built-in outdoor "
+            "fireplace as a \"warming type container\" with its own shorter setback from a structure "
+            f"({ext('https://library.municode.com/fl/sarasota_county/codes/code_of_ordinances?nodeId=PTIICOOR_CH54ENNARE_ARTVAISOPO', 'Sarasota County Code §54-116, Open Burning')}).</p>"
             + (photo(pid, "A stone fire pit ringed by wicker chairs and an umbrella table on a paver patio.") if pid else "")),
         sec("How Far Does a Fire Pit Need to Sit From the House?",
             "<p>The distance depends on whether the fire counts as \"contained\" under the local rule, and the two counties in our service "
@@ -126,7 +128,8 @@ def p_fire_pit_on_pavers_florida():
             + table("Fire pit setback rules, selected counties (checked October 2026)", ["Jurisdiction", "Open or uncontained fire", "Contained fire pit, fire bowl or outdoor fireplace"],
                     [["Orange County", "25 ft from any building or combustible structure", "Same 25 ft rule, but the 3 ft × 2 ft size cap does not apply once the fire is contained in an outdoor fireplace, grill or barbecue pit"],
                      ["Sarasota County", "25 ft from any structure or combustible material", "A \"warming type container,\" chiminea, fire bowl or built-in outdoor fireplace among them, needs only about 10 ft"]],
-                    f"{src('orange-open-burning-faq', 'Orange County Open Burning FAQ')}; {src('sarasota-county-54-116-open-burning', 'Sarasota County Code §54-116')}. "
+                    f"{ext('https://www.orangecountyfl.net/Portals/0/Library/Environment/docs/Open%20Burning%20Frequently%20Asked%20Questions-CERT.pdf', 'Orange County, Open Burning FAQ')}; "
+                    f"{ext('https://library.municode.com/fl/sarasota_county/codes/code_of_ordinances?nodeId=PTIICOOR_CH54ENNARE_ARTVAISOPO', 'Sarasota County Code §54-116')}. "
                     "Manatee, Osceola, Lake, Seminole and Polk counties were not confirmed to the same level of detail; call the local fire marshal's office before finalizing a location close to the house.")
             + "<p>Both counties also require the fire to be constantly attended by someone with a garden hose or another fire extinguishing "
               "tool within reach until it is fully out, and both give the local fire official authority to order any fire extinguished when "
@@ -155,11 +158,11 @@ def p_fire_pit_on_pavers_florida():
             "pad, often with a different paver pattern, a gravel surround or a low seat wall ringing it, reads as a distinct zone and works "
             "better where the main patio already has a dining or lounge layout that a fire feature would otherwise compete with for space.</p>"),
         sec("What Does an HOA Typically Ask About a Fire Pit?",
-            f"<p>A fixed, built-in fire feature is exactly the kind of permanent improvement most architectural review committees want to see "
-            f"before it goes in, since it changes the yard's landscape plan and sits in view from neighboring lots more often than a portable "
-            f"unit does. {post('hoa-approval-for-pavers-and-concrete', 'Our guide to HOA approval for pavers and concrete')} covers what that "
-            f"review typically asks to see, and a portable propane fire table, since it is not a permanent structure, is less likely to trigger "
-            "the same review in most communities, though that is a question for the specific declaration rather than a rule that holds everywhere.</p>"),
+            f"<p>A fixed, built-in fire feature changes the yard's landscape plan and stays visible from neighboring lots year-round, which "
+            f"puts it on most architectural committees' submission list well before the first fire is lit. A portable propane fire table is "
+            f"less likely to need the same paperwork in most communities, since it reads as furniture rather than a permanent structure, "
+            f"though that line is set by the specific declaration, not a rule that holds everywhere. {post('hoa-approval-for-pavers-and-concrete', 'Our HOA approval guide')} "
+            "walks through what a submission package for a permanent yard feature typically includes.</p>"),
     ])
     faqs = [faq("How close to the house can a fire pit be built?",
                 "It depends on whether the local rule treats it as a contained fire. Orange County sets a 25-foot setback from any structure for an open fire, though the 3-by-2-foot size cap does not apply once the fire burns inside an outdoor fireplace, grill or barbecue pit. Sarasota County allows a contained fire pit, fire bowl or chiminea, termed a warming type container, to sit as close as about 10 feet. Other counties in our service areas were not confirmed to the same detail, so a call to the local fire marshal is worth it before the location is final."),
@@ -185,7 +188,9 @@ def p_fire_pit_on_pavers_florida():
                         "grill or barbecue pit, and Sarasota County allows a contained fire pit as close as about 10 feet, as of October 2026. "
                         "A gas line needs a licensed plumbing or gas contractor; a portable propane unit does not."),
                 body, faqs=faqs,
-                sources=["orange-open-burning-faq", "sarasota-county-54-116-open-burning", "icpi-ts3"],
+                sources=["icpi-ts3",
+                         ("Orange County, Open Burning FAQ", "https://www.orangecountyfl.net/Portals/0/Library/Environment/docs/Open%20Burning%20Frequently%20Asked%20Questions-CERT.pdf"),
+                         ("Sarasota County Code §54-116, Open Burning", "https://library.municode.com/fl/sarasota_county/codes/code_of_ordinances?nodeId=PTIICOOR_CH54ENNARE_ARTVAISOPO")],
                 related=related, crumbs=[("Blog", "/blog/")], published="2026-10-01", service="paver-patios",
                 image=pid, form=False)
 
@@ -228,9 +233,10 @@ def p_backyard_putting_green_florida():
         sec("Where Can a Putting Green Go Relative to a Pond, a Pool or a Property Line?",
             "<p>A backyard pond, a retention area or a canal edge brings the same water-setback rule into play that applies to any synthetic "
             "turf: the state standard requires turf to stay at least 10 feet back from a natural or constructed waterbody's water line unless "
-            f"a seawall or similar barrier already separates the two ({src('rule62-308-100-text', 'DEP Rule 62-308.100')}). The rule also bars "
-            "turf inside a tree's drip line unless a certified arborist signs off that installing it will not harm the roots, worth checking "
-            "before a green's layout is drawn around a mature oak or live oak at the edge of the yard. Property-line setbacks for a putting "
+            f"a seawall or similar barrier already separates the two ({src('rule62-308-100-text', 'DEP Rule 62-308.100')}). A green drawn close "
+            "to a mature oak or live oak runs into the same rule's tree-root protection, which keeps synthetic turf out from under a tree's "
+            "canopy edge except where a certified arborist signs off that the installation will not damage what is growing underneath. "
+            "Property-line setbacks for a putting "
             "green itself are a zoning question, not a turf-rule one, and vary by jurisdiction the way any other yard improvement's setback "
             f"does; {post('hoa-approval-for-pavers-and-concrete', 'our HOA approval guide')} is worth a read if the lot sits in a community "
             "with its own architectural review.</p>"),
@@ -298,7 +304,7 @@ def p_side_yard_ideas_florida():
         sec("Are Pavers Allowed in a Side-Yard Easement?",
             "<p>Often not, or only with the easement holder's sign-off, since a paved surface can block the access a utility or the county "
             "needs to maintain what runs underneath it. Sarasota County's drainage easement rule is explicit on this point for residential "
-            f"lots: no walkway, driveway or other paved surface may be located in the easement at all ({src('sarasota-county-row-permit', 'Sarasota County Code')}). "
+            f"lots: no walkway, driveway or other paved surface may be located in the easement at all ({src('sarasota-county-124-255-culverts', 'Sarasota County Code')}). "
             "A removable or permeable surface, large-format stepping stones set with open joints rather than a continuously bonded paver field, "
             "is sometimes acceptable where a solid surface is not, because it still allows the ground underneath to be reached if a line ever "
             "needs repair; confirming that with the specific easement holder, not assuming it, is the safer order of operations. Gravel and "
@@ -362,7 +368,7 @@ def p_side_yard_ideas_florida():
                         "feature, and some counties bar paved surfaces from a drainage easement outright, as of October 2026, which narrows "
                         "the material choice more than the side yard's width does."),
                 body, faqs=faqs,
-                sources=["rule62-308-100-text", "sarasota-county-row-permit", "sanford-schedule-f"],
+                sources=["rule62-308-100-text", "sarasota-county-124-255-culverts", "sanford-schedule-f"],
                 related=related, crumbs=[("Blog", "/blog/")], published="2026-10-01", service="artificial-turf",
                 image=pid, form=False)
 
@@ -469,7 +475,8 @@ def p_retaining_wall_ideas_florida_yards():
             "change, which is why most seat walls skip the drainage column a true retaining wall needs behind its face. The standard comfort "
             "range for a seat wall's height runs from about 18 to 24 inches, close to a dining chair's seat height, with a cap at least 12 "
             "inches wide so two people can share it without crowding, and a wall built closer to 24 inches than 18 generally needs a backrest "
-            f"or a taller planting bed behind it to feel finished rather than exposed ({src('landscapingnetwork-seat-walls', 'Landscaping Network, seat walls')}). "
+            f"or a taller planting bed behind it to feel finished rather than exposed "
+            f"({ext('https://www.landscapingnetwork.com/walls/seat-walls.html', 'Landscaping Network, seat walls')}). "
             f"A seat wall built around a {post('fire-pit-on-pavers-florida', 'fire pit')} is one of the most common pairings in both service "
             "areas, since it gives a fire feature fixed seating without adding furniture that has to be pulled back from the heat every time "
             "the pit is lit.</p>"),
@@ -533,7 +540,7 @@ def p_retaining_wall_ideas_florida_yards():
                         "tall wall, as of October 2026. Lake County's Clermont ridge sees more of this work than flatter towns nearby because "
                         "of its genuinely hilly terrain."),
                 body, faqs=faqs,
-                sources=["landscapingnetwork-seat-walls"],
+                sources=[("Landscaping Network, seat walls", "https://www.landscapingnetwork.com/walls/seat-walls.html")],
                 related=related, crumbs=[("Blog", "/blog/")], published="2026-10-01", service="retaining-walls",
                 image=pid, form=False)
 

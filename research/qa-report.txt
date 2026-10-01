@@ -1,9 +1,10 @@
-pages: 200
+pages: 248
 FAIL: 0
-WARN: 56
+WARN: 57
 
 
 WARN  density 'artificial turf' 6.9%: /404/
+WARN  density 'pavers' 3.7%: /blog/
 WARN  density 'concrete driveway' 5.0%: /compare/
 WARN  density 'pavers' 13.4%: /compare/
 WARN  density 'pavers' 4.8%: /blog/permeable-pavers-and-drainage-florida/
@@ -19,43 +20,43 @@ WARN  inlinks 2 < 3: /faq/artificial-turf/
 WARN  inlinks 1 < 3: /faq/concrete/
 WARN  inlinks 1 < 3: /faq/pavers/
 WARN  inlinks 0 < 3: /terms/
-WARN  sentence on 5 pages: "why a paver patios base isnt the same as a driveways patios and driveways both sit on a co" e.g. ['/clermont-fl/paver-patios/', '/kissimmee-fl/paver-patios/', '/lakewood-ranch-fl/paver-patios/']
-WARN  sentence on 5 pages: "why a patios base doesnt need a driveways depth a patio never carries a cars rolling weigh" e.g. ['/clermont-fl/concrete-patios/', '/kissimmee-fl/concrete-patios/', '/lakewood-ranch-fl/concrete-patios/']
-WARN  sentence on 5 pages: "whats different around a pool is how much more moisture the base near the waters edge sees" e.g. ['/clermont-fl/pool-deck-pavers/', '/kissimmee-fl/pool-deck-pavers/', '/lakewood-ranch-fl/pool-deck-pavers/']
-WARN  sentence on 5 pages: "what goes under artificial turf on florida soil floridas new turf rule treats the base as " e.g. ['/clermont-fl/artificial-turf/', '/kissimmee-fl/artificial-turf/', '/lakewood-ranch-fl/artificial-turf/']
-WARN  sentence on 5 pages: "what a flatwoods lot means for the subgrade much of greater orlando and the suncoast sits " e.g. ['/clermont-fl/concrete-driveways/', '/kissimmee-fl/concrete-driveways/', '/lakewood-ranch-fl/concrete-driveways/']
-WARN  sentence on 5 pages: "wet weak native soil will not compact to a stable subgrade no matter how long a plate comp" e.g. ['/clermont-fl/concrete-driveways/', '/kissimmee-fl/concrete-driveways/', '/lakewood-ranch-fl/concrete-driveways/']
-WARN  sentence on 5 pages: "we still compact that base in lifts and check it against 98 percent of standard proctor de" e.g. ['/clermont-fl/paver-patios/', '/kissimmee-fl/paver-patios/', '/lakewood-ranch-fl/paver-patios/']
-WARN  sentence on 5 pages: "we set that twodirection grade into the subgrade before any base goes down typically shapi" e.g. ['/clermont-fl/concrete-pool-decks/', '/kissimmee-fl/concrete-pool-decks/', '/lakewood-ranch-fl/concrete-pool-decks/']
-WARN  sentence on 5 pages: "that minimum isnt the end of the math on wet or poorly drained ground the same spec calls " e.g. ['/clermont-fl/paver-driveways/', '/kissimmee-fl/paver-driveways/', '/lakewood-ranch-fl/paver-driveways/']
-WARN  sentence on 5 pages: "that is workable ground for a driveway but only if we test it before pouring instead of as" e.g. ['/clermont-fl/concrete-driveways/', '/kissimmee-fl/concrete-driveways/', '/lakewood-ranch-fl/concrete-driveways/']
-WARN  sentence on 5 pages: "that is workable ground but only once the saturated layer is identified and removed rather" e.g. ['/clermont-fl/stamped-concrete/', '/kissimmee-fl/stamped-concrete/', '/lakewood-ranch-fl/stamped-concrete/']
-WARN  sentence on 5 pages: "slope has two jobs on a pool deck not just one a patio only needs to slope away from the h" e.g. ['/clermont-fl/concrete-pool-decks/', '/kissimmee-fl/concrete-pool-decks/', '/lakewood-ranch-fl/concrete-pool-decks/']
-WARN  sentence on 5 pages: "on flatwoods soils like myakka smyrna or eaugallie which hold a water table within 18 inch" e.g. ['/clermont-fl/concrete-patios/', '/kissimmee-fl/concrete-patios/', '/lakewood-ranch-fl/concrete-patios/']
-WARN  sentence on 5 pages: "icpi tech spec 2 calls for at least 4 inches of compacted base under a patio or walkway on" e.g. ['/clermont-fl/paver-patios/', '/kissimmee-fl/paver-patios/', '/lakewood-ranch-fl/paver-patios/']
-WARN  sentence on 5 pages: "flatwoods water tables under a stamped pool deck a stamped pool deck sits close to grade a" e.g. ['/clermont-fl/stamped-concrete/', '/kissimmee-fl/stamped-concrete/', '/lakewood-ranch-fl/stamped-concrete/']
-WARN  sentence on 5 pages: "dep rule 62308100 requires the subgrade under residential turf to be washed crushed rock o" e.g. ['/clermont-fl/artificial-turf/', '/kissimmee-fl/artificial-turf/', '/lakewood-ranch-fl/artificial-turf/']
-WARN  sentence on 5 pages: "base depth for a paver deck follows the patio spec not the driveway spec a paver pool deck" e.g. ['/clermont-fl/pool-deck-pavers/', '/kissimmee-fl/pool-deck-pavers/', '/lakewood-ranch-fl/pool-deck-pavers/']
-WARN  sentence on 5 pages: "a pool deck does that too but it also has to carry water toward deck drains or a perimeter" e.g. ['/clermont-fl/concrete-pool-decks/', '/kissimmee-fl/concrete-pool-decks/', '/lakewood-ranch-fl/concrete-pool-decks/']
-WARN  sentence on 5 pages: "a crew that quotes 6 inches for every lot skipped the step where someone checks the soil a" e.g. ['/clermont-fl/paver-driveways/', '/kissimmee-fl/paver-driveways/', '/lakewood-ranch-fl/paver-driveways/']
-WARN  sentence on 5 pages: "a compacted aggregate lift that still drains is the only way to keep the lawn from holding" e.g. ['/clermont-fl/artificial-turf/', '/kissimmee-fl/artificial-turf/', '/lakewood-ranch-fl/artificial-turf/']
-WARN  sentence on 3 pages: "ten criteria for choosing a concrete contractor covers the rest" e.g. ['/clermont-fl/', '/kissimmee-fl/', '/venice-fl/']
+WARN  sentence on 8 pages: "why a paver patios base isnt the same as a driveways patios and driveways both sit on a co" e.g. ['/clermont-fl/paver-patios/', '/kissimmee-fl/paver-patios/', '/lakewood-ranch-fl/paver-patios/']
+WARN  sentence on 8 pages: "why a patios base doesnt need a driveways depth a patio never carries a cars rolling weigh" e.g. ['/clermont-fl/concrete-patios/', '/kissimmee-fl/concrete-patios/', '/lakewood-ranch-fl/concrete-patios/']
+WARN  sentence on 8 pages: "whats different around a pool is how much more moisture the base near the waters edge sees" e.g. ['/clermont-fl/pool-deck-pavers/', '/kissimmee-fl/pool-deck-pavers/', '/lakewood-ranch-fl/pool-deck-pavers/']
+WARN  sentence on 8 pages: "what goes under artificial turf on florida soil floridas new turf rule treats the base as " e.g. ['/clermont-fl/artificial-turf/', '/kissimmee-fl/artificial-turf/', '/lakewood-ranch-fl/artificial-turf/']
+WARN  sentence on 8 pages: "what a flatwoods lot means for the subgrade much of greater orlando and the suncoast sits " e.g. ['/clermont-fl/concrete-driveways/', '/kissimmee-fl/concrete-driveways/', '/lakewood-ranch-fl/concrete-driveways/']
+WARN  sentence on 8 pages: "wet weak native soil will not compact to a stable subgrade no matter how long a plate comp" e.g. ['/clermont-fl/concrete-driveways/', '/kissimmee-fl/concrete-driveways/', '/lakewood-ranch-fl/concrete-driveways/']
+WARN  sentence on 8 pages: "we still compact that base in lifts and check it against 98 percent of standard proctor de" e.g. ['/clermont-fl/paver-patios/', '/kissimmee-fl/paver-patios/', '/lakewood-ranch-fl/paver-patios/']
+WARN  sentence on 8 pages: "we set that twodirection grade into the subgrade before any base goes down typically shapi" e.g. ['/clermont-fl/concrete-pool-decks/', '/kissimmee-fl/concrete-pool-decks/', '/lakewood-ranch-fl/concrete-pool-decks/']
+WARN  sentence on 8 pages: "that minimum isnt the end of the math on wet or poorly drained ground the same spec calls " e.g. ['/clermont-fl/paver-driveways/', '/kissimmee-fl/paver-driveways/', '/lakewood-ranch-fl/paver-driveways/']
+WARN  sentence on 8 pages: "that is workable ground for a driveway but only if we test it before pouring instead of as" e.g. ['/clermont-fl/concrete-driveways/', '/kissimmee-fl/concrete-driveways/', '/lakewood-ranch-fl/concrete-driveways/']
+WARN  sentence on 8 pages: "that is workable ground but only once the saturated layer is identified and removed rather" e.g. ['/clermont-fl/stamped-concrete/', '/kissimmee-fl/stamped-concrete/', '/lakewood-ranch-fl/stamped-concrete/']
+WARN  sentence on 8 pages: "slope has two jobs on a pool deck not just one a patio only needs to slope away from the h" e.g. ['/clermont-fl/concrete-pool-decks/', '/kissimmee-fl/concrete-pool-decks/', '/lakewood-ranch-fl/concrete-pool-decks/']
+WARN  sentence on 8 pages: "on flatwoods soils like myakka smyrna or eaugallie which hold a water table within 18 inch" e.g. ['/clermont-fl/concrete-patios/', '/kissimmee-fl/concrete-patios/', '/lakewood-ranch-fl/concrete-patios/']
+WARN  sentence on 8 pages: "icpi tech spec 2 calls for at least 4 inches of compacted base under a patio or walkway on" e.g. ['/clermont-fl/paver-patios/', '/kissimmee-fl/paver-patios/', '/lakewood-ranch-fl/paver-patios/']
+WARN  sentence on 8 pages: "flatwoods water tables under a stamped pool deck a stamped pool deck sits close to grade a" e.g. ['/clermont-fl/stamped-concrete/', '/kissimmee-fl/stamped-concrete/', '/lakewood-ranch-fl/stamped-concrete/']
+WARN  sentence on 8 pages: "dep rule 62308100 requires the subgrade under residential turf to be washed crushed rock o" e.g. ['/clermont-fl/artificial-turf/', '/kissimmee-fl/artificial-turf/', '/lakewood-ranch-fl/artificial-turf/']
+WARN  sentence on 8 pages: "base depth for a paver deck follows the patio spec not the driveway spec a paver pool deck" e.g. ['/clermont-fl/pool-deck-pavers/', '/kissimmee-fl/pool-deck-pavers/', '/lakewood-ranch-fl/pool-deck-pavers/']
+WARN  sentence on 8 pages: "a pool deck does that too but it also has to carry water toward deck drains or a perimeter" e.g. ['/clermont-fl/concrete-pool-decks/', '/kissimmee-fl/concrete-pool-decks/', '/lakewood-ranch-fl/concrete-pool-decks/']
+WARN  sentence on 8 pages: "a crew that quotes 6 inches for every lot skipped the step where someone checks the soil a" e.g. ['/clermont-fl/paver-driveways/', '/kissimmee-fl/paver-driveways/', '/lakewood-ranch-fl/paver-driveways/']
+WARN  sentence on 8 pages: "a compacted aggregate lift that still drains is the only way to keep the lawn from holding" e.g. ['/clermont-fl/artificial-turf/', '/kissimmee-fl/artificial-turf/', '/lakewood-ranch-fl/artificial-turf/']
+WARN  sentence on 5 pages: "ten criteria for choosing a concrete contractor covers the rest" e.g. ['/clermont-fl/', '/kissimmee-fl/', '/venice-fl/']
 WARN  sentence on 3 pages: "should you seal a concrete driveway in florida" e.g. ['/blog/', '/blog/should-you-seal-a-concrete-driveway-florida/', '/concrete-repair/']
 WARN  sentence on 3 pages: "how hot do pool decks get in florida" e.g. ['/blog/', '/blog/how-hot-do-pool-decks-get-florida/', '/stamped-concrete/']
 WARN  sentence on 3 pages: "a herringbonepattern paver driveway and walkway leading to a garage" e.g. ['/paver-driveway-cost/', '/paver-driveways/', '/paver-sealing/']
+WARN  sentence on 2 pages: "working around afternoon storms instead of through them central floridas rainy season typi" e.g. ['/venice-fl/concrete-driveways/', '/winter-garden-fl/concrete-driveways/']
+WARN  sentence on 2 pages: "without that drainage layer a planter holds water against its own structure the same way p" e.g. ['/kissimmee-fl/retaining-walls/', '/windermere-fl/retaining-walls/']
 WARN  sentence on 2 pages: "within a wet season or two the same crack usually reappears in almost the same spot right " e.g. ['/lakewood-ranch-fl/concrete-repair/', '/orlando-fl/concrete-repair/']
 WARN  sentence on 2 pages: "why theres no fixed shelf life printed on a sealer can paver sealers dont come with a guar" e.g. ['/clermont-fl/paver-sealing/', '/sarasota-fl/paver-sealing/']
+WARN  sentence on 2 pages: "why the stamping window closes faster on a hot afternoon concrete has to stay plastic enou" e.g. ['/bradenton-fl/stamped-concrete/', '/windermere-fl/stamped-concrete/']
 WARN  sentence on 2 pages: "why the sidewalk section at a driveway is often thicker than the rest several jurisdiction" e.g. ['/orlando-fl/concrete-walkways/', '/venice-fl/concrete-walkways/']
+WARN  sentence on 2 pages: "why the shed cant go up the same week as the pour curing has to continue for at least 3 da" e.g. ['/clermont-fl/concrete-slabs/', '/windermere-fl/concrete-slabs/']
+WARN  sentence on 2 pages: "why the saw comes out on a set interval not just by feel walkway concrete gets cut on roug" e.g. ['/lakewood-ranch-fl/concrete-walkways/', '/oviedo-fl/concrete-walkways/']
 WARN  sentence on 2 pages: "why the first visit is diagnosis not a quote for one method a repair job starts with figur" e.g. ['/bradenton-fl/concrete-repair/', '/orlando-fl/concrete-repair/']
+WARN  sentence on 2 pages: "why the first course sets up everything above it a segmental block wall starts with a tren" e.g. ['/orlando-fl/retaining-walls/', '/windermere-fl/retaining-walls/']
+WARN  sentence on 2 pages: "why the build gets more involved as the wall gets taller pricing by wall type tracks how m" e.g. ['/bradenton-fl/retaining-walls/', '/winter-garden-fl/retaining-walls/']
 WARN  sentence on 2 pages: "why the bedding sand layer is exactly one inch not an estimate between the compacted aggre" e.g. ['/bradenton-fl/paver-driveways/', '/kissimmee-fl/paver-driveways/']
-WARN  sentence on 2 pages: "why do pavers sink in florida and how is it fixed" e.g. ['/blog/', '/blog/why-pavers-sink-in-florida/']
-WARN  sentence on 2 pages: "why backfill goes in as the wall rises not all at once at the end backfilling happens in s" e.g. ['/kissimmee-fl/retaining-walls/', '/venice-fl/retaining-walls/']
-WARN  sentence on 2 pages: "why a stamped surface needs a wider fan tip than a driveway the grooves in a stamped patte" e.g. ['/bradenton-fl/stamped-concrete/', '/lakewood-ranch-fl/stamped-concrete/']
-WARN  sentence on 2 pages: "why a dog runs infill has to stay natural too a pet area doesnt get an exception to florid" e.g. ['/bradenton-fl/artificial-turf/', '/kissimmee-fl/artificial-turf/']
-WARN  sentence on 2 pages: "why a cutout panel needs its own base not a patch on the old one replacing a single damage" e.g. ['/kissimmee-fl/concrete-repair/', '/sarasota-fl/concrete-repair/']
-WARN  sentence on 2 pages: "why a 4inch slab isnt enough for a boat trailer a standard 4inch driveway is built for car" e.g. ['/bradenton-fl/concrete-driveways/', '/kissimmee-fl/concrete-driveways/']
-WARN  sentence on 2 pages: "where the tree is large enough to be regulated protection thresholds range from about 4 12" e.g. ['/kissimmee-fl/concrete-walkways/', '/sarasota-fl/concrete-walkways/']
-WARN  sentence on 2 pages: "when to reseal a paver patio icpis own technical guidance gives no fixed resealing interva" e.g. ['/bradenton-fl/paver-patios/', '/lakewood-ranch-fl/paver-patios/']
-WARN  sentence on 2 pages: "when that water table rises into the compacted base beneath a paver surface fines and sand" e.g. ['/clermont-fl/paver-sealing/', '/lakewood-ranch-fl/paver-sealing/']
-WARN  sentence on 2 pages: "when that happens middig the crew has to decide on the spot whether to shift the walkways " e.g. ['/kissimmee-fl/concrete-walkways/', '/venice-fl/concrete-walkways/']
-WARN  sentence on 2 pages: "what the turf itself is made of under floridas new rule residential turf sold and installe" e.g. ['/orlando-fl/artificial-turf/', '/venice-fl/artificial-turf/']
+WARN  sentence on 2 pages: "why stored equipment hides a pads joints from view a garage or shed pad used for storage t" e.g. ['/oviedo-fl/concrete-slabs/', '/venice-fl/concrete-slabs/']
+WARN  sentence on 2 pages: "why sealing cant fix a dip that starts in the base a sunken paver almost always points to " e.g. ['/orlando-fl/paver-sealing/', '/windermere-fl/paver-sealing/']
+WARN  sentence on 2 pages: "why resanding gets compacted before the sealer ever touches it dry or polymeric sand swept" e.g. ['/clermont-fl/paver-sealing/', '/windermere-fl/paver-sealing/']
+WARN  sentence on 2 pages: "why mudjacking grout and polyurethane foam dont suit the same soil mudjacking pumps a soil" e.g. ['/venice-fl/concrete-repair/', '/winter-garden-fl/concrete-repair/']
