@@ -50,12 +50,12 @@ HUB_FAQS = [
         "The community sits inside a county-approved Planned Development with its own design standards, on top of the standard permit review, so an exterior project here typically clears both the county's sign-off and the development's own architectural process."),
     faq("Is Avalon Park's concrete newer than other Orange County communities?",
         "Generally yes. The development has been building out since 1998, so most of its driveways, patios and pool decks are still under three decades old, younger than the typical home in several incorporated Orange County cities nearby."),
-    faq("What should a homeowner in Avalon Park confirm before hiring a contractor?",
-        f"Nail down whether the job needs the county's full building permit or the lighter zoning permit that covers pavers, ask how the quote accounts for the development's own design review on top of that, and run the company through the state's license search before signing. "
-        f"{post('how-to-choose-a-concrete-contractor-orlando', 'See our concrete-contractor guide')} for the rest of what a solid bid should include."),
+    faq("What should a homeowner in Avalon Park confirm before hiring a hardscape company?",
+        f"Nail down whether the job needs the county's full building permit or the lighter zoning permit that covers pavers, ask how the quote accounts for the development's own design review on top of that, and ask for a payment schedule that doesn't run ahead of the work before signing. "
+        f"{post('how-to-compare-concrete-and-paver-quotes', 'See our line-by-line quote guide')} for the rest of what a solid bid should include."),
 ]
 
-HUB = page("/avalon-park-fl/", "city", "Concrete, Pavers & Turf Contractor in Avalon Park, FL",
+HUB = page("/avalon-park-fl/", "city", "Concrete, Pavers & Turf Company in Avalon Park, FL",
            "Concrete, pavers and turf in Avalon Park, FL: Orange County's own permit rules, 250 acres of built-in lakes, and a 1998 planned-development layout, October 2026.",
            "Concrete, Pavers and Artificial Turf for Avalon Park Homes",
            capsule(f"Opera pours concrete and lays pavers and artificial turf for Avalon Park, a 1,860-acre unincorporated Orange County community east of Orlando built around a Town Center and roughly 250 acres of man-made lakes. "
@@ -76,7 +76,7 @@ LOCAL = {}
 # 1. concrete-driveways -------------------------------------------------------
 LOCAL["concrete-driveways"] = {
     "title": "Concrete Driveways in Avalon Park, FL",
-    "meta": "Concrete driveway contractors in Avalon Park, FL: Orange County's 6-inch, 3,000-psi apron spec, and the one-driveway-per-lot rule, October 2026.",
+    "meta": "Concrete driveway companies in Avalon Park, FL: Orange County's 6-inch, 3,000-psi apron spec, and the one-driveway-per-lot rule, October 2026.",
     "h1": "Pouring a Concrete Driveway in Avalon Park",
     "lede": capsule(f"A concrete driveway in Avalon Park falls in the {price('concrete-driveway')} per {per('concrete-driveway')} market range this October. "
                      "Because the community sits in unincorporated Orange County, every driveway permit runs through the county's own Division of Building Safety rather than a town building department."),

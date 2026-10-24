@@ -30,7 +30,7 @@ SRC = [
 
 HUB = page(
     "/ellenton-fl/", "city",
-    "Concrete & Paver Contractor in Ellenton, FL",
+    "Concrete & Paver Company in Ellenton, FL",
     "Opera pours concrete and sets pavers in Ellenton, FL, unincorporated Manatee County, where LDC Sec. 1004.2 covers the apron and a plain patio skips a permit.",
     "Concrete, Pavers and Turf for Ellenton Homes",
     capsule(
@@ -104,8 +104,8 @@ HUB = page(
             "Given how much of the CDP sits along the tidal Manatee River and how low the average elevation runs, it's worth checking. FEMA's Flood Map Service Center at msc.fema.gov returns the specific AE or VE designation for a parcel."
         ),
         faq(
-            "How do you pick the best concrete contractor for an Ellenton project?",
-            "Confirm the contractor on the state's license-verification tool, ask whether the quote accounts for the county's access and drainage permit rather than a city process, and check how the base plan handles Ellenton's low-lying, flatwoods soil. " + post("how-to-choose-a-concrete-contractor-sarasota", "Our contractor guide") + " covers the rest."
+            "How do you pick the best concrete company for an Ellenton project?",
+            "Look the business up on Sunbiz, ask whether the quote accounts for the county's access and drainage permit rather than a city process, and check how the base plan handles Ellenton's low-lying, flatwoods soil. " + post("manatee-county-driveway-permits", "Our Manatee County permit guide") + " covers the county process."
         ),
     ],
     sources=SRC, city=SLUG,

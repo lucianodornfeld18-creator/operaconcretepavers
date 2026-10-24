@@ -106,7 +106,7 @@ def per(key):
 
 
 def price_note():
-    return f"{PRICE_LABEL}, {PRICE_DATE}, compiled from published contractor pricing and national cost guides. A written quote follows a site visit."
+    return f"{PRICE_LABEL}, {PRICE_DATE}, compiled from published installer pricing and national cost guides. A written quote follows a site visit."
 
 
 def offer(key):

@@ -67,7 +67,7 @@ def driveway_cost():
                   "Base depth and what gets compacted before the pour, not just that a base exists",
                   "Demolition and haul-off as a separate, itemized line if an old driveway is coming out",
                   "Who applies for the right-of-way or engineering permit, and whether the fee is in the price",
-                  f"Whether sealing is included; it's typically $1 to $3 per square foot extra in national data when it's added on, separate from the base concrete price. Florida's lien law requires a recorded Notice of Commencement on any project over $2,500 ({src('fs713-13', 'F.S. 713.13')}), and a contractor who collects more than a 10% deposit has specific permitting and start-date obligations under {src('fs489-126', 'F.S. 489.126')}"])),
+                  f"Whether sealing is included; it's typically $1 to $3 per square foot extra in national data when it's added on, separate from the base concrete price. Florida's lien law requires a recorded Notice of Commencement on any project over $2,500 ({src('fs713-13', 'F.S. 713.13')}), and the payment schedule shouldn't run ahead of the work it pays for"])),
         sec("Related reading",
             f"<p>For the install itself, see {svc('concrete-driveways', 'our concrete driveways page')}, which covers thickness, control joints and the step-by-step process. If a slab versus pavers is still an open question, {compare('pavers-vs-concrete-driveway', 'our pavers vs. concrete driveway comparison')} and {compare('concrete-driveway-finishes', 'broom vs. exposed aggregate vs. stamped')} go through the trade-offs. "
             f"A driveway that's holding up but showing cracks might not need a full replacement; {compare('resurface-vs-replace-concrete', 'resurface or replace a concrete driveway')} and {post('concrete-driveway-cracks-florida', 'which cracks are normal in Florida')} cover that decision. "
@@ -79,7 +79,7 @@ def driveway_cost():
         faq("How much more does a stamped or colored driveway cost than plain gray?",
             "Roughly double. HomeGuide's tiers run $6 to $10 per square foot for standard plain gray concrete up to $20 to $25 or more for high-end, multi-color stamped work, with basic color or texture and mid-range stamped patterns in between. The jump comes from labor time and materials, not the base concrete itself."),
         faq("Is a per-square-foot price enough to compare two driveway bids?",
-            "Not on its own. Two bids at the same per-square-foot number can describe different jobs if one includes demolition, a thicker 6-inch section or rebar and the other doesn't. Ask each contractor to itemize thickness, reinforcement, base depth and who pulls the permit before comparing totals."),
+            "Not on its own. Two bids at the same per-square-foot number can describe different jobs if one includes demolition, a thicker 6-inch section or rebar and the other doesn't. Ask each company to itemize thickness, reinforcement, base depth and who pulls the permit before comparing totals."),
         faq("How much does demolition add to a driveway replacement in Florida?",
             "National data puts removal of an old driveway at $2 to $6 per square foot, and Orlando's published figures run a bit higher at $5 to $8 per square foot including haul-off. For a typical 400-square-foot two-car driveway, that's roughly $800 to $3,200 added to the new-pour price."),
         faq("Why do some quotes price concrete by the cubic yard and others by the square foot?",
@@ -92,7 +92,7 @@ def driveway_cost():
                 capsule(f"As of {PRICE_DATE}, a new concrete driveway in Florida runs {price(pk)} per square foot installed, with most jobs landing nearer {price(pk, True)} ({src('homeguide-concrete-driveway', 'HomeGuide')}). "
                         "A 400 square foot two-car driveway works out to roughly $2,400 to $6,000 before demolition, which typically adds $800 to $3,200 more on a replacement."),
                 body, faqs=faqs,
-                sources=["homeguide-concrete-driveway", "homeguide-stamped", "angi-driveway-orlando", "angi-driveway-tampa", "promatcher-driveways-sarasota", "fs713-13", "fs489-126"],
+                sources=["homeguide-concrete-driveway", "homeguide-stamped", "angi-driveway-orlando", "angi-driveway-tampa", "promatcher-driveways-sarasota", "fs713-13"],
                 crumbs=[("Cost guides", "/cost/")], crumb="Concrete driveway cost", service=K, form=True,
                 hero_photo=pids[0] if pids else None, offer=offer(pk), eyebrow="Cost guide")
 
@@ -286,7 +286,7 @@ def pool_deck_cost():
     body = "".join([
         sec("How much does a pool deck cost in Florida?",
             f"<p>Pool deck pricing spreads wider than almost any other project here because the choices run from a coating sprayed over an existing slab to a full travertine rebuild. HomeGuide's material-by-material breakdown puts poured concrete at $5 to $15 per square foot, stamped concrete at $8 to $19, concrete pavers at $10 to $17 and natural stone at $16 to $35 "
-            f"({src('homeguide-pool-deck', 'HomeGuide, Dec 2025')}). A Central Florida pool-resurfacing contractor's own published pricing lines up close to that for the lower tiers: acrylic or Kool Deck-style coatings at $3 to $6 per square foot and a spray-deck overlay at $4 to $8 ({src('poolmechanic-pooldeck-cfl', 'Pool Mechanic, Jul 2026')}). "
+            f"({src('homeguide-pool-deck', 'HomeGuide, Dec 2025')}). A Central Florida pool-resurfacing company's own published pricing lines up close to that for the lower tiers: acrylic or Kool Deck-style coatings at $3 to $6 per square foot and a spray-deck overlay at $4 to $8 ({src('poolmechanic-pooldeck-cfl', 'Pool Mechanic, Jul 2026')}). "
             "As of October 2026, the plain poured-concrete option sits at the lower end of that spread, with travertine and natural stone at the top.</p>"),
         sec("Pool deck surfaces compared, by size",
             "<p>Because a deck can be resurfaced, overlaid or fully rebuilt in several materials, the size table below runs the common 800 and 1,200 square-foot bands a Pool Mechanic guide for Central Florida uses, next to the arithmetic for a new poured-concrete, stamped or paver deck built to the Florida market ranges on this site.</p>"
@@ -297,18 +297,18 @@ def pool_deck_cost():
                      ["Stamped concrete deck", "$8–$19", "$6,400–$15,200", "$9,600–$22,800"],
                      ["Concrete pavers", "$10–$17", "$8,000–$13,600", "$12,000–$20,400"],
                      ["Travertine pavers", "$13–$30", "$10,400–$24,000", "$15,600–$36,000"]],
-                    f"Coating and spray-deck totals from a Central Florida contractor's published 800–1,200 sq ft bands ({src('poolmechanic-pooldeck-cfl', 'Pool Mechanic')}); the other four rows are arithmetic on the Florida market ranges, {PRICE_DATE}. Removing an old deck adds roughly $5 per square foot on top of any row.")),
+                    f"Coating and spray-deck totals from a Central Florida installer's published 800–1,200 sq ft bands ({src('poolmechanic-pooldeck-cfl', 'Pool Mechanic')}); the other four rows are arithmetic on the Florida market ranges, {PRICE_DATE}. Removing an old deck adds roughly $5 per square foot on top of any row.")),
         sec("How much does a travertine pool deck cost?",
             f"<p>A travertine pool deck runs $13 to $30 per square foot installed, with most 400 to 1,000 square foot decks totaling $5,200 to $30,000 depending on size and stone grade ({src('homeguide-travertine', 'HomeGuide, Apr 2026')}). "
-            f"A Florida contractor's own pricing puts a 1,000 square foot travertine pool deck at roughly $22,000 to $28,000, inside that national band but on the higher side, reflecting the cost of imported stone and more detailed cutting around curves and the pool coping ({src('craftpavers-fl-pricing', 'Craft Pavers, Jul 2026')}). "
+            f"A Florida installer's own pricing puts a 1,000 square foot travertine pool deck at roughly $22,000 to $28,000, inside that national band but on the higher side, reflecting the cost of imported stone and more detailed cutting around curves and the pool coping ({src('craftpavers-fl-pricing', 'Craft Pavers, Jul 2026')}). "
             "Bullnose coping, the rounded edge piece that caps the pool's edge, typically runs $20 to $40 per linear foot on top of the deck price, and sealing travertine afterward adds $1 to $3 per square foot.</p>"),
         sec("How much does it cost to resurface a pool deck in Florida?",
             "<p>Resurfacing an old deck instead of tearing it out costs a fraction of a new pour, with the price scaling to how decorative the finish is. "
             f"HomeGuide's national resurfacing tiers run basic at $3 to $6 per square foot, decorative at $6 to $12, and a stamped resurfacing overlay at $7 to $20 ({src('homeguide-pool-deck-resurfacing', 'HomeGuide, Jul 2025')}). "
-            "A Central Florida contractor quotes similar numbers for the region specifically: acrylic and Kool Deck-style coatings at $3 to $6 per square foot, and a thicker spray-deck or micro-topping overlay at $4 to $8, with an 800 to 1,200 square foot deck landing around $2,400 to $7,200 for the acrylic option and $3,200 to $9,600 for the spray-deck option.</p>"),
+            "A Central Florida installer quotes similar numbers for the region specifically: acrylic and Kool Deck-style coatings at $3 to $6 per square foot, and a thicker spray-deck or micro-topping overlay at $4 to $8, with an 800 to 1,200 square foot deck landing around $2,400 to $7,200 for the acrylic option and $3,200 to $9,600 for the spray-deck option.</p>"),
         sec("How much does it cost to put pavers over an existing pool deck?",
             f"<p>Installing pavers over an existing pool deck runs close to a new paver install, roughly {price('pool-deck-pavers')} per square foot, without the cost of fully demolishing the old slab first. "
-            f"HomeGuide's broader paver-patio data puts pavers specifically laid around a pool at $12 to $25 per square foot, or $5,000 to $20,000 total depending on the deck's size ({src('homeguide-paver-patio', 'HomeGuide, Sep 2024')}), and a Central Florida pool-resurfacing contractor quotes concrete pavers over an existing slab at $8 to $15 per square foot installed ({src('poolmechanic-pooldeck-cfl', 'Pool Mechanic')}). "
+            f"HomeGuide's broader paver-patio data puts pavers specifically laid around a pool at $12 to $25 per square foot, or $5,000 to $20,000 total depending on the deck's size ({src('homeguide-paver-patio', 'HomeGuide, Sep 2024')}), and a Central Florida pool-resurfacing company quotes concrete pavers over an existing slab at $8 to $15 per square foot installed ({src('poolmechanic-pooldeck-cfl', 'Pool Mechanic')}). "
             "The main thing an overlay-style paver install skips is the roughly $5 per square foot that full removal of the old deck would otherwise add, since the old slab stays in place as the base.</p>"),
         sec("What moves a pool deck quote",
             "<p>Beyond the base material choice, these line items separate bids on the same deck:</p>"
@@ -321,7 +321,7 @@ def pool_deck_cost():
                     "Drivers compiled from HomeGuide, Pool Mechanic and the Florida building facts cited on this page.")),
         sec("Two pool deck budgets, worked through",
             "<p>Say you have an 800-square-foot Kool Deck-style deck near Lake Nona that's faded and chalky but structurally sound, with no cracks that need section replacement. Resurfacing with a fresh acrylic coating runs roughly $2,400 to $4,800, far less than tearing the deck out and starting over.</p>"
-            "<p>Say instead you have a 1,000-square-foot original pool deck on a coastal Sarasota or Manatee lot where salt air has been rough on the existing surface, and the plan is a full switch to travertine. At published Florida contractor pricing, that's roughly $22,000 to $28,000 for the field, plus bullnose coping around the pool's edge at $20 to $40 per linear foot and a sealer coat after installation.</p>"),
+            "<p>Say instead you have a 1,000-square-foot original pool deck on a coastal Sarasota or Manatee lot where salt air has been rough on the existing surface, and the plan is a full switch to travertine. At published Florida installer pricing, that's roughly $22,000 to $28,000 for the field, plus bullnose coping around the pool's edge at $20 to $40 per linear foot and a sealer coat after installation.</p>"),
         sec("Saving money without cutting the base or the slope",
             "<p>A pool deck's base and its slope toward the drains are not the places to economize; a flat or under-built deck holds water and that water finds its way into cracks faster than a dry deck ever would. Real savings sit elsewhere:</p>"
             + ul(["Resurface or overlay a sound old deck instead of a full tear-out when the slab underneath is structurally fine; the savings over full replacement runs into thousands of dollars.",
@@ -342,7 +342,7 @@ def pool_deck_cost():
     ])
     faqs = [
         faq("How much does a travertine pool deck cost?",
-            "Travertine pool decks run $13 to $30 per square foot installed, and a 1,000-square-foot deck in published Florida contractor pricing runs roughly $22,000 to $28,000. Bullnose coping around the pool's edge adds $20 to $40 per linear foot on top of that field price."),
+            "Travertine pool decks run $13 to $30 per square foot installed, and a 1,000-square-foot deck in published Florida installer pricing runs roughly $22,000 to $28,000. Bullnose coping around the pool's edge adds $20 to $40 per linear foot on top of that field price."),
         faq("How much does it cost to resurface a pool deck in Florida?",
             "A basic acrylic or Kool Deck-style resurfacing runs $3 to $6 per square foot, and a decorative or spray-deck overlay runs $4 to $12. An 800-square-foot deck lands around $2,400 to $7,200 for the basic option, well under the cost of a full tear-out and new pour."),
         faq("How much does it cost to put pavers over an existing pool deck?",

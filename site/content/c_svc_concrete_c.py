@@ -15,8 +15,8 @@ def slabs():
             "<p>A concrete slab, in the sense this page means it, is a flat pour that supports something sitting on the ground rather than a room "
             "people live in: a shed floor, a carport or detached-garage floor, a pad for an HVAC condenser, pool pump or portable generator, or a "
             "parking pad for an RV or boat trailer. We also pour the slab for a garage or small addition, working from plans an engineer or "
-            "designer has already drawn. What this doesn't cover is the structural foundation for a new, habitable room; that falls under the "
-            f"state-certified structural masonry specialty contractor category rather than ordinary accessory flatwork ({src('fac61g4-15-100', 'Fla. Admin. Code R. 61G4-15.100')}). "
+            "designer has already drawn. What this doesn't cover is the structural foundation for a new, habitable room, which is engineered "
+            "structural work rather than ordinary accessory flatwork. "
             f"For a driveway specifically, see {svc('concrete-driveways', 'our concrete driveway page')}; for a back patio, {svc('concrete-patios', 'concrete patios')}.</p>"
             + (photo(pids[0], "A broad concrete driveway runs up to a house with two garage doors.") if pids else "")),
         sec("Thickness, strength and reinforcement: it depends on what sits on the slab",
@@ -93,7 +93,7 @@ def slabs():
             f"than on the square footage alone. The {a('/concrete-slab-cost/', 'concrete slab cost guide')} works through sizes from a small generator "
             "pad to a full garage floor.</p>"),
         sec("Permits: when a pad needs one, and when HB 803 covers it",
-            "<p>Since July 1, 2026, Florida law exempts single-family homeowners and their contractors from a local building permit for work "
+            "<p>Since July 1, 2026, Florida law exempts single-family homeowners, and the crews they hire, from a local building permit for work "
             "valued under $7,500, as long as the scope isn't structural and the property isn't in a flood-hazard area, which covers a fair "
             f"number of shed, generator and small parking pads, though it still requires filing a written exemption request ({src('orlando-hb803-guide', 'City of Orlando HB 803 guide')}). "
             "A garage addition slab tied into the house's structure is a different case, far more likely to need the full permit and inspection "
@@ -120,14 +120,14 @@ def slabs():
             f"cracking along a joint elsewhere, since the first points to a load the slab wasn't sized for; {svc('concrete-repair', 'our concrete repair service')} "
             "covers what to do once a pad is actually settling rather than just aging.</p>"
             + (photo(pids[2], "Clean, broom-finished concrete with cut control joints running toward a garage.") if len(pids) > 2 else "")),
-        sec("How do you pick the right contractor for a slab pour?",
-            "<p>Searching for a concrete slab contractor near me mostly turns up driveway specialists; a smaller pad still deserves the same questions.</p>"
+        sec("How do you pick the right crew for a slab pour?",
+            "<p>Searching for a concrete slab company near me mostly turns up driveway specialists; a smaller pad still deserves the same questions.</p>"
             + ul(["Ask for the thickness and strength in writing, tied to what will actually sit on the pad, not a generic number.",
                   "Confirm whether the pad needs a permit, and if it falls under the HB 803 exemption, who files the written request.",
                   "For a garage addition tied into the house, confirm the scope is treated as structural work with the sign-off that requires.",
-                  f"Check a contractor doing structural masonry work against the {src('dbpr-search', 'DBPR license search')}; driveway and pad flatwork alone sits outside that requirement.",
+                  "Ask for a certificate of insurance sent directly by the insurance agent, and a payment schedule that doesn't run ahead of the pour.",
                   "Ask how the crew handles a pad with no direct truck access, since that usually means a pump or wheelbarrow relay and a longer day."])
-            + f"<p>{post('how-to-choose-a-concrete-contractor-orlando', 'Our Orlando concrete contractor checklist')} and "
+            + f"<p>{post('shed-slab-guide-florida', 'Our shed slab guide')} and "
               f"{post('sinkholes-and-settlement-central-florida', 'sinkholes vs. normal settlement in Central Florida')} go further into questions worth asking before a pour.</p>"),
         sec("Where we pour slabs",
             f"<p>We pour slabs across Greater Orlando and Sarasota–Manatee, each quoted by the crew that knows that county's permit desk. "
@@ -142,7 +142,7 @@ def slabs():
             faq("How do you keep a slab from settling in sandy Florida soil?",
                 "By treating the subgrade as its own step, not an afterthought: removing soft or saturated native soil, bringing in compacted fill in shallow lifts, and grading the finished pad to shed water away from its own edges. Flatwoods soils with a shallow seasonal water table and loose ridge sands both need that same compaction discipline, just for different reasons."),
             faq("Do you pour house foundations or room additions?",
-                "We pour the slab portion of a garage or small addition from an engineer's or designer's plans, but a full habitable-room foundation falls under Florida's state-certified structural masonry specialty contractor scope rather than ordinary accessory flatwork. We'll tell you plainly when a project needs that engineered path instead of a standard pad."),
+                "We pour the slab portion of a garage or small addition from an engineer's or designer's plans, but a full habitable-room foundation is engineered structural work rather than ordinary accessory flatwork, with its own design and permit path. We'll tell you plainly when a project needs that engineered path instead of a standard pad."),
             faq("What is the smallest slab or job you will take?",
                 "A single generator pad or a small shed floor is a normal job for us, though the cost per square foot runs higher on a small pour than a large one, since forming, mobilization and a minimum crew day cost about the same whether the slab is 60 sq ft or 600. Ask for a quote and we'll tell you honestly if a job is too small to be worth scheduling a crew for.")]
     return page("/concrete-slabs/", "service", "Concrete Slab Installation | Orlando & Sarasota, FL",
@@ -153,9 +153,9 @@ def slabs():
                         "data, with thickness and base work doing more to decide cost than square footage alone. We pour accessory pads and slabs "
                         "across Greater Orlando and Sarasota–Manatee."),
                 body, faqs=faqs,
-                sources=["fac61g4-15-100", "fbcr-2020-ch4", "fbcr-2020-ch5", "nrmca-cip6", "nrmca-cip12", "nrmca-cip5", "nrcs-myakka-osd", "nrcs-candler-osd",
+                sources=["fbcr-2020-ch4", "fbcr-2020-ch5", "nrmca-cip6", "nrmca-cip12", "nrmca-cip5", "nrcs-myakka-osd", "nrcs-candler-osd",
                          "homeguide-concrete-slab", "angi-slab-orlando", "orlando-hb803-guide", "kissimmee-permit-types", "orlando-res-requirements",
-                         "manatee-no-permit-list", "fs713-13", "fs720-3035", "dbpr-search"],
+                         "manatee-no-permit-list", "fs713-13", "fs720-3035"],
                 related=[("/concrete-slab-cost/", "concrete slab cost guide"), ("/compare/resurface-vs-replace-concrete/", "resurface or replace concrete"),
                          ("/compare/concrete-driveway-finishes/", "concrete driveway finishes compared"),
                          ("/blog/shed-slab-guide-florida/", "shed slabs in Florida"), ("/blog/concrete-pad-for-rv-or-boat-parking/", "RV and boat parking pads"),
@@ -275,13 +275,13 @@ def repair():
             "the replaced section is new. We set this expectation before the job starts rather than after, since a structurally sound repair "
             "that's visibly newer than its surroundings is still a successful repair.</p>"
             + (photo(pids[2], "A broad concrete driveway runs up to a house with two garage doors.") if len(pids) > 2 else "")),
-        sec("How do you choose the right repair, and the right contractor, for a damaged slab?",
+        sec("How do you choose the right repair, and the right company, for a damaged slab?",
             "<p>Searching for concrete repair near me usually returns a mix of driveway installers and dedicated leveling companies; a few "
             "questions sort out which one actually fits the problem.</p>"
             + ul(["Ask for a diagnosis before a method. A quote for resurfacing or mudjacking written before anyone checks for a void or confirms a crack has stopped moving is a guess with a price attached.",
                   "For a sunken panel, ask whether mudjacking or polyjacking is recommended and why; the soil underneath, not personal preference, should drive that choice.",
                   "Get the cut-out panel's thickness, strength and dowel detail in writing if replacement is recommended, not just a square-footage price.",
-                  f"Check a repair contractor's standing on the {src('dbpr-search', 'DBPR license search')} if the scope includes structural work beyond ordinary flatwork repair.",
+                  "Ask for the company's certificate of insurance, sent by its insurance agent, before any panel gets lifted or cut out.",
                   "Ask directly whether the same spot has failed before on this driveway or patio, since a repeat failure usually points to an uncorrected drainage cause, not a weak original repair."])
             + f"<p>{post('should-you-seal-a-concrete-driveway-florida', 'Should you seal a concrete driveway in Florida?')} and "
               f"{post('rust-and-irrigation-stains-on-concrete-pavers', 'removing rust and sprinkler stains')} cover the surface-care side of keeping "
@@ -312,7 +312,7 @@ def repair():
                 body, faqs=faqs,
                 sources=["angi-driveway-repair-orlando", "homeguide-mudjacking", "homeguide-polyjacking", "angi-mudjacking-orlando",
                          "homeguide-concrete-resurfacing", "nrcs-myakka-osd", "fs-627-706", "fl-senate-2011-104", "manatee-no-permit-list",
-                         "orange-do-i-need-permit", "fs713-13", "dbpr-search"],
+                         "orange-do-i-need-permit", "fs713-13"],
                 related=[("/concrete-repair-cost/", "concrete repair cost guide"), ("/compare/resurface-vs-replace-concrete/", "resurface or replace concrete"),
                          ("/blog/concrete-driveway-cracks-florida/", "why concrete cracks in Florida"),
                          ("/blog/tree-roots-under-driveway-florida/", "tree roots under a driveway"),

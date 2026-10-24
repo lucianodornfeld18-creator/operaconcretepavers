@@ -35,11 +35,11 @@ SRC = [
 HUB_BODY = "".join([
     sec("What triggers a building permit for a driveway, patio or pavers in Apopka?",
         f"<p>Apopka's own FAQ keeps the trigger broad, covering work to \"enlarge, alter, repair, move\" or otherwise change a structure "
-        f"({ext(BLDGFAQ_URL, 'the city\'s Building Permit FAQ')}), wording that reaches a new driveway, a patio slab or a paver installation the same way it reaches a room addition. The Building-Safety Department reviews the application at City Hall, 120 E Main Street, second floor, 407-703-1713, and anything calling for a state-registered architect or engineer, typically structural work rather than ordinary flatwork, goes through a separate plan review "
+        f"({ext(BLDGFAQ_URL, 'the city\'s Building Permit FAQ')}), wording that reaches a new driveway, a patio slab or a paver installation the same way it reaches a room addition. The Building-Safety Department reviews the application at City Hall, 120 E Main Street, second floor, 407-703-1713, and anything calling for an architect or engineer, typically structural work rather than ordinary flatwork, goes through a separate plan review "
         f"({ext(BLDGFAQ_URL, 'the city\'s Building Permit FAQ')}). Pricing starts at the going Florida range of {price('concrete-driveway')} per {per('concrete-driveway')} for a new concrete driveway, current this October 2026.</p>"),
     sec("How does Apopka calculate a permit fee?",
         f"<p>The city's own fee schedule sets the formula plainly: permits run \"$7.50 per $1,000 of actual contracted cost or construction cost/value, whichever is greater,\" with a $75 floor and, on new construction, a separate $50 non-refundable administrative charge "
-        f"({ext(FEE_URL, 'Apopka Permitting Fees')}). A $6,000 driveway replacement, for example, lands at roughly $75 under that formula before any plan-review add-on, while a larger job scales up with the contract price rather than a flat per-square-foot number. Applications route through the OpenGov online portal, open to homeowners and registered contractors alike "
+        f"({ext(FEE_URL, 'Apopka Permitting Fees')}). A $6,000 driveway replacement, for example, lands at roughly $75 under that formula before any plan-review add-on, while a larger job scales up with the contract price rather than a flat per-square-foot number. Applications route through the OpenGov online portal, open to homeowners and the companies they hire alike "
         f"({ext(PERMITTING_URL, 'Apopka Permitting')}).</p>"),
     sec("Who reviews the paving, drainage and right-of-way side of the job?",
         f"<p>Apopka's Engineering Division, also at 120 E Main Street, handles excavation permits, plan review and right-of-way permitting, plus review of stormwater drainage improvements tied to a project "
@@ -74,12 +74,12 @@ HUB_FAQS = [
     faq("Is Apopka's nursery industry still active today?",
         f"The \"Indoor Foliage Capital of the World\" title traces back to the fern and foliage trade that built up here over the past century, and the city still marks it each spring with the Apopka Art and Foliage Festival "
         f"({ext(FESTIVAL_URL, 'the 2026 festival proclamation')})."),
-    faq("How do you pick the best concrete contractor near Apopka?",
-        f"Check the contractor's status on the state's license-verification tool, confirm the bid already accounts for both a Building Division permit and, if the work touches the street, an Engineering Division review, and ask how the quote handles demolition of an existing slab. "
-        f"{post('how-to-choose-a-concrete-contractor-orlando', 'Our guide to choosing a concrete contractor')} covers the rest."),
+    faq("How do you pick the best concrete company near Apopka?",
+        f"Look the business up on Sunbiz to confirm it's an active company, confirm the bid already accounts for both a Building Division permit and, if the work touches the street, an Engineering Division review, and ask how the quote handles demolition of an existing slab. "
+        f"{post('how-to-compare-concrete-and-paver-quotes', 'Comparing quotes line by line')} covers the rest."),
 ]
 
-HUB = page("/apopka-fl/", "city", "Concrete, Pavers & Turf Contractor in Apopka, FL",
+HUB = page("/apopka-fl/", "city", "Concrete, Pavers & Turf Company in Apopka, FL",
            "Opera builds concrete driveways, pavers and turf in Apopka, FL, where the city's permit fee runs $7.50 per $1,000 of contract value, as of October 2026.",
            "Concrete, Pavers and Artificial Turf for Apopka, Florida Homes",
            capsule(f"Opera's crews pour concrete and set pavers and artificial turf across Apopka, Orange County's second-largest city with 65,552 residents as of mid-2025, roughly "
@@ -108,7 +108,7 @@ LOCAL["concrete-driveways"] = {
     "sections": [
         ("The permit fee scales with the contract, not the slab's size",
          f"<p>Apopka's fee schedule sets the formula without exception: \"$7.50 per $1,000 of actual contracted cost or construction cost/value, whichever is greater,\" with a floor of $75 "
-         f"({ext(FEE_URL, 'Apopka Permitting Fees')}). That means two driveways of the same square footage can carry different permit fees if their finishes, and therefore their contract prices, differ, a detail worth asking a contractor to confirm before the number gets written into a quote for {svc('concrete-driveways', 'a driveway')}.</p>"),
+         f"({ext(FEE_URL, 'Apopka Permitting Fees')}). That means two driveways of the same square footage can carry different permit fees if their finishes, and therefore their contract prices, differ, a detail worth asking the installer to confirm before the number gets written into a quote for {svc('concrete-driveways', 'a driveway')}.</p>"),
         ("A widened apron adds the Engineering Division to the paperwork",
          f"<p>Where a new or wider driveway meets the street, that section falls to the Engineering Division rather than the Building Division alone, since that office covers right-of-way permitting, plan review and drainage review for work in the public strip "
          f"({ext(ENG_URL, 'Apopka Engineering Division')}). A driveway that stays inside its existing footprint on private ground skips that second review; one that widens toward the curb typically doesn't.</p>"),
@@ -161,13 +161,13 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -----------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Apopka, FL – 2002 Homes",
-    "meta": "Concrete patio contractors in Apopka, FL: the city's permit trigger and what a 2002 median build year means for a patio addition, Oct. 2026.",
+    "meta": "Concrete patio companies in Apopka, FL: the city's permit trigger and what a 2002 median build year means for a patio addition, Oct. 2026.",
     "h1": "Building a Concrete Patio in Apopka",
     "lede": capsule(f"Expect {price('concrete-patio')} per {per('concrete-patio')} for a concrete patio in Apopka, the Florida range current for this October. "
                      "With the city's typical home dating to 2002, a lot of patio work here means adding onto a yard with an established driveway and walkway already in place, rather than building out a brand-new lot from scratch."),
     "sections": [
         ("A patio slab counts as a structure for permit purposes",
-         f"<p>Apopka's building-permit FAQ doesn't carve patios or other outdoor slabs out of its general rule, and \"which building permits require plan review\" notes that structural work, rather than ordinary flatwork, is what pulls in a state-registered engineer or architect for a closer look "
+         f"<p>Apopka's building-permit FAQ doesn't carve patios or other outdoor slabs out of its general rule, and \"which building permits require plan review\" notes that structural work, rather than ordinary flatwork, is what pulls in an engineer or architect for a closer look "
          f"({ext(BLDGFAQ_URL, 'the city\'s Building Permit FAQ')}). An ordinary backyard {svc('concrete-patios', 'patio')} addition typically clears that review without needing an engineer's stamp, though the building-permit application itself still applies.</p>"),
         ("A 2002 median build year means the yard around it is often already finished",
          f"<p>Census Reporter's profile of Apopka puts the median year a home here was built at 2002 "
@@ -180,7 +180,7 @@ LOCAL["concrete-patios"] = {
         faq("Does a concrete patio need a permit in Apopka?",
             "Yes. The city's general permit trigger covers any structure, including a patio slab, and the application goes through the Building-Safety Department the same way a driveway or addition would."),
         faq("Does an Apopka patio addition need an engineer's stamp?",
-            "Usually not for ordinary flatwork. The city reserves plan review requiring a state-registered architect or engineer mainly for structural work, which a typical backyard patio slab doesn't trigger."),
+            "Usually not for ordinary flatwork. The city reserves plan review requiring an architect or engineer mainly for structural work, which a typical backyard patio slab doesn't trigger."),
         faq("Why does an Apopka patio project often work around existing landscaping?",
             "Because the city's typical home dates to 2002, a lot of lots already have a mature yard, driveway and walkway in place, so a patio addition has to fit into that existing layout rather than start from an empty lot."),
     ],
@@ -192,7 +192,7 @@ LOCAL["paver-patios"] = {
     "title": "Paver Patios in Apopka, FL – Spring-Fed Ground",
     "meta": "Paver patio installers in Apopka, FL: the karst geology feeding Wekiwa Springs and what it means for drainage near a patio base, Oct. 2026.",
     "h1": "Paver Patios and Walkways for Apopka Backyards",
-    "lede": capsule(f"A paver patio built in Apopka this October runs {price('paver-patio')} per {per('paver-patio')}, within the broader Florida range contractors are quoting. "
+    "lede": capsule(f"A paver patio built in Apopka this October runs {price('paver-patio')} per {per('paver-patio')}, within the broader Florida range installers are quoting. "
                      "The city sits on ground shaped by the same limestone system that feeds Wekiwa Springs, and the soils under a typical backyard here range from fast-draining ridge sand to wetter flatwoods pockets within a short distance of each other."),
     "sections": [
         ("A spring-fed landscape sits just outside the city limits",
@@ -235,7 +235,7 @@ LOCAL["concrete-pool-decks"] = {
     ],
     "scenario": ("A new pool deck sized to a freshly set shell, worked out in square feet",
                  f"<p>A newly built home pouring a 550 sq ft deck around a just-installed pool shell prices out between roughly $2,750 and $8,250 once the {price('concrete-pool-deck')} per {per('concrete-pool-deck')} range is applied, trending toward the higher end for a cool-touch decorative finish. "
-                 "Because that deck and the pool itself are going in together, the pour schedule usually works around the pool contractor's own timeline rather than fitting into an already-landscaped yard the way a deck replacement would.</p>"),
+                 "Because that deck and the pool itself are going in together, the pour schedule usually works around the pool builder's own timeline rather than fitting into an already-landscaped yard the way a deck replacement would.</p>"),
     "faqs": [
         faq("Are most new Apopka pool decks poured with a new pool or added to an old one?",
             "A growing share are poured alongside a brand-new pool shell, since the city's rapid growth means more first-time installs than deck replacements compared with older, slower-growing Central Florida cities."),
@@ -252,7 +252,7 @@ LOCAL["pool-deck-pavers"] = {
     "title": "Pool Deck Pavers in Apopka, FL – Watering Rules",
     "meta": "Pool deck paver installers in Apopka, FL: how Orange County's normal watering schedule compares to Lake County's stricter order next door, Oct. 2026.",
     "h1": "Travertine and Paver Pool Decks in Apopka",
-    "lede": capsule(f"A travertine or concrete-paver pool deck in Apopka costs {price('pool-deck-pavers')} per {per('pool-deck-pavers')} this fall, under current Florida contractor rates. "
+    "lede": capsule(f"A travertine or concrete-paver pool deck in Apopka costs {price('pool-deck-pavers')} per {per('pool-deck-pavers')} this fall, under current Florida installer rates. "
                      "A yard on Apopka's west side and one a few miles over the Lake County line can look identical, but one answers to a stricter sprinkler schedule than the other, a distinction worth knowing before landscaping goes in around a new deck."),
     "sections": [
         ("Orange County runs the ordinary St. Johns schedule, not the tighter one",
@@ -280,7 +280,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete ---------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Apopka, FL – Permit Basics",
-    "meta": "Stamped concrete contractors in Apopka, FL: how the city's fee formula treats a decorative finish and its own permit-type list, Oct. 2026.",
+    "meta": "Stamped concrete companies in Apopka, FL: how the city's fee formula treats a decorative finish and its own permit-type list, Oct. 2026.",
     "h1": "Stamped Concrete Driveways and Patios in Apopka",
     "lede": capsule(f"Stamped concrete work in Apopka currently prices between {price('stamped-concrete')} per {per('stamped-concrete')}, swinging with how many colors and how deep a texture the pattern calls for. "
                      "A decorative finish doesn't change which permit applies here, but it does change the contract price the city's own fee formula is built around."),

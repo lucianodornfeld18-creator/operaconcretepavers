@@ -78,13 +78,13 @@ def turf():
             "<p>A new lawn needs less upkeep than sod, but not none. Leaves, oak pollen and storm debris sit on top of the pile instead of breaking down into soil, so a regular pass with a blower or a stiff broom keeps the surface from matting. Infill migrates toward low spots and high-traffic paths over a few seasons and needs the occasional top-up with the same natural material the rule requires at installation, never a rubber substitute swept in to save a trip. A pet area benefits from a routine hose rinse rather than an occasional deep clean, since odor comes from liquid sitting on the infill, not from the turf fibers themselves. "
             f"{post('how-to-clean-artificial-turf', 'Our turf cleaning and maintenance guide')} covers the full routine, season by season.</p>"),
         sec("How do you find the best artificial turf installer near you?",
-            "<p>Searching for artificial turf installers near you turns up landscaping companies, pool contractors and general handymen alongside dedicated turf crews, and the state's new rule gives an easy first filter: ask whether the quote names the base material specifically.</p>"
+            "<p>Searching for artificial turf installers near you turns up landscaping companies, pool builders and general handymen alongside dedicated turf crews, and the state's new rule gives an easy first filter: ask whether the quote names the base material specifically.</p>"
             + ul(["'Compacted base' isn't enough on its own; Rule 62-308.100 requires washed crushed rock or crushed concrete with the fines removed, and a crew that doesn't know the difference is likely to cut that corner.",
                   "Confirm the infill is on the state's approved list, natural sand, rock, shell or coated silica sand, rather than a generic 'infill' line item with no material named.",
                   "Ask directly whether the project sits within 10 ft of a pond, canal or other waterbody, or inside a tree's drip line, since both trigger specific requirements the quote should already address.",
                   "Get the irrigation plan in writing: which heads get capped, and where the lines get rerouted.",
                   "If the work happens near a fenced pool, ask how the crew protects the water and the equipment pad during base work."])
-            + f"<p>{post('how-to-choose-an-artificial-turf-installer', 'Our full turf installer checklist')} goes further.</p>"),
+            + f"<p>{post('artificial-turf-installation-process', 'How artificial turf is installed in Florida')} shows each of those steps on the ground.</p>"),
         sec("Where we install artificial turf",
             f"<p>We install artificial turf lawns, pet areas, putting greens and paver accent strips across Greater Orlando and Sarasota–Manatee. Related towns: {cs('orlando', K)}, {cs('kissimmee', K)}, {cs('sarasota', K)} and {cs('lakewood-ranch', K)}.</p><!--AUTO:service-cities-->"),
     ])
@@ -112,7 +112,7 @@ def turf():
                          "homeguide-artificial-grass", "angi-turf-orlando", "angi-turf-tampa", "angi-turf-national", "homeguide-putting-green", "angi-putting-green"],
                 related=[("/artificial-turf-cost/", "artificial turf cost guide"), ("/compare/artificial-turf-vs-sod/", "artificial turf vs. sod"),
                          ("/blog/florida-hoa-artificial-turf-law/", "can your HOA ban turf"), ("/blog/artificial-turf-heat-in-florida/", "how hot turf gets in Florida"),
-                         ("/blog/how-to-clean-artificial-turf/", "cleaning and maintaining turf"), ("/blog/how-to-choose-an-artificial-turf-installer/", "choosing a turf installer"),
+                         ("/blog/how-to-clean-artificial-turf/", "cleaning and maintaining turf"), ("/blog/artificial-turf-installation-process/", "how turf is installed, step by step"),
                          ("/central-florida/", "the Orlando unit"), ("/sarasota-manatee/", "the Sarasota unit")],
                 crumbs=[], crumb="Artificial turf", service=K,
                 hero_photo=pids[0] if pids else None, offer=offer("artificial-turf"), eyebrow="Artificial Turf · Greater Orlando & Sarasota",

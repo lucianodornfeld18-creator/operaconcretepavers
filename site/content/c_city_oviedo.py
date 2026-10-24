@@ -22,7 +22,7 @@ SRC = [
 
 HUB_BODY = "".join([
     sec("Does Oviedo's 2026 permit exemption cover a new driveway or paver patio?",
-        "<p>House Bill 803 took effect July 1, 2026 and frees a homeowner, or the contractor working for one, from a building permit on residential work valued under $7,500. Oviedo's Building Services department confirms that exemption applies here, then publishes its own list of “Non-Structural residential work that would still require a planning and zoning permit through the Planning Department,” and two lines on that list matter most to anyone pouring or paving: "
+        "<p>House Bill 803 took effect July 1, 2026 and frees a homeowner, or the company working for one, from a building permit on residential work valued under $7,500. Oviedo's Building Services department confirms that exemption applies here, then publishes its own list of “Non-Structural residential work that would still require a planning and zoning permit through the Planning Department,” and two lines on that list matter most to anyone pouring or paving: "
         f"“Pavers/driveways/sidewalks on private property” and “Non-structural 4\" concrete slabs on grade” "
         f"({src('oviedo-building-services', 'City of Oviedo, Building Services')}). In plain terms, the 2026 exemption doesn't reach {cs('oviedo', 'paver-driveways', 'a paver driveway')} or {cs('oviedo', 'concrete-patios', 'a patio slab')} inside the city limits; a planning and zoning permit still applies. Call Building Services at 407-971-5755 or buildingpermits@cityofoviedo.net before ordering material, since the city's own guidance is specific about what it exempts and what it doesn't.</p>"),
     sec("What does a right-of-way permit for the apron cost in Oviedo?",
@@ -66,15 +66,15 @@ HUB_FAQS = [
         "No. Oviedo's own carve-out list keeps a planning and zoning permit on non-structural 4-inch slabs on grade and on pavers, driveways and sidewalks on private property, even though the same work might clear the state's new $7,500 exemption threshold for a building permit elsewhere."),
     faq("Is there a published setback from the Econlockhatchee River or Lake Jesup for a pool deck or wall?",
         "Not one we found in either the city's or the county's permit guidance. A lot that slopes toward the river corridor or the lake gets its grading and fill checked on site, since the general rule is to keep water moving away from the house and off a neighbor's yard, not a specific foot count published for either waterway."),
-    faq("How do I pick the best concrete contractor for a job in Oviedo?",
-        f"Look the contractor up on the state's license-verification tool first, then make sure the quote already accounts for whichever office actually reviews your lot, Building Services or the county's Development Review Division, rather than guessing. "
-        f"{post('how-to-choose-a-concrete-contractor-orlando', 'Our guide to choosing a concrete contractor')} walks through the rest of what to check."),
+    faq("How do I pick the best concrete company for a job in Oviedo?",
+        f"Ask for a certificate of insurance sent by the insurance agent first, then make sure the quote already accounts for whichever office actually reviews your lot, Building Services or the county's Development Review Division, rather than guessing. "
+        f"{post('seminole-county-driveway-patio-permits', 'Our Seminole County permit guide')} walks through the rest of what to check."),
     faq("Does a retaining wall in Oviedo need an engineer's drawings?",
         f"Yes, the city's wall permit guideline requires “signed and sealed engineered drawings” with wind design data for a freestanding or retaining wall, and it doesn't state a height below which that requirement drops away "
         f"({src('oviedo-permit-guidelines', 'City of Oviedo, Permit Guidelines')})."),
 ]
 
-HUB = page("/oviedo-fl/", "city", "Concrete, Pavers & Turf Contractor in Oviedo, FL",
+HUB = page("/oviedo-fl/", "city", "Concrete, Pavers & Turf Company in Oviedo, FL",
            "Opera builds concrete driveways, pavers and turf in Oviedo, FL, where a planning permit still covers pavers under the city's 2026 exemption list, as of October 2026.",
            "Concrete, Pavers and Artificial Turf for Oviedo Homes",
            capsule(f"As of October 2026, Opera pours concrete, sets pavers and installs artificial turf across Oviedo, a Seminole County city of about 41,317 residents sitting roughly {str(__import__('_data').CITIES['oviedo']['miles'])} miles from the Orlando unit's base. "
@@ -96,7 +96,7 @@ LOCAL = {}
 # 1. concrete-driveways ------------------------------------------------------
 LOCAL["concrete-driveways"] = {
     "title": "Concrete Driveways in Oviedo, FL – Permits",
-    "meta": "Concrete driveway contractors in Oviedo, FL: the city's $104 right-of-way fee versus Seminole County's 18-foot width cap, as of October 2026.",
+    "meta": "Concrete driveway companies in Oviedo, FL: the city's $104 right-of-way fee versus Seminole County's 18-foot width cap, as of October 2026.",
     "h1": "Pouring or Replacing a Concrete Driveway in Oviedo",
     "lede": capsule(f"A new or replacement concrete driveway in Oviedo runs {price('concrete-driveway')} per {per('concrete-driveway')} as of October 2026. "
                      "Inside the city, the private portion is reviewed separately from the apron crossing into the right-of-way, which carries its own $104 application fee; in unincorporated Seminole County, the whole driveway instead goes through a single county application capped at 18 feet wide."),
@@ -135,7 +135,7 @@ LOCAL["paver-driveways"] = {
          f"<p>Oviedo's Building Services department publishes a list titled “Non-Structural residential work that would still require a planning and zoning permit through the Planning Department” to go alongside HB 803's new $7,500 exemption, and the very first line reads “Pavers/driveways/sidewalks on private property,” with a note that Engineering Department right-of-way permits are required separately for anything in the right of way "
          f"({src('oviedo-building-services', 'City of Oviedo, Building Services')}). Call Building Services at 407-971-5755 before ordering pallets, since the exemption homeowners may have heard about from the new law simply doesn't apply to {svc('paver-driveways', 'a paver driveway')} inside the city.</p>"),
         ("The slab-and-paver package wants two site plans, not a stack of paperwork",
-         f"<p>Once the permit applies, Oviedo's own paver permit guidelines, last revised January 2021, ask for a notarized building permit application, the contractor's license, general liability and workers' compensation insurance naming the city, and two site plans showing the distance from the paved area to the property line "
+         f"<p>Once the permit applies, Oviedo's own paver permit guidelines, last revised January 2021, list what the applicant must attach, including a notarized building permit application, general liability and workers' compensation insurance naming the city, and two site plans showing the distance from the paved area to the property line "
          f"({src('oviedo-slab-paver', 'City of Oviedo, Slab/Paver Permit Guidelines')}). That packet covers a driveway the same way it covers a {svc('paver-patios', 'patio')} or a {svc('pool-deck-pavers', 'pool deck')}, so gathering the insurance documents and site plan ahead of ordering material keeps the application from stalling at the counter.</p>"),
     ],
     "scenario": ("A paver driveway sized to Seminole County's maximum width, worked out in square feet",
@@ -145,7 +145,7 @@ LOCAL["paver-driveways"] = {
         faq("Does Florida's 2026 small-project exemption cover a paver driveway in Oviedo?",
             "No. The city's non-exempt list names pavers and driveways on private property directly, so the new $7,500 building-permit exemption that took effect July 1, 2026 doesn't reach that work inside the city limits."),
         faq("What documents does Oviedo's paver permit package require?",
-            "A notarized building permit application, the contractor's license, general liability and workers' compensation insurance naming the city, and two site plans showing the distance from the paved area to the property line."),
+            "The city's checklist lists what the applicant must attach, including a notarized building permit application, general liability and workers' compensation insurance naming the city, and two site plans showing the distance from the paved area to the property line."),
         faq("Does a paver driveway need a different review than a concrete one in Oviedo?",
             "The underlying slab-and-paver permit package is the same either way. Where the two differ is on the exemption list itself, which calls out pavers, driveways and sidewalks together as work still requiring a planning and zoning permit."),
     ],
@@ -155,14 +155,14 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -----------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Oviedo, FL – 4-In Slabs",
-    "meta": "Concrete patio contractors in Oviedo, FL: why a non-structural 4-inch patio slab still needs a city permit, and flatwoods drainage, October 2026.",
+    "meta": "Concrete patio companies in Oviedo, FL: why a non-structural 4-inch patio slab still needs a city permit, and flatwoods drainage, October 2026.",
     "h1": "Building a Concrete Patio in Oviedo",
     "lede": capsule(f"As of October 2026, a concrete patio in Oviedo falls between {price('concrete-patio')} per {per('concrete-patio')}. "
                      "Oviedo's own carve-out list keeps a standard 4-inch patio slab on grade on its planning and zoning permit roster, and the flatwoods ground under much of Seminole County holds water close enough to the surface to shape how that slab gets pitched."),
     "sections": [
         ("A non-structural 4-inch slab is still on Oviedo's permit list by name",
          f"<p>Oviedo's carve-out list for HB 803's 2026 exemption spells out “Non-structural 4\" concrete slabs on grade” as work that still needs a planning and zoning permit, sitting alongside pavers and driveways on the same list "
-         f"({src('oviedo-building-services', 'City of Oviedo, Building Services')}). A typical patio pour is exactly that, a 4-inch slab on grade rather than a footed foundation, so the exemption homeowners may expect from the new law doesn't apply here. The paperwork behind that review covers a patio the same application the city uses for {svc('concrete-slabs', 'a slab')}, a notarized permit form plus proof of the contractor's license and insurance, checked against how far the work sits from the lot line "
+         f"({src('oviedo-building-services', 'City of Oviedo, Building Services')}). A typical patio pour is exactly that, a 4-inch slab on grade rather than a footed foundation, so the exemption homeowners may expect from the new law doesn't apply here. The paperwork behind that review covers a patio the same application the city uses for {svc('concrete-slabs', 'a slab')}, a notarized permit form plus proof of insurance and the other attachments on the city's checklist, checked against how far the work sits from the lot line "
          f"({src('oviedo-slab-paver', 'City of Oviedo, Slab/Paver Permit Guidelines')}).</p>"),
         ("Flatwoods ground sets the slope before the forms go up",
          f"<p>Seminole County's own water-quality program names Myakka fine sand, Florida's official state soil since 1989, as typical of the flatwoods ground found across the county "
@@ -177,7 +177,7 @@ LOCAL["concrete-patios"] = {
         faq("Does Oviedo's soil affect how a patio drains?",
             "It can. Flatwoods ground common across Seminole County, including Myakka fine sand, Florida's official state soil, can hold a water table close to the surface for part of the year, which shapes a patio's slope more than it changes the mix design."),
         faq("What permit application covers a patio slab in Oviedo?",
-            "The city's slab-and-paver package, the same one used for a driveway or pool deck: proof of licensing and insurance on file with the city, a notarized form, and a pair of site plans pinning down where the slab sits relative to the lot line."),
+            "The city's slab-and-paver package, the same one used for a driveway or pool deck: proof of insurance on file with the city, a notarized form, a pair of site plans pinning down where the slab sits relative to the lot line, and the other attachments its checklist names."),
     ],
     "sources": SRC,
 }
@@ -194,7 +194,7 @@ LOCAL["paver-patios"] = {
          f"<p>The Econlockhatchee River, a 54.5-mile blackwater tributary of the St. Johns River, runs along Oviedo's eastern side, with the Little Econlockhatchee crossing the south, and the city itself grew up on the shore of Lake Jesup to the north "
          f"({ext(ECON_WIKI_URL, 'Wikipedia, Econlockhatchee River')}; {ext(OVIEDO_WIKI_URL, 'Wikipedia, Oviedo, Florida')}). Neither the city's paver guidelines nor Seminole County's driveway application publishes a setback from either waterway for a patio, but a yard that slopes toward the river corridor or the lake has less room to shed rainwater than a flat inland lot, which is the kind of thing a crew checks with a level before cutting into the base.</p>"),
         ("A patio or walkway still goes through the same two-site-plan package",
-         f"<p>Insurance naming the city, a notarized application and proof of the contractor's license round out Oviedo's slab-and-paver packet, along with two site plans locating the paved area against the property boundary "
+         f"<p>Insurance naming the city and a notarized application are part of Oviedo's slab-and-paver packet, along with two site plans locating the paved area against the property boundary "
          f"({src('oviedo-slab-paver', 'City of Oviedo, Slab/Paver Permit Guidelines')}); that's the same packet whether the patio sits on a dry inland lot or one backing up to the Econ corridor. {cs('oviedo', 'concrete-patios', 'A poured concrete patio')} on the same lot goes through that identical review.</p>"),
     ],
     "scenario": ("A paver patio on a lot backing toward the Econlockhatchee corridor, worked out in square feet",
@@ -221,7 +221,7 @@ LOCAL["concrete-pool-decks"] = {
     "sections": [
         ("A deck from the city's median build year is old enough to need a closer look",
          f"<p>Oviedo's median year of home construction is 1997 "
-         f"({src('acs-oviedo', 'Census Reporter, Oviedo FL')}), old enough that a share of the city's original pool decks are showing the hairline cracking and worn cool-deck coating that call for a resurfacing decision rather than another spot patch. Notarized paperwork, proof of licensing and insurance, and two site plans pinpointing the deck's distance from the property line cover a replacement or an overlay the same way they cover new construction "
+         f"({src('acs-oviedo', 'Census Reporter, Oviedo FL')}), old enough that a share of the city's original pool decks are showing the hairline cracking and worn cool-deck coating that call for a resurfacing decision rather than another spot patch. Notarized paperwork, proof of insurance and two site plans pinpointing the deck's distance from the property line cover a replacement or an overlay the same way they cover new construction "
          f"({src('oviedo-slab-paver', 'City of Oviedo, Slab/Paver Permit Guidelines')}).</p>"),
         ("Newer pools cluster around Oviedo on the Park",
          f"<p>The city's Oviedo on the Park development has added newer housing around Center Lake Park, described on the city's own site as “the crown jewel of the city's new Oviedo on the Park development area” "
@@ -251,7 +251,7 @@ LOCAL["pool-deck-pavers"] = {
     "sections": [
         ("An original cool-deck surface from the late 1990s is a common overlay candidate",
          f"<p>Oviedo's median year of home construction is 1997 "
-         f"({src('acs-oviedo', 'Census Reporter, Oviedo FL')}), which puts a meaningful share of the city's original pool decks in the range where a worn coating and hairline cracking make a paver overlay worth pricing against a full tear-out. The city's own slab-and-paver guidelines, last revised January 2021, don't shorten the paperwork for an overlay either; it's the same notarized-application, licensed-and-insured, two-site-plan packet Oviedo uses for a first installation "
+         f"({src('acs-oviedo', 'Census Reporter, Oviedo FL')}), which puts a meaningful share of the city's original pool decks in the range where a worn coating and hairline cracking make a paver overlay worth pricing against a full tear-out. The city's own slab-and-paver guidelines, last revised January 2021, don't shorten the paperwork for an overlay either; it's the same notarized-application, proof-of-insurance, two-site-plan packet Oviedo uses for a first installation "
          f"({src('oviedo-slab-paver', 'City of Oviedo, Slab/Paver Permit Guidelines')}).</p>"),
         ("Lots near Lake Jesup add a grading check before the pavers go down",
          f"<p>Oviedo grew up along Lake Jesup, and some of its older lakefront streets sit close enough to the water that the yard's slope matters more than it would a few blocks inland "
@@ -274,14 +274,14 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete ---------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Oviedo, FL – Downtown Charm",
-    "meta": "Stamped concrete contractors in Oviedo, FL: why a decorative slab still needs the city's planning permit, near the historic downtown, October 2026.",
+    "meta": "Stamped concrete companies in Oviedo, FL: why a decorative slab still needs the city's planning permit, near the historic downtown, October 2026.",
     "h1": "Stamped Concrete Driveways and Patios in Oviedo",
     "lede": capsule(f"As of October 2026, stamped concrete work in Oviedo falls between {price('stamped-concrete')} per {per('stamped-concrete')}, swinging with the pattern complexity and how many colors go into it. "
                      "The finish itself doesn't change which permit applies: Oviedo's 2026 exemption list keeps a decorative driveway or patio slab on its planning-permit roster right alongside a plain gray pour."),
     "sections": [
         ("A decorative finish doesn't move a slab off the city's permit list",
          f"<p>Oviedo's carve-out list for HB 803's 2026 exemption names “Pavers/driveways/sidewalks on private property” and “Non-structural 4\" concrete slabs on grade” without carving out an exception for color or pattern "
-         f"({src('oviedo-building-services', 'City of Oviedo, Building Services')}). A slate-pattern stamped driveway or an integral-color front walk still goes through the city's planning and zoning review, filing the identical notarized form, contractor's-license proof and insurance, plus two site plans locating the work against the lot line, that a plain broom-finish pour would need "
+         f"({src('oviedo-building-services', 'City of Oviedo, Building Services')}). A slate-pattern stamped driveway or an integral-color front walk still goes through the city's planning and zoning review, filing the identical notarized form and insurance paperwork, plus two site plans locating the work against the lot line, that a plain broom-finish pour would need "
          f"({src('oviedo-slab-paver', 'City of Oviedo, Slab/Paver Permit Guidelines')}).</p>"),
         ("Oviedo's historic downtown sets a different visual bar than its newer subdivisions",
          f"<p>Oviedo's historic downtown, once known for the chickens that roamed its streets, still carries older houses and storefronts along the Florida Trail and Cross Seminole Trail crossing "
@@ -304,7 +304,7 @@ LOCAL["stamped-concrete"] = {
 # 8. concrete-walkways --------------------------------------------------------
 LOCAL["concrete-walkways"] = {
     "title": "Sidewalks & Walkways in Oviedo, FL",
-    "meta": "Concrete walkway contractors in Oviedo, FL: the city's permit list for sidewalks on private property versus the right-of-way review, October 2026.",
+    "meta": "Concrete walkway companies in Oviedo, FL: the city's permit list for sidewalks on private property versus the right-of-way review, October 2026.",
     "h1": "Concrete Sidewalks and Walkways in Oviedo",
     "lede": capsule(f"A concrete walkway in Oviedo runs {price('concrete-walkway')} per {per('concrete-walkway')} as of October 2026. "
                      "The city groups sidewalks on private property with driveways and pavers on its 2026 exemption carve-out list, while a walkway section crossing into the right-of-way needs its own separate review."),
@@ -333,14 +333,14 @@ LOCAL["concrete-walkways"] = {
 # 9. concrete-slabs ------------------------------------------------------------
 LOCAL["concrete-slabs"] = {
     "title": "Concrete Slabs in Oviedo, FL – Shed Pads",
-    "meta": "Concrete slab contractors in Oviedo, FL: the city's 4-inch slab permit line and Seminole County's shed-size exemption, October 2026.",
+    "meta": "Concrete slab companies in Oviedo, FL: the city's 4-inch slab permit line and Seminole County's shed-size exemption, October 2026.",
     "h1": "Concrete Slabs for Sheds, Pads and Parking in Oviedo",
     "lede": capsule(f"As of October 2026, a concrete slab for a shed, an AC pad or boat and RV parking in Oviedo runs {price('concrete-slab')} per {per('concrete-slab')}. "
                      "Oviedo folds all of that under its non-structural 4-inch slab line, still subject to the city's planning and zoning permit, while unincorporated Seminole County's 2026 exemption list leaves slabs off entirely, covering only a shed structure itself once it's over 200 square feet."),
     "sections": [
         ("A 4-inch pad is on the city's permit list by name, regardless of use",
          f"<p>Oviedo's carve-out for HB 803's 2026 exemption names “Non-structural 4\" concrete slabs on grade” directly, a category that covers a shed pad, an AC pad or a small parking slab the same way it covers a patio "
-         f"({src('oviedo-building-services', 'City of Oviedo, Building Services')}). Getting that permit means filing a notarized application, proof of license and insurance naming the city, and two site plans marking the pad's distance to the property line "
+         f"({src('oviedo-building-services', 'City of Oviedo, Building Services')}). Getting that permit means filing a notarized application, proof of insurance naming the city and two site plans marking the pad's distance to the property line, among the attachments the city lists "
          f"({src('oviedo-slab-paver', 'City of Oviedo, Slab/Paver Permit Guidelines')}).</p>"),
         ("The county's shed exemption and the slab under it are two different questions",
          f"<p>In unincorporated Seminole County, the 2026 list of HB 803 exemptions names sheds of 200 sq ft or less among the non-structural work that no longer needs a building permit, alongside fences, pergolas and floating docks, but the same list doesn't mention driveways, pavers, slabs or retaining walls "
@@ -355,7 +355,7 @@ LOCAL["concrete-slabs"] = {
         faq("Is a small shed exempt from a permit in unincorporated Seminole County?",
             "Sheds of 200 sq ft or less are on the county's 2026 list of exempt non-structural work. The concrete pad underneath isn't named on that same list, so confirming with the Building Division before pouring is worth the call."),
         faq("What paperwork slows down an Oviedo slab permit the most?",
-            "Missing insurance documentation, typically. The city wants a notarized form, proof of licensing, and liability and workers' comp coverage naming Oviedo directly, plus two site plans marking the pad against the lot line, before the application moves."),
+            "Missing insurance documentation, typically. The city wants a notarized form and liability and workers' comp coverage naming Oviedo directly, plus two site plans marking the pad against the lot line, before the application moves."),
     ],
     "sources": SRC,
 }
@@ -421,7 +421,7 @@ LOCAL["paver-sealing"] = {
 # 12. retaining-walls -----------------------------------------------------------
 LOCAL["retaining-walls"] = {
     "title": "Retaining Walls in Oviedo, FL – Engineering",
-    "meta": "Retaining wall contractors in Oviedo, FL: the city's signed-and-sealed engineering requirement near the Econlockhatchee floodplain, October 2026.",
+    "meta": "Retaining wall companies in Oviedo, FL: the city's signed-and-sealed engineering requirement near the Econlockhatchee floodplain, October 2026.",
     "h1": "Retaining Walls for Oviedo Yards",
     "lede": capsule(f"As of October 2026, a retaining wall in Oviedo falls in the {price('retaining-wall')} per {per('retaining-wall')} Florida market range. "
                      "The city's own wall permit guideline requires signed and sealed engineered drawings for any freestanding or retaining wall, with no height written in below which that requirement drops away."),

@@ -57,11 +57,11 @@ HUB_FAQS = [
         "No. It's unincorporated, governed day to day by community development districts that handle roads and amenities, with Osceola County (or Polk County, depending on the address) still reviewing building and driveway permits."),
     faq("How many watering days does ChampionsGate get under state rules?",
         "Two, under SFWMD's standard schedule for this part of Osceola County: odd addresses Wednesday and Saturday, even addresses Thursday and Sunday, each outside the 10 a.m. to 4 p.m. window."),
-    faq("How do you pick a contractor for a ChampionsGate vacation-rental home?",
-        f"Ask whether the crew has priced hardscape for rental-intensity use rather than a typical owner-occupied yard, confirm which county's permit office the address falls under, and check the contractor against the state's license lookup before signing. {post('how-to-choose-a-concrete-contractor-orlando', 'Ten criteria for choosing a concrete contractor')} has the rest of the checklist."),
+    faq("How do you pick a hardscape company for a ChampionsGate vacation-rental home?",
+        f"Ask whether the crew has priced hardscape for rental-intensity use rather than a typical owner-occupied yard, confirm which county's permit office the address falls under, and get a payment schedule tied to finished stages before signing. {post('how-to-compare-concrete-and-paver-quotes', 'Comparing quotes line by line')} has the rest of the checklist."),
 ]
 
-HUB = page("/championsgate-fl/", "city", "Concrete, Pavers & Turf Contractor in ChampionsGate, FL",
+HUB = page("/championsgate-fl/", "city", "Concrete, Pavers & Turf Company in ChampionsGate, FL",
            "Concrete, pavers and turf in ChampionsGate, FL: Osceola County's 24-foot driveway cap, the Polk/Osceola county line, and SFWMD's watering schedule, Oct. 2026.",
            "Concrete, Pavers and Artificial Turf for ChampionsGate, Florida Homes",
            capsule(f"ChampionsGate is an unincorporated golf-resort community straddling the Osceola-Polk county line, about 24 miles from Orlando, built around two Greg Norman courses and the Omni Orlando Resort. "
@@ -83,7 +83,7 @@ LOCAL = {}
 # 1. concrete-driveways ------------------------------------------------------
 LOCAL["concrete-driveways"] = {
     "title": "Concrete Driveways in ChampionsGate, FL – 24-Ft Cap",
-    "meta": "Concrete driveway contractors in ChampionsGate, FL: Osceola County's 24-foot width cap under §22-50.6 and the county driveway permit, Oct. 2026.",
+    "meta": "Concrete driveway companies in ChampionsGate, FL: Osceola County's 24-foot width cap under §22-50.6 and the county driveway permit, Oct. 2026.",
     "h1": "Concrete Driveways for ChampionsGate Homes",
     "lede": capsule(f"Osceola County's current concrete driveway range for ChampionsGate runs {price('concrete-driveway')} per {per('concrete-driveway')}, October 2026 figures. "
                      "The county's own ordinance names 24 feet as the top width for a residential driveway here, with anything beyond that needing a conditional-use approval first, a specific published figure most Orlando-unit jurisdictions leave out of their code entirely."),

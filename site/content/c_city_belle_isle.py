@@ -52,12 +52,12 @@ HUB_FAQS = [
         "Belle Isle incorporated in 1924 specifically so residents could stop Orange County from using the Lake Conway chain for drainage, and the city still sits more than half covered in water today."),
     faq("How old is the typical home in Belle Isle?",
         "The city's median year of construction is 1977, and one of its original subdivisions, Lake Conway Estates, started building around 1960, so a meaningful share of the city's original flatwork is now well past the half-century mark."),
-    faq("What should a Belle Isle homeowner confirm before hiring a contractor?",
-        f"Have the contractor run the 35 percent base impervious math against your actual lot size rather than an estimate, pin down in writing whether the job needs the driveway form or the separate UES building permit for pavers beyond the apron, and verify the business on the state's license lookup. "
-        f"{post('how-to-choose-a-concrete-contractor-orlando', 'This breakdown of choosing a concrete contractor')} fills in the rest."),
+    faq("What should a Belle Isle homeowner confirm before hiring a concrete or paver crew?",
+        f"Have the installer run the 35 percent base impervious math against your actual lot size rather than an estimate, pin down in writing whether the job needs the driveway form or the separate UES building permit for pavers beyond the apron, and ask for a certificate of insurance mailed or emailed by the insurance agent. "
+        f"{post('how-to-compare-concrete-and-paver-quotes', 'This breakdown of comparing quotes')} fills in the rest."),
 ]
 
-HUB = page("/belle-isle-fl/", "city", "Concrete, Pavers & Turf Contractor in Belle Isle, FL",
+HUB = page("/belle-isle-fl/", "city", "Concrete, Pavers & Turf Company in Belle Isle, FL",
            "Concrete, pavers and turf in Belle Isle, FL: the city's 35% base coverage math, the 3-foot driveway setback, and Lake Conway's shoreline, October 2026.",
            "Concrete, Pavers and Artificial Turf for Belle Isle Homes",
            capsule(f"Opera pours concrete and lays pavers and artificial turf for Belle Isle, an Orange County city of 7,444 residents built around the Lake Conway chain, more than half the city's land area water. "

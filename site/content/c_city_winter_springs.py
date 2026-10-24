@@ -54,11 +54,11 @@ HUB_FAQS = [
         "No single answer covers every Tuscawilla association; Country Club Village at Tuscawilla's own bylaws specifically require ACC approval of color, style and configuration for driveway pavers, and a different HOA inside the broader Tuscawilla area may run its own separate process."),
     faq("Do Winter Springs' watering days change once Daylight Saving Time ends?",
         "Yes. SJRWMD runs a two-day schedule by address during Daylight Saving Time, but once clocks fall back to Eastern Standard Time, each address drops to a single assigned day, Saturday for odd and no-number homes, Sunday for even-numbered ones."),
-    faq("What's worth checking before hiring a concrete or paver contractor in Winter Springs?",
-        f"Confirm the contractor on the state's license-lookup tool, and make sure the written quote already assumes Community Development's driveway construction permit rather than treating it as optional or bundled in later. {post('how-to-choose-a-concrete-contractor-orlando', 'Our guide to choosing a concrete contractor')} covers the rest of what a solid estimate should include, including how to judge the best fit for a given project."),
+    faq("What's worth checking before hiring a concrete or paver company in Winter Springs?",
+        f"Run the name on the quote through Sunbiz to see that it's an active company, and make sure the written quote already assumes Community Development's driveway construction permit rather than treating it as optional or bundled in later. {post('how-to-compare-concrete-and-paver-quotes', 'Our guide to comparing quotes')} covers the rest of what a solid estimate should include, including how to judge the best fit for a given project."),
 ]
 
-HUB = page("/winter-springs-fl/", "city", "Concrete, Pavers & Turf Contractor in Winter Springs, FL",
+HUB = page("/winter-springs-fl/", "city", "Concrete, Pavers & Turf Company in Winter Springs, FL",
            "Opera pours concrete, sets pavers and installs turf in Winter Springs, FL, where Code §20-439 requires a driveway permit by material, not price, as of October 2026.",
            "Concrete, Pavers and Artificial Turf Built for Winter Springs Homes",
            capsule(f"Opera pours concrete, sets pavers and installs artificial turf for homeowners in Winter Springs, a Seminole County city of about 39,585 residents whose zoning code requires a driveway construction permit for any impervious material, independent of project cost. "
@@ -80,7 +80,7 @@ LOCAL = {}
 # 1. concrete-driveways ------------------------------------------------------
 LOCAL["concrete-driveways"] = {
     "title": "Concrete Driveways in Winter Springs, FL",
-    "meta": "Concrete driveway contractors in Winter Springs, FL: why Code §20-439 requires a permit for any impervious driveway, regardless of job value, October 2026.",
+    "meta": "Concrete driveway companies in Winter Springs, FL: why Code §20-439 requires a permit for any impervious driveway, regardless of job value, October 2026.",
     "h1": "Pouring a Concrete Driveway in Winter Springs",
     "lede": capsule(f"A new or replacement concrete driveway in Winter Springs runs {price('concrete-driveway')} per {per('concrete-driveway')} as of October 2026. "
                      "The city's zoning code requires a driveway construction permit whenever impervious material goes down, a rule written around the material rather than the dollar amount, so it reaches small jobs the same way it reaches large ones."),
@@ -134,7 +134,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -----------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Winter Springs, FL",
-    "meta": "Concrete patio contractors in Winter Springs, FL: the city's Site Work Permit for paving and drainage, and flatwoods soil, October 2026.",
+    "meta": "Concrete patio companies in Winter Springs, FL: the city's Site Work Permit for paving and drainage, and flatwoods soil, October 2026.",
     "h1": "Building a Concrete Patio in Winter Springs",
     "lede": capsule(f"A concrete patio in Winter Springs falls between {price('concrete-patio')} per {per('concrete-patio')} as of October 2026. "
                      "The city's Site Work Permit covers “Paving, Grading, and Drainage” as one of its listed work types, and the flatwoods soil under much of Seminole County shapes how that patio needs to be pitched."),
@@ -242,7 +242,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete ---------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Winter Springs, FL",
-    "meta": "Stamped concrete contractors in Winter Springs, FL: how the city's driveway code treats decorative finishes and flatwoods subgrade, October 2026.",
+    "meta": "Stamped concrete companies in Winter Springs, FL: how the city's driveway code treats decorative finishes and flatwoods subgrade, October 2026.",
     "h1": "Stamped Concrete Driveways and Patios in Winter Springs",
     "lede": capsule(f"Stamped concrete work in Winter Springs falls between {price('stamped-concrete')} per {per('stamped-concrete')} as of October 2026, moving with the pattern and number of colors. "
                      "The city's driveway code names “concrete” as an approved material without separating plain gray from a decorative finish, so a stamped slab clears the same bar a broom-finish one does."),

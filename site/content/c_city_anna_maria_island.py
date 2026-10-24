@@ -97,7 +97,7 @@ HUB_FAQS = [
         "Yes, for anything seaward of it. Florida DEP's Coastal Construction Control Line program regulates construction and excavation activity along the island's Gulf-front beaches, on top of whatever each city's own code requires."
     ),
     faq(
-        "Why would a contractor ask which of the three cities a project is in before quoting it?",
+        "Why would a crew ask which of the three cities a project is in before quoting it?",
         "Because the permit process, the height limit and even how a storm-damage determination gets handled differ by city on this island. A quote that doesn't account for that is guessing rather than pricing the actual job."
     ),
     faq(
@@ -108,7 +108,7 @@ HUB_FAQS = [
 
 HUB = page(
     "/anna-maria-island-fl/", "city",
-    "Concrete, Paver & Turf Contractor on Anna Maria Island, FL",
+    "Concrete, Paver & Turf Company on Anna Maria Island, FL",
     "Concrete, pavers and turf for Anna Maria Island, FL: three cities, three building departments and post-hurricane rebuilding, October 2026.",
     "Driveways, Patios and Turf Across the Island's Three Cities",
     capsule(

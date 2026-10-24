@@ -59,7 +59,7 @@ def p_manatee_county_driveway_permits():
                     [["R-1", "50%"], ["R-2", "60%"], ["R-3, UV, R-4", "70%"]],
                     f"Counts building footprint, paved drives and terraces, pool decks and other hard surfaces; a worksheet is available from the city ({src('bradenton-lur-3.2-isr', 'Bradenton LUR §3.2')}).")),
         sec("Palmetto requires a permit for the driveway and for any retaining wall, at any height",
-            "<p>Palmetto's code is blunt about the right-of-way: it's unlawful for a contractor to place or build culverts, driveways, curbs or "
+            "<p>Palmetto's code is blunt about the right-of-way: it's unlawful for anyone to place or build culverts, driveways, curbs or "
             f"sidewalks within any public street or right-of-way until Public Works issues a written permit ({ext('https://library.municode.com/fl/palmetto/codes/code_of_ordinances?nodeId=CD_ORD_CH25STSIOTPUPL_ARTIINGE_S25-2PEREUSSTRI-W', 'Palmetto Code §25-2')}). "
             "The Right-of-Way Use Application wants 48 hours' notice before you start, work beginning within 60 days of issue and finishing within "
             f"30 ({ext('https://www.palmettofl.org/DocumentCenter/View/117/Right-of-Way-Permit-PDF', 'Palmetto ROW Use Permit application')}). Retaining walls get their own, separate rule: "
@@ -239,7 +239,7 @@ def p_lakewood_ranch_arc_approval_hardscape():
             "before the next scheduled committee meeting, and the manual is explicit that work finished before the committee actually approves it "
             "is treated as a violation, not a formality you can backfill. An approval isn't open-ended either; if the work isn't completed within "
             "six months of approval, the homeowner has to resubmit the request from scratch (Lakewood Ranch, CEVA Modification Request Form). That "
-            "timeline matters most for a project tied to a contractor's schedule, since a missed Thursday cutoff pushes the whole job to the "
+            "timeline matters most for a project tied to a crew's schedule, since a missed Thursday cutoff pushes the whole job to the "
             "following meeting cycle, not just a few days.</p>"
             + steps([("Confirm your village association.", "Country Club/Edgewater Village, Greenbrook/Summerfield-Riverwalk and other Lakewood Ranch neighborhoods each use their own Modification Request Form."),
                      ("Get the current form from Community Association Services.", "941-907-0202, or the forms section of the Town Hall site."),
@@ -262,7 +262,7 @@ def p_lakewood_ranch_arc_approval_hardscape():
             f"{post('florida-hoa-artificial-turf-law', 'our Florida HOA artificial-turf guide')} covers that protection on its own.</p>"),
         sec("Say you own a home in Country Club at Lakewood Ranch",
             "<p>Your driveway has faded and you want it resealed before the winter season. Under the CEVA manual, that's a Modification Request "
-            "Form, not a phone call to a sealing contractor on a Monday: pick a color from the approved list, submit the form by noon the Thursday "
+            "Form, not a phone call to a sealing company on a Monday: pick a color from the approved list, submit the form by noon the Thursday "
             "before the next meeting, and wait for written approval before the crew shows up. If the county side of the project needs anything, a "
             "resealing job on an already-permitted driveway usually doesn't, that's a separate step entirely, handled by whichever county your "
             "address falls in rather than by Town Hall.</p>"

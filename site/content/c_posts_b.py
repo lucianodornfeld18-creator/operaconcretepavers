@@ -121,7 +121,7 @@ def rainy_season_pour():
         sec("When Is Florida's Rainy Season, and How Does It Change Scheduling?",
             f"<p>Central Florida's wet season typically starts around late May and runs into mid-October, with NWS Melbourne putting the median onset for the Orlando area at May 27 and the median dry-season start at October 15 {src('nws-mlb-wetdry', 'based on records back to 1950')}. NWS Tampa Bay gives a similar window for the Suncoast, roughly May 15 through October 15 for the southwestern part of the region and a few days later on either end farther north {src('nws-tbw-tstm-climo', 'in its own climatology reference')}. Orlando averages 51.45 inches of rain a year and the Sarasota–Bradenton airport averages 49.05, with June through September carrying most of it {src('noaa-normals', 'per NOAA\'s 1991–2020 climate normals')}.</p>"
             "<p>What that means for scheduling is less about avoiding the rainy season entirely, since a project can't always wait five months, and more about the time of day. Florida's wet-season storms build through the afternoon far more often than they strike at sunrise, so an early-morning start gives a crew the longest stretch of dry hours to place, finish and get past that first vulnerable window before the typical 2 or 3 p.m. buildup. A driveway or patio scheduled for January instead carries almost none of this risk, which is part of why dry-season bookings fill up faster even though wet-season work is routine.</p>"),
-        sec("How Do Contractors Protect a Fresh Pour From an Afternoon Storm?",
+        sec("How Do Crews Protect a Fresh Pour From an Afternoon Storm?",
             f"<p>Beyond timing the start, the preparation that matters most happens before the truck even arrives. A base left open overnight ahead of a scheduled pour can wash out or soften if a storm moves through, so {svc('concrete-slabs', 'grading and base work')} is typically compacted and, where the forecast calls for it, covered or protected until pour day rather than left exposed for days in advance. On pour day itself, having plastic sheeting staged and ready, rather than scrambling for it once the sky darkens, is the difference between a managed shower and a damaged surface.</p>"
             "<p>Say a crew has a two-car driveway scheduled and the forecast shows a 40 percent chance of afternoon storms: a realistic plan looks like an early call time, placement and finishing wrapped before midday, and sheeting on hand in the truck regardless, since Florida radar can change in the time it takes to pour a load.</p>"),
         sec("Does Rain Affect the Strength of Concrete Once It's Already Set?",
@@ -130,7 +130,7 @@ def rainy_season_pour():
     ])
     image = "finishing-concrete"
     faqs = [
-        faq("Will a contractor reschedule a pour if rain is in the forecast?",
+        faq("Will a concrete crew reschedule a pour if rain is in the forecast?",
             "Often, yes, if the forecast shows steady or heavy rain through the placement and finishing window, since there's no good way to protect a slab that's being worked on for hours while it's actively raining. A brief, isolated shower is a different situation, and a crew with sheeting ready can usually work around it rather than postponing the whole job."),
         faq("Can rain wash out a concrete driveway's base before it's poured?",
             "Yes, an uncompacted or freshly graded base left exposed to a hard rain can erode or soften, which is why base work is typically compacted and timed close to the actual pour date rather than finished days ahead and left uncovered through a stretch of wet-season weather."),
@@ -148,7 +148,7 @@ def rainy_season_pour():
                 "Can You Pour Concrete in the Rain in Florida?",
                 "Yes, with the right prep: how rain affects a fresh pour, Florida's rainy-season timing, and how crews protect a slab, as of October 2026.",
                 "Can You Pour Concrete in the Rain? Florida Rainy-Season Scheduling Explained",
-                capsule("Yes, a contractor can pour concrete through a brief rain if the crew is ready for it, but a Florida downpour that hits within the first hour or two after placement can wash cement paste out of the surface and leave a weak, pitted finish. As of October 2026, scheduling around the region's roughly late-May-to-mid-October rainy season and its afternoon storm pattern, not avoiding rain altogether, is what keeps a pour on track."),
+                capsule("Yes, concrete can be poured through a brief rain if the crew is ready for it, but a Florida downpour that hits within the first hour or two after placement can wash cement paste out of the surface and leave a weak, pitted finish. As of October 2026, scheduling around the region's roughly late-May-to-mid-October rainy season and its afternoon storm pattern, not avoiding rain altogether, is what keeps a pour on track."),
                 body, faqs=faqs, sources=["nws-mlb-wetdry", "nws-tbw-tstm-climo", "noaa-normals",
                                           ("Michigan Concrete Association, concrete and rain", "https://info.miconcrete.org/blog/concrete-and-rain")],
                 related=related, crumbs=[("Blog", "/blog/")], published="2026-10-01", service="concrete-driveways", image=image, form=False)
@@ -157,7 +157,7 @@ def rainy_season_pour():
 def curing_heat():
     body = "".join([
         sec("How Does Florida Heat Affect Curing Concrete?",
-            f"<p>Florida's combination of high air and concrete temperature, strong sun and, at times, a dry breeze can push a slab past the point where industry guidance calls it hot-weather concreting, meaning the surface can dry out faster than the concrete underneath gains strength. That mismatch, not the heat by itself, is what causes most of the early cracking contractors see on summer pours across {svc('concrete-driveways', 'driveways')}, {svc('concrete-patios', 'patios')} and {svc('concrete-slabs', 'slabs')} in Central Florida and the Suncoast.</p>"
+            f"<p>Florida's combination of high air and concrete temperature, strong sun and, at times, a dry breeze can push a slab past the point where industry guidance calls it hot-weather concreting, meaning the surface can dry out faster than the concrete underneath gains strength. That mismatch, not the heat by itself, is what causes most of the early cracking crews see on summer pours across {svc('concrete-driveways', 'driveways')}, {svc('concrete-patios', 'patios')} and {svc('concrete-slabs', 'slabs')} in Central Florida and the Suncoast.</p>"
             + src("aci-faq-maxtemp", "ACI defines hot-weather conditions") + " as any mix of high ambient or concrete temperature, low humidity, high wind speed and strong solar radiation that threatens the quality of the finished slab, and a still, sunny Florida afternoon checks several of those boxes at once.</p>"),
         sec("Is Curing the Same Thing as Drying?",
             "<p>No, and mixing the two up is where a lot of early cracking starts. Curing is keeping the slab moist so the chemical reaction between cement and water, which is what actually builds strength, keeps running; drying is just water leaving the surface into the air, which happens on its own and happens faster in Florida's heat than the reaction underneath can keep up with. A slab that's allowed to dry out before it's cured properly can look finished on day one and still end up with a weak, dusting surface that was never given the chance to fully harden.</p>"
@@ -181,7 +181,7 @@ def curing_heat():
     image = "concrete-driveway-two-car"
     faqs = [
         faq("Can you pour concrete in Florida in the middle of summer?",
-            "Yes, it's routine, but it calls for hot-weather precautions: an early start before peak heat, chilled mixing water on hotter days, and curing started the moment finishing is done rather than left for later in the day. Most Florida contractors pour through the summer with a plan built around these steps rather than avoiding the season."),
+            "Yes, it's routine, but it calls for hot-weather precautions: an early start before peak heat, chilled mixing water on hotter days, and curing started the moment finishing is done rather than left for later in the day. Most Florida concrete crews pour through the summer with a plan built around these steps rather than avoiding the season."),
         faq("Does rain help concrete cure?",
             f"Once concrete has passed its early plastic stage, yes, extra moisture from rain is generally closer to helpful than harmful, since curing is about keeping the slab wet. The risk period is specifically the first hour or two after placement, before the surface has set; {post('pouring-concrete-in-florida-rainy-season', 'our post on pouring in the rainy season')} covers that earlier, more sensitive window."),
         faq("How can I tell if my new concrete is curing properly?",

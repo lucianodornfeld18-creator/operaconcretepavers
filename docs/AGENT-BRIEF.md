@@ -5,7 +5,7 @@ Project root: `C:\Users\luana\SSD-Antigo-Lucia\Projetos\operaconcretepavers`. St
 ## Read first, in this order
 
 1. `docs/WRITING-GUIDE.md` — voice, the never-invent rule, keyword and "best/near me" rules, banned phrases. **Binding.**
-2. `research/facts.md` — the verified facts with sources (prices, Florida law and licensing, permits, soils, climate, specs). Source ids for `src("id")` / `sources=[...]` are the keys of `research/sources.json`. Facts marked UNVERIFIED there may not be stated.
+2. `research/facts.md` — the verified facts with sources (prices, Florida law, permits, soils, climate, specs; the licensing notes there are internal only and never published, see the writing guide). Source ids for `src("id")` / `sources=[...]` are the keys of `research/sources.json`. Facts marked UNVERIFIED there may not be stated.
 3. `site/_helpers.py` — the only helpers you may use to build HTML and links.
 4. `site/_data.py` — services (keys, routes), cities (slugs, counties, tiers, unit), `site/_prices.json` (market ranges: use `price("key")`, `per("key")`).
 5. `site/_posts.py` — every blog, compare, cost and FAQ URL that exists or is being written in parallel. **Link only to routes in `_data.py` or `_posts.py`** (plus `/`, `/concrete/`, `/pavers/`, `/cost/`, `/service-areas/`, `/central-florida/`, `/sarasota-manatee/`, `/blog/`, `/compare/`, `/permits/`, `/about/`, `/contact/`, `/process/`). Other writers are producing those pages right now, so linking to them is fine.
@@ -19,7 +19,7 @@ Project root: `C:\Users\luana\SSD-Antigo-Lucia\Projetos\operaconcretepavers`. St
 - Python: write the file with the Write tool (not a shell heredoc). Use double-quoted Python strings around text containing apostrophes, or triple quotes. f-strings: escape braces. Use `–` for ranges. No emojis.
 - Every page: unique title (≤ 60 chars if possible, 65 max), meta 120–160 chars, H1 different from the title, a 40–70 word capsule as `lede`, at least 6 internal links in running text, a `sources` list when you cite anything.
 - No sentence of 8+ words may appear on two pages. Don't reuse your own paragraphs across pages.
-- Never mention other contractors' sites or brands named in the writing guide's "never mention" list.
+- Never mention other companies' sites or brands named in the writing guide's "never mention" list.
 
 ## Report back (your final message)
 

@@ -8,7 +8,7 @@ from _helpers import page, capsule, sec, table, faq, ul, a, svc, city, post, com
 def clay_brick_vs_concrete():
     body = "".join([
         sec("Clay brick vs. concrete pavers: cost, color and strength side by side",
-            f"<p>Florida contractor pricing puts clay brick pavers at $12 to $22 per square foot installed, with reclaimed or specialty brick running $25 to $50 or more, against $10 to $20 per square foot for concrete pavers of a comparable size and pattern "
+            f"<p>Florida installer pricing puts clay brick pavers at $12 to $22 per square foot installed, with reclaimed or specialty brick running $25 to $50 or more, against $10 to $20 per square foot for concrete pavers of a comparable size and pattern "
             f"({src('angi-paver-driveway', 'Angi, Apr 2026')}; {src('craftpavers-fl-pricing', 'Craft Pavers, Jul 2026')}; {src('homeguide-driveway-pavers', 'HomeGuide, Jan 2026')}). "
             "The gap in price traces back to how each unit is made. Clay brick is shaped and fired in a kiln at nearly 2,000°F, which bakes the color through the entire body of the unit rather than onto the surface. "
             f"Concrete pavers are cast and cured with pigment mixed into or applied over the mix, which is faster and cheaper to produce at scale but means the color sits closer to the surface ({ext('https://www.gobrick.com/learn-about-brick/clay-pavers', 'Brick Industry Association, clay paver guide')}).</p>"
@@ -54,7 +54,7 @@ def clay_brick_vs_concrete():
         faq("Does clay brick fade in Florida's sun?",
             "No, not in the way a concrete paver can. Clay brick is fired at nearly 2,000°F, which bakes the color through the entire unit, so there is no pigment layer at the surface to bleach out under UV exposure the way a concrete paver's applied color can over years in full Florida sun."),
         faq("Are clay brick pavers more expensive than concrete pavers?",
-            "Usually, yes. Florida contractor pricing runs $12 to $22 per square foot for clay brick against $10 to $20 for concrete pavers of a similar size, and specialty or reclaimed brick can run $25 to $50 or more. The gap narrows when brick is used as a border or accent rather than the full field."),
+            "Usually, yes. Florida installer pricing runs $12 to $22 per square foot for clay brick against $10 to $20 for concrete pavers of a similar size, and specialty or reclaimed brick can run $25 to $50 or more. The gap narrows when brick is used as a border or accent rather than the full field."),
         faq("Can clay brick be used for a driveway, or only patios and walkways?",
             "It can be used for a driveway if the brick is rated for vehicular loads rather than pedestrian use; paving-brick manufacturers make both. The base underneath matters as much as the unit rating, since a driveway-grade base is what actually carries the weight of a car or truck."),
         faq("Do clay brick pavers need to be sealed like concrete pavers?",
@@ -332,13 +332,13 @@ def turf_vs_sod():
             f"({ext('https://ask.ifas.ufl.edu/publication/LH010', 'UF/IFAS, St. Augustinegrass for Florida Lawns')}). Its main pest, the southern chinch bug, feeds on the grass and shows up as yellowish patches, especially in the sunniest, most water-stressed parts of a lawn. "
             "Artificial turf has no watering schedule, no mowing and no chinch bugs to manage, but Florida's 2026 turf rule now sets specific installation standards that sod was never subject to in the first place.</p>"
             + table("Artificial turf vs. St. Augustine sod", ["Factor", "Artificial turf", "St. Augustine sod"],
-                    [["Installed cost (FL market)", f"{price('artificial-turf')} per sq ft", "$0.70–$1.75 per sq ft, Central Florida contractor pricing"],
+                    [["Installed cost (FL market)", f"{price('artificial-turf')} per sq ft", "$0.70–$1.75 per sq ft, Central Florida installer pricing"],
                      ["Weekly water", "None; in-ground irrigation on turf areas is barred by state rule", "At least 1 in./week once established, more during establishment"],
                      ["Upkeep", "Occasional grooming and rinsing", "Mowing at 3.5–4 in., fertilizing, pest watch"],
                      ["Stormwater", "Must not increase runoff to neighbors under the 2026 rule", "Living soil infiltrates rainfall; no permeability standard applies"],
                      ["Repair", "Seams and worn sections patched by a professional", "Dead patches re-sodded in place, inexpensively"],
                      ["HOA visibility rule", "Turf not visible from the frontage is protected by state law", "Not specifically addressed; most HOAs require a maintained lawn"]],
-                    f"Turf cost from {src('homeguide-artificial-grass', 'HomeGuide')}; sod cost from a Central Florida contractor ({ext('https://provlawncare.com/blog/sod-installation-cost-central-florida-2026', 'Prov Lawn Care, Jul 2026')}); watering from UF/IFAS; stormwater and water setback from Florida's synthetic turf rule.")),
+                    f"Turf cost from {src('homeguide-artificial-grass', 'HomeGuide')}; sod cost from a Central Florida lawn company ({ext('https://provlawncare.com/blog/sod-installation-cost-central-florida-2026', 'Prov Lawn Care, Jul 2026')}); watering from UF/IFAS; stormwater and water setback from Florida's synthetic turf rule.")),
         sec("What does Florida's 2026 turf rule require that sod never did?",
             f"<p>Rule 62-308.100, effective May 19, 2026, sets minimum standards for synthetic turf on single-family lots of an acre or less statewide, and a local government may not regulate turf more strictly than the rule once it applies ({src('flrules62-308-100', 'FLRules 62-308.100')}; {src('fs125572', 'F.S. 125.572')}). "
             "None of this applies to a living lawn, since sod is not a manufactured product subject to a materials or installation standard.</p>"
@@ -364,7 +364,7 @@ def turf_vs_sod():
                 "A dedicated low-traffic accent area, rather than the whole yard, is the actual goal."])),
         sec("Resod or convert: a 1,500 sq ft backyard in Lakewood Ranch",
             f"<p>Say you have a 1,500 square foot backyard in {city('lakewood-ranch', 'Lakewood Ranch')} that has thinned out under SWFWMD's once-a-week schedule, and the choice is resodding in St. Augustine or converting the area to artificial turf. "
-            "Resodding at Central Florida contractor pricing runs roughly $1,050 to $2,625, plus the ongoing cost of mowing, fertilizing and the weekly watering allowance the district currently permits. "
+            "Resodding at Central Florida installer pricing runs roughly $1,050 to $2,625, plus the ongoing cost of mowing, fertilizing and the weekly watering allowance the district currently permits. "
             f"Converting the same area to turf runs roughly ${1500*10:,} to ${1500*25:,} at Florida market rates for artificial turf, a far larger upfront number, with no further watering cost afterward since in-ground irrigation on the turf area is off the table under the 2026 rule. Which number makes more sense depends on how many more seasons the household expects to fight the same watering restriction with sod.</p>"),
         sec("Related reading",
             f"<p>{svc('artificial-turf', 'Our artificial turf page')} covers installation, infill and base in full, and the {a('/artificial-turf-cost/', 'artificial turf cost guide')} has size-by-size pricing. "

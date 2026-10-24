@@ -64,12 +64,12 @@ HUB_FAQS = [
         "A separate Right-of-Way Utilization application, e-mailed to engineering@cwgdn.com with at least 24 hours' notice before work begins, covers that part of the job. The city applies Orange County's own Right-of-Way Utilization Regulations and Road Construction Specifications to the work."),
     faq("Is Horizon West part of the City of Winter Garden?",
         "No. Horizon West is an unincorporated Orange County planning area next to Winter Garden and Windermere, roughly 20,704 gross acres of villages and a town center, reviewed by the county's own building and zoning offices rather than the city's."),
-    faq("How do you pick the best concrete contractor near Winter Garden?",
-        f"Verify the contractor's status on the state's license-check tool, ask whether the bid already ran the city's impervious-area worksheet or just assumed the lot has room, and confirm whether the quote covers a Right-of-Way application if the work reaches the street. "
-        f"{post('how-to-choose-a-concrete-contractor-orlando', 'Ten criteria for choosing a concrete contractor')} covers the rest."),
+    faq("How do you pick the best concrete company near Winter Garden?",
+        f"Look the business name up on Sunbiz, ask whether the bid already ran the city's impervious-area worksheet or just assumed the lot has room, and confirm whether the quote covers a Right-of-Way application if the work reaches the street. "
+        f"{post('how-to-compare-concrete-and-paver-quotes', 'A line-by-line way to compare bids')} covers the rest."),
 ]
 
-HUB = page("/winter-garden-fl/", "city", "Concrete, Pavers & Turf Contractor in Winter Garden, FL",
+HUB = page("/winter-garden-fl/", "city", "Concrete, Pavers & Turf Company in Winter Garden, FL",
            "Concrete, pavers and turf in Winter Garden, FL: the city's impervious-area worksheet, its Right-of-Way process and the 35% R-1A cap, as of October 2026.",
            "Concrete, Pavers and Artificial Turf for Winter Garden, Florida Homes",
            capsule("Opera pours concrete and sets pavers and artificial turf for homes in Winter Garden, an Orange County city of about 48,063 residents as of mid-2025, roughly 13 miles west of Orlando. "
@@ -151,7 +151,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -----------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Winter Garden, FL – Add-Ons",
-    "meta": "Concrete patio contractors in Winter Garden, FL: fitting a new patio into the city's impervious worksheet on an already-built lot, Oct. 2026.",
+    "meta": "Concrete patio companies in Winter Garden, FL: fitting a new patio into the city's impervious worksheet on an already-built lot, Oct. 2026.",
     "h1": "Building a Concrete Patio in Winter Garden",
     "lede": capsule(f"Expect {price('concrete-patio')} per {per('concrete-patio')} for a concrete patio in Winter Garden, the Florida range current for this October. "
                      "Because a patio is almost always added onto a lot where the house, driveway and walkways are already built, the city's worksheet has less room left to work with than it would on a brand-new build, which is the main thing that decides how big the slab can go."),
@@ -223,7 +223,7 @@ LOCAL["concrete-pool-decks"] = {
     ],
     "scenario": ("A new pool deck sized against the lot's remaining allowance, in square feet",
                  f"<p>A newly built pool on a Winter Garden lot calling for a 500-square-foot deck around the shell prices out between roughly $2,500 and $7,500 once the {price('concrete-pool-deck')} per {per('concrete-pool-deck')} range is applied, moving toward the higher end for a cool-touch decorative finish. "
-                 "Before the forms go up, that 500 square feet gets checked against whatever the driveway and any patio already use of the R-1A district's 35-percent ceiling, since a deck sized to the pool contractor's shell alone can still push the lot over that number.</p>"),
+                 "Before the forms go up, that 500 square feet gets checked against whatever the driveway and any patio already use of the R-1A district's 35-percent ceiling, since a deck sized to the pool builder's shell alone can still push the lot over that number.</p>"),
     "faqs": [
         faq("Are most Winter Garden pool decks new installs or replacements?",
             "More often new installs, since the city's population and housing stock have grown quickly and the median home dates to 2004. A newly poured deck alongside a newly set pool shell is more common here than resurfacing an old one."),
@@ -240,7 +240,7 @@ LOCAL["pool-deck-pavers"] = {
     "title": "Pool Deck Pavers in Winter Garden, FL – Horizon West",
     "meta": "Pool deck paver installers near Winter Garden, FL: Horizon West's different permitting office and the worksheet's pool-deck line item, Oct. 2026.",
     "h1": "Travertine and Paver Pool Decks Near Winter Garden",
-    "lede": capsule(f"Winter Garden pool decks finished in travertine or pavers price between {price('pool-deck-pavers')} per {per('pool-deck-pavers')}, tracking current Florida contractor rates for this fall. "
+    "lede": capsule(f"Winter Garden pool decks finished in travertine or pavers price between {price('pool-deck-pavers')} per {per('pool-deck-pavers')}, tracking current Florida installer rates for this fall. "
                      "A lot just inside the city limits and one a few streets over in the fast-growing, unincorporated Horizon West area can look identical, but they answer to different permitting offices for the same deck."),
     "sections": [
         ("The same new pool deck can mean two different offices depending on the address",
@@ -267,7 +267,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete ---------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Winter Garden, FL – Downtown",
-    "meta": "Stamped concrete contractors in Winter Garden, FL: a brick-look pattern that echoes Plant Street, and the Right-of-Way rule for a decorative apron, Oct. 2026.",
+    "meta": "Stamped concrete companies in Winter Garden, FL: a brick-look pattern that echoes Plant Street, and the Right-of-Way rule for a decorative apron, Oct. 2026.",
     "h1": "Stamped Concrete Driveways and Patios in Winter Garden",
     "lede": capsule(f"Budget {price('stamped-concrete')} per {per('stamped-concrete')} for stamped concrete in Winter Garden, with the final number inside that current Florida range depending on the pattern and color count chosen. "
                      "A running-bond or herringbone brick stamp echoes the rebuilt brick storefronts along the historic downtown, and when the stamped surface reaches the right-of-way, it still has to meet the same engineering spec a plain apron would."),
@@ -296,7 +296,7 @@ LOCAL["stamped-concrete"] = {
 # 8. concrete-walkways --------------------------------------------------------
 LOCAL["concrete-walkways"] = {
     "title": "Sidewalks & Walkways in Winter Garden, FL",
-    "meta": "Concrete walkway contractors in Winter Garden, FL: the city's Right-of-Way application and the West Orange Trail's Plant Street median, Oct. 2026.",
+    "meta": "Concrete walkway companies in Winter Garden, FL: the city's Right-of-Way application and the West Orange Trail's Plant Street median, Oct. 2026.",
     "h1": "Concrete Sidewalks and Walkways in Winter Garden",
     "lede": capsule(f"A concrete walkway in Winter Garden runs {price('concrete-walkway')} per {per('concrete-walkway')} as of October 2026. "
                      "A front walk built entirely on private property is one project; a walk that crosses into the public right-of-way, including anywhere near the West Orange Trail corridor that runs down the middle of Plant Street, is a different one with its own application."),
@@ -325,9 +325,9 @@ LOCAL["concrete-walkways"] = {
 # 9. concrete-slabs ------------------------------------------------------------
 LOCAL["concrete-slabs"] = {
     "title": "Concrete Slabs in Winter Garden, FL – Sheds & Pads",
-    "meta": "Concrete slab contractors in Winter Garden, FL: how a shed or parking pad counts toward the 35% R-1A cap, and the sand underneath it, Oct. 2026.",
+    "meta": "Concrete slab companies in Winter Garden, FL: how a shed or parking pad counts toward the 35% R-1A cap, and the sand underneath it, Oct. 2026.",
     "h1": "Concrete Slabs for Sheds, Pads and Parking in Winter Garden",
-    "lede": capsule(f"Florida contractor figures published this October put a Winter Garden concrete slab at {price('concrete-slab')} per {per('concrete-slab')}. "
+    "lede": capsule(f"Florida installer figures published this October put a Winter Garden concrete slab at {price('concrete-slab')} per {per('concrete-slab')}. "
                      "A shed, AC or parking pad is a small addition next to a house and driveway that may already sit close to the R-1A district's 35-percent coverage ceiling, and the sand underneath it varies enough across the city to change how deep the base needs to go."),
     "sections": [
         ("A small pad can be the square footage that tips a lot over its limit",
@@ -354,9 +354,9 @@ LOCAL["concrete-slabs"] = {
 # 10. concrete-repair ----------------------------------------------------------
 LOCAL["concrete-repair"] = {
     "title": "Concrete Repair & Resurfacing in Winter Garden, FL",
-    "meta": "Concrete repair contractors in Winter Garden, FL: why cracking in a 2004-era city often isn't a sinkhole, even with Orange on the claims list, Oct. 2026.",
+    "meta": "Concrete repair companies in Winter Garden, FL: why cracking in a 2004-era city often isn't a sinkhole, even with Orange on the claims list, Oct. 2026.",
     "h1": "Concrete Repair and Resurfacing in Winter Garden",
-    "lede": capsule(f"Late-2026 Florida contractor figures put concrete repair and resurfacing in Winter Garden at {price('concrete-repair')} per {per('concrete-repair')}. "
+    "lede": capsule(f"Late-2026 Florida installer figures put concrete repair and resurfacing in Winter Garden at {price('concrete-repair')} per {per('concrete-repair')}. "
                      "With a median home built in 2004, most cracking here traces to ordinary joint wear or fill settlement rather than the sudden ground collapse behind Orange County's place on the state's own sinkhole-claims roster."),
     "sections": [
         ("A relatively young housing stock still produces its first generation of cracks",
@@ -412,9 +412,9 @@ LOCAL["paver-sealing"] = {
 # 12. retaining-walls -----------------------------------------------------------
 LOCAL["retaining-walls"] = {
     "title": "Retaining Walls in Winter Garden, FL – Call First",
-    "meta": "Retaining wall contractors in Winter Garden, FL: the city's unpublished height threshold and the statewide 48-inch engineering trigger, Oct. 2026.",
+    "meta": "Retaining wall companies in Winter Garden, FL: the city's unpublished height threshold and the statewide 48-inch engineering trigger, Oct. 2026.",
     "h1": "Retaining Walls for Winter Garden's Graded Lots",
-    "lede": capsule(f"Florida contractors are quoting {price('retaining-wall')} per {per('retaining-wall')} for wall work in Winter Garden this fall. "
+    "lede": capsule(f"Florida installers are quoting {price('retaining-wall')} per {per('retaining-wall')} for wall work in Winter Garden this fall. "
                      "The city hasn't put a height number on its own permit pages for when a retaining wall needs a sealed engineering drawing, so a call to the Building Division before a design on a graded lot near the lake, or near a newer subdivision in Horizon West, goes final is worth the few minutes it takes."),
     "sections": [
         ("Winter Garden's general FAQ covers every structure, but a wall-specific number is missing",

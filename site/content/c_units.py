@@ -75,7 +75,7 @@ def central_florida():
         faq("How do I know if my lot is on ridge sand or flatwoods soil?",
             "Elevation and the neighborhood's age are rough clues: the Clermont and Minneola ridge drains fast and rarely floods a yard, while older flatwoods subdivisions through Orlando and Kissimmee can hold water near the surface for months. The USDA Web Soil Survey gives an exact series for any address, and we check it on the site visit."),
         faq("Does Orange County's sinkhole history mean my driveway could be at risk?",
-            "Not in the way most people picture it. Orange made an 11-county list for sinkhole insurance claims, but most sunken concrete near Orlando comes from ordinary settlement (soft fill, a leaking pipe, a decayed root), not a geological collapse. A contractor who has seen both can usually tell which one a sunken slab is."),
+            "Not in the way most people picture it. Orange made an 11-county list for sinkhole insurance claims, but most sunken concrete near Orlando comes from ordinary settlement (soft fill, a leaking pipe, a decayed root), not a geological collapse. A crew that has seen both can usually tell which one a sunken slab is."),
         faq("Is my town under a water restriction in 2026?",
             "Most of the unit follows SJRWMD's standard twice-weekly schedule, but Lake County is under the district's Phase III Extreme order, which limits lawn watering to one day a week. Orange, Osceola and Seminole follow the standard district schedule."),
         faq("Can my HOA stop me from resealing or changing my driveway?",

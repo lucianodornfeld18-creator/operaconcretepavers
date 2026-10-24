@@ -118,7 +118,7 @@ HUB_FAQS = [
     ),
     faq(
         "Does a condo building on Siesta Key follow the same driveway rules as a house?",
-        "Not usually in practice. With roughly a quarter of the island's housing in buildings of 50 units or more, pool-deck and common-area paving work there typically routes through the condominium association and its own contractor process rather than an individual homeowner permit."
+        "Not usually in practice. With roughly a quarter of the island's housing in buildings of 50 units or more, pool-deck and common-area paving work there typically routes through the condominium association and its own vendor process rather than an individual homeowner permit."
     ),
     faq(
         "Does a retaining wall need engineering here?",
@@ -132,7 +132,7 @@ HUB_FAQS = [
 
 HUB = page(
     "/siesta-key-fl/", "city",
-    "Concrete, Pavers & Turf Contractor on Siesta Key, FL",
+    "Concrete, Pavers & Turf Company on Siesta Key, FL",
     "Concrete, pavers and turf on Siesta Key, FL: Sarasota County's §124-48 ROW permit, the Gulf Beach Setback Line and a 1976 median build year, October 2026.",
     "Concrete, Pavers and Artificial Turf for Siesta Key Homes",
     capsule(
@@ -176,7 +176,7 @@ LOCAL["concrete-driveways"] = {
             "an open ditch: \"a culvert permit, a sub-class of the ROW Use Permit, shall be required for residential access "
             "driveways\" along roads with open drainage " + src("sarasota-county-124-255-culverts", "Sarasota County Code "
             "§124-255") + ". The pipe itself has to run 20 to 24 feet unless the ditch runs deeper, and the County Engineer sets "
-            "the line and grade, not the contractor, which is why we survey the swale before quoting a driveway that touches "
+            "the line and grade, not the installer, which is why we survey the swale before quoting a driveway that touches "
             "one.</p>"
         ),
         (
@@ -207,7 +207,7 @@ LOCAL["concrete-driveways"] = {
         ),
         faq(
             "Who sets the culvert pipe's grade on Siesta Key?",
-            "The County Engineer, not the contractor. Driveway culverts run 20 to 24 feet unless the ditch is deeper, and the pipe material has to be one the County Engineer approves."
+            "The County Engineer, not the installer. Driveway culverts run 20 to 24 feet unless the ditch is deeper, and the pipe material has to be one the County Engineer approves."
         ),
     ],
     "sources": SRC,
@@ -284,7 +284,7 @@ LOCAL["concrete-patios"] = {
             "around a quarter are in buildings of 50 units or more " + ext(SIESTA_ACS_URL, "Census Reporter, Siesta Key CDP FL") +
             ". A patio addition behind a single-family cottage goes through the homeowner directly, the way it would on the "
             "mainland. A patio or walkway resurfacing job at a 50-unit condominium instead routes through the association's "
-            "board and its own contractor-approval process, which usually takes longer to schedule than a straightforward "
+            "board and its own vendor-approval process, which usually takes longer to schedule than a straightforward "
             "residential job even when the concrete work itself is simpler.</p>"
         ),
         (
@@ -308,7 +308,7 @@ LOCAL["concrete-patios"] = {
     "faqs": [
         faq(
             "Does a condo need a different process than a house for patio work on Siesta Key?",
-            "In practice, yes. A single-family homeowner can request and approve the work directly, while a condominium association's common-area patio or walkway usually has to clear the board and its own contractor-approval process first."
+            "In practice, yes. A single-family homeowner can request and approve the work directly, while a condominium association's common-area patio or walkway usually has to clear the board and its own vendor-approval process first."
         ),
         faq(
             "Is a small concrete patio exempt from a permit on Siesta Key?",

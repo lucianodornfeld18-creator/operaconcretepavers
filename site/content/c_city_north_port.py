@@ -31,7 +31,7 @@ SRC = [
 
 HUB = page(
     "/north-port-fl/", "city",
-    "Concrete & Paver Contractor in North Port, FL",
+    "Concrete & Paver Company in North Port, FL",
     "Opera pours concrete and sets pavers in North Port, FL, a city built on a 1950s canal-and-swale grid where a culvert permit comes before most driveway work.",
     "Concrete, Pavers and Turf for North Port Homes",
     capsule(
@@ -98,8 +98,8 @@ HUB = page(
             "On impervious surface and open space, yes in one respect: the city's overall coverage and open-space standards specifically don't apply to lots platted by General Development Corporation inside the Port Charlotte Subdivision, which covers most of the older part of the city."
         ),
         faq(
-            "How do you find the best concrete contractor in North Port?",
-            "Run the license-lookup tool first, then ask a North Port-specific question most generic bids skip: has this crew pulled a city culvert permit before, not just a driveway permit, and does the proposal name a base depth for the specific soil under that lot rather than a flat number used everywhere. " + post("how-to-choose-a-concrete-contractor-sarasota", "Our contractor guide") + " covers the rest."
+            "How do you find the best concrete company in North Port?",
+            "Check the business on Sunbiz first, then ask a North Port-specific question most generic bids skip: has this crew pulled a city culvert permit before, not just a driveway permit, and does the proposal name a base depth for the specific soil under that lot rather than a flat number used everywhere. " + post("how-to-compare-concrete-and-paver-quotes", "Our quote-comparison guide") + " covers the rest."
         ),
     ],
     sources=SRC, city=SLUG,

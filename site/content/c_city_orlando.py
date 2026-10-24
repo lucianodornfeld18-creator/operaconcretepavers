@@ -68,12 +68,12 @@ HUB_FAQS = [
         "In Laureate Park, yes. The Master Association's Architectural Review Board signs off on property improvements, submitted by email, before work starts, separate from the city's engineering permit. Other Lake Nona neighborhoods may run a similar process, so check with the specific HOA before ordering materials."),
     faq("Is Orlando at higher risk of sinkholes than other parts of Central Florida?",
         "Orange County sits on an 11-county list for sinkhole insurance claims filed between 2006 and 2009, alongside the better-known sinkhole-alley counties to the west. Most sunken concrete in the area still comes from ordinary settlement, a leaking pipe or a decayed root, rather than a geological collapse, and the two are diagnosed differently."),
-    faq("How do you find the best concrete contractor in Orlando?",
-        f"Check the contractor on the state's license-verification tool, ask whether the quote already includes the engineering permit and any HOA review your neighborhood requires, and compare how each bid handles subgrade compaction on flatwoods soil. "
-        f"{post('how-to-choose-a-concrete-contractor-orlando', 'Ten criteria for choosing a concrete contractor in Orlando')} covers the rest."),
+    faq("How do you find the best concrete company in Orlando?",
+        f"Look the business up on Sunbiz, ask whether the quote already includes the engineering permit and any HOA review your neighborhood requires, and compare how each bid handles subgrade compaction on flatwoods soil. "
+        f"{post('orange-county-orlando-driveway-patio-permits', 'Our Orlando and Orange County permit guide')} covers the rest."),
 ]
 
-HUB = page("/orlando-fl/", "city", "Concrete, Pavers & Turf Contractor in Orlando, FL",
+HUB = page("/orlando-fl/", "city", "Concrete, Pavers & Turf Company in Orlando, FL",
            "Concrete, pavers and turf in Orlando, FL: the city's engineering permit, Baldwin Park and Lake Nona rules, and six historic districts, October 2026.",
            "Concrete, pavers and artificial turf in Orlando, Florida",
            capsule("Opera pours concrete and lays pavers and artificial turf across Orlando, a city of about 333,888 residents in Orange County where most homes date to the early 1990s. "
@@ -160,7 +160,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -----------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Orlando, FL – Permits & Trees",
-    "meta": "Concrete patio contractors in Orlando, FL: the city's engineering permit, why backyard patios usually skip the coverage cap, and protected trees, October 2026.",
+    "meta": "Concrete patio companies in Orlando, FL: the city's engineering permit, why backyard patios usually skip the coverage cap, and protected trees, October 2026.",
     "h1": "Building a Concrete Patio in Orlando",
     "lede": capsule(f"A concrete patio in Orlando runs {price('concrete-patio')} per {per('concrete-patio')} as of October 2026. "
                      "The city reviews a patio slab under the same engineering permit it uses for a driveway or pavers, though a backyard patio usually sits outside the 40 percent coverage cap that governs the front or street-side yard, and a protected oak near the back of the house can still shape where the slab goes."),
@@ -177,7 +177,7 @@ LOCAL["concrete-patios"] = {
     ],
     "scenario": ("A College Park bungalow patio, worked out in square feet",
                  f"<p>Say a 1920s-era bungalow in College Park adds a 12 by 12 foot back patio off the kitchen, 144 square feet. At {price('concrete-patio')} per {per('concrete-patio')}, that lands between roughly $864 and $1,872 before a finish upgrade such as a broom texture or a border. "
-                 "On an older lot like this, a live oak with a trunk over 6 inches in diameter counts as a protected tree under the city's tree ordinance, so the patio footprint and the contractor's equipment path both have to stay clear of its required undisturbed area unless a Tree Encroachment Permit is approved first.</p>"),
+                 "On an older lot like this, a live oak with a trunk over 6 inches in diameter counts as a protected tree under the city's tree ordinance, so the patio footprint and the crew's equipment path both have to stay clear of its required undisturbed area unless a Tree Encroachment Permit is approved first.</p>"),
     "faqs": [
         faq("Does a concrete patio need the same permit as a driveway in Orlando?",
             "Yes, the city reviews patio and pool-deck slabs under the same engineering permit it uses for driveways and pavers. The application still needs a dimensioned survey and, on larger contracts, a recorded Notice of Commencement."),
@@ -287,7 +287,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete ---------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Orlando, FL – Historic Rules",
-    "meta": "Stamped concrete contractors in Orlando, FL: the Certificate of Appropriateness required in six historic districts, and the 40% coverage cap, October 2026.",
+    "meta": "Stamped concrete companies in Orlando, FL: the Certificate of Appropriateness required in six historic districts, and the 40% coverage cap, October 2026.",
     "h1": "Stamped Concrete Driveways and Patios in Orlando",
     "lede": capsule(f"Stamped concrete in Orlando runs {price('stamped-concrete')} per {per('stamped-concrete')} as of October 2026, depending on the pattern and the number of colors used. "
                      "Inside any of the city's six historic preservation districts, a pattern or color change on a visible driveway or walk needs a Certificate of Appropriateness filed alongside the engineering permit, a step a plain gray pour outside those districts skips."),
@@ -319,7 +319,7 @@ LOCAL["stamped-concrete"] = {
 # 8. concrete-walkways --------------------------------------------------------
 LOCAL["concrete-walkways"] = {
     "title": "Sidewalks & Walkways in Orlando, FL – Permits",
-    "meta": "Concrete walkway and sidewalk contractors in Orlando, FL: the right-of-way permit, College Park's oak canopy, and the 6-inch protected-tree rule, October 2026.",
+    "meta": "Concrete walkway and sidewalk companies in Orlando, FL: the right-of-way permit, College Park's oak canopy, and the 6-inch protected-tree rule, October 2026.",
     "h1": "Concrete Sidewalks and Walkways in Orlando",
     "lede": capsule(f"A concrete walkway in Orlando runs {price('concrete-walkway')} per {per('concrete-walkway')} as of October 2026. "
                      "Any walkway or sidewalk repair that touches the right-of-way goes through the same right-of-way permit as a driveway apron, and in older, oak-lined neighborhoods like College Park, root heave from a protected tree is as common a reason to replace a walk as plain cracking."),
@@ -350,7 +350,7 @@ LOCAL["concrete-walkways"] = {
 # 9. concrete-slabs ------------------------------------------------------------
 LOCAL["concrete-slabs"] = {
     "title": "Concrete Slabs in Orlando, FL – Shed & Pad Permits",
-    "meta": "Concrete slab contractors in Orlando, FL: shed, AC and parking pad permits, and what Baldwin Park's redeveloped base ground means for subgrade, October 2026.",
+    "meta": "Concrete slab companies in Orlando, FL: shed, AC and parking pad permits, and what Baldwin Park's redeveloped base ground means for subgrade, October 2026.",
     "h1": "Concrete Slabs for Sheds, Pads and Parking in Orlando",
     "lede": capsule(f"A concrete slab in Orlando runs {price('concrete-slab')} per {per('concrete-slab')} as of October 2026. "
                      "A shed, AC or parking pad goes through the same engineering permit review as a patio, and on a redeveloped lot like Baldwin Park's former military base ground, a site visit checks what kind of fill sits under the slab before pricing the job."),
@@ -440,7 +440,7 @@ LOCAL["paver-sealing"] = {
 # 12. retaining-walls -----------------------------------------------------------
 LOCAL["retaining-walls"] = {
     "title": "Retaining Walls in Orlando, FL – Engineering Rules",
-    "meta": "Retaining wall contractors in Orlando, FL: the city's unpublished height trigger, the statewide 48-inch engineering threshold, October 2026.",
+    "meta": "Retaining wall companies in Orlando, FL: the city's unpublished height trigger, the statewide 48-inch engineering threshold, October 2026.",
     "h1": "Retaining Walls for Orlando Yards",
     "lede": capsule(f"A retaining wall in Orlando runs {price('retaining-wall')} per {per('retaining-wall')} as of October 2026. "
                      "The city's own permitting pages don't publish a stand-alone height that triggers engineering review for a wall, so we confirm the threshold with Permitting Services directly, working from the statewide code figure used elsewhere in the region as the likely baseline."),

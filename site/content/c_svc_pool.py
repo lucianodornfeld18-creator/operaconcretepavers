@@ -22,7 +22,7 @@ def concrete_pool_decks():
                  ["Spray deck or micro-topping overlay", "Thicker decorative layer over the slab", "$4–$8", "Sound slab with minor surface flaws"],
                  ["New poured concrete deck", "Old deck removed, new slab poured", price('concrete-pool-deck'), "Cracked, sunken or undersized deck"],
                  ["Stamped concrete deck or overlay", "New pour or overlay with a pattern", "$7–$20", "New pours or sound slabs wanting a pattern"]],
-                f"Central Florida contractor pricing for an 800–1,200 sq ft deck; see {src('poolmechanic-pooldeck-cfl', 'Pool Mechanic, Central Florida, July 2026')} and {price_note()}"))
+                f"Central Florida installer pricing for an 800–1,200 sq ft deck; see {src('poolmechanic-pooldeck-cfl', 'Pool Mechanic, Central Florida, July 2026')} and {price_note()}"))
 
     spec = sec("What We Build To",
         f"<p>Florida's residential code sets 3½ inches as the minimum thickness for a slab on the ground (FBC Residential R506.1); we typically build a pool deck to 4 inches, the same standard most residential flatwork uses, since a pool deck never carries the point loads a driveway does ({src('fbcr-2020-ch5', 'FBC Residential Ch. 5')}).</p>"
@@ -71,8 +71,8 @@ def concrete_pool_decks():
         "<p>Rinse the coping and the few feet of deck closest to the water a few times a month; chlorine and salt residue builds into a dull film if it never gets hosed off between pool-service visits. Walk the isolation joint once or twice a year and look for the sealant cracking, pulling away, or gapping anywhere along the coping; it's the part of the deck that wears out first, well before the surrounding concrete does, and a simple recaulk fixes it early. "
         f"There's no fixed number of years published for recoating an acrylic or Kool Deck-style finish; watch for chalking, a texture gone smooth, or water that no longer beads instead of counting calendar years ({src('mortex-kooldeck-brochure', 'Mortex Kool Deck brochure')}). Keep deck drains clear ahead of the rainy season, and treat a crack that follows the coping line, rather than running across an open panel, as worth a professional look. More on surface care in {post('slippery-pool-deck-fixes', 'making a slippery pool deck safer')} and {post('mold-and-algae-on-pavers-florida', 'stopping mold and algae on concrete and pavers')}.</p>")
 
-    choose = sec("How Do You Pick the Best Pool Deck Contractor in Florida?",
-        f"<p>Start with how they describe the isolation joint at the coping; a contractor who can't explain it without being asked probably isn't planning to build one. Ask who pulls the engineering or zoning permit the job needs, since that answer tells you whether it's priced into the bid. For anything over $2,500, a recorded Notice of Commencement protects you under Florida's lien law, and a legitimate contractor expects to handle it ({src('fs713-13', 'F.S. 713.13')}). Florida's pool-contractor license category covers the shell and its equipment; the statute's text doesn't single out the surrounding deck, so a concrete or masonry background matters more here than a pool license by itself ({src('fs489-105', 'F.S. 489.105')}). Before you commit to a quote, check {src('dbpr-search', 'the DBPR license search')} for anyone claiming a state certification, and ask for proof of the liability insurance Florida requires contractors to carry ({src('fs489-115', 'F.S. 489.115')}). {post('how-to-choose-a-concrete-contractor-orlando', 'More criteria for Orlando')} and {post('how-to-choose-a-concrete-contractor-sarasota', 'for Sarasota and Bradenton')}.</p>")
+    choose = sec("How Do You Pick the Best Pool Deck Company in Florida?",
+        f"<p>Start with how they describe the isolation joint at the coping; a crew that can't explain it without being asked probably isn't planning to build one. Ask who pulls the engineering or zoning permit the job needs, since that answer tells you whether it's priced into the bid. For anything over $2,500, a recorded Notice of Commencement protects you under Florida's lien law, and a legitimate company expects to handle it ({src('fs713-13', 'F.S. 713.13')}). The deck is concrete work even though it wraps a pool, so a concrete and flatwork background matters more here than pool-shell experience. Before you commit to a quote, ask for a certificate of insurance sent directly by the insurance agent, and look the business up on Sunbiz. {post('how-to-compare-concrete-and-paver-quotes', 'Comparing quotes line by line')} covers the rest of the paperwork.</p>")
 
     links = sec("Related Reading",
         ul([compare('cool-deck-vs-pavers-vs-travertine', 'Cool deck vs. pavers vs. travertine: resurface or replace?'),
@@ -112,7 +112,7 @@ def concrete_pool_decks():
                 sources=["homeguide-pool-deck", "homeguide-pool-deck-resurfacing", "poolmechanic-pooldeck-cfl", "fbcr-2020-ch5", "nrmca-cip6", "nrmca-cip12",
                          "aci-faq-maxtemp", "aci-ci-evap-2007", "mortex-kooldeck-brochure", "nws-mlb-wetdry", "nrcs-myakka-osd", "nrcs-smyrna-osd", "nrcs-eaugallie-osd",
                          "fl-senate-2011-104", "fdot-sdg", "orlando-res-requirements", "manatee-ldc-511.16-pool-decks", "lwr-ceva-manual", "laureatepark-faq",
-                         "fs720-3035", "fs489-105", "fs489-115", "fs713-13", "dbpr-search"],
+                         "fs720-3035", "fs713-13"],
                 related=[("/pool-deck-cost/", "pool deck cost guide"), ("/compare/cool-deck-vs-pavers-vs-travertine/", "cool deck vs. pavers vs. travertine"),
                          ("/blog/pool-deck-ideas-florida/", "pool deck ideas"), (SERVICES["stamped-concrete"]["route"], "stamped concrete"),
                          (SERVICES["concrete-patios"]["route"], "concrete patios"), (SERVICES["pool-deck-pavers"]["route"], "pool deck pavers"),
@@ -148,7 +148,7 @@ def pool_deck_pavers():
                 [["Travertine", "Noticeably cooler than dark concrete", "Needed; porous stone", f"{src('homeguide-travertine', '$13')}–$30 per sq ft for pool deck installs"],
                  ["Shell stone (coquina)", "Light, naturally textured surface", "Needed; porous stone", f"$16–$35 per sq ft, natural stone ({src('homeguide-pool-deck', 'HomeGuide')})"],
                  ["Concrete pavers", "Warmer than natural stone in full sun", "Optional; lower porosity", f"$8–$15 per sq ft ({src('poolmechanic-pooldeck-cfl', 'Central Florida data')})"]],
-                "A 1,000 sq ft travertine pool deck runs roughly $22,000–$28,000 installed in published Florida contractor pricing."))
+                "A 1,000 sq ft travertine pool deck runs roughly $22,000–$28,000 installed in published Florida installer pricing."))
 
     base = sec("Base and Spec for a Paver Pool Deck",
         f"<p>A paver pool deck carries a light pedestrian load, the same as a patio, so it follows the lighter ICPI spec rather than the heavier one written for driveways. Units for a pedestrian or lightly used area run 2⅜ inches thick; the base underneath goes at least 4 inches on well-drained soil, with 2 to 4 inches more on wet or poorly drained ground, compacted to 98% of standard Proctor density ({src('icpi-ts2', 'ICPI Tech Spec 2')}). Bedding sand screeds to an uncompacted 1 inch, and a continuous edge restraint runs the full perimeter, including the inside edge where the field meets the coping ({src('icpi-ts3', 'ICPI Tech Spec 3')}).</p>"
@@ -203,8 +203,8 @@ def pool_deck_pavers():
         "<p>Rinse the coping and the paver courses closest to the water more often than the rest of the deck; salt, chlorine residue and sunscreen oils concentrate there and build into staining faster than ordinary rain and dust ever would elsewhere on the field. Joint sand in that same zone wears out faster too, from splash-out and hose-downs on top of normal weathering, so it's worth topping off on a shorter cycle than the rest of the deck. "
         f"Travertine and shell stone don't have a published resealing interval; watch for water that no longer beads, or a color gone flat in the splash zone specifically, rather than counting years ({src('icpi-ts5', 'ICPI Tech Spec 5')}). {post('travertine-pool-deck-care', 'Travertine pool deck care')} and {post('how-to-clean-pavers-without-damage', 'cleaning pavers without damaging the joints')} cover the routine.</p>")
 
-    choose = sec("How Do You Pick the Best Pool Deck Paver Contractor?",
-        f"<p>Ask to see how they detail the coping joint before you sign anything; a flexible sealant over a backer rod, not sand run straight up to mortar-set coping, is the detail that keeps that first course of pavers from rocking loose within a year or two. Ask who's applying for whatever permit the job needs and whether that fee is in the quote. For work over $2,500, a recorded Notice of Commencement protects you under Florida's lien law ({src('fs713-13', 'F.S. 713.13')}). Check {src('dbpr-search', 'the DBPR license search')} for anyone claiming a state certification, and ask for proof of the liability insurance coverage Florida requires ({src('fs489-115', 'F.S. 489.115')}). {post('how-to-choose-a-paver-contractor-orlando', 'More criteria for Orlando')} and {post('how-to-choose-a-paver-contractor-sarasota', 'for Sarasota and Lakewood Ranch')}.</p>")
+    choose = sec("How Do You Pick the Best Pool Deck Paver Installer?",
+        f"<p>Ask to see how they detail the coping joint before you sign anything; a flexible sealant over a backer rod, not sand run straight up to mortar-set coping, is the detail that keeps that first course of pavers from rocking loose within a year or two. Ask who's applying for whatever permit the job needs and whether that fee is in the quote. For work over $2,500, a recorded Notice of Commencement protects you under Florida's lien law ({src('fs713-13', 'F.S. 713.13')}). Ask for a certificate of insurance that comes from the insurance agent rather than a photocopy, and keep the payment schedule tied to finished stages. {compare('travertine-vs-concrete-pavers', 'Travertine vs. concrete pavers')} helps settle the material before the quotes come in.</p>")
 
     links = sec("Related Reading",
         ul([compare('travertine-vs-concrete-pavers', 'Travertine vs. concrete pavers'),
@@ -245,7 +245,7 @@ def pool_deck_pavers():
                 body, faqs=faqs,
                 sources=["homeguide-travertine", "homeguide-pool-deck", "poolmechanic-pooldeck-cfl", "craftpavers-fl-pricing", "icpi-ts2", "icpi-ts3", "icpi-ts5",
                          "nrcs-eaugallie-osd", "nrcs-immokalee-osd", "nrcs-myakka-osd", "fl-senate-2011-104", "fdot-sdg", "orlando-res-requirements",
-                         "manatee-ldc-511.16-pool-decks", "lwr-ceva-manual", "laureatepark-faq", "fs720-3035", "fs489-115", "fs713-13", "dbpr-search", "nws-mlb-wetdry"],
+                         "manatee-ldc-511.16-pool-decks", "lwr-ceva-manual", "laureatepark-faq", "fs720-3035", "fs713-13", "nws-mlb-wetdry"],
                 related=[("/pool-deck-cost/", "pool deck cost guide"), ("/compare/travertine-vs-concrete-pavers/", "travertine vs. concrete pavers"),
                          ("/blog/best-pavers-for-florida/", "best pavers for Florida"), (SERVICES["concrete-pool-decks"]["route"], "concrete pool decks"),
                          (SERVICES["paver-patios"]["route"], "paver patios"), (SERVICES["paver-sealing"]["route"], "paver sealing"),

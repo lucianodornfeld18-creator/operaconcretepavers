@@ -60,12 +60,12 @@ HUB_FAQS = [
         f"({ext(HIST_URL, 'City of Longwood, Historic District')})."),
     faq("Is most of Longwood's concrete original from the 1980s?",
         "The city's median home dates to 1983 per the latest Census estimate, which puts a sizable share of original driveways and patios at or past the point where cracking and resurfacing are expected rather than unusual."),
-    faq("What should a Longwood homeowner check before hiring a concrete contractor?",
-        f"Make sure the written bid already folds in the city's own right-of-way permit fee rather than adding it as a surprise later, ask directly how the crew prices a culvert crossing if the lot backs onto a drainage ditch, and run the contractor's name through the state's license-verification tool before signing anything. "
-        f"{post('how-to-choose-a-concrete-contractor-orlando', 'Our guide to choosing a concrete contractor')} covers the rest of what belongs in a solid estimate."),
+    faq("What should a Longwood homeowner check before hiring a concrete company?",
+        f"Make sure the written bid already folds in the city's own right-of-way permit fee rather than adding it as a surprise later, ask directly how the crew prices a culvert crossing if the lot backs onto a drainage ditch, and run the company's name through Sunbiz before signing anything. "
+        f"{post('how-to-compare-concrete-and-paver-quotes', 'Our guide to comparing quotes')} covers the rest of what belongs in a solid estimate."),
 ]
 
-HUB = page("/longwood-fl/", "city", "Concrete, Pavers & Turf Contractor in Longwood, FL",
+HUB = page("/longwood-fl/", "city", "Concrete, Pavers & Turf Company in Longwood, FL",
            "Concrete, pavers and turf in Longwood, FL: the city's own $25 right-of-way permit, a 15-inch culvert rule, and the 55% LDR coverage cap, October 2026.",
            "Concrete, Pavers and Artificial Turf for Longwood Homes",
            capsule(f"Opera pours concrete and lays pavers and artificial turf in Longwood, where the going market range for a {price('concrete-driveway')} per {per('concrete-driveway')} concrete driveway applies the same as everywhere else in Greater Orlando, October 2026. "

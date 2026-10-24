@@ -104,9 +104,9 @@ HUB_FAQS = [
         "On average, yes. The area's median home dates to 1998, noticeably newer than several neighboring unincorporated communities, though pockets platted decades earlier still exist and answer to the county's older nonconforming-lot rules."
     ),
     faq(
-        "How do you find the best concrete contractor for an Osprey address?",
-        "Run the contractor through the state's license lookup, and beyond that, ask two pointed questions a generic bid often skips: has this crew pulled a Sarasota County culvert permit before, and does the proposal name a specific soil series rather than a generic base depth. " +
-        post("how-to-choose-a-concrete-contractor-sarasota", "Our contractor guide") + " covers the rest."
+        "How do you find the best concrete company for an Osprey address?",
+        "Ask for a payment schedule tied to finished stages, and beyond that, ask two pointed questions a generic bid often skips: has this crew pulled a Sarasota County culvert permit before, and does the proposal name a specific soil series rather than a generic base depth. " +
+        post("how-to-compare-concrete-and-paver-quotes", "Comparing quotes line by line") + " covers the rest."
     ),
     faq(
         "Does the current watering order change sod or turf decisions in Osprey?",
@@ -116,7 +116,7 @@ HUB_FAQS = [
 
 HUB = page(
     "/osprey-fl/", "city",
-    "Concrete, Paver & Turf Contractor in Osprey, FL",
+    "Concrete, Paver & Turf Company in Osprey, FL",
     "Concrete, pavers and turf for unincorporated Osprey, FL: Sarasota County's culvert and coverage rules, Oscar Scherer State Park and flatwoods soil, October 2026.",
     "Building Driveways, Patios and Turf in Osprey",
     capsule(
@@ -240,7 +240,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -------------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Osprey, FL – Flatwoods Base",
-    "meta": "Concrete patio contractors in Osprey, FL: building the subgrade over EauGallie and Pomello flatwoods soil; market range " + price("concrete-patio") + " per " + per("concrete-patio") + ".",
+    "meta": "Concrete patio companies in Osprey, FL: building the subgrade over EauGallie and Pomello flatwoods soil; market range " + price("concrete-patio") + " per " + per("concrete-patio") + ".",
     "h1": "Building a Concrete Patio in Osprey",
     "lede": capsule(
         "A concrete patio near Osprey costs " + price("concrete-patio") + " per " + per("concrete-patio") + " as of October 2026. The sandy flatwoods soil under most of the area keeps a seasonal "
@@ -431,7 +431,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete -------------------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Osprey, FL – Newer Subdivisions",
-    "meta": "Stamped concrete contractors in Osprey, FL: pattern choices for the area's late-1990s subdivisions; market range " + price("stamped-concrete") + " per " + per("stamped-concrete") + ", Oct. 2026.",
+    "meta": "Stamped concrete companies in Osprey, FL: pattern choices for the area's late-1990s subdivisions; market range " + price("stamped-concrete") + " per " + per("stamped-concrete") + ", Oct. 2026.",
     "h1": "Stamped Concrete Driveways and Patios in Osprey",
     "lede": capsule(
         "Expect " + price("stamped-concrete") + " per " + per("stamped-concrete") + " for stamped concrete in Osprey this October. Because so much of the area's housing wasn't built until the "

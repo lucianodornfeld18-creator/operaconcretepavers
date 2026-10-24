@@ -29,7 +29,7 @@ SRC = [
 
 HUB = page(
     "/parrish-fl/", "city",
-    "Concrete & Paver Contractor in Parrish, FL",
+    "Concrete & Paver Company in Parrish, FL",
     "Opera pours concrete and sets pavers for Parrish, FL homes, where Manatee County's access and drainage permit covers the apron, even on a new build.",
     "Concrete, Pavers and Turf for Parrish Homes",
     capsule(
@@ -85,8 +85,8 @@ HUB = page(
             "Yes. The county's no-permit list treats a non-structural concrete or paver patio the same way regardless of when the subdivision around it was built; a slab poured with footers or tied into a pool still needs a permit filed first."
         ),
         faq(
-            "How do you pick the best concrete contractor for a Parrish project?",
-            "Start with the state's license-lookup tool, then ask two Parrish-specific questions: has this crew filed Manatee County's access and drainage permit before, and does the proposal spell out a base thickness sized for Myakka or similar wet flatwoods ground rather than a one-size answer. " + post("how-to-choose-a-concrete-contractor-sarasota", "Our contractor guide") + " covers the rest."
+            "How do you pick the best concrete company for a Parrish project?",
+            "Start with Sunbiz, to confirm the name on the quote is an active company, then ask two Parrish-specific questions: has this crew filed Manatee County's access and drainage permit before, and does the proposal spell out a base thickness sized for Myakka or similar wet flatwoods ground rather than a one-size answer. " + post("how-to-compare-concrete-and-paver-quotes", "Our line-by-line quote guide") + " covers the rest."
         ),
     ],
     sources=SRC, city=SLUG,

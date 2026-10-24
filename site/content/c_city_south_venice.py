@@ -88,7 +88,7 @@ HUB_FAQS = [
 
 HUB = page(
     "/south-venice-fl/", "city",
-    "Concrete, Paver & Turf Contractor in South Venice, FL",
+    "Concrete, Paver & Turf Company in South Venice, FL",
     "Concrete, pavers and turf for unincorporated South Venice, FL: Sarasota County's culvert permit on a 1952 canal subdivision, October 2026.",
     "Concrete Driveways, Pavers and Turf for South Venice Canal Lots",
     capsule(

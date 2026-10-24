@@ -102,9 +102,9 @@ HUB_FAQS = [
         "Only if it sits on or near Casey Key or another county Gulf beach. The county's own setback line bars construction or excavation seaward of it without a variance, on top of whatever Florida DEP's separate coastal control line permit requires."
     ),
     faq(
-        "How do you pick the best concrete contractor for a Nokomis address?",
-        "Start with the state's license-lookup tool, then ask directly whether the bid accounts for a county culvert permit and the shallow water table in EauGallie or Immokalee soil rather than quoting a flat number used anywhere in Florida. " +
-        post("how-to-choose-a-concrete-contractor-sarasota", "Our contractor guide") + " covers the rest."
+        "How do you pick the best concrete company for a Nokomis address?",
+        "Start with a certificate of insurance sent by the insurance agent, then ask directly whether the bid accounts for a county culvert permit and the shallow water table in EauGallie or Immokalee soil rather than quoting a flat number used anywhere in Florida. " +
+        post("sarasota-county-driveway-patio-permits", "Our Sarasota County permit guide") + " covers the county permit side."
     ),
     faq(
         "Does the current watering restriction change sod or turf plans in Nokomis?",
@@ -114,7 +114,7 @@ HUB_FAQS = [
 
 HUB = page(
     "/nokomis-fl/", "city",
-    "Concrete, Paver & Turf Contractor in Nokomis, FL",
+    "Concrete, Paver & Turf Company in Nokomis, FL",
     "Concrete, pavers and turf for unincorporated Nokomis, FL: Sarasota County's culvert and ROW permits, Casey Key's setback line and flatwoods soil, October 2026.",
     "Concrete Driveways, Pavers and Turf Serving Nokomis",
     capsule(
@@ -236,7 +236,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -------------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Nokomis, FL – Coverage Limits",
-    "meta": "Concrete patio contractors in Nokomis, FL: the county's 35% building cap versus the 50% impervious limit on pre-1975 lots; market range " + price("concrete-patio") + " per " + per("concrete-patio") + ".",
+    "meta": "Concrete patio companies in Nokomis, FL: the county's 35% building cap versus the 50% impervious limit on pre-1975 lots; market range " + price("concrete-patio") + " per " + per("concrete-patio") + ".",
     "h1": "Building a Concrete Patio in Nokomis",
     "lede": capsule(
         "A concrete patio near Nokomis costs " + price("concrete-patio") + " per " + per("concrete-patio") + " as of October 2026. Which coverage limit the county applies depends on when the "
@@ -427,7 +427,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete -------------------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Nokomis, FL – 1970s Lots",
-    "meta": "Stamped concrete contractors in Nokomis, FL: pattern choices on the area's mid-century platted lots; market range " + price("stamped-concrete") + " per " + per("stamped-concrete") + ", Oct. 2026.",
+    "meta": "Stamped concrete companies in Nokomis, FL: pattern choices on the area's mid-century platted lots; market range " + price("stamped-concrete") + " per " + per("stamped-concrete") + ", Oct. 2026.",
     "h1": "Stamped Concrete Driveways and Patios in Nokomis",
     "lede": capsule(
         "Stamped concrete in Nokomis runs " + price("stamped-concrete") + " per " + per("stamped-concrete") + " as of October 2026. With the area's median home dated to 1978, stamped work here "

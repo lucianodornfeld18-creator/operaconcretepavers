@@ -70,12 +70,12 @@ HUB_FAQS = [
     faq("How old is a typical Ocoee home?",
         f"Census Reporter's estimate puts the median year of construction at 2000, though homes near the historic downtown core predate that by a century or more, while subdivisions along the SR 50 corridor skew newer "
         f"({ext(ACS_URL, 'Census Reporter, Ocoee FL')})."),
-    faq("How do you pick the best concrete contractor near Ocoee?",
-        f"Verify the contractor on the state's license-check tool, confirm the quote already accounts for the city's site-plan requirement and, if the work touches the street, a separate right-of-way application, and ask how demolition of an existing slab is priced. "
-        f"{post('how-to-choose-a-concrete-contractor-orlando', 'Our guide to choosing a concrete contractor')} covers the rest."),
+    faq("How do you pick the best concrete company near Ocoee?",
+        f"Have the certificate of insurance sent to you by the company's agent, confirm the quote already accounts for the city's site-plan requirement and, if the work touches the street, a separate right-of-way application, and ask how demolition of an existing slab is priced. "
+        f"{post('how-to-compare-concrete-and-paver-quotes', 'Our guide to comparing quotes')} covers the rest."),
 ]
 
-HUB = page("/ocoee-fl/", "city", "Concrete, Pavers & Turf Contractor in Ocoee, FL",
+HUB = page("/ocoee-fl/", "city", "Concrete, Pavers & Turf Company in Ocoee, FL",
            "Opera builds concrete driveways, pavers and turf in Ocoee, FL, where a site plan is required for every slab, patio, driveway or paver job, as of October 2026.",
            "Concrete, Pavers and Artificial Turf for Ocoee, Florida Homes",
            capsule(f"Opera's crews pour concrete and set pavers and artificial turf for homes across Ocoee, an Orange County city of 51,932 residents as of mid-2025, about "
@@ -156,7 +156,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -----------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Ocoee, FL – Drainage",
-    "meta": "Concrete patio contractors in Ocoee, FL: why downtown's new stormwater facility reflects the soil split across the city, Oct. 2026.",
+    "meta": "Concrete patio companies in Ocoee, FL: why downtown's new stormwater facility reflects the soil split across the city, Oct. 2026.",
     "h1": "Building a Concrete Patio in Ocoee",
     "lede": capsule(f"Budget {price('concrete-patio')} per {per('concrete-patio')} for a concrete patio in Ocoee, the Florida range current this October. "
                      "The soil under a given lot here can swing from fast-draining sand to a shallow water table within a short distance, which is part of why the city just built a stormwater facility to serve several downtown blocks."),
@@ -229,7 +229,7 @@ LOCAL["concrete-pool-decks"] = {
     ],
     "scenario": ("A new pool deck on a corridor-area lot, worked out in square feet",
                  f"<p>A newly built home near the SR 50 corridor pouring a 520 sq ft deck around a just-set pool shell prices out between roughly $2,600 and $7,800 once the {price('concrete-pool-deck')} per {per('concrete-pool-deck')} range is applied, trending higher for a cool-touch decorative finish. "
-                 "Because the deck and the pool shell are going in together, the pour schedule typically coordinates with the pool contractor's own timeline rather than fitting into a yard that's already landscaped.</p>"),
+                 "Because the deck and the pool shell are going in together, the pour schedule typically coordinates with the pool builder's own timeline rather than fitting into a yard that's already landscaped.</p>"),
     "faqs": [
         faq("Are most new Ocoee pool decks near the SR 50 corridor or downtown?",
             "More often near the corridor, where residential growth has followed the Fifty West business development over the past two decades, putting a larger share of new pool construction in that part of the city."),
@@ -246,7 +246,7 @@ LOCAL["pool-deck-pavers"] = {
     "title": "Pool Deck Pavers in Ocoee, FL – Lakefront Lots",
     "meta": "Pool deck paver installers in Ocoee, FL: grading near Starke Lake and the city's site-plan requirement for travertine or paver decks, Oct. 2026.",
     "h1": "Travertine and Paver Pool Decks in Ocoee",
-    "lede": capsule(f"Contractors quoting a travertine or paver pool deck for an Ocoee backyard this fall land somewhere in the {price('pool-deck-pavers')} per {per('pool-deck-pavers')} Florida range. "
+    "lede": capsule(f"Installers quoting a travertine or paver pool deck for an Ocoee backyard this fall land somewhere in the {price('pool-deck-pavers')} per {per('pool-deck-pavers')} Florida range. "
                      "A deck going in near Starke Lake answers to the same permit review as one on a corridor-area new build, but the lakefront lot usually asks a few more questions about grading before the base goes down."),
     "sections": [
         ("The same site-plan review covers a lakefront deck and an inland one",
@@ -273,7 +273,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete ---------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Ocoee, FL – Historic Patterns",
-    "meta": "Stamped concrete contractors in Ocoee, FL: patterns that echo the historic district's Colonial Revival homes, and the city's permit rule, Oct. 2026.",
+    "meta": "Stamped concrete companies in Ocoee, FL: patterns that echo the historic district's Colonial Revival homes, and the city's permit rule, Oct. 2026.",
     "h1": "Stamped Concrete Driveways and Patios in Ocoee",
     "lede": capsule(f"Stamped concrete in Ocoee currently prices between {price('stamped-concrete')} per {per('stamped-concrete')}, moving with the pattern and the number of colors chosen. "
                      "A brick-look or slate pattern near the historic Ocoee Street district picks up a visual cue the newer subdivisions along SR 50 simply don't have, though the same site-plan permit applies either way."),

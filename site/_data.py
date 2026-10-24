@@ -48,7 +48,7 @@ BUSINESS = {
 SERVICES = {
     "concrete-driveways": {"name": "Concrete Driveways", "route": "/concrete-driveways/", "pillar": "concrete", "kw": "concrete driveway installation",
                            "short": "New, widened and replacement driveways, poured to a thickness and joint plan that fits Florida soil.", "price": "concrete-driveway", "noun": "a concrete driveway"},
-    "concrete-patios": {"name": "Concrete Patios", "route": "/concrete-patios/", "pillar": "concrete", "kw": "concrete patio contractor",
+    "concrete-patios": {"name": "Concrete Patios", "route": "/concrete-patios/", "pillar": "concrete", "kw": "concrete patio installation",
                         "short": "Back patios, lanai extensions and outdoor-kitchen pads, broom, stamped or decorative.", "price": "concrete-patio", "noun": "a concrete patio"},
     "concrete-pool-decks": {"name": "Concrete Pool Decks", "route": "/concrete-pool-decks/", "pillar": "concrete", "kw": "concrete pool deck",
                             "short": "Pool decks with cool-to-the-touch textures, proper slope to drains and expansion joints at the coping.", "price": "concrete-pool-deck", "noun": "a concrete pool deck"},
@@ -68,7 +68,7 @@ SERVICES = {
                          "short": "Pool decks in travertine, shell stone and concrete pavers, including overlays on an old deck.", "price": "pool-deck-pavers", "noun": "a paver pool deck"},
     "paver-sealing": {"name": "Paver Sealing & Restoration", "route": "/paver-sealing/", "pillar": "pavers", "kw": "paver sealing",
                       "short": "Cleaning, re-sanding with polymeric sand, sealing and releveling sunken or shifted pavers.", "price": "paver-sealing", "noun": "paver sealing"},
-    "retaining-walls": {"name": "Retaining Walls", "route": "/retaining-walls/", "pillar": "pavers", "kw": "retaining wall contractor",
+    "retaining-walls": {"name": "Retaining Walls", "route": "/retaining-walls/", "pillar": "pavers", "kw": "retaining wall installation",
                         "short": "Segmental block walls, raised planters and seat walls, with drainage behind the wall.", "price": "retaining-wall", "noun": "a retaining wall"},
     "artificial-turf": {"name": "Artificial Turf", "route": "/artificial-turf/", "pillar": "turf", "kw": "artificial turf installation",
                         "short": "Lawns, pet areas, putting greens and turf between pavers, built on a washed-rock base.", "price": "artificial-turf", "noun": "artificial turf"},
@@ -116,7 +116,6 @@ SOURCES = {
     "fs125572": ("Florida Statutes §125.572 — synthetic turf on single-family lots", "https://www.flsenate.gov/Laws/Statutes/2025/0125.572"),
     "dep-rule": ("Florida Administrative Code — Rule 62-308.100, Synthetic Turf (effective May 19, 2026)", "https://flrules.org/gateway/RuleNo.asp?id=62-308.100"),
     "fs7203045": ("Florida Statutes §720.3045 — items not visible from the frontage or an adjacent parcel", "https://www.flsenate.gov/Laws/Statutes/2025/720.3045"),
-    "dbpr": ("Florida DBPR — verify a license", "https://www.myfloridalicense.com/wl11.asp"),
     "noaa-normals": ("NOAA NCEI — U.S. Climate Normals 1991–2020", "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals"),
     "usda-wss": ("USDA NRCS — Web Soil Survey", "https://websoilsurvey.nrcs.usda.gov/app/"),
 }
@@ -124,6 +123,13 @@ _sf = pathlib.Path(__file__).resolve().parent.parent / "research" / "sources.jso
 if _sf.exists():
     for k, v in json.loads(_sf.read_text(encoding="utf-8")).items():
         SOURCES.setdefault(k, tuple(v))
+# Licensing sources are never cited (owner decision 2026-10-23: the site makes no statement about licences, ours or
+# anyone's). They stay in research/sources.json as research only; a src() call on one fails the build on purpose.
+NEVER_CITE = {"dbpr", "dbpr-search", "dbpr-hot", "fs489-103", "fs489-105", "fs489-115", "fs489-117", "fs489-119", "fs489-126", "fs489-128",
+              "fs489-1425", "fs163-211", "hb735-er", "hb735-page", "fac61g4-15-003", "fac61g4-15-015", "fac61g4-15-100", "flrules61g4-15",
+              "flrules61g4-15-100", "md-preempt", "manatee-lic", "manatee-reg", "lakeland-readymix"}
+for _k in NEVER_CITE:
+    SOURCES.pop(_k, None)
 
 # ---------------------------------------------------------------- counties and cities
 COUNTIES = {

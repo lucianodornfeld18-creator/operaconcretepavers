@@ -61,7 +61,7 @@ HUB_FAQS = [
         f"About 16 miles, inside the territory the Orlando-unit crew covers alongside {city('windermere', 'Windermere')}, {city('winter-garden', 'Winter Garden')} and the rest of west Orange County."),
 ]
 
-HUB = page("/horizon-west-fl/", "city", "Concrete, Pavers & Turf Contractor in Horizon West, FL",
+HUB = page("/horizon-west-fl/", "city", "Concrete, Pavers & Turf Company in Horizon West, FL",
            "Concrete, pavers and turf in Horizon West, FL: Orange County's lot-width garage code, the area's 300%-plus growth, and county permitting, October 2026.",
            "Concrete, Pavers and Artificial Turf for Horizon West Homes",
            capsule(f"Opera pours concrete and lays pavers and artificial turf across Horizon West, the roughly 20,704-acre unincorporated planning area southwest of Winter Garden and Windermere, about 16 miles from downtown Orlando. "
@@ -140,7 +140,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -----------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Horizon West, FL – New Builds",
-    "meta": "Concrete patio contractors in Horizon West, FL: extending off a required front porch, and pouring on freshly graded village lots, October 2026.",
+    "meta": "Concrete patio companies in Horizon West, FL: extending off a required front porch, and pouring on freshly graded village lots, October 2026.",
     "h1": "Building a Concrete Patio in Horizon West",
     "lede": capsule(f"A concrete patio in Horizon West runs {price('concrete-patio')} per {per('concrete-patio')} as of October 2026. "
                      "Most homes here were required to be built with a real front porch under the county's own design code, so the backyard patio homeowners add later is often the first outdoor living space on a lot that came with porch square footage but no rear slab."),
@@ -253,7 +253,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete ---------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Horizon West, FL – Street Rules",
-    "meta": "Stamped concrete contractors in Horizon West, FL: the county's block-face variety rule and the walkway every narrow lot must have, October 2026.",
+    "meta": "Stamped concrete companies in Horizon West, FL: the county's block-face variety rule and the walkway every narrow lot must have, October 2026.",
     "h1": "Stamped Concrete Driveways and Walkways in Horizon West",
     "lede": capsule(f"A stamped concrete job in Horizon West costs {price('stamped-concrete')} per {per('stamped-concrete')} as of October 2026, with the final number set by the pattern and color count rather than the square footage alone. "
                      "Unlike a typical Orlando-area subdivision, the county's own design code already limits how many identical-looking homes can sit on one block, which makes a stamped pattern a real way to set an entry walk or driveway apart rather than just a cosmetic upgrade."),

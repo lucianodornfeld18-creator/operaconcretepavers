@@ -66,7 +66,7 @@ HUB_FAQS = [
         f"({ext(CENSUSREPORTER_DP_URL, 'Census Reporter, Doctor Phillips, FL')}; {ext(WIKI_DP_URL, 'Wikipedia, Dr. Phillips, Florida')})."),
 ]
 
-HUB = page("/dr-phillips-fl/", "city", "Concrete, Pavers & Turf Contractor in Dr. Phillips, FL",
+HUB = page("/dr-phillips-fl/", "city", "Concrete, Pavers & Turf Company in Dr. Phillips, FL",
            "Concrete, pavers and turf in Dr. Phillips, FL: unincorporated Orange County permits, the Butler Chain's protected water and Restaurant Row, October 2026.",
            "Concrete, Pavers and Artificial Turf for Dr. Phillips Homes",
            capsule(f"Opera pours concrete and lays pavers and artificial turf for Dr. Phillips, an unincorporated Orange County community of roughly 12,984 residents as of the latest estimate. "
@@ -146,7 +146,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -----------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Dr. Phillips, FL – Near Sand Lake Rd",
-    "meta": "Concrete patio contractors in Dr. Phillips, FL: building behind the Restaurant Row corridor and the county's permit for a patio addition, October 2026.",
+    "meta": "Concrete patio companies in Dr. Phillips, FL: building behind the Restaurant Row corridor and the county's permit for a patio addition, October 2026.",
     "h1": "Building a Concrete Patio in Dr. Phillips",
     "lede": capsule(f"A concrete patio in Dr. Phillips runs {price('concrete-patio')} per {per('concrete-patio')} as of October 2026. "
                      "The residential streets a few blocks off Restaurant Row's restaurant strip sit on land that was mostly citrus grove before the 1980s and 1990s, so a patio addition here usually means extending a screened lanai's original slab rather than pouring on undisturbed ground."),
@@ -261,7 +261,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete ---------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Dr. Phillips, FL",
-    "meta": "Stamped concrete contractors in Dr. Phillips, FL: matching a pattern to a golf-course or lakefront entry, and the county's permit, October 2026.",
+    "meta": "Stamped concrete companies in Dr. Phillips, FL: matching a pattern to a golf-course or lakefront entry, and the county's permit, October 2026.",
     "h1": "Stamped Concrete Driveways and Patios in Dr. Phillips",
     "lede": capsule(f"Stamped concrete pricing in Dr. Phillips runs {price('stamped-concrete')} per {per('stamped-concrete')} this October 2026, moving up or down inside that span with the pattern chosen and how many colors go into it. "
                      "With no historic district here and no single HOA covering the whole community, the finish a homeowner picks is mostly a question of matching the surrounding streetscape, whether that's a golf-course frontage in Bay Hill or a citrus-era ranch house in Sand Lake Hills."),

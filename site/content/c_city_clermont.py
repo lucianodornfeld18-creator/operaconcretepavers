@@ -60,12 +60,12 @@ HUB_FAQS = [
         "Inside the city, the process is a zoning approval, not a building permit, reviewed by Building Services. Just outside the limits, in unincorporated Lake County, a driveway or sidewalk under 30 inches above grade is exempt from a building permit altogether, though the apron in the county right-of-way still needs its own permit with a published width and flare spec."),
     faq("What are Clermont's watering days under the state's 2026 order?",
         "Under SJRWMD's Phase III Extreme Water Shortage Order, Lake County is down to one watering day a week: Saturday for odd-numbered addresses, Sunday for even-numbered ones, Tuesday for nonresidential irrigation, with nothing allowed between 8 a.m. and 6 p.m."),
-    faq("How do you pick the best concrete contractor in Clermont?",
-        f"Verify the contractor on the state's license-check tool, ask whether the bid's driveway or patio size was checked against the city's 45 percent impervious sub-cap before pricing, and confirm whether the quote assumes a zoning approval inside the city or a county permit outside it. "
-        f"{post('how-to-choose-a-concrete-contractor-orlando', 'Ten criteria for choosing a concrete contractor')} covers the rest."),
+    faq("How do you pick the best concrete company in Clermont?",
+        f"Get a certificate of insurance sent by the insurance agent, ask whether the bid's driveway or patio size was checked against the city's 45 percent impervious sub-cap before pricing, and confirm whether the quote assumes a zoning approval inside the city or a county permit outside it. "
+        f"{post('lake-and-polk-county-driveway-permits', 'The Lake and Polk County permit guide')} covers the rest."),
 ]
 
-HUB = page("/clermont-fl/", "city", "Concrete, Pavers & Turf Contractor in Clermont, FL",
+HUB = page("/clermont-fl/", "city", "Concrete, Pavers & Turf Company in Clermont, FL",
            "Concrete, pavers and turf in Clermont, FL: the city's zoning approval, Lake County's exemption and the 45% impervious cap, as of October 2026.",
            "Concrete, Pavers and Artificial Turf for Clermont, Florida Homes",
            capsule("Opera pours concrete and lays pavers and artificial turf for homes in Clermont, a Lake County city of about 52,812 residents, up from 42,992 in 2020, about 24 miles from Orlando. "
@@ -120,7 +120,7 @@ LOCAL["paver-driveways"] = {
     "title": "Paver Driveways in Clermont, FL – County Specs",
     "meta": "Paver driveway installers near Clermont, FL: Lake County's 10-foot width minimum and flare spec outside the city, plus the ridge sand below, Oct. 2026.",
     "h1": "Paver Driveways in and Around Clermont",
-    "lede": capsule(f"Paver driveway work near Clermont currently prices out at {price('paver-driveway')} per {per('paver-driveway')}, per October 2026 Florida contractor pricing. "
+    "lede": capsule(f"Paver driveway work near Clermont currently prices out at {price('paver-driveway')} per {per('paver-driveway')}, per October 2026 Florida installer pricing. "
                      "Outside the city limits, in unincorporated Lake County, a residential driveway has its own published dimensions, a 10-foot minimum width and a required flare or radius at the road, and the excessively drained ridge sand under much of the area behaves differently from the flatwoods soil common elsewhere in the Orlando unit."),
     "sections": [
         ("Lake County's transportation standards set the driveway's width and flares",
@@ -148,7 +148,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -----------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Clermont, FL – Impervious Limits",
-    "meta": "Concrete patio contractors in Clermont, FL: how a patio counts toward the city's 55% impervious cap, and grading on a sloped Lake Wales Ridge lot, Oct. 2026.",
+    "meta": "Concrete patio companies in Clermont, FL: how a patio counts toward the city's 55% impervious cap, and grading on a sloped Lake Wales Ridge lot, Oct. 2026.",
     "h1": "Building a Concrete Patio in Clermont",
     "lede": capsule(f"Clermont homeowners pricing a concrete patio should plan on {price('concrete-patio')} per {per('concrete-patio')}, the Florida range tracked this October 2026. "
                      "A patio doesn't fall under the city's narrower 45-percent sub-cap for the house, driveway and walkways, but it still counts toward the overall 55-percent impervious ceiling on an R-1 lot, and on a lot that slopes toward Sugarloaf Mountain's hills, grading the patio away from the house matters as much as that math."),
@@ -237,18 +237,18 @@ LOCAL["pool-deck-pavers"] = {
     "title": "Pool Deck Pavers in Clermont, FL – New Builds",
     "meta": "Pool deck paver installers in Clermont, FL: why most decks here are first installs on 2006-era or newer homes, not resurfacing jobs, Oct. 2026.",
     "h1": "Travertine and Paver Pool Decks in Clermont",
-    "lede": capsule(f"Clermont pool decks finished in travertine or pavers are pricing between {price('pool-deck-pavers')} per {per('pool-deck-pavers')}, tracking current Florida contractor rates. "
+    "lede": capsule(f"Clermont pool decks finished in travertine or pavers are pricing between {price('pool-deck-pavers')} per {per('pool-deck-pavers')}, tracking current Florida installer rates. "
                      "With Clermont's median home built in 2006, the newest of the Orlando unit's nine incorporated cities, a paver pool deck here is more often a first install alongside new construction than an overlay on a worn original deck."),
     "sections": [
         ("A newer city means more first installs than overlays",
          f"<p>Clermont's population grew from 42,992 residents in 2020 to roughly 52,812 by mid-2025, and the typical home dates to 2006 "
          f"({src('census-pep-v2025', 'Census Bureau PEP, Vintage 2025')}; {src('acs-clermont', 'Census Reporter, Clermont')}). That pace of new construction means a meaningful share of the pool decks going in around Clermont are specified in travertine or pavers at the same time the pool itself is built, a design decision made once, rather than a resurfacing call on a deck that's already cracked or faded.</p>"),
         ("On a sloped lot, the deck's layout gets checked against the shell before the first course goes down",
-         f"<p>A lot that sits among the Lake Wales Ridge's hills rarely has a perfectly flat building pad, so on a new pool build, the paver or travertine deck's layout gets checked against the pool contractor's shell elevation before the base is cut, the same grading question {svc('concrete-pool-decks', 'a poured concrete deck')} faces on the identical lot. Getting that elevation wrong on a sloped lot means pavers that don't sit level with the coping, a harder fix after the base is already compacted than before.</p>"),
+         f"<p>A lot that sits among the Lake Wales Ridge's hills rarely has a perfectly flat building pad, so on a new pool build, the paver or travertine deck's layout gets checked against the pool builder's shell elevation before the base is cut, the same grading question {svc('concrete-pool-decks', 'a poured concrete deck')} faces on the identical lot. Getting that elevation wrong on a sloped lot means pavers that don't sit level with the coping, a harder fix after the base is already compacted than before.</p>"),
     ],
     "scenario": ("A new paver pool deck, worked out in square feet",
                  f"<p>A newly built pool on a Clermont lot calling for 580 square feet of travertine instead of plain concrete lands in the {price('pool-deck-pavers')} per {per('pool-deck-pavers')} bracket, which works out to roughly $6,960 on the low end and $17,400 toward the high end depending on the stone and pattern chosen. "
-                 "Because the deck and the pool shell are both new, the paver layout is set against the contractor's own elevation survey from the start, rather than measured against an existing deck the way an older-city resurfacing job would be.</p>"),
+                 "Because the deck and the pool shell are both new, the paver layout is set against the pool builder's own elevation survey from the start, rather than measured against an existing deck the way an older-city resurfacing job would be.</p>"),
     "faqs": [
         faq("Are pool deck pavers in Clermont usually new construction or an overlay?",
             "More often new construction, since the city's median home was built in 2006, the newest of the Orlando unit's incorporated cities, and a lot of pools and their decks are going in together on recently graded lots rather than replacing a worn original surface."),
@@ -263,7 +263,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete ---------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Clermont, FL – Zoning & Grip",
-    "meta": "Stamped concrete contractors in Clermont, FL: the same $45 zoning approval as plain concrete, and texture choices for a sloped driveway, Oct. 2026.",
+    "meta": "Stamped concrete companies in Clermont, FL: the same $45 zoning approval as plain concrete, and texture choices for a sloped driveway, Oct. 2026.",
     "h1": "Stamped Concrete Driveways and Patios in Clermont",
     "lede": capsule(f"Budget {price('stamped-concrete')} per {per('stamped-concrete')} for a stamped-concrete project in Clermont; where the final number lands within that current Florida range depends on the pattern and how many colors go into the pour. "
                      "The city doesn't review a stamped driveway any differently than a plain gray one, a zoning approval rather than a building permit either way, though on a sloped lot, the texture itself is worth picking with grip in mind, not just color."),
@@ -292,7 +292,7 @@ LOCAL["stamped-concrete"] = {
 # 8. concrete-walkways --------------------------------------------------------
 LOCAL["concrete-walkways"] = {
     "title": "Sidewalks & Walkways in Clermont, FL – Permits",
-    "meta": "Concrete walkway contractors near Clermont, FL: Lake County's 30-inch exemption outside the city, and the zoning approval inside it, Oct. 2026.",
+    "meta": "Concrete walkway companies near Clermont, FL: Lake County's 30-inch exemption outside the city, and the zoning approval inside it, Oct. 2026.",
     "h1": "Concrete Sidewalks and Walkways In and Near Clermont",
     "lede": capsule(f"A concrete walkway near Clermont runs {price('concrete-walkway')} per {per('concrete-walkway')} as of October 2026. "
                      "Just outside the city limits, in unincorporated Lake County, a walkway under 30 inches above grade is exempt from a building permit entirely; inside Clermont, that same walkway instead goes through the city's $45 zoning approval, the same process a driveway uses."),
@@ -321,9 +321,9 @@ LOCAL["concrete-walkways"] = {
 # 9. concrete-slabs ------------------------------------------------------------
 LOCAL["concrete-slabs"] = {
     "title": "Concrete Slabs in Clermont, FL – Sheds & Pads",
-    "meta": "Concrete slab contractors near Clermont, FL: Lake County's unpublished slab threshold and building on excessively drained ridge sand, Oct. 2026.",
+    "meta": "Concrete slab companies near Clermont, FL: Lake County's unpublished slab threshold and building on excessively drained ridge sand, Oct. 2026.",
     "h1": "Concrete Slabs for Sheds, Pads and Parking Near Clermont",
-    "lede": capsule(f"A concrete slab near Clermont is pricing between {price('concrete-slab')} per {per('concrete-slab')} this October 2026, per published Florida contractor figures. "
+    "lede": capsule(f"A concrete slab near Clermont is pricing between {price('concrete-slab')} per {per('concrete-slab')} this October 2026, per published Florida installer figures. "
                      "Lake County's homeowner exemption spells out a height limit for driveways and sidewalks but stays silent on a shed, AC or parking slab specifically, so confirming that one directly with the Building Services office is part of planning the job, and the ridge sand under much of the area changes what the base is actually compacting against."),
     "sections": [
         ("A gap worth a phone call before the forms go up",
@@ -353,7 +353,7 @@ LOCAL["concrete-repair"] = {
     "title": "Concrete Repair & Resurfacing in Clermont, FL",
     "meta": "Concrete repair in Clermont, FL: why cracking here often traces to fill settlement on a graded lot, not sinkhole activity, as of October 2026.",
     "h1": "Concrete Repair and Resurfacing in Clermont",
-    "lede": capsule(f"Concrete repair and resurfacing work in Clermont is pricing between {price('concrete-repair')} per {per('concrete-repair')}, Florida contractor figures current for late 2026. "
+    "lede": capsule(f"Concrete repair and resurfacing work in Clermont is pricing between {price('concrete-repair')} per {per('concrete-repair')}, Florida installer figures current for late 2026. "
                      "With the city's median home dating to 2006, the newest in the Orlando unit, cracking here more often traces back to fill settlement on a newly graded, sloped lot than to decades of ordinary wear, and Lake County isn't one of the counties the state ties to heavy sinkhole claims."),
     "sections": [
         ("A young, fast-growing city means settlement cracking more than age cracking",
@@ -409,9 +409,9 @@ LOCAL["paver-sealing"] = {
 # 12. retaining-walls -----------------------------------------------------------
 LOCAL["retaining-walls"] = {
     "title": "Retaining Walls in Clermont, FL – 3-Foot Rule",
-    "meta": "Retaining wall contractors in Clermont, FL: the city's 3-foot engineering trigger and the Lake Wales Ridge terrain behind the demand, as of October 2026.",
+    "meta": "Retaining wall companies in Clermont, FL: the city's 3-foot engineering trigger and the Lake Wales Ridge terrain behind the demand, as of October 2026.",
     "h1": "Retaining Walls for Clermont's Hillside Yards",
-    "lede": capsule(f"Retaining wall construction in Clermont runs between {price('retaining-wall')} per {per('retaining-wall')}, based on current Florida contractor data for this fall. "
+    "lede": capsule(f"Retaining wall construction in Clermont runs between {price('retaining-wall')} per {per('retaining-wall')}, based on current Florida installer data for this fall. "
                      "The city's own permit guidance draws a clear line at 3 feet: shorter walls still need a permit but skip engineered plans, while anything taller needs a sealed design, a distinction that comes up often on the sloped lots near Sugarloaf Mountain and the Lake Wales Ridge."),
     "sections": [
         ("Clermont's 3-foot line decides whether an engineer signs the plans",

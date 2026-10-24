@@ -14,5 +14,5 @@ Hard-won rules (earlier writers had to rewrite whole modules for breaking these)
 - `per()` already returns the full unit ("sq ft installed", "sq ft of wall face"); never append "installed" or "of wall face".
 - Give `src()` calls short custom anchor text (`src("dep-rule", "the state turf rule")`) — default SOURCES labels contain em dashes and repeat across pages.
 - At most 2 em dashes per page; "best" at most once; title ≠ H1; meta 120–160 chars; H1s must be unique site-wide (include the town name).
-- Prices never differ by town; don't call price_note(); never claim track records, licenses, addresses or phones.
+- Prices never differ by town; don't call price_note(); never claim track records, addresses or phones, and never write about licences or use the word "contractor" (hub titles are "… Company in {Town}, FL"; the hiring FAQ uses the non-licence checks in the writing guide).
 - Checks, from the project root, until clean: `python qa/check_module.py c_city_<slug>` and `python qa/cross_check.py c_city_<slug>`. Don't run site/build.py; don't edit other files.

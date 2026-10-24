@@ -59,11 +59,11 @@ HUB_FAQS = [
         "The town sits on hills 50 to 100 feet above Lake Apopka, with developments like Bella Collina built into grades steep enough that one golf hole there drops more than 50 feet. A lot that falls off sharply from the street needs something to hold the grade at a driveway or patio edge."),
     faq("How old is the typical home in Montverde?",
         "Real estate demographic data puts the town's typical construction year around 2000, though homes near the older lakefront and the Montverde Academy campus tend to run older than the hillside subdivisions that have grown up more recently."),
-    faq("How do you choose the right concrete contractor for a Montverde project?",
-        f"Confirm the bid accounts for both the Zoning Clearance and the Building Permit Section 4-84 requires, not just one of the two, and ask how the crew plans to handle grading on a sloped lot before it's priced. See {post('how-to-choose-a-concrete-contractor-orlando', 'Ten criteria for choosing a concrete contractor')} for the broader checklist."),
+    faq("How do you choose the right concrete company for a Montverde project?",
+        f"Confirm the bid accounts for both the Zoning Clearance and the Building Permit Section 4-84 requires, not just one of the two, and ask how the crew plans to handle grading on a sloped lot before it's priced. See {post('how-to-compare-concrete-and-paver-quotes', 'how to compare quotes line by line')} for the broader checklist."),
 ]
 
-HUB = page("/montverde-fl/", "city", "Concrete, Pavers & Turf Contractor in Montverde, FL",
+HUB = page("/montverde-fl/", "city", "Concrete, Pavers & Turf Company in Montverde, FL",
            "Concrete, pavers and turf in Montverde, FL: the town's driveway apron code, its hillside lots near Bella Collina, and the Lake County watering order, Oct. 2026.",
            "Concrete, Pavers and Artificial Turf for Montverde, Florida Homes",
            capsule(f"Montverde is a small, hilly Lake County town of about 2,249 residents on the south shore of Lake Apopka, roughly 18 miles from Orlando, where grades of 50 feet or more aren't unusual. "

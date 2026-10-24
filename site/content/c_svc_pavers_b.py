@@ -60,7 +60,7 @@ def sealing():
                      ("Sweep and compact fresh joint sand.", "New sand fills the joint around the reset paver and gets compacted into place."),
                      ("Match the surrounding sealer and sand.", "A previously sealed area gets the reset section brought back into line with the rest of the field.")])
             + f"<p>Paver repair work, priced by scope rather than a flat per-square-foot sealing rate, runs roughly $7 to $30 per sq ft nationally "
-              f"({src('angi-patio-repair', 'Angi')}), and a Southwest Florida contractor quotes paver repair in Cape Coral at a narrower $4 to $8 per sq ft "
+              f"({src('angi-patio-repair', 'Angi')}), and a Southwest Florida installer quotes paver repair in Cape Coral at a narrower $4 to $8 per sq ft "
               f"({src('outdoorlifepros-paver-repair-capecoral', 'Outdoor Life Pros')}). A small corrected area costs far less than letting several pavers in the "
               "same spot sink before calling it in.</p>"),
         sec("Why Florida ground makes joints and bases move",
@@ -75,7 +75,7 @@ def sealing():
         sec("Cost of paver cleaning, re-sanding and sealing",
             f"<p>Combined cleaning, re-sanding and sealing runs {price('paver-sealing')} per {per('paver-sealing')} in current Florida market data, "
             f"typically {price('paver-sealing', True)} ({src('homeguide-seal-pavers', 'HomeGuide')}; {src('castle-paver-sealing-cfl', 'Castle Clean & Seal, Central Florida')}). "
-            "These are market ranges compiled from published contractor pricing and cost guides, current as of October 2026; a written number for a "
+            "These are market ranges compiled from published installer pricing and cost guides, current as of October 2026; a written number for a "
             f"given surface follows a site visit, not a guess from the square footage alone. The {a('/paver-sealing-cost/', 'paver sealing cost guide')} "
             "breaks the range down by surface size and condition.</p>"),
         sec("Permits for cleaning, sealing and releveling",
@@ -94,13 +94,13 @@ def sealing():
             "rain ever would, so checking a product's label against paver compatibility before using it on a stain is worth the extra minute. "
             f"{post('how-to-clean-pavers-without-damage', 'How to clean pavers without ruining the joints or sealer')} goes further.</p>"
             + (photo(pids[2], "A herringbone-pattern paver driveway and walkway leading to a garage.") if len(pids) > 2 else "")),
-        sec("How do you choose the best paver sealing contractor near you?",
-            "<p>Paver sealing contractors near me turns up plenty of results in both service areas; a few questions sort the ones who inspect the "
+        sec("How do you choose the best paver sealing company near you?",
+            "<p>Paver sealing companies near me turns up plenty of results in both service areas; a few questions sort the ones who inspect the "
             "base from the ones who just spray and go.</p>"
             + ul(["Ask whether the crew checks for sunken or rocking pavers before cleaning, not after the sealer's already down.",
                   "Get the sand type specified, dry or polymeric, rather than a generic line item that just says \"re-sand.\"",
                   "Ask to see a sample of the sealer finish, wet-look or natural, on a small test area before committing the whole surface.",
-                  f"Check the business on the {src('dbpr-search', 'DBPR license search')} if the scope includes any base rebuilding beyond spot releveling.",
+                  "Ask for a certificate of insurance sent straight from the insurance agent before the crew starts pressure washing.",
                   "Confirm the order of operations in writing: any releveling first, then cleaning, then sand, then sealer, not sealer first."])
             + f"<p>{post('why-pavers-sink-in-florida', 'Why pavers sink in Florida, and how it gets fixed')} and {post('efflorescence-on-pavers-and-concrete', 'the white haze on new pavers')} go into the causes behind two of the most common calls.</p>"),
         sec("Where we clean, re-sand and seal pavers",
@@ -125,11 +125,11 @@ def sealing():
                 "Paver cleaning, re-sanding with dry or polymeric sand, sealing and releveling sunken pavers. Florida market range $1.50-$3.25/sq ft as of October 2026.",
                 "Clean, Re-Sand, Seal and Relevel: Paver Restoration in the Right Order",
                 capsule("Paver sealing and restoration combines pressure washing, re-sanding with dry or polymeric joint sand, a sealer coat and, where "
-                        "pavers have sunk or shifted, releveling the base underneath them. As of October 2026, Florida contractors price the combined "
+                        "pavers have sunk or shifted, releveling the base underneath them. As of October 2026, Florida installers price the combined "
                         "service at $1.50–$3.25 per square foot. We handle all four steps, in that order, across Greater Orlando and Sarasota–Manatee."),
                 body, faqs=faqs,
                 sources=["icpi-ts2", "icpi-ts5", "homeguide-seal-pavers", "homeguide-pressure-wash", "castle-paver-sealing-cfl", "angi-patio-repair",
-                         "outdoorlifepros-paver-repair-capecoral", "nrcs-myakka-osd", "ncei-annual-prcp", "fs713-13", "fs720-3035", "dbpr-search"],
+                         "outdoorlifepros-paver-repair-capecoral", "nrcs-myakka-osd", "ncei-annual-prcp", "fs713-13", "fs720-3035"],
                 related=[("/paver-sealing-cost/", "paver sealing cost guide"), ("/compare/polymeric-sand-vs-joint-sand/", "polymeric sand vs. joint sand"),
                          ("/compare/wet-look-vs-natural-paver-sealer/", "wet-look vs. natural-finish sealer"),
                          ("/blog/why-pavers-sink-in-florida/", "why pavers sink, and the fix"), ("/blog/mold-and-algae-on-pavers-florida/", "black mold and algae on pavers"),
@@ -176,7 +176,7 @@ def retaining_walls():
             + "<p>Length changes the number more than most homeowners expect going in. A 10-linear-foot section at 2 feet tall runs roughly "
               f"$700 to $1,300 installed; the same 10 feet at 4 feet tall roughly doubles to $1,400–$2,600 ({src('homeguide-retaining-wall', 'HomeGuide')}), "
               "since a taller wall needs a deeper buried base course, more backfill volume and, past certain heights, engineering on top of the "
-              "material itself. These are Florida market ranges compiled from published contractor pricing and cost guides, current as of October "
+              "material itself. These are Florida market ranges compiled from published installer pricing and cost guides, current as of October "
               "2026; a firm number follows a site visit, since slope, soil and access change the labor more than the wall type does.</p>"),
         sec("Does a retaining wall need drainage behind it?",
             "<p>Yes. Water pressure builds behind a wall from the bottom of the backfill up, so a drainage plan addresses the base of the "
@@ -209,13 +209,10 @@ def retaining_walls():
               f"department before finalizing a design, not to guess. {city('clermont')}, {city('minneola')} and {city('montverde')}, the hillier "
               "corner of the Orlando unit on the Lake Wales Ridge, see more retaining-wall work for exactly this reason: grade change between the "
               "house pad and the yard is a bigger factor there than it is on flatter ground closer to the coast.</p>"),
-        sec("Permits, licensing and the Notice of Commencement",
-            "<p>Retaining walls sit in a different legal spot than a driveway. Florida's license exemption for job scopes a local government can't "
-            f"require a license for names driveway installation and decorative stone work specifically, but not walls ({src('fs489-117', 'F.S. 489.117')}). "
-            "The state's \"structural masonry specialty contractor\" certificate, by contrast, explicitly covers \"all types of foundations, slabs, "
-            f"footers, curbs, walls, columns, beams and other structures,\" which reads on retaining-wall work more directly than it does on a plain "
-            f"driveway or patio ({src('fac61g4-15-100', 'Fla. Admin. Code R. 61G4-15.100')}). That's a reason to ask who's pulling the permit and "
-            f"under what category, and to run any contractor through the {src('dbpr-search', 'DBPR license search')} before signing.</p>"
+        sec("Permits, engineering and the Notice of Commencement",
+            "<p>Retaining walls sit in a different spot than a driveway. A wall holds back soil, so the permit office treats it as a structure, "
+            "and past the local height threshold it needs engineered drawings before the permit is issued. That's a reason to ask, before signing, "
+            "who's pulling the permit, who's drawing the plans if a drawing is required, and whose name goes on the application.</p>"
             f"<p>On a contract over $2,500, Florida's lien law requires a recorded Notice of Commencement before work starts ({src('fs713-13', 'F.S. 713.13')}), "
             "and since 2026 an HOA can't require a government permit as a precondition of reviewing a project, though it can still apply its own "
             f"architectural-control review to a wall's location, height and materials ({src('fs720-3035', 'F.S. 720.3035')}). "
@@ -231,17 +228,16 @@ def retaining_walls():
             "never had a drainage problem to begin with.</p>"),
         sec("What we build, and what we don't",
             "<p>This service covers segmental block retaining walls, raised planters and seat walls on land. It doesn't cover seawalls, bulkheads "
-            "or dock structures. Florida's contractor-licensing rules treat marine work as its own set of specialty certificate categories, "
-            f"separate from the structural masonry category that covers an on-land retaining wall ({src('fac61g4-15-100', 'Fla. Admin. Code R. 61G4-15.100')}). "
+            "or dock structures, which are marine construction with their own engineering and permitting. "
             f"Waterfront homeowners in {city('venice')}, on {city('longboat-key')} or along {city('siesta-key')} looking for seawall or bulkhead "
-            "work need a marine contractor with that specific scope, not a hardscape contractor.</p>"),
-        sec("How do you choose the best retaining wall contractor near you?",
-            "<p>Retaining wall contractors near me returns a mix of landscapers and structural contractors in both service areas; a few questions "
+            "work need a marine construction company, not a hardscape crew.</p>"),
+        sec("How do you choose the best retaining wall company near you?",
+            "<p>Retaining wall companies near me returns a mix of landscapers and structural builders in both service areas; a few questions "
             "separate the ones who understand drainage from the ones who just stack block.</p>"
             + ul(["Ask what's going behind the wall besides the blocks: aggregate type, pipe size and where the outlet daylights.",
                   "Get the base depth and leveling-pad spec in writing, not just a linear-foot price.",
                   f"If the wall is near the local height threshold, ask directly whether engineered drawings are required, and confirm who's drawing them.",
-                  f"Check the contractor on the {src('dbpr-search', 'DBPR license search')} and ask which category the permit falls under.",
+                  "Get the certificate of insurance from the company's insurance agent, and tie each payment to a finished stage of the wall rather than paying ahead of it.",
                   "Ask how backfill goes in: in stages as the wall rises, or dumped in all at once after the face is finished. The second answer is a problem."])
             + f"<p>{post('retaining-wall-ideas-florida-yards', 'Retaining wall and seat wall ideas for Florida yards')} and "
               f"{post('how-to-budget-a-backyard-hardscape-project-in-phases', 'budgeting a backyard project in phases')} go further.</p>"),
@@ -258,10 +254,10 @@ def retaining_walls():
             faq("What is the difference between a retaining wall and a seat wall?",
                 "A retaining wall is structural: it holds soil at two different grades apart and carries real lateral pressure, which is why it needs engineered drainage behind it and, above certain heights, engineered drawings. A seat wall is decorative and functional in a different sense, built for sitting, usually without a slope pressing against its back, so its main design requirement is a level, properly sized cap rather than a drainage system."),
             faq("Do you build seawalls?",
-                "No. This service covers segmental block retaining walls, raised planters and seat walls on land. Seawalls, bulkheads and dock structures fall under separate marine specialty-contractor categories in Florida, distinct from the structural masonry category that covers an on-land retaining wall, so waterfront homeowners need a marine contractor with that specific scope."),
+                "No. This service covers segmental block retaining walls, raised planters and seat walls on land. Seawalls, bulkheads and dock structures are marine construction, with their own engineering and permitting, so waterfront homeowners need a marine construction company for that work."),
             faq("How long does a block retaining wall last?",
                 "A segmental block wall built on a proper leveling pad with working drainage behind it is designed to hold for decades; the blocks themselves are durable concrete units, and the limiting factor is almost always the drainage system behind the face, not the block. A wall that loses its drainage to clogged outlets or fines migrating in from native-soil backfill can start showing bulging or leaning well before the block itself would otherwise wear out.")]
-    return page("/retaining-walls/", "service", "Retaining Wall Contractor | Orlando & Sarasota, FL",
+    return page("/retaining-walls/", "service", "Retaining Wall Company | Orlando & Sarasota, FL",
                 "Segmental block retaining walls, raised planters and seat walls with drainage behind the wall. Florida market range $15-$40/sq ft of wall face, October 2026.",
                 "Retaining Walls Built With Drainage Behind Them, Not Just a Face of Block",
                 capsule("A retaining wall holds back a slope with interlocking segmental block, a compacted leveling pad and free-draining aggregate "
@@ -271,7 +267,7 @@ def retaining_walls():
                 body, faqs=faqs,
                 sources=["homeguide-retaining-wall", "nrcs-myakka-osd", "ncei-annual-prcp", "orange-res-plan-guide", "clermont-permit-types",
                          "sarasota-county-22-63-retaining-walls", "palmetto-code-10-46-retaining-wall-permit", "lbk-code-158.118-retaining-wall",
-                         "fs489-117", "fac61g4-15-100", "dbpr-search", "fs713-13", "fs720-3035"],
+                         "fs713-13", "fs720-3035"],
                 related=[("/retaining-wall-cost/", "retaining wall cost guide"),
                          ("/blog/retaining-wall-ideas-florida-yards/", "retaining wall and seat wall ideas"),
                          ("/blog/fire-pit-on-pavers-florida/", "fire pits on pavers"),

@@ -8,7 +8,7 @@ ABOUT = page(
     "/about/", "about", "About Opera Concrete & Pavers | Orlando & Sarasota",
     "Who we are, how we build concrete, pavers and turf in Florida, and the two service units that cover Greater Orlando and Sarasota–Manatee.",
     "About Opera Concrete & Pavers",
-    capsule("Opera Concrete & Pavers is a Florida hardscape contractor with two service units: one for Greater Orlando and one for Sarasota, Lakewood Ranch and Bradenton. We pour concrete driveways, patios and pool decks, lay pavers and travertine, build segmental retaining walls and install artificial turf, and every price we give follows a site visit."),
+    capsule("Opera Concrete & Pavers is a Florida hardscape company with two service units: one for Greater Orlando and one for Sarasota, Lakewood Ranch and Bradenton. We pour concrete driveways, patios and pool decks, lay pavers and travertine, build segmental retaining walls and install artificial turf, and every price we give follows a site visit."),
     "".join([
         sec("What the name stands for", "<p>The logo carries three words under the name: driveways, patios, lifestyles. The first two are the work. The third is the reason people call: a driveway that doesn't crack across the middle, a back patio wide enough for the table, a pool deck you can cross barefoot in July, a yard the dog can use after a storm.</p>"
             f"<p>We keep the scope deliberately narrow. Flatwork and hardscape only: {svc('concrete-driveways', 'concrete driveways')}, {svc('paver-patios', 'paver patios and walkways')}, {svc('concrete-pool-decks', 'pool decks')}, {svc('retaining-walls', 'retaining walls')} and {svc('artificial-turf', 'turf')}. No roofing, no remodeling, no pools. Doing one trade family well is the whole plan.</p>"),
@@ -57,7 +57,7 @@ def _legal(route, title, h1, meta, paras):
 PRIVACY = _legal("/privacy/", "Privacy Policy | Opera Concrete & Pavers", "Privacy policy",
                  "How Opera Concrete & Pavers collects, uses and protects the information you send through this website's estimate forms.",
                  [("What we collect", "<p>When you send an estimate request we receive what you type (name, phone, email, city or ZIP, service, project details), the page you sent it from and, if present, campaign parameters in the link you followed. We don't sell this information.</p>"),
-                  ("How we use it", "<p>To contact you about your project, schedule a site visit, prepare an estimate and keep a record of the job. It is shared only with crew members and subcontractors who need it to do the work, and with service providers that host our forms and records.</p>"),
+                  ("How we use it", "<p>To contact you about your project, schedule a site visit, prepare an estimate and keep a record of the job. It is shared only with crew members and any outside crews who need it to do the work, and with service providers that host our forms and records.</p>"),
                   ("Calls and texts", "<p>By sending the form you agree that we may call, text or email you about your request. You can ask us to stop at any time and we will.</p>"),
                   ("Cookies and analytics", "<p>The site uses no advertising cookies. Basic, privacy-preserving traffic statistics may be collected by our hosting provider.</p>"),
                   ("Your choices", "<p>Ask us through the contact form to see, correct or delete the information we hold about you.</p>")])

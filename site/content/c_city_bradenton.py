@@ -40,7 +40,7 @@ SRC = [
 
 HUB = page(
     "/bradenton-fl/", "city",
-    "Concrete & Paver Contractor in Bradenton, FL",
+    "Concrete & Paver Company in Bradenton, FL",
     "Opera builds concrete driveways, pavers and turf in Bradenton, FL, where Public Works reviews curb cuts under LUR 4.1 and homes date to 1983, as of October 2026.",
     "Concrete, Pavers and Turf Built for Bradenton Homes",
     capsule(
@@ -114,9 +114,9 @@ HUB = page(
             "It sidesteps them entirely. Sod has to live with the county's once-a-week, pre-dawn-or-late-evening window through March 2027; turf is done needing any of that once it's installed and watered in during the setup period."
         ),
         faq(
-            "How do you find the best concrete contractor in Bradenton?",
-            "Check the contractor on the state's license-verification tool, confirm the quote accounts for the city's zoning permit or the county's access and drainage permit depending on which side of the line your lot sits, and ask how the bid handles the local water table. "
-            + post("how-to-choose-a-concrete-contractor-sarasota", "Our guide to choosing a concrete contractor") + " covers the rest."
+            "How do you find the best concrete company in Bradenton?",
+            "Ask for a certificate of insurance straight from the insurance agent, confirm the quote accounts for the city's zoning permit or the county's access and drainage permit depending on which side of the line your lot sits, and ask how the bid handles the local water table. "
+            + post("manatee-county-driveway-permits", "Our Manatee County permit guide") + " walks through both permit paths."
         ),
     ],
     sources=SRC, city=SLUG,
@@ -303,7 +303,7 @@ LOCAL = {
         "sections": [
             (
                 "A pool deck counts toward the lot's impervious cap by name",
-                "<p>Bradenton's LUR §3.2 lists \"swimming pools\" and \"impervious decks\" separately in its definition of impervious surface, so a pool deck draws from the same percentage cap as the driveway and roof, not a different allowance " + src("bradenton-lur-3.2-isr") + ". The district caps run from 50% in R-1 to 70% in R-3, UV and R-4, and the city's worksheet totals the lot's existing coverage against a proposed deck before the permit is filed " + src("bradenton-impervious-worksheet") + ". On a lot that already carries a full driveway and a " + svc("paver-patios", "paver patio") + ", that math is worth running before the pool contractor finalizes a deck size, not after.</p>"
+                "<p>Bradenton's LUR §3.2 lists \"swimming pools\" and \"impervious decks\" separately in its definition of impervious surface, so a pool deck draws from the same percentage cap as the driveway and roof, not a different allowance " + src("bradenton-lur-3.2-isr") + ". The district caps run from 50% in R-1 to 70% in R-3, UV and R-4, and the city's worksheet totals the lot's existing coverage against a proposed deck before the permit is filed " + src("bradenton-impervious-worksheet") + ". On a lot that already carries a full driveway and a " + svc("paver-patios", "paver patio") + ", that math is worth running before the pool builder finalizes a deck size, not after.</p>"
             ),
             (
                 "Flood zones along the river and the bay",

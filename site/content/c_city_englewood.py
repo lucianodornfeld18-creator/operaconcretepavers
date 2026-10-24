@@ -94,7 +94,7 @@ HUB_FAQS = [
 
 HUB = page(
     "/englewood-fl/", "city",
-    "Concrete, Paver & Turf Contractor in Englewood, FL",
+    "Concrete, Paver & Turf Company in Englewood, FL",
     "Concrete, pavers and turf for the Sarasota County side of Englewood, FL: the county-line permit split and Manasota Key's setback line, October 2026.",
     "Concrete, Pavers and Turf on Englewood's Sarasota County Side",
     capsule(

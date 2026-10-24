@@ -28,7 +28,7 @@ SRC = [
 
 HUB = page(
     "/palmetto-fl/", "city",
-    "Concrete & Paver Contractor in Palmetto, FL",
+    "Concrete & Paver Company in Palmetto, FL",
     "Opera pours concrete and sets pavers in Palmetto, FL, where Public Works permits driveway work in the street under Code Sec. 25-2 and homes date to 1983.",
     "Concrete, Pavers and Turf for Palmetto Homes",
     capsule(
@@ -38,7 +38,7 @@ HUB = page(
     "".join([
         sec(
             "Who signs off on a Palmetto driveway apron, and who doesn't?",
-            "<p>City Code Sec. 25-2(a) makes it unlawful for a contractor to \"place or construct... culverts, driveways, curbs, or sidewalks within any public street, alley or other public right-of-way\" without first applying for a written permit from the Department of Public Works "
+            "<p>City Code Sec. 25-2(a) makes it unlawful to \"place or construct... culverts, driveways, curbs, or sidewalks within any public street, alley or other public right-of-way\" without first applying for a written permit from the Department of Public Works "
             + src("palmetto-code-25-2-row-permit", "Palmetto Code Sec. 25-2") + ". The city's own Right-of-Way Use Application spells out the mechanics: notify Public Works at least 48 hours before work starts, begin within 60 days of the permit being issued, finish within 30 days, and restore the disturbed section to city standards before the final inspection closes it out "
             + src("palmetto-row-permit-form", "Palmetto Right-of-Way Use Permit") + ". That rule governs the apron at the street. The Building Department's own page is silent on a patio, a slab or a stretch of driveway back from the curb, saying only that \"if you are not sure whether or not a permit is required, call the Building Department at (941) 721-2166\" "
             + src("palmetto-building-department", "Palmetto Building Department") + ", which is the opposite of how Manatee County's unincorporated side handles the same question, as " + post("manatee-county-driveway-permits", "our Manatee County permit guide") + " covers in full.</p>"
@@ -90,8 +90,8 @@ HUB = page(
             "Possibly, especially downtown along the Manatee River or near Snead Island to the west. FEMA's Zone AE and the higher-risk Coastal Zone VE both apply close to the water; the Flood Map Service Center at msc.fema.gov shows a specific parcel's designation."
         ),
         faq(
-            "How do you find the best concrete contractor in Palmetto?",
-            "Verify the contractor on the state's license-lookup tool, ask whether the bid accounts for the city's right-of-way permit on any work touching the street, and confirm how the crew plans the base over Immokalee or similar flatwoods soil. " + post("how-to-choose-a-concrete-contractor-sarasota", "Our contractor guide") + " goes through the rest."
+            "How do you find the best concrete company in Palmetto?",
+            "Get a certificate of insurance from the company's insurance agent, ask whether the bid accounts for the city's right-of-way permit on any work touching the street, and confirm how the crew plans the base over Immokalee or similar flatwoods soil. " + post("manatee-county-driveway-permits", "Our Manatee County permit guide") + " goes through the rest."
         ),
     ],
     sources=SRC, city=SLUG,
@@ -119,7 +119,7 @@ LOCAL = {
         "sections": [
             (
                 "One permit for the street, none published for the rest",
-                "<p>Pulling out and repouring a Palmetto driveway apron is covered by Code Sec. 25-2, which bars a contractor from working in the right-of-way \"unless application shall first be made to and a written permit obtained from the department of public works\" "
+                "<p>Pulling out and repouring a Palmetto driveway apron is covered by Code Sec. 25-2, which bars work in the right-of-way \"unless application shall first be made to and a written permit obtained from the department of public works\" "
                 + src("palmetto-code-25-2-row-permit", "Palmetto Code Sec. 25-2") + ". The Right-of-Way Use Permit itself sets the clock: 48 hours' notice before the crew shows up, a start within 60 days of approval, and the job wrapped within 30 days, with Public Works doing the final look before it's closed "
                 + src("palmetto-row-permit-form", "Palmetto Right-of-Way Use Permit") + ". The driveway section between the sidewalk and the garage sits outside that rule, and the Building Department's page doesn't publish a separate threshold for it, so we confirm scope with a phone call rather than assume the private portion is exempt " + src("palmetto-building-department", "Palmetto Building Department") + ".</p>"
             ),

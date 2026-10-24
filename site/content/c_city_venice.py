@@ -28,7 +28,7 @@ HUB_BODY = "".join([
         "<p>The city's Engineering Department reviews any work placed in the public right-of-way under a Right-of-Way Use Permit, defined in the Land Development Regulations as the authorization "
         "'required under this Code prior to commencement of any placement or maintenance of facilities in the public rights-of-way' " + src("venice-ldr-9.1-row-definition", "Venice LDR §9.1") + ". "
         "That sign-off has to come from Engineering before construction starts in the right-of-way, and on a lot where pavers are going down over an existing concrete apron rather than a fresh pour, "
-        "the city treats it as a License Agreement hardship case, built to its own Paver Installation Guidelines " + src("venice-engineering-permits", "City of Venice Engineering, Permits, Forms and Applications") + ". "
+        "the city treats it as a hardship case for a right-of-way use agreement with the city, built to its own Paver Installation Guidelines " + src("venice-engineering-permits", "City of Venice Engineering, Permits, Forms and Applications") + ". "
         "How many openings a lot gets is set by frontage: §3.1 caps a residential lot under 80 feet of street frontage at one driveway opening, allows two between 80 and 200 feet, "
         "and adds one more for every extra 100 feet beyond that " + src("venice-ldr-3.1-general-standards", "Venice LDR §3.1") + ". " +
         cs("venice", "concrete-driveways", "A concrete driveway") + " and " + cs("venice", "paver-driveways", "a paver driveway") + " both start with that frontage math before the apron gets designed.</p>"
@@ -101,9 +101,9 @@ HUB_FAQS = [
         "Possibly, especially close to the Intracoastal Waterway or the Gulf. FEMA's coastal maps split that risk into Zone AE, with modest wave action, and the higher-hazard Zone VE, and anything seaward of Florida's Coastal Construction Control Line needs its own DEP permit before a local one is relevant."
     ),
     faq(
-        "How do I find the best concrete contractor in Venice?",
-        "Check the contractor on the state's license-verification tool, confirm whether the city's Engineering Department or Sarasota County's Building Division actually reviews your address, and ask how the bid handles a flatwoods subgrade near the water table. " +
-        post("how-to-choose-a-concrete-contractor-sarasota", "Ten criteria for choosing a concrete contractor") + " covers the rest."
+        "How do I find the best concrete company in Venice?",
+        "Look the business up on Sunbiz, confirm whether the city's Engineering Department or Sarasota County's Building Division actually reviews your address, and ask how the bid handles a flatwoods subgrade near the water table. " +
+        post("sarasota-county-driveway-patio-permits", "Our Sarasota, Venice and North Port permit guide") + " covers the rest."
     ),
     faq(
         "Does the current watering order affect new sod or turf in Venice?",
@@ -113,7 +113,7 @@ HUB_FAQS = [
 
 HUB = page(
     "/venice-fl/", "city",
-    "Concrete, Pavers & Turf Contractor in Venice, FL",
+    "Concrete, Pavers & Turf Company in Venice, FL",
     "Concrete, pavers and turf in Venice, FL: driveway-opening permits by frontage, Gulf flood zones and the Nolen Historic District, October 2026.",
     "Concrete, Pavers and Artificial Turf for Venice Homes",
     capsule(
@@ -191,19 +191,19 @@ LOCAL["concrete-driveways"] = {
 # 2. paver-driveways -----------------------------------------------------------
 LOCAL["paver-driveways"] = {
     "title": "Paver Driveways in Venice, FL – ROW Guidelines",
-    "meta": "Paver driveway installers in Venice, FL: the Engineering Department's License Agreement for pavers over concrete, as of October 2026.",
+    "meta": "Paver driveway installers in Venice, FL: the Engineering Department's right-of-way use agreement for pavers over concrete, as of October 2026.",
     "h1": "Paver Driveway Installation in Venice",
     "lede": capsule(
         "A paver driveway in Venice runs " + price("paver-driveway") + " per " + per("paver-driveway") + " as of October 2026. Where the apron sits in the public right-of-way, the city treats pavers "
-        "differently from a fresh concrete pour, with its own Paver Installation Guidelines and a License Agreement hardship exception for pavers laid over an existing slab."
+        "differently from a fresh concrete pour, with its own Paver Installation Guidelines and a hardship exception, through a right-of-way use agreement, for pavers laid over an existing slab."
     ),
     "sections": [
         (
-            "Pavers over an existing apron go through a License Agreement, not a standard permit",
-            "<p>The Engineering Department's own guidance singles out paver work as an exception case: a License Agreement is granted for hardship or special circumstances, and the department's own example is "
+            "Pavers over an existing apron go through a right-of-way use agreement, not a standard permit",
+            "<p>The Engineering Department's own guidance singles out paver work as an exception case: a right-of-way use agreement with the city is granted for hardship or special circumstances, and the department's own example is "
             "'pavers installed over concrete per city details,' built to the city's separate Paver Installation Guidelines " + src("venice-engineering-permits", "City of Venice Engineering, Permits, Forms and Applications") +
             ". That matters on a driveway that already has a sound concrete base and just needs a paver finish over it, since the review path differs from a brand-new opening cut into the right-of-way. The "
-            "underlying Right-of-Way Use Permit requirement still applies to any work in that strip " + src("venice-ldr-9.1-row-definition", "Venice LDR §9.1") + "; the License Agreement is the mechanism for "
+            "underlying Right-of-Way Use Permit requirement still applies to any work in that strip " + src("venice-ldr-9.1-row-definition", "Venice LDR §9.1") + "; the use agreement is the mechanism for "
             "the paver-over-concrete case specifically.</p>"
         ),
         (
@@ -218,13 +218,13 @@ LOCAL["paver-driveways"] = {
         "Relaying a concrete apron in pavers, worked out in square feet",
         "<p>Say a 540 square foot two-car driveway has a sound concrete base but a worn, stained surface, and the plan is to relay it in pavers rather than tear it out. At " + price("paver-driveway") + " per " +
         per("paver-driveway") + ", that runs $5,400 to $16,200, narrowing to roughly $6,480 to $10,800 in the typical " + price("paver-driveway", typical=True) + " band depending on the paver and whether the "
-        "old slab needs grinding or patching first. Where the driveway crosses into the right-of-way, the paver-over-concrete scope goes through Engineering's License Agreement process rather than a standard "
+        "old slab needs grinding or patching first. Where the driveway crosses into the right-of-way, the paver-over-concrete scope goes through Engineering's right-of-way use agreement process rather than a standard "
         "new-opening review, built to the city's Paver Installation Guidelines.</p>"
     ),
     "faqs": [
         faq(
             "Can I put pavers over my existing Venice driveway without tearing it out?",
-            "Often, yes, through the Engineering Department's License Agreement process for hardship or special cases, which names pavers installed over concrete as its own example, built to the city's Paver Installation Guidelines."
+            "Often, yes, through the Engineering Department's right-of-way use agreement process for hardship or special cases, which names pavers installed over concrete as its own example, built to the city's Paver Installation Guidelines."
         ),
         faq(
             "Does a paver driveway count differently than concrete for Venice's lot coverage?",
@@ -241,7 +241,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -------------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Venice, FL – Permit Guidance",
-    "meta": "Concrete patio contractors in Venice, FL: why an older city guidance sheet's on-grade exemption needs confirming first, October 2026.",
+    "meta": "Concrete patio companies in Venice, FL: why an older city guidance sheet's on-grade exemption needs confirming first, October 2026.",
     "h1": "Building a Concrete Patio in Venice",
     "lede": capsule(
         "A concrete patio in Venice runs " + price("concrete-patio") + " per " + per("concrete-patio") + " as of October 2026. An older city guidance sheet lists an on-grade patio without footings as not "
@@ -438,7 +438,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete -------------------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Venice, FL – Nolen District",
-    "meta": "Stamped concrete contractors in Venice, FL: pattern choices in the John Nolen Plan Historic District, as of October 2026.",
+    "meta": "Stamped concrete companies in Venice, FL: pattern choices in the John Nolen Plan Historic District, as of October 2026.",
     "h1": "Stamped Concrete Driveways and Patios in Venice",
     "lede": capsule(
         "Stamped concrete in Venice runs " + price("stamped-concrete") + " per " + per("stamped-concrete") + " as of October 2026. Downtown, the John Nolen Plan Historic District's 1920s grid tends toward "
@@ -487,7 +487,7 @@ LOCAL["stamped-concrete"] = {
 # 8. concrete-walkways --------------------------------------------------------------------
 LOCAL["concrete-walkways"] = {
     "title": "Concrete Walkways in Venice, FL – Coverage Rules",
-    "meta": "Concrete walkway and sidewalk contractors in Venice, FL: walkways named in the lot-coverage exclusion and the right-of-way permit; range " + price("concrete-walkway") + " per " + per("concrete-walkway") + ".",
+    "meta": "Concrete walkway and sidewalk companies in Venice, FL: walkways named in the lot-coverage exclusion and the right-of-way permit; range " + price("concrete-walkway") + " per " + per("concrete-walkway") + ".",
     "h1": "Concrete Sidewalks and Walkways in Venice",
     "lede": capsule(
         "A concrete walkway or sidewalk section in Venice runs " + price("concrete-walkway") + " per " + per("concrete-walkway") + " as of October 2026. The city's own code names pedestrian walkways "
@@ -536,7 +536,7 @@ LOCAL["concrete-walkways"] = {
 # 9. concrete-slabs ------------------------------------------------------------------------
 LOCAL["concrete-slabs"] = {
     "title": "Concrete Slabs in Venice, FL – City & County",
-    "meta": "Concrete slab contractors in Venice, FL: why slabs skip the city's coverage count, and county rules near South Venice, October 2026.",
+    "meta": "Concrete slab companies in Venice, FL: why slabs skip the city's coverage count, and county rules near South Venice, October 2026.",
     "h1": "Concrete Slabs for Sheds, AC Pads and Parking in Venice",
     "lede": capsule(
         "Pricing a utility slab in Venice, a shed pad, an AC pad or an RV parking strip, comes to " + price("concrete-slab") + " per " + per("concrete-slab") + " as of October 2026. Inside the city "
@@ -686,7 +686,7 @@ LOCAL["paver-sealing"] = {
 # 12. retaining-walls -------------------------------------------------------------------------
 LOCAL["retaining-walls"] = {
     "title": "Retaining Walls in Venice, FL – Canal Lots",
-    "meta": "Retaining wall contractors in Venice, FL: LDR Sec. 3.8's rules versus the county's 4-foot engineering trigger, October 2026.",
+    "meta": "Retaining wall companies in Venice, FL: LDR Sec. 3.8's rules versus the county's 4-foot engineering trigger, October 2026.",
     "h1": "Retaining Walls for Venice Yards",
     "lede": capsule(
         "Building a retaining wall in Venice costs " + price("retaining-wall") + " per " + per("retaining-wall") + " as of October 2026. City code sets rules on where a wall can sit and how its height "

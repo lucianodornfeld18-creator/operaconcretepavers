@@ -247,7 +247,7 @@ def p_why_pavers_sink_in_florida():
             "issue working on a scale of inches, not the sudden, structural event Florida law defines a true sinkhole by. Homeowners in Central "
             f"Florida ask about this more often than those in Sarasota or Manatee, and {post('sinkholes-and-settlement-central-florida', 'our guide to sinkholes vs. normal settlement')} "
             "walks through how the two get told apart before anyone calls a geologist instead of a "
-            "paving contractor.</p>"),
+            "paving crew.</p>"),
         sec("Say You Have a 20x20 Paver Patio With One Low Corner",
             "<p>A single corner settling faster than the rest of a patio, rather than the whole field sinking evenly, almost always points to a "
             "localized cause right at that corner: a downspout discharging nearby, a low point in the yard's grading that funnels runoff there, "

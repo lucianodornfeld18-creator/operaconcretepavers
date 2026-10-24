@@ -69,7 +69,7 @@ HUB_FAQS = [
         f"({src('fl-senate-2011-104', 'Florida Senate Interim Report 2011-104')})."),
 ]
 
-HUB = page("/davenport-fl/", "city", "Concrete, Pavers & Turf Contractor in Davenport, FL",
+HUB = page("/davenport-fl/", "city", "Concrete, Pavers & Turf Company in Davenport, FL",
            "Concrete, pavers and turf in Davenport, FL: Four Corners' growth, Polk County's permit split and the state's one-day watering order, as of October 2026.",
            "Concrete, Pavers and Artificial Turf for Davenport, Florida Homes",
            capsule(f"Davenport, a Polk County city roughly 29 miles south of Orlando, had an estimated 18,110 residents by mid-2025, nearly double its 9,297 count in 2020. "
@@ -122,7 +122,7 @@ LOCAL["paver-driveways"] = {
     "title": "Paver Driveways in Davenport, FL – Ridge Sand",
     "meta": "Paver driveway installers near Davenport, FL: Polk County's permit exemption gap and the fast-draining sand under much of the Four Corners area.",
     "h1": "Paver Driveways for Davenport and the Four Corners Area",
-    "lede": capsule(f"A paver driveway near Davenport runs {price('paver-driveway')} per {per('paver-driveway')}, per October 2026 Florida contractor figures. "
+    "lede": capsule(f"A paver driveway near Davenport runs {price('paver-driveway')} per {per('paver-driveway')}, per October 2026 Florida installer figures. "
                      "Much of the ground on this side of Polk County belongs to the same sand-hill formation that extends north into Lake County, and that history is what a compacted base under a paver driveway is actually responding to here."),
     "sections": [
         ("A sand-hill chain that starts south of Lake County and runs through here",
@@ -150,7 +150,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios ------------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Davenport, FL – New Construction",
-    "meta": "Concrete patio contractors in Davenport, FL: why most patios here are first pours on new homes built since the mid-2010s, as of October 2026.",
+    "meta": "Concrete patio companies in Davenport, FL: why most patios here are first pours on new homes built since the mid-2010s, as of October 2026.",
     "h1": "Concrete Patios for Davenport Homes",
     "lede": capsule(f"A new concrete patio in Davenport is pricing between {price('concrete-patio')} per {per('concrete-patio')}, current Florida figures for this fall. "
                      "With the typical home here dating to 2015 and the city's population nearly doubling since 2020, a lot of patio work right now means pouring alongside new construction rather than replacing a cracked original slab."),
@@ -219,7 +219,7 @@ LOCAL["concrete-pool-decks"] = {
          f"({ext(CENSUS_DAVENPORT_URL, 'Census Reporter, Davenport FL')}). A deck sized only for a couple of lounge chairs on a house like that gets crowded fast once eight or ten guests are using the pool at the same time, which is why decks on these homes tend to run wider than the plans a straight owner-occupied build would call for.</p>"),
         ("New construction means the deck's elevation is set once, against the pool shell",
          f"<p>Because so much of Davenport's housing stock is recent, built since a median year of 2015, most pool decks here are poured fresh against a newly set pool shell rather than retrofitted around an older one "
-         f"({ext(CENSUS_DAVENPORT_URL, 'Census Reporter, Davenport FL')}). That sequencing matters on this part of the ridge: the Candler and Astatula sand common here drains fast and compacts differently than flatwoods soil, so the base crew checks compaction against the pool contractor's elevation survey before the deck forms go up "
+         f"({ext(CENSUS_DAVENPORT_URL, 'Census Reporter, Davenport FL')}). That sequencing matters on this part of the ridge: the Candler and Astatula sand common here drains fast and compacts differently than flatwoods soil, so the base crew checks compaction against the pool builder's elevation survey before the deck forms go up "
          f"({src('nrcs-candler-osd', 'USDA NRCS, Candler soil series')}).</p>"),
     ],
     "scenario": ("A pool deck built for a full house of guests",
@@ -241,7 +241,7 @@ LOCAL["pool-deck-pavers"] = {
     "title": "Pool Deck Pavers in Davenport, FL – Ridge Soil",
     "meta": "Travertine and paver pool deck installers in Davenport, FL: building on excessively drained Polk County ridge sand, as of October 2026.",
     "h1": "Travertine and Paver Pool Decks in Davenport",
-    "lede": capsule(f"Pool decks finished in travertine or pavers near Davenport price between {price('pool-deck-pavers')} per {per('pool-deck-pavers')}, tracking current Florida contractor rates. "
+    "lede": capsule(f"Pool decks finished in travertine or pavers near Davenport price between {price('pool-deck-pavers')} per {per('pool-deck-pavers')}, tracking current Florida installer rates. "
                      "A lot of this part of Polk County sits on the same excessively drained ridge sand that runs up through Lake County, and on a new pool build, getting that base compacted right matters more here than managing a shallow water table does."),
     "sections": [
         ("Ridge sand under a new pool deck needs real compaction, not drainage planning",
@@ -250,7 +250,7 @@ LOCAL["pool-deck-pavers"] = {
          f"({src('nrcs-astatula-osd', 'USDA NRCS, Astatula soil series')}).</p>"),
         ("Most of these decks are going in on brand-new pools, not replacing old ones",
          f"<p>With the median Davenport home built in 2015, a paver or travertine pool deck here is more often part of a new pool build than a resurfacing job on a deck that's already cracked or faded "
-         f"({ext(CENSUS_DAVENPORT_URL, 'Census Reporter, Davenport FL')}). Setting the paver layout against the pool contractor's own shell elevation before the base is cut avoids a mismatch at the coping line, a step that matters more on a new build than it does on a deck being re-laid around a pool that's been in the ground for years.</p>"),
+         f"({ext(CENSUS_DAVENPORT_URL, 'Census Reporter, Davenport FL')}). Setting the paver layout against the pool builder's own shell elevation before the base is cut avoids a mismatch at the coping line, a step that matters more on a new build than it does on a deck being re-laid around a pool that's been in the ground for years.</p>"),
     ],
     "scenario": ("A new travertine deck, priced out by the square foot",
                  f"<p>A newly built pool on a Four Corners-area lot calling for 720 square feet of travertine instead of plain concrete comes to somewhere between $8,640 and $21,600, running that footage against the {price('pool-deck-pavers')} per {per('pool-deck-pavers')} figure, the exact total swinging on the stone and pattern picked. "
@@ -269,7 +269,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete ----------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Davenport, FL – New Builds",
-    "meta": "Stamped concrete contractors in Davenport, FL: picking a pattern for a brand-new driveway or pool deck rather than matching an old one, Oct. 2026.",
+    "meta": "Stamped concrete companies in Davenport, FL: picking a pattern for a brand-new driveway or pool deck rather than matching an old one, Oct. 2026.",
     "h1": "Stamped Concrete Driveways and Patios in Davenport",
     "lede": capsule(f"Stamped-concrete work in Davenport is budgeted at {price('stamped-concrete')} per {per('stamped-concrete')}, the current Florida range for this fall. "
                      "With most driveways and patios here going in on new construction rather than replacing something older, the design question is usually picking a fresh pattern and color from scratch instead of matching an existing slab."),

@@ -21,6 +21,15 @@ BANNED = ["in today's", "whether you're", "whether you are", "look no further", 
 INTERNAL = ["lead generation", "lead-gen", "sister brand", "sister site", "partner contractor", "hub_id", "owner input", "owner-inputs", "pending:", "todo", "placeholder", "lorem", "keyword", "search volume",
             "answer engine", "tier 1", "tier 2", "tier 3", "8-gram", "similarity", "benchmark", "word count", "autocomplete", "keyword planner", "pipeline", "rank-and-rent", "seo"]
 TRACK = ["most of our", "many of our", "our customers", "our clients", "we've installed", "we have installed", "we've built", "we have built", "we've done", "our jobs", "our calls", "our crews have", "years of experience", "hundreds of", "dozens of jobs", "dozens of yards", "our track record", "our portfolio", "slice of our"]
+# Owner decision 2026-10-23: nothing the site serves may mention licences or use "contractor" (text, titles, metas, JSON-LD,
+# alt text, llms.txt, feeds, sitemaps). External link URLs are exempt (e.g. Orange County's /PermitsLicenses/ pages); anchor text is not.
+LIC = re.compile(r"licen[cs]|contractor", re.I)
+
+
+def lic_hits(text):
+    return LIC.findall(re.sub(r'href="https?://(?!(?:www\.)?operaconcretepavers\.com)[^"]*"', 'href=""', text))
+
+
 MIN_WORDS = {"home": 3000, "service": 1800, "cityservice": 850, "city": 800, "pillar": 1200, "unit": 1000, "price": 1800, "permit": 700, "post": 1200, "compare": 1000, "faq": 1000}
 
 kinds = {}
@@ -76,6 +85,9 @@ def main():
                 json.loads(blob)
             except Exception as e:
                 fails.append(f"JSON-LD invalid ({e}): {route}")
+        n_lic = len(lic_hits(h))
+        if n_lic:
+            fails.append(f"licence/contractor wording x{n_lic}: {route}")
         txt = main_text(h)
         texts[route] = txt
         low = txt.lower()
@@ -117,6 +129,11 @@ def main():
             href = href if href.endswith("/") else href + "/"
             if href != route and not href.startswith("/static/"):
                 inlinks[href] += 1
+    for f in sorted(DIST.glob("*")):
+        if f.is_file() and f.suffix in (".txt", ".xml", ".html", ".webmanifest") and f.name != "index.html":
+            n_lic = len(lic_hits(f.read_text(encoding="utf-8", errors="ignore")))
+            if n_lic:
+                fails.append(f"licence/contractor wording x{n_lic}: /{f.name}")
     for route, links in outlinks.items():
         for l in links:
             if l not in pages:

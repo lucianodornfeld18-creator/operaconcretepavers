@@ -61,7 +61,7 @@ HUB_BODY = "".join([
         "of that: structures, pools, driveways, walks and parking areas all count, while permeable wood decks, trellises, thin "
         "walls and clay or grass courts do not " + src("lbk-code-158.144-impermeable", "Longboat Key Code §158.144") + ". The house "
         "itself answers to a separate cap: a single-family lot in the R-3SF district tops out at 25 percent building coverage, rising "
-        "to 30 percent in R-4SF and R-6SF " + src("lbk-code-158.062-r3sf", "Longboat Key Code §158.062") + ". A licensed design "
+        "to 30 percent in R-4SF and R-6SF " + src("lbk-code-158.062-r3sf", "Longboat Key Code §158.062") + ". An engineer or design "
         "professional has to verify that open-space math on the site plan, which is worth raising before a " + svc("paver-driveways") +
         " or a wider pool deck gets drawn up.</p>"
     ),
@@ -119,7 +119,7 @@ HUB_FAQS = [
     ),
     faq(
         "How much of my Longboat Key lot has to stay open?",
-        "At least 50 percent of the gross land area under the Town's own open-space rule. A driveway, paved or not, and a pool don't count toward that figure, and a licensed design professional has to verify the calculation on the site plan before a permit moves forward."
+        "At least 50 percent of the gross land area under the Town's own open-space rule. A driveway, paved or not, and a pool don't count toward that figure, and an engineer or design professional has to verify the calculation on the site plan before a permit moves forward."
     ),
     faq(
         "Is there a height limit on a retaining wall here?",
@@ -130,14 +130,14 @@ HUB_FAQS = [
         "No specific driveway or paver rule turned up in its recorded documents. Bay Isles' 1976 declaration delegates architectural and construction approval to whichever neighborhood or condominium association covers that part of the community, with the master association stepping in only if that smaller one fails to act."
     ),
     faq(
-        "How do you pick the best concrete contractor on Longboat Key?",
-        "Start with the state's DBPR license lookup, then ask how the bid handles Section 150.30's zoning exception for on-grade work and the FDOT review that applies if the apron touches Gulf of Mexico Drive. A contractor who can't walk through that process probably hasn't worked on the island before."
+        "How do you pick the best concrete company on Longboat Key?",
+        "Start with a certificate of insurance sent by the company's insurance agent, then ask how the bid handles Section 150.30's zoning exception for on-grade work and the FDOT review that applies if the apron touches Gulf of Mexico Drive. A crew that can't walk through that process probably hasn't worked on the island before."
     ),
 ]
 
 HUB = page(
     "/longboat-key-fl/", "city",
-    "Concrete, Pavers & Turf Contractor on Longboat Key, FL",
+    "Concrete, Pavers & Turf Company on Longboat Key, FL",
     "Concrete, pavers and turf on Longboat Key, FL: the Town's §57.03 right-of-way permit, the 50% open-space rule and FDOT on Gulf of Mexico Drive, Oct. 2026.",
     "Concrete, Pavers and Artificial Turf for Longboat Key Homes",
     capsule(
@@ -242,7 +242,7 @@ LOCAL["paver-driveways"] = {
             "Why the 50 percent open-space floor limits how wide a motor court can get",
             "<p>Every residential lot has to preserve \"a minimum of 50 percent of the gross land areas\" as open space, with driveways "
             "and pools written out of that count entirely " + src("lbk-code-158.030-open-space-cccl", "Longboat Key Code §158.030") +
-            ". A licensed design professional has to verify that math on the site plan, and the house itself answers to a separate "
+            ". An engineer or design professional has to verify that math on the site plan, and the house itself answers to a separate "
             "building-coverage cap, 25 percent in R-3SF and up to 30 percent in R-4SF and R-6SF " +
             src("lbk-code-158.062-r3sf", "Longboat Key Code §158.062") + ". On a tight lot, widening a two-car paver driveway to three "
             "cars is a calculation worth running before pavers are ordered, not after.</p>"
@@ -263,7 +263,7 @@ LOCAL["paver-driveways"] = {
         ),
         faq(
             "Who checks the open-space math before a paver driveway is approved?",
-            "A licensed design professional has to verify the calculation on the site plan. We run that number against the existing pool, house footprint and any patio before pricing a wider driveway."
+            "An engineer or design professional has to verify the calculation on the site plan. We run that number against the existing pool, house footprint and any patio before pricing a wider driveway."
         ),
         faq(
             "Can I widen my paver driveway on Longboat Key?",

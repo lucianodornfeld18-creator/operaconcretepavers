@@ -55,11 +55,11 @@ HUB_FAQS = [
         "Orange County's residential private open space standard requires at least 40 percent of the lot to stay open, under Code §24-29(a), a figure that applies on top of ordinary setback rules."),
     faq("Is Hunter's Creek under the same one-day watering order as Lake County?",
         "No. Orange County follows SJRWMD's standard twice-a-week schedule rather than the Phase III emergency order in effect in Lake County and several other counties."),
-    faq("How do you choose a concrete contractor for a Hunter's Creek home?",
-        f"Check the contractor's standing with the state's license lookup, confirm the bid distinguishes between the county's building-permit path for concrete and the lighter zoning-permit path for pavers, and ask who's submitting the paperwork to the community association's Architectural Review Committee. {post('how-to-choose-a-concrete-contractor-orlando', 'Ten criteria for choosing a concrete contractor')} rounds out the list."),
+    faq("How do you choose a concrete company for a Hunter's Creek home?",
+        f"Look the business name up on Sunbiz, confirm the bid distinguishes between the county's building-permit path for concrete and the lighter zoning-permit path for pavers, and ask who's submitting the paperwork to the community association's Architectural Review Committee. {post('orange-county-orlando-driveway-patio-permits', 'The Orange County permit guide')} rounds out the list."),
 ]
 
-HUB = page("/hunters-creek-fl/", "city", "Concrete, Pavers & Turf Contractor in Hunter's Creek, FL",
+HUB = page("/hunters-creek-fl/", "city", "Concrete, Pavers & Turf Company in Hunter's Creek, FL",
            "Concrete, pavers and turf in Hunter's Creek, FL: Orange County's permit split for concrete vs. pavers, the HOA's color rule, and Shingle Creek, Oct. 2026.",
            "Concrete, Pavers and Artificial Turf for Hunter's Creek, Florida Homes",
            capsule(f"Built around 109 lakes and ponds some 13 miles south of Orlando, Hunter's Creek is an unincorporated Orange County community of about 24,433 residents with no city hall of its own. "
@@ -81,7 +81,7 @@ LOCAL = {}
 # 1. concrete-driveways ------------------------------------------------------
 LOCAL["concrete-driveways"] = {
     "title": "Concrete Driveways in Hunter's Creek, FL",
-    "meta": "Concrete driveway contractors in Hunter's Creek, FL: Orange County's building-permit rule, the lot grading policy's 6-inch spec, and the HOA color rule, Oct. 2026.",
+    "meta": "Concrete driveway companies in Hunter's Creek, FL: Orange County's building-permit rule, the lot grading policy's 6-inch spec, and the HOA color rule, Oct. 2026.",
     "h1": "Concrete Driveways for Hunter's Creek Homes",
     "lede": capsule(f"A new or replacement concrete driveway in Hunter's Creek is pricing at {price('concrete-driveway')} per {per('concrete-driveway')} under October 2026 Florida figures. "
                      "Orange County treats poured concrete as a building-permit job, and the county's own grading policy spells out a minimum thickness and strength for any driveway that touches the right-of-way, on top of the community association's own color rule."),

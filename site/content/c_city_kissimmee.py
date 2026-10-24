@@ -35,7 +35,7 @@ HUB_BODY = "".join([
         f"({src('dep-rule', 'Florida Administrative Code, Rule 62-308.100')}). {svc('retaining-walls', 'A retaining or seat wall')} is also a common way to manage a yard that slopes down toward a shoreline or a drainage canal rather than a flat inland lot.</p>"),
     sec("A share of Kissimmee's yards work as short-term rentals",
         f"<p>Osceola County only allows a short-term rental in a lot zoned for it, either a Short Term Rental Planned Development or an area shown on the county's short-term rental overlay map, and a property “in a Subdivision or a Planned Development” can carry additional architectural rules on top of that zoning "
-        f"({ext(STRPD_URL, 'Osceola County, STRPD District')}). That zoning check runs separately from the state vacation-rental license and the county business tax receipt a rental operator also needs. Along the US-192 corridor and the resort-style subdivisions near the attractions, that overlay, not the driveway or pool-deck spec itself, is usually the first thing worth confirming before exterior work gets scoped.</p>"),
+        f"({ext(STRPD_URL, 'Osceola County, STRPD District')}). That zoning check runs separately from the state's own vacation-rental paperwork and the county business tax receipt a rental operator also needs. Along the US-192 corridor and the resort-style subdivisions near the attractions, that overlay, not the driveway or pool-deck spec itself, is usually the first thing worth confirming before exterior work gets scoped.</p>"),
     sec("Toho Water Authority, not the regional district, sets Kissimmee's watering days",
         f"<p>Kissimmee's own utility, Toho Water Authority, runs a year-round twice-a-week schedule: odd-numbered and no-number addresses water Wednesday and Saturday, even-numbered addresses water Thursday and Sunday, and nothing runs between 10 a.m. and 4 p.m. on any address "
         f"({ext(TOHO_URL, 'Toho Water Authority, Watering Days and Times')}). New sod gets a graduated exception, daily for the first ten days, tapering down to the standard two-day schedule by day 21. {svc('artificial-turf', 'Artificial turf')} doesn't run on that schedule at all, since nothing underneath it needs watering once the base is set.</p>"),
@@ -56,15 +56,15 @@ HUB_FAQS = [
         "Toho Water Authority runs a twice-a-week schedule by address, Wednesday and Saturday for odd and no-number addresses, Thursday and Sunday for even ones, with nothing between 10 a.m. and 4 p.m. New sod gets extra watering for the first 30 days on a tapering schedule before it drops to the standard days."),
     faq("Is a retaining wall near Lake Tohopekaliga regulated differently than one inland?",
         "Neither the city's permit-types page nor the county's homeowner guidance publishes a stand-alone height that triggers engineering review for a wall, so a call to whichever office covers the lot is worth making before finalizing a design. Grading toward the lake or a canal is the bigger variable on a waterfront lot, since the wall usually has more fill to hold back than one on a flat inland yard."),
-    faq("How do I find the best concrete contractor in Kissimmee?",
-        f"Check the contractor on the state's license-verification tool, confirm whether the city's Engineering Division or Osceola County's Building Office actually reviews your lot before a quote assumes one or the other, and ask how the bid handles compaction on flatwoods soil. "
-        f"{post('how-to-choose-a-concrete-contractor-orlando', 'Ten criteria for choosing a concrete contractor')} covers the rest."),
+    faq("How do I find the best concrete company in Kissimmee?",
+        f"Get a certificate of insurance from the company's insurance agent, confirm whether the city's Engineering Division or Osceola County's Building Office actually reviews your lot before a quote assumes one or the other, and ask how the bid handles compaction on flatwoods soil. "
+        f"{post('osceola-county-kissimmee-st-cloud-permits', 'Our Kissimmee and Osceola permit guide')} covers the rest."),
     faq("Does Celebration require approval before I reseal or repave a driveway?",
         f"Celebration, the planned community just outside Kissimmee in unincorporated Osceola County, runs its exterior changes through an Architectural Review Committee that meets on the third Monday of each month, with applications due ahead of a published monthly deadline "
         f"({src('celebration-arc', 'Celebration, Architectural Review Committee')}). That review sits alongside, not instead of, whatever county permit the same job needs."),
 ]
 
-HUB = page("/kissimmee-fl/", "city", "Concrete, Pavers & Turf Contractor in Kissimmee, FL",
+HUB = page("/kissimmee-fl/", "city", "Concrete, Pavers & Turf Company in Kissimmee, FL",
            "Concrete, pavers and turf in Kissimmee, FL: city vs. Osceola County permits, Lake Tohopekaliga, short-term rental zoning and Toho watering days, October 2026.",
            "Concrete, pavers and artificial turf in Kissimmee, Florida",
            capsule("Opera pours concrete and lays pavers and artificial turf for homes in Kissimmee, a city of about 85,591 residents in Osceola County where the typical house dates to 1992. "
@@ -145,7 +145,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -----------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Kissimmee, FL – Permits",
-    "meta": "Concrete patio contractors in Kissimmee, FL: the city's slab permit type and grading a backyard patio toward Lake Tohopekaliga, October 2026.",
+    "meta": "Concrete patio companies in Kissimmee, FL: the city's slab permit type and grading a backyard patio toward Lake Tohopekaliga, October 2026.",
     "h1": "Building a Concrete Patio in Kissimmee",
     "lede": capsule(f"A concrete patio in Kissimmee costs {price('concrete-patio')} per {per('concrete-patio')}, a Florida market range as of October 2026. "
                      "Kissimmee files a patio slab under its “Slab With/Without Footer” permit type, the same category covering a shed pad or an AC pad, and on the lots that back up to Lake Tohopekaliga or one of its canals, the slope away from the water matters as much as the mix design."),
@@ -262,7 +262,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete ---------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Kissimmee, FL – Celebration",
-    "meta": "Stamped concrete contractors in Kissimmee, FL: Celebration's monthly design review and Osceola County's 24-foot driveway cap, October 2026.",
+    "meta": "Stamped concrete companies in Kissimmee, FL: Celebration's monthly design review and Osceola County's 24-foot driveway cap, October 2026.",
     "h1": "Stamped Concrete Driveways and Patios in Kissimmee",
     "lede": capsule(f"A stamped-concrete project in Kissimmee costs {price('stamped-concrete')} per {per('stamped-concrete')}, a Florida market range as of October 2026 that moves with the pattern and the number of colors chosen. "
                      "In Celebration, the planned community outside the city known for its coordinated streetscapes, a new pattern or color on a visible driveway or walk goes to the monthly Architectural Review Committee, and any driveway there still has to fit inside the county's 24-foot width cap regardless of the finish chosen."),
@@ -291,7 +291,7 @@ LOCAL["stamped-concrete"] = {
 # 8. concrete-walkways --------------------------------------------------------
 LOCAL["concrete-walkways"] = {
     "title": "Sidewalks & Walkways in Kissimmee, FL",
-    "meta": "Concrete walkway and sidewalk contractors in Kissimmee, FL: the city's right-of-way permit versus the county's 48-hour regrade rule, October 2026.",
+    "meta": "Concrete walkway and sidewalk companies in Kissimmee, FL: the city's right-of-way permit versus the county's 48-hour regrade rule, October 2026.",
     "h1": "Concrete Sidewalks and Walkways in Kissimmee",
     "lede": capsule(f"A concrete walkway in Kissimmee runs {price('concrete-walkway')} per {per('concrete-walkway')} as of October 2026. "
                      "A walkway that touches the right-of-way goes through the city's right-of-way permit inside the city limits, with fees starting at a $25 minimum, or Osceola County's process outside them, which doesn't publish a fee but requires any disturbed ground to be regraded within 48 hours."),
@@ -321,7 +321,7 @@ LOCAL["concrete-walkways"] = {
 # 9. concrete-slabs ------------------------------------------------------------
 LOCAL["concrete-slabs"] = {
     "title": "Concrete Slabs in Kissimmee, FL – Shed Pads",
-    "meta": "Concrete slab contractors in Kissimmee, FL: the city's slab permit type and Osceola County's exemption disclosure form for small jobs, October 2026.",
+    "meta": "Concrete slab companies in Kissimmee, FL: the city's slab permit type and Osceola County's exemption disclosure form for small jobs, October 2026.",
     "h1": "Concrete Slabs for Sheds, Pads and Parking in Kissimmee",
     "lede": capsule(f"A concrete slab in Kissimmee runs {price('concrete-slab')} per {per('concrete-slab')} as of October 2026. "
                      "Inside the city, a shed, AC or parking pad goes through the “Slab With/Without Footer” permit type; in unincorporated Osceola County, a small enough job may instead qualify for the state's 2026 exemption, applied through the county's own disclosure form."),
@@ -409,7 +409,7 @@ LOCAL["paver-sealing"] = {
 # 12. retaining-walls -----------------------------------------------------------
 LOCAL["retaining-walls"] = {
     "title": "Retaining Walls in Kissimmee, FL – Permits",
-    "meta": "Retaining wall contractors in Kissimmee, FL: why neither the city nor Osceola County publishes a wall-height trigger, October 2026.",
+    "meta": "Retaining wall companies in Kissimmee, FL: why neither the city nor Osceola County publishes a wall-height trigger, October 2026.",
     "h1": "Retaining Walls for Kissimmee Yards",
     "lede": capsule(f"Building a retaining wall in Kissimmee costs {price('retaining-wall')} per {per('retaining-wall')}, a Florida market range as of October 2026. "
                      "Neither the city's permit-types page nor Osceola County's homeowner guidance publishes a stand-alone wall height that triggers engineering review, so confirming the threshold directly with whichever office covers the lot is part of planning the job."),

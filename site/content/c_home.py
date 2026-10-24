@@ -68,14 +68,14 @@ def get_pages():
                      ("Pour or lay.", "Concrete placed, finished, jointed and cured; or pavers laid, cut, compacted and sanded; or turf seamed and infilled."),
                      ("Walkthrough.", "We go over curing, when to drive on it, and how to care for the surface.")])
             + f"<p>The {a('/process/', 'project process page')} explains each step, and the post on {post('prepare-your-yard-for-hardscape-installation', 'preparing your home for installation day')} covers sprinklers, pets, vehicles and gates.</p>"),
-        sec("How do you choose the best concrete contractor near you?",
-            "<p>Whether you search for the best concrete contractor near me or paver installers near me, the shortlist should be judged on paperwork and method, not on photos alone. Five checks catch most problems:</p>"
-            + ul([f"Look the business up on the {src('dbpr-search', 'DBPR license search')} and ask which license, if any, covers the work. Florida law exempts driveway installation from licensing requirements but treats structural slabs and walls differently ({src('fs489-117', 'F.S. 489.117')}).",
+        sec("How do you choose the best concrete company near you?",
+            "<p>Whether you search for the best concrete company near me or paver installers near me, the shortlist should be judged on paperwork and method, not on photos alone. Five checks catch most problems:</p>"
+            + ul(["Ask for a certificate of insurance sent to you directly by the insurance agent, and look the business up on Sunbiz to confirm the name on the contract belongs to an active company.",
                   f"Ask who pulls the permit. Cities like Orlando require an engineering permit for driveway and paver work even after the 2026 change that exempted small single-family building permits.",
                   f"On jobs over $2,500, expect the Notice of Commencement process under Florida's lien law ({src('fs713-13', 'F.S. 713.13')}).",
                   "Get the base depth, thickness, reinforcement and joint plan in writing. A price without them can't be compared.",
                   "Ask how the crew handles heat and rain on pour day."])
-            + f"<p>Two guides go deeper: {post('how-to-choose-a-concrete-contractor-orlando', 'choosing a concrete contractor in Orlando')} and {post('how-to-compare-concrete-and-paver-quotes', 'comparing concrete and paver quotes line by line')}.</p>"),
+            + f"<p>Two guides go deeper: {post('how-to-compare-concrete-and-paver-quotes', 'comparing concrete and paver quotes line by line')} and {post('concrete-and-paver-warranty-what-it-should-cover', 'what a concrete or paver warranty should cover')}.</p>"),
         sec("Permits, HOAs and the driveway apron",
             "<p>The section of driveway between the sidewalk and the street usually sits in the public right-of-way, so the city or county sets its thickness and width even when the rest of the driveway is yours. "
             "Orlando, for example, specifies a 6-inch, 3,000 psi apron and sidewalk crossing. Master-planned communities add a second layer: architectural review committees that approve material, color and pattern before work starts. "
@@ -119,20 +119,20 @@ def get_pages():
                   post("should-you-seal-a-concrete-driveway-florida", "Whether a concrete driveway in Florida needs sealing"),
                   post("does-a-new-driveway-add-home-value", "Whether a new driveway, patio or pool deck adds home value"),
                   post("best-time-of-year-for-hardscape-projects-florida", "Which months suit pavers, concrete or turf work"),
-                  post("florida-contractor-license-check-concrete-pavers", "How to check a concrete or paver contractor's license in Florida")])),
+                  post("hoa-approval-for-pavers-and-concrete", "How HOA approval works for pavers, a driveway or a pool deck")])),
         sec("Where we work", "<p>These are the towns with their own local pages, grouped by county. If yours isn't listed, send the address with your request and we'll tell you which crew covers it.</p><!--AUTO:all-areas-->"),
     ])
     faqs = [
         faq("Do you work in both Orlando and Sarasota?", "Yes. Opera Concrete & Pavers runs two service units. The Orlando unit covers Orange, Osceola, Seminole and Lake counties plus northeast Polk; the Sarasota unit covers Sarasota and Manatee counties. Pick your area on the estimate form and the right crew gets the request."),
         faq("Are estimates free?", "Yes. We measure on site, look at drainage, trees, access and the existing surface, and then send a written scope and price. There is no charge for the visit or the estimate in either service area."),
-        faq("Can one contractor handle concrete, pavers and turf on the same project?", "Yes, and it often saves a step. A typical backyard project pairs a paver patio or pool deck with turf, and the paver edge doubles as the turf border. Scheduling one crew avoids a second excavation and keeps the grading consistent."),
+        faq("Can one company handle concrete, pavers and turf on the same project?", "Yes, and it often saves a step. A typical backyard project pairs a paver patio or pool deck with turf, and the paver edge doubles as the turf border. Scheduling one crew avoids a second excavation and keeps the grading consistent."),
         faq("Do you remove the old driveway or patio?", "Yes. Demolition, haul-off and disposal are part of most replacement jobs and are listed as a separate line in the estimate. Removal typically adds $3 to $8 per square foot in national cost data, depending on thickness and reinforcement."),
         faq("Will my HOA need to approve the work?", "In most master-planned communities, yes: driveways, pavers, pool decks and visible turf usually need architectural review approval before work starts. We supply the material specs, colors and site sketch that the application asks for."),
         faq("What areas do you serve outside the main cities?", "The service-area pages list every town with its own page, from Montverde and Groveland to Myakka City and Anna Maria Island. If your town isn't listed, include the address on the form and we'll confirm coverage."),
     ]
-    return [page("/", "home", "Concrete & Paver Contractor | Orlando & Sarasota, FL", "Concrete driveways, pavers, pool decks, stamped concrete and turf in Greater Orlando and Sarasota–Manatee. Free on-site estimates and 2026 Florida price ranges.",
+    return [page("/", "home", "Concrete & Paver Company | Orlando & Sarasota, FL", "Concrete driveways, pavers, pool decks, stamped concrete and turf in Greater Orlando and Sarasota–Manatee. Free on-site estimates and 2026 Florida price ranges.",
                  H1,
                  capsule(f"Opera Concrete & Pavers pours concrete driveways, patios and pool decks and installs pavers, retaining walls and artificial turf in Greater Orlando and in Sarasota, Lakewood Ranch and Bradenton. As of October 2026, Florida market data puts installed concrete driveways at {price('concrete-driveway')} per sq ft and paver driveways at {price('paver-driveway')}; every price we give follows a site visit."),
                  body, faqs=faqs, faq_title="Questions homeowners ask first", wide=True, hero_photo="home-hero",
                  hero_extra='<ul class="ticks"><li>Concrete driveways &amp; patios</li><li>Pavers &amp; travertine</li><li>Pool decks</li><li>Artificial turf</li></ul>',
-                 sources=["angi-driveway-orlando", "homeguide-driveway-pavers", "homeguide-paver-patio", "homeguide-artificial-grass", "nrcs-myakka-osd", "aci-faq-maxtemp", "ncei-annual-prcp", "nrmca-cip6", "dbpr-search", "fs489-117", "fs713-13", "fs720-3035", "flrules62-308-100", "fs720-3045"])]
+                 sources=["angi-driveway-orlando", "homeguide-driveway-pavers", "homeguide-paver-patio", "homeguide-artificial-grass", "nrcs-myakka-osd", "aci-faq-maxtemp", "ncei-annual-prcp", "nrmca-cip6", "fs713-13", "fs720-3035", "flrules62-308-100", "fs720-3045"])]

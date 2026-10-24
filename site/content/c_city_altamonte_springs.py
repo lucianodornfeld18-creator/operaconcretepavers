@@ -52,11 +52,11 @@ HUB_FAQS = [
         "Yes. The R-1 district's lot coverage cap, 45 percent for most single-family homes, factors into the same application that reviews a patio or driveway addition, which is why the checklist asks for lot coverage calculations up front."),
     faq("How do I know if my Altamonte Springs address is actually in unincorporated Seminole County?",
         "Check for one of the enclaves the city's own planning documents describe, pockets of county land completely surrounded by the city; a driveway or paver permit there goes to the county's Development Review Division instead of Building and Fire Safety."),
-    faq("What's worth confirming before hiring a concrete or paver contractor in Altamonte Springs?",
-        f"Verify the license through the state's lookup tool, and make sure the estimate already separates the driveway-specific permit from the general building permit a patio or pool deck would need, since the city doesn't treat them as the same application. {post('how-to-choose-a-concrete-contractor-orlando', 'Our guide to choosing a concrete contractor')} covers what else belongs in a solid, best-practice estimate."),
+    faq("What's worth confirming before hiring a concrete or paver company in Altamonte Springs?",
+        f"Ask for a certificate of insurance sent straight from the insurance agent, and make sure the estimate already separates the driveway-specific permit from the general building permit a patio or pool deck would need, since the city doesn't treat them as the same application. {post('how-to-compare-concrete-and-paver-quotes', 'Our guide to comparing quotes line by line')} covers what else belongs in a solid, best-practice estimate."),
 ]
 
-HUB = page("/altamonte-springs-fl/", "city", "Concrete, Pavers & Turf Contractor in Altamonte Springs, FL",
+HUB = page("/altamonte-springs-fl/", "city", "Concrete, Pavers & Turf Company in Altamonte Springs, FL",
            "Opera pours concrete, sets pavers and installs turf in Altamonte Springs, FL, where driveways and patios use two separate city permit forms, as of October 2026.",
            "Concrete, Pavers and Artificial Turf for Altamonte Springs Homes",
            capsule(f"Opera builds concrete driveways, pavers and artificial turf for homeowners in Altamonte Springs, a Seminole County city of about 48,000 residents where driveways and patios are reviewed on two separate city permit forms. "
@@ -78,7 +78,7 @@ LOCAL = {}
 # 1. concrete-driveways ------------------------------------------------------
 LOCAL["concrete-driveways"] = {
     "title": "Concrete Driveways in Altamonte Springs, FL",
-    "meta": "Concrete driveway contractors in Altamonte Springs, FL: the city's compaction test, inspection order and 60-day permit window, October 2026.",
+    "meta": "Concrete driveway companies in Altamonte Springs, FL: the city's compaction test, inspection order and 60-day permit window, October 2026.",
     "h1": "Pouring a Concrete Driveway in Altamonte Springs",
     "lede": capsule(f"A new or replacement concrete driveway in Altamonte Springs runs {price('concrete-driveway')} per {per('concrete-driveway')} as of October 2026. "
                      "The city's own Driveway Construction Permit Application checks the job as “3000 Concrete” construction and requires a compaction test between the street and the property line before any new driveway gets poured."),
@@ -132,7 +132,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -----------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Altamonte Springs, FL",
-    "meta": "Concrete patio contractors in Altamonte Springs, FL: the building-permit checklist's drainage plan and HOA letter requirement, October 2026.",
+    "meta": "Concrete patio companies in Altamonte Springs, FL: the building-permit checklist's drainage plan and HOA letter requirement, October 2026.",
     "h1": "Building a Concrete Patio in Altamonte Springs",
     "lede": capsule(f"A concrete patio in Altamonte Springs falls between {price('concrete-patio')} per {per('concrete-patio')} as of October 2026. "
                      "Unlike a driveway, a patio goes through the city's general Building Permit Application, which asks for a drainage plan on any job that adds impervious area and, in a deed-restricted neighborhood, a signed HOA approval letter."),
@@ -240,7 +240,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete ---------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Altamonte Springs, FL",
-    "meta": "Stamped concrete contractors in Altamonte Springs, FL: how a decorative finish is checked against the city's 45 percent lot coverage cap, October 2026.",
+    "meta": "Stamped concrete companies in Altamonte Springs, FL: how a decorative finish is checked against the city's 45 percent lot coverage cap, October 2026.",
     "h1": "Stamped Concrete Driveways and Patios in Altamonte Springs",
     "lede": capsule(f"Stamped concrete work in Altamonte Springs falls between {price('stamped-concrete')} per {per('stamped-concrete')} as of October 2026, swinging with the pattern and number of colors. "
                      "A decorative finish doesn't change which permit form applies or how much it counts against the city's lot coverage limit; a stamped slab is measured in square feet the same way a plain one would be."),

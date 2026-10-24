@@ -59,12 +59,12 @@ HUB_FAQS = [
         "The city counts 21 lakes within its limits, Lake Maitland the largest at 451 acres, which means a larger-than-typical share of Maitland yards sit close enough to open water for the state's turf setback rule to matter."),
     faq("Is most of Maitland's concrete newer than nearby Winter Park's?",
         "Generally yes. Maitland's median home dates to 1996, roughly two decades newer than Winter Park's 1976 median, so less of the city's original flatwork has reached the point where resurfacing is routine."),
-    faq("What should a Maitland homeowner confirm before hiring a contractor?",
-        f"Ask whether the written bid already folds in the city's driveway or right-of-way fee, confirm a Paver Letter gets filed wherever the work touches the right-of-way, and look the business up on the state's license-search page before any deposit changes hands. "
-        f"{post('how-to-choose-a-concrete-contractor-orlando', 'Our concrete-contractor guide')} walks through the rest of a solid bid."),
+    faq("What should a Maitland homeowner confirm before hiring a concrete or paver company?",
+        f"Ask whether the written bid already folds in the city's driveway or right-of-way fee, confirm a Paver Letter gets filed wherever the work touches the right-of-way, and look the business up on Sunbiz before any deposit changes hands. "
+        f"{post('how-to-compare-concrete-and-paver-quotes', 'Our quote-comparison guide')} walks through the rest of a solid bid."),
 ]
 
-HUB = page("/maitland-fl/", "city", "Concrete, Pavers & Turf Contractor in Maitland, FL",
+HUB = page("/maitland-fl/", "city", "Concrete, Pavers & Turf Company in Maitland, FL",
            "Concrete, pavers and turf in Maitland, FL: a $175 driveway permit, 70% lot coverage cap, and 21 lakes including 451-acre Lake Maitland, October 2026.",
            "Concrete, Pavers and Artificial Turf for Maitland Homes",
            capsule(f"Opera pours concrete and lays pavers and artificial turf for Maitland, an Orange County city of 19,469 residents built around 21 lakes, Lake Maitland the largest at 451 acres. "
@@ -85,7 +85,7 @@ LOCAL = {}
 # 1. concrete-driveways -------------------------------------------------------
 LOCAL["concrete-driveways"] = {
     "title": "Concrete Driveways in Maitland, FL – Permits",
-    "meta": "Concrete driveway contractors in Maitland, FL: the city's $175 permit, the 70% coverage cap, and the Notice of Commencement rule, October 2026.",
+    "meta": "Concrete driveway companies in Maitland, FL: the city's $175 permit, the 70% coverage cap, and the Notice of Commencement rule, October 2026.",
     "h1": "Pouring a Concrete Driveway in Maitland",
     "lede": capsule(f"A concrete driveway in Maitland runs {price('concrete-driveway')} per {per('concrete-driveway')}, the market range as of this October. "
                      "The city's own $175 driveway/sidewalk permit applies before the first form goes up, and a job over $5,000 needs a recorded Notice of Commencement ahead of the first inspection."),

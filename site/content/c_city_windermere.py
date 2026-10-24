@@ -103,15 +103,15 @@ HUB_FAQS = [
         "At least 10 feet back from the water under the state's synthetic-turf rule, unless the edge is a seawall rather than open shoreline. The chain's Outstanding Florida Water status adds extra scrutiny to any work that could affect runoff into the lakes."
     ),
     faq(
-        "How do you pick the best concrete contractor in Windermere?",
-        "Verify the contractor on the state's license-check tool, confirm whether PDCS or Orange County actually reviews the address, and ask whether the bid already accounts for the town's Right-of-Way apron spec. " +
-        post("how-to-choose-a-concrete-contractor-orlando", "Ten criteria for choosing a concrete contractor") + " covers the rest."
+        "How do you pick the best concrete company in Windermere?",
+        "Ask for a certificate of insurance from the company's agent, confirm whether PDCS or Orange County actually reviews the address, and ask whether the bid already accounts for the town's Right-of-Way apron spec. " +
+        post("how-to-compare-concrete-and-paver-quotes", "Our guide to comparing two bids") + " covers the rest."
     ),
 ]
 
 HUB = page(
     "/windermere-fl/", "city",
-    "Concrete, Pavers & Turf Contractor in Windermere, FL",
+    "Concrete, Pavers & Turf Company in Windermere, FL",
     "Concrete, pavers and turf in Windermere, FL: PDCS's $75 Right-of-Way permit, the town's 0.45 impervious cap and the Butler Chain of Lakes, October 2026.",
     "Concrete, Pavers and Artificial Turf for Windermere Homes",
     capsule(
@@ -236,7 +236,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -------------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Windermere, FL – Impervious Cap",
-    "meta": "Concrete patio contractors in Windermere, FL: why a patio counts fully against the town's 0.45 impervious surface ratio, October 2026.",
+    "meta": "Concrete patio companies in Windermere, FL: why a patio counts fully against the town's 0.45 impervious surface ratio, October 2026.",
     "h1": "Building a Concrete Patio in Windermere",
     "lede": capsule(
         "A concrete patio in Windermere runs " + price("concrete-patio") + " per " + per("concrete-patio") + " as of October 2026. The town's land development code names patios directly inside its 0.45 "
@@ -429,7 +429,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete -------------------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Windermere, FL – Main Street",
-    "meta": "Stamped concrete contractors in Windermere, FL: pattern choices near the town's brick Main Street versus its sand side streets, Oct. 2026.",
+    "meta": "Stamped concrete companies in Windermere, FL: pattern choices near the town's brick Main Street versus its sand side streets, Oct. 2026.",
     "h1": "Stamped Concrete Driveways and Patios in Windermere",
     "lede": capsule(
         "Stamped concrete in Windermere runs " + price("stamped-concrete") + " per " + per("stamped-concrete") + " as of October 2026. Homes close to the town's brick-and-paved Main Street tend toward a "
@@ -477,7 +477,7 @@ LOCAL["stamped-concrete"] = {
 # 8. concrete-walkways --------------------------------------------------------------------
 LOCAL["concrete-walkways"] = {
     "title": "Walkways & Sidewalks in Windermere, FL – Sand Streets",
-    "meta": "Concrete walkway and sidewalk contractors in Windermere, FL: tying a walkway into a sand street versus a paved one, as of October 2026.",
+    "meta": "Concrete walkway and sidewalk companies in Windermere, FL: tying a walkway into a sand street versus a paved one, as of October 2026.",
     "h1": "Concrete Sidewalks and Walkways in Windermere",
     "lede": capsule(
         "A concrete walkway or sidewalk section in Windermere runs " + price("concrete-walkway") + " per " + per("concrete-walkway") + " as of October 2026. Most of the town's residential streets are "
@@ -526,7 +526,7 @@ LOCAL["concrete-walkways"] = {
 # 9. concrete-slabs ------------------------------------------------------------------------
 LOCAL["concrete-slabs"] = {
     "title": "Concrete Slabs in Windermere, FL – Sheds & Pads",
-    "meta": "Concrete slab contractors in Windermere, FL: PDCS review inside town versus Orange County's permit near Horizon West, October 2026.",
+    "meta": "Concrete slab companies in Windermere, FL: PDCS review inside town versus Orange County's permit near Horizon West, October 2026.",
     "h1": "Concrete Slabs for Sheds, AC Pads and Parking in Windermere",
     "lede": capsule(
         "A shed pad, an AC slab or an RV parking strip in Windermere falls between " + price("concrete-slab") + " per " + per("concrete-slab") + " as of October 2026. Which office signs off on it "
@@ -671,7 +671,7 @@ LOCAL["paver-sealing"] = {
 # 12. retaining-walls -----------------------------------------------------------------
 LOCAL["retaining-walls"] = {
     "title": "Retaining Walls in Windermere, FL – County's 24-In Rule",
-    "meta": "Retaining wall contractors in Windermere, FL: no town-published height threshold, versus Orange County's 24-inch engineering trigger, Oct. 2026.",
+    "meta": "Retaining wall companies in Windermere, FL: no town-published height threshold, versus Orange County's 24-inch engineering trigger, Oct. 2026.",
     "h1": "Retaining Walls for Windermere Yards",
     "lede": capsule(
         "Retaining wall construction in Windermere runs between " + price("retaining-wall") + " per " + per("retaining-wall") + " as of October 2026. The town itself publishes no specific height threshold "

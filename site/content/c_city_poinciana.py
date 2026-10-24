@@ -59,11 +59,11 @@ HUB_FAQS = [
         "Yes, where the pavers sit within a required setback or next to a structure. Polk County's own guidance lists that requirement specifically, alongside separate rules for slabs and retaining walls."),
     faq("Is Poinciana under the same watering restrictions as the rest of Polk County?",
         "No. Because Poinciana sits in the Kissimmee River basin, it falls under the South Florida Water Management District's twice-a-week schedule rather than the stricter once-a-week order in effect for most of Polk County under a different district."),
-    faq("How do you choose a concrete contractor for a home in Poinciana?",
-        f"Confirm which county the address falls under before pricing the permit, ask whether the bid accounts for the Association of Poinciana Villages' Design Control Board review, and check the contractor against the state's license lookup. {post('how-to-choose-a-concrete-contractor-orlando', 'Ten criteria for choosing a concrete contractor')} covers the remaining checks."),
+    faq("How do you choose a concrete company for a home in Poinciana?",
+        f"Confirm which county the address falls under before pricing the permit, ask whether the bid accounts for the Association of Poinciana Villages' Design Control Board review, and ask for a certificate of insurance sent directly by the insurance agent. {post('how-to-compare-concrete-and-paver-quotes', 'Comparing quotes line by line')} covers the remaining checks."),
 ]
 
-HUB = page("/poinciana-fl/", "city", "Concrete, Pavers & Turf Contractor in Poinciana, FL",
+HUB = page("/poinciana-fl/", "city", "Concrete, Pavers & Turf Company in Poinciana, FL",
            "Concrete, pavers and turf in Poinciana, FL: the Osceola-Polk county split, the Association of Poinciana Villages, and Polk's own permit list, Oct. 2026.",
            "Concrete, Pavers and Artificial Turf for Poinciana, Florida Homes",
            capsule(f"Split between Osceola and Polk counties and governed day to day by the Association of Poinciana Villages, Poinciana has grown to roughly 81,260 residents about 28 miles from Orlando. "
@@ -85,7 +85,7 @@ LOCAL = {}
 # 1. concrete-driveways ------------------------------------------------------
 LOCAL["concrete-driveways"] = {
     "title": "Concrete Driveways in Poinciana, FL – Two Counties",
-    "meta": "Concrete driveway contractors in Poinciana, FL: Osceola's 24-foot cap on one side of the line, Polk's slab permit rules on the other, Oct. 2026.",
+    "meta": "Concrete driveway companies in Poinciana, FL: Osceola's 24-foot cap on one side of the line, Polk's slab permit rules on the other, Oct. 2026.",
     "h1": "Concrete Driveways for Poinciana Homes",
     "lede": capsule(f"A new concrete driveway in Poinciana currently prices between {price('concrete-driveway')} per {per('concrete-driveway')}, October 2026 Florida figures. "
                      "Which office reviews the job depends on the county: Osceola's side of the community caps driveway width at 24 feet in its own code, while Polk's side instead names a concrete slab directly in its permit list."),

@@ -58,11 +58,11 @@ HUB_FAQS = [
     faq("How old is the typical driveway in Casselberry?",
         "The city's median home was built in 1983, so a large share of original driveways and patios are now past the 40-year mark, a point where cracking and resurfacing become routine rather than a sign of a bad original pour."),
     faq("What belongs in a solid concrete or paver quote in Casselberry?",
-        f"A bid that already accounts for the city's $100 driveway permit, states plainly whether the job stays under the single-family zone's 50 percent coverage cap, and comes from a contractor you've checked through the state's license-verification tool. "
-        f"{post('how-to-choose-a-concrete-contractor-orlando', 'Our guide to choosing a concrete contractor')} covers the rest of what to look for."),
+        f"A bid that already accounts for the city's $100 driveway permit, states plainly whether the job stays under the single-family zone's 50 percent coverage cap, and comes from a company whose name matches an active entry on Sunbiz. "
+        f"{post('how-to-compare-concrete-and-paver-quotes', 'Our quote-comparison guide')} covers the rest of what to look for."),
 ]
 
-HUB = page("/casselberry-fl/", "city", "Concrete, Pavers & Turf Contractor in Casselberry, FL",
+HUB = page("/casselberry-fl/", "city", "Concrete, Pavers & Turf Company in Casselberry, FL",
            "Concrete, pavers and turf in Casselberry, FL: the city's $100 driveway permit, a 50% coverage cap, and more than two dozen lakes, October 2026.",
            "Concrete, Pavers and Artificial Turf for Casselberry Homes",
            capsule(f"Opera builds concrete driveways, paver patios and artificial turf lawns across Casselberry, a Seminole County city of 30,135 residents known for the more than two dozen lakes inside its roughly 8 square miles. "
@@ -83,7 +83,7 @@ LOCAL = {}
 # 1. concrete-driveways -------------------------------------------------------
 LOCAL["concrete-driveways"] = {
     "title": "Concrete Driveways in Casselberry, FL – Permits",
-    "meta": "Concrete driveway contractors in Casselberry, FL: the city's $100 flat permit fee, and the 50% single-family coverage cap, October 2026.",
+    "meta": "Concrete driveway companies in Casselberry, FL: the city's $100 flat permit fee, and the 50% single-family coverage cap, October 2026.",
     "h1": "Pouring a Concrete Driveway in Casselberry",
     "lede": capsule(f"Market pricing for a Casselberry concrete driveway runs {price('concrete-driveway')} per {per('concrete-driveway')}, current as of October 2026. "
                      "On top of that, the city charges a flat $100 for a driveway permit through its own Building Division, separate from whatever Seminole County charges just outside the city line."),

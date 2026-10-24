@@ -66,20 +66,19 @@ def concrete_patios():
             f"<p>Whether a patio needs a permit depends on the jurisdiction and on whether it has footings. Orlando runs patio and pool-deck slabs through the same engineering permit it uses for driveways and pavers ({src('orlando-res-requirements', 'City of Orlando permitting requirements')}). "
             f"Manatee County exempts a non-structural concrete or paver patio but still requires a permit once footers are involved ({src('manatee-no-permit-list', 'Manatee County')}). The City of Sarasota has no published flatwork exemption at all and tells homeowners to call the Building Division when in doubt ({src('city-sarasota-bp-guidelines', 'City of Sarasota permit guidelines')}). "
             f"Winter Park requires a building or miscellaneous permit for any hard-surface deck or patio ({src('winterpark-do-i-need-permit', 'City of Winter Park')}). On a project over $2,500, Florida's lien law also calls for a Notice of Commencement recorded before work starts ({src('fs713-13', 'F.S. 713.13')}). "
-            f"State law carves driveway-only work out of local licensing requirements, but it does not name patios the same way, so whether a given patio job needs a state-certified contractor can come down to how closely its scope matches the structural masonry category that covers slabs, footers and walls ({src('fs489-117', 'F.S. 489.117')}). "
             f"See the {a('/permits/', 'permits and HOA hub')} for the full jurisdiction list, or go straight to the county guide: {post('orange-county-orlando-driveway-patio-permits', 'Orlando and Orange County')}, {post('sarasota-county-driveway-patio-permits', 'Sarasota, Venice and North Port')} or {post('manatee-county-driveway-permits', 'Bradenton and Lakewood Ranch')}. HOA review runs on its own track; a 2026 change to state law stops an association from requiring a building permit before it reviews your application, but the appearance review itself still applies ({src('fs720-3035', 'F.S. 720.3035')}), which {post('hoa-approval-for-pavers-and-concrete', 'our HOA approval guide')} covers in more detail.</p>"),
         (photo(pids[2], "A covered patio and outdoor seating area beside a mowed lawn.") if len(pids) > 2 else ""),
         sec("Caring for a new patio",
             f"<p>A broom finish holds surface moisture in its texture longer than a sealed or trowel-finished surface, so a shaded section, under a lanai roof or mature trees, tends to pick up algae or mildew staining before a sun-exposed section of the same patio does; rinsing the shaded side on a tighter schedule heads that off. "
             f"Sweep control joints clear before rainy season so they shed water instead of trapping leaves and sand. New landscaping planted right after the pour usually qualifies for a temporary watering exemption rather than the standard restricted schedule, under either the Orlando-area rules or the Sarasota side's current once-a-week order ({src('sjrwmd-watering', 'SJRWMD watering restrictions')}; {src('swfwmd-restrictions', 'SWFWMD water shortage order')}). "
             f"A hairline crack sitting quietly along a control joint is ordinary shrinkage; a sudden dip paired with cracking that reaches toward the house is worth a call.</p>"),
-        sec("Choosing a concrete patio contractor",
-            f"How do you find the best concrete patio contractor near you in Orlando or Sarasota? Start with the same checklist for any flatwork bid, in writing rather than as a verbal promise ({src('dbpr', 'DBPR license search')}). " + ul([
+        sec("Choosing a concrete patio company",
+            "How do you find the best concrete patio company near you in Orlando or Sarasota? Start with the same checklist for any flatwork bid, in writing rather than as a verbal promise, and add a certificate of insurance that comes straight from the insurance agent. " + ul([
                 "A written scope with thickness, psi, base depth and finish spelled out, not just a square-foot number.",
                 "A plan for drainage at the house, not just at the yard's low point.",
                 "Who pulls which permit, and whether the fee is already in the estimate.",
                 "A joint layout that accounts for any footings, columns or tie-ins before the pour, not after.",
-            ]) + f"<p>More detail in {post('how-to-choose-a-concrete-contractor-orlando', 'how to choose a concrete contractor in Orlando')} and {post('how-to-choose-a-concrete-contractor-sarasota', 'how to choose a concrete contractor in Sarasota')}, or {contact('send us your patio dimensions')} for a written estimate.</p>"),
+            ]) + f"<p>More detail in {post('how-to-compare-concrete-and-paver-quotes', 'how to compare concrete and paver quotes line by line')}, or {contact('send us your patio dimensions')} for a written estimate.</p>"),
         sec("Where we build concrete patios",
             f"<p>Our {a('/central-florida/', 'Greater Orlando crew')} and {a('/sarasota-manatee/', 'Sarasota-Manatee crew')} each pour patios across their county list, with local notes on permits, HOAs and soil for "
             f"{cs('orlando', K, 'Orlando')}, {cs('winter-garden', K, 'Winter Garden')}, {cs('sarasota', K, 'Sarasota')} and {cs('lakewood-ranch', K, 'Lakewood Ranch')}, among other towns.</p>"),
@@ -104,7 +103,7 @@ def concrete_patios():
                 body, faqs=faqs,
                 sources=["homeguide-concrete-patio", "angi-slab-orlando", "fbcr-2020-ch5", "fbcr-2020-ch4", "nrmca-cip6", "nrmca-cip12", "nrmca-cip5", "aci-faq-maxtemp", "aci-ci-evap-2007",
                          "nrcs-myakka-osd", "nrcs-smyrna-osd", "fl-dos-state-soil", "fcc-orlando-normals", "fcc-bradenton-normals", "sjrwmd-watering", "swfwmd-restrictions",
-                         "clermont-permit-types", "manatee-no-permit-list", "city-sarasota-bp-guidelines", "winterpark-do-i-need-permit", "orlando-res-requirements", "fs713-13", "fs489-117", "fs720-3035", "dbpr"],
+                         "clermont-permit-types", "manatee-no-permit-list", "city-sarasota-bp-guidelines", "winterpark-do-i-need-permit", "orlando-res-requirements", "fs713-13", "fs720-3035"],
                 related=[("/concrete-patio-cost/", "Concrete patio cost guide"), ("/compare/stamped-concrete-vs-pavers/", "Stamped concrete vs. pavers"),
                          ("/blog/concrete-patio-ideas-florida/", "Concrete patio ideas for Florida homes"), ("/stamped-concrete/", "Stamped concrete"),
                          ("/paver-patios/", "Paver patios & walkways"), ("/permits/", "Permits & HOA hub")],
@@ -154,7 +153,7 @@ def stamped_concrete():
             "A sudden depression paired with cracking that reaches toward the house is a different matter from ordinary shrinkage cracking along a joint line.</p>"),
         sec("How long stamped concrete lasts, and when to reseal",
             f"<p>A properly built and sealed stamped slab commonly lasts 25 to 30 years in Florida's climate, the same general range as plain concrete, as long as it is resealed on schedule ({ext('https://www.decorativeconcretetampa.com/stamped-concrete-expect-lifespan/', 'Decorative Concrete Tampa, Feb. 2024')}). "
-            f"There is no fixed code interval for resealing; it depends on sun exposure, traffic and, around a pool, chlorinated splash. Florida contractor guidance generally points to resealing every 2 to 3 years, sooner on a surface in full sun or near salt air, because intense UV and heat wear an acrylic sealer down faster here than in a milder climate "
+            f"There is no fixed code interval for resealing; it depends on sun exposure, traffic and, around a pool, chlorinated splash. Florida installer guidance generally points to resealing every 2 to 3 years, sooner on a surface in full sun or near salt air, because intense UV and heat wear an acrylic sealer down faster here than in a milder climate "
             f"({ext('https://www.concretesolutionsfl.com/blog/concrete-sealing-florida-guide/', 'Concrete Solutions FL')}). Watch for the sealer going dull or chalky, or water that stops beading on the surface, rather than counting years on a calendar; {post('stamped-concrete-maintenance-florida', 'our stamped concrete maintenance guide')} covers fading, flaking and the cleaning routine in between resealing.</p>"),
         sec("Stamped overlay vs a new pour",
             f"<p>An existing driveway, patio or pool deck in sound structural condition, no major cracking, no settlement, can sometimes take a stamped overlay instead of a full tear-out: a thin layer of polymer-modified concrete bonded to the old slab, textured and colored the same way a new pour would be. "
@@ -177,14 +176,14 @@ def stamped_concrete():
             f"<p>A stamped driveway, patio or pool deck needs whatever permit the same surface would need unstamped; the pattern and color do not change the permit category. Orlando and Orange County require an engineering or zoning permit for the apron and for pavers alike, and a stamped driveway's apron follows the same rule ({src('orange-do-i-need-permit', 'Orange County permitting')}). "
             f"What a stamped finish does add is a second layer of review in many HOAs: an association's authority to approve the \"location, size, type, or appearance\" of a project covers color and pattern choices specifically, so clearing a building permit does not automatically clear a stamped driveway's color scheme with the architectural committee ({src('fs720-3035', 'F.S. 720.3035')}). "
             f"Check both before ordering materials, not just the permit. See the {a('/permits/', 'permits and HOA hub')}, or the county guides for {post('orange-county-orlando-driveway-patio-permits', 'Orlando and Orange County')} and {post('manatee-county-driveway-permits', 'Bradenton, Lakewood Ranch and Palmetto')}.</p>"),
-        sec("Choosing a stamped concrete contractor",
-            f"Finding the best stamped concrete contractor near you in Orlando or Sarasota comes down to checking the same things any decorative work needs confirmed before a deposit changes hands. " + ul([
+        sec("Choosing a stamped concrete company",
+            f"Finding the best stamped concrete company near you in Orlando or Sarasota comes down to checking the same things any decorative work needs confirmed before a deposit changes hands. " + ul([
                 "A sample panel or a recent job to see the actual color and texture in person, not just a brochure photo.",
                 "Which sealer is specified, and whether it includes a slip-resistant additive for a pool deck.",
                 "Whether the quote states thickness, psi and base depth, the same as it would for a plain slab.",
                 "How a multi-truckload pour will be sequenced so a color seam does not land somewhere visible.",
-                f"A license lookup on the state's own database before signing anything ({src('dbpr', 'DBPR license search')}).",
-            ]) + f"<p>{post('how-to-choose-a-paver-contractor-orlando', 'Our guide to vetting a hardscape contractor in Orlando')} and {post('how-to-choose-a-concrete-contractor-sarasota', 'the Sarasota version')} both apply to stamped work. For a written estimate, {contact('send us the surface, size and pattern you have in mind')}.</p>"),
+                "The business name on the quote checked against Sunbiz, and a certificate of insurance sent by the insurance agent, before signing anything.",
+            ]) + f"<p>{post('stamped-concrete-patterns-and-colors', 'Our guide to stamped patterns and colors')} and {post('how-to-compare-concrete-and-paver-quotes', 'the line-by-line quote comparison')} both help before you sign. For a written estimate, {contact('send us the surface, size and pattern you have in mind')}.</p>"),
         sec("Where we pour stamped concrete",
             f"<p>Our {a('/central-florida/', 'Greater Orlando crew')} and {a('/sarasota-manatee/', 'Sarasota-Manatee crew')} both stamp driveways, patios and pool decks, with local permit and HOA notes for "
             f"{cs('orlando', K, 'Orlando')}, {cs('windermere', K, 'Windermere')}, {cs('sarasota', K, 'Sarasota')} and {cs('lakewood-ranch', K, 'Lakewood Ranch')}, among other towns.</p>"),
@@ -196,7 +195,7 @@ def stamped_concrete():
         faq("Does stamped concrete crack?",
             "It can, for the same reasons any concrete cracks: shrinkage, an unsupported edge, or joints spaced too far apart. Control joints are planned to fall along a grout line in the pattern rather than cut as a visible groove, so ordinary shrinkage cracking tends to follow a line that is already part of the design."),
         faq("How often does stamped concrete need resealing in Florida?",
-            "Every 2 to 3 years is the general range Florida contractors point to, sooner on a deck in full sun or near salt air, since UV and heat wear an acrylic sealer faster here than in a milder climate. Watch for a dull or chalky sheen, or water that stops beading, rather than counting on a fixed calendar."),
+            "Every 2 to 3 years is the general range Florida installers point to, sooner on a deck in full sun or near salt air, since UV and heat wear an acrylic sealer faster here than in a milder climate. Watch for a dull or chalky sheen, or water that stops beading, rather than counting on a fixed calendar."),
         faq("Can stamped concrete be installed over my existing slab?",
             "Often, yes, if the old surface has no major cracking or settlement. A polymer-modified overlay, textured and colored like a new pour, bonds to the existing slab for less than a full replacement. A slab that is already cracking or settling will usually telegraph that movement through the new overlay, which is when a tear-out and new pour makes more sense."),
         faq("How long does stamped concrete last?",
@@ -210,7 +209,7 @@ def stamped_concrete():
                 capsule(f"As of October 2026, stamped concrete in Florida runs {price('stamped-concrete')} per square foot installed, typically {price('stamped-concrete', True)}, across driveways, patios, walkways and pool decks. We build to the same thickness and joint spec as plain concrete, cure at least 3 days, and seal with a slip-resistant additive on wet surfaces for homes across Greater Orlando and Sarasota-Manatee."),
                 body, faqs=faqs,
                 sources=["homeguide-stamped", "homeguide-concrete-driveway", "fbcr-2020-ch5", "nrmca-cip6", "nrmca-cip12", "aci-ci-evap-2007", "nrcs-myakka-osd", "epa-cool-pavements", "mortex-kooldeck-page",
-                         "orange-do-i-need-permit", "fs720-3035", "dbpr"],
+                         "orange-do-i-need-permit", "fs720-3035"],
                 related=[("/stamped-concrete-cost/", "Stamped concrete cost guide"), ("/compare/stamped-concrete-vs-pavers/", "Stamped concrete vs. pavers"),
                          ("/compare/concrete-driveway-finishes/", "Broom vs. exposed aggregate vs. stamped"), ("/blog/stamped-concrete-patterns-and-colors/", "Stamped concrete patterns and colors"),
                          ("/concrete-patios/", "Concrete patios"), ("/permits/", "Permits & HOA hub")],

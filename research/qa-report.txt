@@ -1,9 +1,10 @@
-pages: 522
+pages: 516
 FAIL: 0
 WARN: 59
 
 
 WARN  density 'artificial turf' 6.9%: /404/
+WARN  density 'pavers' 3.6%: /blog/
 WARN  density 'concrete driveway' 5.0%: /compare/
 WARN  density 'pavers' 13.4%: /compare/
 WARN  density 'pavers' 4.8%: /blog/permeable-pavers-and-drainage-florida/
@@ -17,7 +18,6 @@ WARN  density 'pavers' 3.6%: /winter-springs-fl/paver-driveways/
 WARN  inlinks 0 < 3: /about/
 WARN  inlinks 0 < 3: /accessibility/
 WARN  inlinks 2 < 3: /blog/artificial-turf-in-florida-rain-and-storms/
-WARN  inlinks 2 < 3: /blog/how-to-choose-an-artificial-turf-installer/
 WARN  inlinks 2 < 3: /faq/artificial-turf/
 WARN  inlinks 1 < 3: /faq/concrete/
 WARN  inlinks 1 < 3: /faq/pavers/

@@ -53,13 +53,13 @@ HUB_FAQS = [
         "Both stay on the city's permit-required list, filed through the Building Division at City Hall, 1300 9th St., 407-957-7300. Confirming the exact scope before pricing the job is worth the call, since the category also covers a subdivision wall."),
     faq("Did St. Cloud's watering schedule change when Toho Water Authority took over?",
         f"The city's utility and Toho combined into one operation on October 1, 2022, and Toho still runs a separate tiered schedule for the older St. Cloud accounts rather than folding them into its standard odd-and-even pattern. {svc('artificial-turf', 'Artificial turf')} follows neither schedule, since it doesn't need watering once the base is set."),
-    faq("How do I find the best concrete contractor near St. Cloud?",
-        f"Start with the state's license-lookup tool, then ask directly whether the quote accounts for St. Cloud's own permit list versus Osceola County's rules, since plenty of St. Cloud-area addresses sit close enough to the county line to confuse the two. {post('how-to-choose-a-concrete-contractor-orlando', 'Ten more criteria worth checking')} round out the vetting."),
+    faq("How do I find the best concrete company near St. Cloud?",
+        f"Ask the company's insurance agent to send you its certificate of insurance, then check whether the quote accounts for St. Cloud's own permit list versus Osceola County's rules, since plenty of St. Cloud-area addresses sit close enough to the county line to confuse the two. {post('osceola-county-kissimmee-st-cloud-permits', 'Our Osceola County and St. Cloud permit guide')} rounds out the vetting."),
     faq("What's different about permitting in St. Cloud versus Celebration?",
         "St. Cloud is an incorporated city with its own Building Division and Public Works fee schedule. Celebration is an unincorporated Osceola County community, so a driveway or paver job there goes through the county's Building Office and, separately, Celebration's architectural review, two reviews a St. Cloud homeowner never has to coordinate."),
 ]
 
-HUB = page("/st-cloud-fl/", "city", "Concrete, Pavers & Turf Contractor in St. Cloud, FL",
+HUB = page("/st-cloud-fl/", "city", "Concrete, Pavers & Turf Company in St. Cloud, FL",
            "Concrete, pavers and turf in St. Cloud, FL: the city's no-permit paver list, Public Works' itemized fees, East Lake Tohopekaliga and Osceola soil, October 2026.",
            "Concrete, pavers and artificial turf for St. Cloud, Florida homes",
            capsule("St. Cloud's roughly 74,960 residents live on the southern shore of East Lake Tohopekaliga in Osceola County, and Opera builds their driveways, patios, pool decks and turf. "
@@ -81,7 +81,7 @@ LOCAL = {}
 # 1. concrete-driveways ------------------------------------------------------
 LOCAL["concrete-driveways"] = {
     "title": "Concrete Driveways in St. Cloud, FL – Permits",
-    "meta": "Concrete driveway contractors in St. Cloud, FL: Public Works' $110 base fee, $30 curb cuts and the city's no-permit list, as of October 2026.",
+    "meta": "Concrete driveway companies in St. Cloud, FL: Public Works' $110 base fee, $30 curb cuts and the city's no-permit list, as of October 2026.",
     "h1": "Concrete Driveways for St. Cloud Homes",
     "lede": capsule(f"A new or replacement concrete driveway in St. Cloud costs {price('concrete-driveway')} per {per('concrete-driveway')} as of October 2026. "
                      "The city's Building Division doesn't treat the driveway surface itself as a permit item, but Public Works still charges a $110 basic fee plus $30 for every curb cut where the new apron meets the street."),
@@ -139,7 +139,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -----------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in St. Cloud, FL – Permits",
-    "meta": "Concrete patio contractors in St. Cloud, FL: the 'Residential Other – Concrete Pad' permit and the city's newer housing stock, October 2026.",
+    "meta": "Concrete patio companies in St. Cloud, FL: the 'Residential Other – Concrete Pad' permit and the city's newer housing stock, October 2026.",
     "h1": "Concrete Patios for St. Cloud Backyards",
     "lede": capsule(f"A concrete patio in St. Cloud is priced at {price('concrete-patio')} per {per('concrete-patio')} as of October 2026, Florida's going range for the work. "
                      "The city's Building Division files a patio slab under “Residential Other – Concrete Pad,” a category that does need a permit, unlike the pavers exemption that covers a driveway or sidewalk."),
@@ -255,7 +255,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete -----------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in St. Cloud, FL",
-    "meta": "Stamped concrete contractors in St. Cloud, FL: the 'Subdivision or Retaining Wall' permit line and a 21-mile drive from Orlando, October 2026.",
+    "meta": "Stamped concrete companies in St. Cloud, FL: the 'Subdivision or Retaining Wall' permit line and a 21-mile drive from Orlando, October 2026.",
     "h1": "Stamped Concrete Driveways and Patios in St. Cloud",
     "lede": capsule(f"A stamped-concrete project in St. Cloud runs {price('stamped-concrete')} per {per('stamped-concrete')} as of October 2026, shifting with the stamp pattern and how many integral colors go into the mix. "
                      "The city groups “Subdivision or Retaining Wall” work on its permit-required list, the category a decorative entry wall or a stamped border tied into a subdivision monument sign typically falls under."),

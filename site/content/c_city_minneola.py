@@ -67,7 +67,7 @@ HUB_FAQS = [
         f"The median home here was built in 2007, even though the population has grown fastest since the Turnpike interchange opened a decade later; a lot of the newest construction sits alongside driveways and patios that are now old enough for their first serious maintenance ({ext(CENSUS_MINNEOLA_URL, 'Census Reporter, Minneola FL')})."),
 ]
 
-HUB = page("/minneola-fl/", "city", "Concrete, Pavers & Turf Contractor in Minneola, FL",
+HUB = page("/minneola-fl/", "city", "Concrete, Pavers & Turf Company in Minneola, FL",
            "Concrete, pavers and turf in Minneola, FL: the Turnpike interchange behind its growth, Lake Minneola's shoreline and the state's watering order, Oct. 2026.",
            "Concrete, Pavers and Artificial Turf for Minneola, Florida Homes",
            capsule(f"Minneola, a Lake County city about 22 miles from Orlando, grew from an estimated 13,848 residents in 2020 to 21,064 by mid-2025, much of it after a Florida Turnpike interchange opened at Hancock Road in 2017. "
@@ -121,7 +121,7 @@ LOCAL["paver-driveways"] = {
     "title": "Paver Driveways in Minneola, FL – Base & Permits",
     "meta": "Paver driveway installers in Minneola, FL: building a base on the Lake Wales Ridge's ground and getting a city permit, as of October 2026.",
     "h1": "Paver Driveways for Minneola Homes",
-    "lede": capsule(f"Paver driveways in Minneola run {price('paver-driveway')} per {per('paver-driveway')}, current Florida contractor figures for this fall. "
+    "lede": capsule(f"Paver driveways in Minneola run {price('paver-driveway')} per {per('paver-driveway')}, current Florida installer figures for this fall. "
                      "Minneola sits on the same chain of sand ridges that gives neighboring Clermont its hills, and on a lot graded for a new subdivision along the Hancock Road corridor, that terrain shapes the base more than any permit rule does."),
     "sections": [
         ("The ground under a new Minneola subdivision drains fast",
@@ -148,7 +148,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -------------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Minneola, FL – Aging Slabs",
-    "meta": "Concrete patio contractors in Minneola, FL: why a 2007-era patio is reaching the age for its first real repair, as of October 2026.",
+    "meta": "Concrete patio companies in Minneola, FL: why a 2007-era patio is reaching the age for its first real repair, as of October 2026.",
     "h1": "Concrete Patios for Minneola Homes",
     "lede": capsule(f"A concrete patio in Minneola is priced at {price('concrete-patio')} per {per('concrete-patio')}, the current Florida range for late 2026. "
                      "With the median home here dating to 2007, a good number of Minneola's original patio slabs are old enough now that resurfacing, not a fresh pour, is the more common call."),
@@ -220,7 +220,7 @@ LOCAL["concrete-pool-decks"] = {
     ],
     "scenario": ("A new pool deck, broken down by the square foot",
                  f"<p>A 540 square foot deck poured around a freshly set pool shell on a new Minneola lot comes out to between $2,700 and $8,100 at {price('concrete-pool-deck')} per {per('concrete-pool-deck')}, with a decorative or cool-touch finish landing toward the top of that range. "
-                 "Because the pool and the surrounding deck go in together, the elevation gets set once against the contractor's own layout instead of being measured against something already in the ground.</p>"),
+                 "Because the pool and the surrounding deck go in together, the elevation gets set once against the pool builder's own layout instead of being measured against something already in the ground.</p>"),
     "faqs": [
         faq("Does Minneola's soil affect how a new pool deck is built?",
             "It shifts the emphasis toward compaction. Tavares and Candler soils both drain well, so the crew spends less effort managing groundwater and more effort packing the base into a stable grade under the deck."),
@@ -237,7 +237,7 @@ LOCAL["pool-deck-pavers"] = {
     "title": "Pool Deck Pavers in Minneola, FL – Lakefront",
     "meta": "Travertine and paver pool deck installers in Minneola, FL: building near Lake Minneola's shoreline and on fast-draining ridge sand, Oct. 2026.",
     "h1": "Travertine and Paver Pool Decks in Minneola",
-    "lede": capsule(f"Pool decks finished in travertine or pavers near Minneola price between {price('pool-deck-pavers')} per {per('pool-deck-pavers')}, tracking current Florida contractor rates. "
+    "lede": capsule(f"Pool decks finished in travertine or pavers near Minneola price between {price('pool-deck-pavers')} per {per('pool-deck-pavers')}, tracking current Florida installer rates. "
                      "On a lot close to Lake Minneola's shoreline, the deck's layout has to account for the water as much as for the pool itself, while a lot farther inland is usually dealing with fast-draining ridge sand instead."),
     "sections": [
         ("Two very different sites, both common around Minneola",
@@ -246,7 +246,7 @@ LOCAL["pool-deck-pavers"] = {
          f"({src('nrcs-tavares-osd', 'USDA, Tavares soil series')}).</p>"),
         ("Which site a project sits on changes the conversation before the first paver is set",
          f"<p>A deck going in along the lake typically needs the layout checked against drainage and setback questions the Building Department raises during review "
-         f"({ext(MINNEOLA_BUILDING_URL, 'City of Minneola, Building Department')}), while a deck on a new inland lot is more often a straightforward compaction and elevation exercise tied to the pool contractor's own shell survey.</p>"),
+         f"({ext(MINNEOLA_BUILDING_URL, 'City of Minneola, Building Department')}), while a deck on a new inland lot is more often a straightforward compaction and elevation exercise tied to the pool builder's own shell survey.</p>"),
     ],
     "scenario": ("A travertine deck on an inland lot, figured by the square foot",
                  f"<p>A 600 square foot travertine deck around a new pool on a Hancock Road-area lot comes to somewhere between $7,200 and $18,000 once {price('pool-deck-pavers')} per {per('pool-deck-pavers')} is applied, depending on the stone pattern chosen. "
@@ -265,7 +265,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete ----------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Minneola, FL – New Builds",
-    "meta": "Stamped concrete contractors in Minneola, FL: picking a pattern for the city's wave of new construction along Hancock Road, as of October 2026.",
+    "meta": "Stamped concrete companies in Minneola, FL: picking a pattern for the city's wave of new construction along Hancock Road, as of October 2026.",
     "h1": "Stamped Concrete Driveways and Patios in Minneola",
     "lede": capsule(f"Expect to pay {price('stamped-concrete')} per {per('stamped-concrete')} for stamped concrete in Minneola, tracking the current Florida market heading into late 2026. "
                      "With so much of the city's growth concentrated along the Hancock Road corridor since the Turnpike interchange opened, a stamped driveway or patio here is usually the first finish a new house has ever had rather than a redo of something older."),

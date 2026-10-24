@@ -54,11 +54,11 @@ HUB_FAQS = [
         f"In Country Club/Edgewater Village, the homeowners' manual states that painting residential driveways and sidewalks isn't permitted there. Integral color added during a {svc('stamped-concrete', 'stamped concrete')} pour is a different method from painting an existing surface, and it's worth asking your own village's committee how that distinction applies before ordering materials."),
     faq("How close to a pond can artificial turf be installed in Lakewood Ranch?",
         "No closer than 10 feet under the state's 2026 turf rule, unless the turf backs onto a seawall. That setback applies on top of whichever county permit and community Modification Request Form the lot otherwise needs."),
-    faq("How do you pick the best concrete contractor in Lakewood Ranch?",
-        f"Verify the contractor on the state's license-check tool, ask whether the quote accounts for both the county permit and the village's Modification Request Form, and compare how each bid handles a lot that backs onto one of the community's lakes. {post('how-to-choose-a-concrete-contractor-sarasota', 'Our guide to choosing a concrete contractor in Sarasota and Bradenton')} covers more ground."),
+    faq("How do you pick the best concrete company in Lakewood Ranch?",
+        f"Ask for a certificate of insurance sent by the insurance agent, check whether the quote accounts for both the county permit and the village's Modification Request Form, and compare how each bid handles a lot that backs onto one of the community's lakes. {post('lakewood-ranch-arc-approval-hardscape', 'Our Lakewood Ranch ARC guide')} covers more ground."),
 ]
 
-HUB = page("/lakewood-ranch-fl/", "city", "Concrete, Pavers & Turf Contractor in Lakewood Ranch, FL",
+HUB = page("/lakewood-ranch-fl/", "city", "Concrete, Pavers & Turf Company in Lakewood Ranch, FL",
            "Concrete, pavers and turf in Lakewood Ranch, FL: the Manatee/Sarasota county split, the Modification Request Form, and the 2026 turf setback, Oct. 2026.",
            "Concrete, Pavers and Artificial Turf for Lakewood Ranch Homes",
            capsule("Opera builds concrete driveways, pavers, pool decks and artificial turf across Lakewood Ranch, a community of about 43,945 residents split roughly three-quarters into Manatee County and one-quarter into Sarasota County, with a median home built in 2014. "
@@ -201,13 +201,13 @@ LOCAL["concrete-pool-decks"] = {
                      "With a median home built in 2014, most pool decks here are a first install poured alongside the shell rather than a resurfacing job, and Manatee County sets a 5-foot setback from a lot line or shoreline for the deck itself."),
     "sections": [
         ("Why so many Lakewood Ranch pool decks are a first install",
-         "<p>The community's newer housing stock means a pool deck here is more often part of a new build or a recent add-on pool than a replacement of something original to a decades-old home, a pattern that shows up less in the Sarasota unit's older towns. The deck's slope to the drains and its expansion joints at the coping still matter the same way on a new pour as on an older one; what changes is that the site visit is checking a shell contractor's layout rather than an existing deck's wear.</p>"),
+         "<p>The community's newer housing stock means a pool deck here is more often part of a new build or a recent add-on pool than a replacement of something original to a decades-old home, a pattern that shows up less in the Sarasota unit's older towns. The deck's slope to the drains and its expansion joints at the coping still matter the same way on a new pour as on an older one; what changes is that the site visit is checking the pool builder's shell layout rather than an existing deck's wear.</p>"),
         ("The county's 5-foot setback from a lot line or shoreline",
          f"<p>Manatee County's pool-code section sets single-family pool decks on grade at least 5 feet from any lot line or shoreline in the side or rear yard, and the same section states that a pool, cage, deck or patio isn't treated as a yard encroachment "
          f"({src('manatee-ldc-511.16-pool-decks', 'Manatee County LDC §511.16')}). On a lot that backs directly onto one of the community's lakes, that “shoreline” language is the number that decides how close the deck's edge can run to the water, not just the rear property line.</p>"),
     ],
     "scenario": ("A new pool deck on a lake lot, worked out in square feet",
-                 f"<p>Say a new pool build on a lake-facing lot pours a 650 square foot deck around the shell. At {price('concrete-pool-deck')} per {per('concrete-pool-deck')}, that lands between $3,250 and $9,750, narrowing to roughly $4,550 to $7,800 in the typical {price('concrete-pool-deck', typical=True)} band depending on the finish. Because the lot backs onto the water, the deck's edge gets held back at least 5 feet from the shoreline under the county's pool-code setback, which on a narrower lake lot can be the dimension that sets how large the deck can actually be before the pool contractor even finalizes the shell's position.</p>"),
+                 f"<p>Say a new pool build on a lake-facing lot pours a 650 square foot deck around the shell. At {price('concrete-pool-deck')} per {per('concrete-pool-deck')}, that lands between $3,250 and $9,750, narrowing to roughly $4,550 to $7,800 in the typical {price('concrete-pool-deck', typical=True)} band depending on the finish. Because the lot backs onto the water, the deck's edge gets held back at least 5 feet from the shoreline under the county's pool-code setback, which on a narrower lake lot can be the dimension that sets how large the deck can actually be before the pool builder even finalizes the shell's position.</p>"),
     "faqs": [
         faq("Why are most pool decks in Lakewood Ranch new rather than resurfaced?",
             "The community's median home was built in 2014, the newest in the Sarasota unit, so most pool decks are still close to their original pour rather than old enough to need resurfacing."),
@@ -284,7 +284,7 @@ LOCAL["concrete-walkways"] = {
     "sections": [
         ("The public sidewalk isn't a homeowner repair, even when it cracks in front of your house",
          f"<p>Lakewood Ranch's homeowners' manual states that public sidewalk repairs are not permitted by the homeowner "
-         f"({src('lwr-ceva-manual', 'Lakewood Ranch Town Hall, CEVA Homeowners’ Manual 2022')}), which is a narrower rule than it sounds: it covers the public sidewalk strip itself, not a private front walkway running from the driveway to the door, which is the kind of walkway work we price and build. A cracked public sidewalk segment is worth reporting to the CDD or the county rather than patched by a contractor hired independently.</p>"),
+         f"({src('lwr-ceva-manual', 'Lakewood Ranch Town Hall, CEVA Homeowners’ Manual 2022')}), which is a narrower rule than it sounds: it covers the public sidewalk strip itself, not a private front walkway running from the driveway to the door, which is the kind of walkway work we price and build. A cracked public sidewalk segment is worth reporting to the CDD or the county rather than patched by a crew hired independently.</p>"),
         ("What a sidewalk crossing a Manatee-side driveway has to meet",
          f"<p>Where a concrete sidewalk crosses a driveway on the Manatee County side, it has to be 4 inches thick and 5 feet wide, framed from side lot line to side lot line, finished with a broom texture, and saw-cut every 10 feet "
          f"({src('manatee-paver-driveway-inspections', 'Manatee County, Inspections Required for Paver Driveways')}). That's a different, thinner spec than the driveway slab on either side of it, which is why the crossing section gets poured and jointed as its own piece rather than as a continuation of the driveway.</p>"),

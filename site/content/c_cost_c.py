@@ -98,7 +98,7 @@ def paver_sealing_cost():
     body = "".join([
         sec("How much does it cost to seal pavers?",
             f"<p>Cleaning, re-sanding and sealing an existing paver surface in Florida runs {price(pk)} per square foot as of {PRICE_DATE}, with most jobs landing nearer {price(pk, True)}, including pressure washing and re-sanding as part of the visit "
-            f"({src('homeguide-seal-pavers', 'HomeGuide')}). A Central Florida contractor's own 2026 pricing lines up closely: $1.50 to $3.00 per square foot, with most homeowners paying $750 to $2,500 for a 500 to 1,000 square foot surface "
+            f"({src('homeguide-seal-pavers', 'HomeGuide')}). A Central Florida installer's own 2026 pricing lines up closely: $1.50 to $3.00 per square foot, with most homeowners paying $750 to $2,500 for a 500 to 1,000 square foot surface "
             f"({src('castle-paver-sealing-cfl', 'Castle Clean & Seal, Central Florida')}). Pressure washing alone, without re-sanding or a sealer coat, costs far less, $0.35 to $0.80 per square foot ({src('homeguide-seal-pavers', 'HomeGuide')}). What a specific job costs depends on how much joint sand has washed out, whether any pavers have sunk and need releveling first, and which sealer finish is specified.</p>"),
         sec("Is sealing pavers worth the money?",
             "<p>For most driveways, patios and pool decks, yes, measured against what it costs to let the surface go instead. The paver industry's own construction standard treats sealing as optional, not a requirement for the pavers to perform structurally, but it locks compacted joint sand in place and slows staining and UV fading. "
@@ -113,13 +113,13 @@ def paver_sealing_cost():
                     f"{src('homeguide-seal-pavers', 'HomeGuide, sealing and pressure washing')}; releveling figures from {src('homeguide-driveway-repair', 'HomeGuide, driveway repair')} and {src('angi-patio-repair', 'Angi')}.")),
         sec("Paver sealing cost by surface size",
             f"<p>Central Florida pricing scales roughly in proportion to area, with driveways, pool decks and patios each carrying a slightly different rate depending on exposure and access ({src('castle-paver-sealing-cfl', 'Castle Clean & Seal')}).</p>"
-            + table("Paver sealing cost by surface, Central Florida contractor data", ["Surface", "Typical range per sq ft", "Example total"],
+            + table("Paver sealing cost by surface, Central Florida installer data", ["Surface", "Typical range per sq ft", "Example total"],
                     [["Driveway", "$1.50–$2.50", "$900–$3,000 for 600 sq ft"],
                      ["Pool deck", "$1.75–$3.00", "$1,400–$2,400 for 800 sq ft"],
                      ["Patio", "$1.50–$2.95 (sized job)", "$450–$2,000"]],
                     f"{src('castle-paver-sealing-cfl', 'Castle Clean & Seal, Central Florida, 2026')}.")),
         sec("Does sealing cost differ around Orlando and Sarasota–Manatee?",
-            "<p>The Central Florida contractor pricing above is the only Florida-specific regional data found for paver sealing, and it covers the counties in our Orlando unit. A South Florida contractor quotes a noticeably lower starting rate, $0.75 to $1.50 per square foot, but that figure comes from a market well outside our Sarasota–Manatee service area and shouldn't be read as a Suncoast price "
+            "<p>The Central Florida installer pricing above is the only Florida-specific regional data found for paver sealing, and it covers the counties in our Orlando unit. A South Florida installer quotes a noticeably lower starting rate, $0.75 to $1.50 per square foot, but that figure comes from a market well outside our Sarasota–Manatee service area and shouldn't be read as a Suncoast price "
             f"({src('craftpavers-fl-pricing', 'Craft Pavers')}). No published cost guide breaks out sealing pricing for Sarasota or Manatee specifically. We quote cleaning, re-sanding and sealing the same way on both coasts, priced by the surface's condition and size rather than by which county it's in.</p>"),
         sec("What moves a sealing quote up or down",
             "<p>A per-square-foot range hides the details that separate a quick visit from a longer one.</p>"
@@ -128,7 +128,7 @@ def paver_sealing_cost():
                       ["Sand type", "Polymeric sand costs more material than dry sand", "Higher upfront cost, fewer repeat visits for washout"],
                       ["Surface type", "Pool decks see chlorine, splash and sun exposure patios don't", "Pool decks run $1.75–$3.00/sq ft against $1.50–$2.50 for driveways in Central FL data"],
                       ["Releveling", "A sunken or rocking paver needs the base rebuilt before anything else happens", "Adds $6–$20 per sq ft or per stone on top of the base sealing price"],
-                      ["Minimum job fee", "Small areas don't scale down proportionally", f"A South Florida contractor sets a $1,000 minimum regardless of square footage ({src('craftpavers-fl-pricing', 'Craft Pavers')})"]],
+                      ["Minimum job fee", "Small areas don't scale down proportionally", f"A South Florida installer sets a $1,000 minimum regardless of square footage ({src('craftpavers-fl-pricing', 'Craft Pavers')})"]],
                      "Ranges drawn from the Florida sources cited on this page.")),
         sec("Two sealing budgets, worked through",
             f"<p>Say you have a 600 square foot paver driveway and walkway in a 2000s subdivision near {city('kissimmee')} that hasn't been resealed in about five years and has a few joints losing sand near the garage apron. At the Central Florida driveway rate, that runs roughly $900 to $1,500 for cleaning, re-sanding and sealing, with no releveling needed if the apron is still flat.</p>"
@@ -153,7 +153,7 @@ def paver_sealing_cost():
     ])
     faqs = [
         faq("How much does it cost to seal pavers?",
-            f"Cleaning, re-sanding and sealing an existing paver surface in Florida runs {price(pk)} per square foot, with most jobs landing nearer {price(pk, True)}. Central Florida contractor pricing for 2026 lines up closely, with most homeowners paying $750 to $2,500 for a 500 to 1,000 square foot surface."),
+            f"Cleaning, re-sanding and sealing an existing paver surface in Florida runs {price(pk)} per square foot, with most jobs landing nearer {price(pk, True)}. Central Florida installer pricing for 2026 lines up closely, with most homeowners paying $750 to $2,500 for a 500 to 1,000 square foot surface."),
         faq("Is sealing pavers worth the money?",
             "Usually, measured against the cost of letting a loose joint turn into a sunken paver. Sealing itself is optional under the paver industry's own spec, but it locks joint sand in place and slows staining and fading. Paver releveling and repair run $7 to $30 per square foot once a surface has actually failed, well above the $1.50 to $3.25 per square foot a routine sealing visit costs."),
         faq("Does pressure washing alone cost less than a full clean-and-seal?",
@@ -161,7 +161,7 @@ def paver_sealing_cost():
         faq("How much more does releveling sunken pavers add to a sealing visit?",
             "Releveling a larger sunken area runs roughly $6 to $12 per square foot, and swapping individual stones runs $8 to $20 per unit, added on top of the base cleaning and sealing price rather than replacing it. A small handful of sunken pavers near a drain or a pool skimmer typically costs far less to fix than letting the problem spread across a wider section."),
         faq("Is there a minimum job fee for paver sealing in Florida?",
-            "Often, yes. A South Florida contractor publishes a $1,000 minimum regardless of square footage, and Central Florida pricing shows the same pattern, with small jobs under 500 square feet running toward the higher end of the per-square-foot range. Bundling a driveway, patio and walkway into one visit spreads a minimum fee across more square footage."),
+            "Often, yes. A South Florida installer publishes a $1,000 minimum regardless of square footage, and Central Florida pricing shows the same pattern, with small jobs under 500 square feet running toward the higher end of the per-square-foot range. Bundling a driveway, patio and walkway into one visit spreads a minimum fee across more square footage."),
         faq("Does a pool deck cost more to seal than a driveway?",
             "Slightly, yes, in published Central Florida pricing: roughly $1.75 to $3.00 per square foot for a pool deck against $1.50 to $2.50 for a driveway. Chlorine, splash and more frequent water contact wear a sealer coat faster near the water, which is the main reason the rate runs a little higher there."),
         faq("Why do two Florida paver sealing quotes for the same job differ so much?",
@@ -251,7 +251,7 @@ def retaining_wall_cost():
         faq("Does drainage cost extra, or is it included in the per-square-foot price?",
             "Published per-square-foot ranges for retaining walls generally assume a properly drained wall, since gravel backfill and a perforated pipe are standard construction, not an add-on. A quote that's unusually low for its height and length is worth asking about directly; skipping drainage to hit a number is a common way a cheap bid gets there."),
         faq("Why do retaining wall quotes for the same length vary so much?",
-            "Height, soil and access usually explain more of the gap than the contractor's margin does. A 20-foot wall on a gentle, well-drained slope with easy equipment access prices very differently from the same 20 feet on steep, wet ground reached only through a narrow side yard. Confirming height, drainage detail and access assumptions is the fastest way to see why two numbers differ.")]
+            "Height, soil and access usually explain more of the gap than the installer's margin does. A 20-foot wall on a gentle, well-drained slope with easy equipment access prices very differently from the same 20 feet on steep, wet ground reached only through a narrow side yard. Confirming height, drainage detail and access assumptions is the fastest way to see why two numbers differ.")]
     return page("/retaining-wall-cost/", "price", "Retaining Wall Cost in Florida (2026)",
                 f"Florida retaining wall cost as of {PRICE_DATE}: {price(pk)} per sq ft of wall face, pricing by height and linear foot, and when engineering adds to the bill.",
                 "What a Retaining Wall Costs in Florida",

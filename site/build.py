@@ -250,7 +250,15 @@ https://:branch.:project.pages.dev/*
 /llms*.txt
   Cache-Control: public, max-age=3600
 """, encoding="utf-8")
-    (DIST / "_redirects").write_text("/index.html / 301\n/home / 301\n/pricing/ /cost/ 301\n/services/ /concrete/ 301\n/turf/ /artificial-turf/ 301\n/thanks/ /thank-you/ 301\n", encoding="utf-8")
+    # Hiring-guide posts removed 2026-10-23 (owner decision): each one 301s straight to its final target, no chains.
+    removed = [("/blog/florida-contractor-license-check-concrete-pavers/", "/permits/"),
+               ("/blog/how-to-choose-a-concrete-contractor-orlando/", "/blog/how-to-compare-concrete-and-paver-quotes/"),
+               ("/blog/how-to-choose-a-concrete-contractor-sarasota/", "/blog/how-to-compare-concrete-and-paver-quotes/"),
+               ("/blog/how-to-choose-a-paver-contractor-orlando/", "/blog/how-to-compare-concrete-and-paver-quotes/"),
+               ("/blog/how-to-choose-a-paver-contractor-sarasota/", "/blog/how-to-compare-concrete-and-paver-quotes/"),
+               ("/blog/how-to-choose-an-artificial-turf-installer/", "/artificial-turf/")]
+    gone = "".join(f"{old} {new} 301\n{old.rstrip('/')} {new} 301\n" for old, new in removed)
+    (DIST / "_redirects").write_text("/index.html / 301\n/home / 301\n/pricing/ /cost/ 301\n/services/ /concrete/ 301\n/turf/ /artificial-turf/ 301\n/thanks/ /thank-you/ 301\n" + gone, encoding="utf-8")
 
 
 def write_static():

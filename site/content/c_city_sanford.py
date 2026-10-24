@@ -24,7 +24,7 @@ SRC = [
 HUB_BODY = "".join([
     sec("Does a Sanford driveway or paver job go through Citizenserve the same way?",
         f"<p>Yes. The city's Building Division reviews every driveway, patio and paver application through its Citizenserve portal, and its Land Development Regulations draw a clear line at the property boundary: \"A City permit is required for all proposals to access City right-of-way,\" while a Seminole County permit covers the same work where a lot fronts a county road and an FDOT permit applies on a state road "
-        f"({src('sanford-building', 'City of Sanford, Building Division')}; {src('sanford-schedule-n', 'City of Sanford, LDR Schedule N')}). A single-family residential driveway permit carries a published $250 fee under the city's Article VII fee schedule, separate from whatever a contractor charges for the work itself "
+        f"({src('sanford-building', 'City of Sanford, Building Division')}; {src('sanford-schedule-n', 'City of Sanford, LDR Schedule N')}). A single-family residential driveway permit carries a published $250 fee under the city's Article VII fee schedule, separate from whatever the installer charges for the work itself "
         f"({src('sanford-fees', 'City of Sanford, LDR Article VII Fees')}). {svc('concrete-driveways')} and {svc('paver-driveways')} cover what we build across every Sanford neighborhood; this hub covers what the city, the county and a handful of local facts change about how that work gets approved and laid out.</p>"),
     sec("What does Schedule F cap on a Sanford lot, and does it count pavers or turf?",
         f"<p>Sanford's impervious surface rule, Schedule F Section 5.0, spells out what counts toward the limit in plain language: \"concrete, pavers, asphalt, compacted gravel or mulch, and artificial turf\" are all impervious surface for calculation purposes, and every application has to include an ISR worksheet showing the math "
@@ -63,15 +63,15 @@ HUB_FAQS = [
     faq("What are Sanford's current watering days for new sod or landscaping?",
         f"St. Johns River Water Management District splits addresses into two groups year-round, odd and no-number households on Wednesday and Saturday, even-numbered households on Thursday and Sunday, with no watering allowed from 10 a.m. to 4 p.m. "
         f"({src('sjrwmd-watering', 'SJRWMD, Watering Restrictions')}). A newly sodded yard gets 30 days of unrestricted watering first, then 30 more every other day before it drops onto that regular schedule."),
-    faq("How do I pick the best concrete contractor for a Sanford project?",
+    faq("How do I pick the best concrete company for a Sanford project?",
         f"Start by confirming the address actually falls inside city limits rather than unincorporated Seminole County, since that single fact decides which permit desk reviews the job before any quote gets finalized. "
-        f"{post('how-to-choose-a-concrete-contractor-orlando', 'Our broader guide to vetting a contractor')} covers licensing checks and what else belongs in a written estimate."),
+        f"{post('seminole-county-driveway-patio-permits', 'Our Seminole County permit guide')} covers the county side, and {post('how-to-compare-concrete-and-paver-quotes', 'our quote-comparison guide')} covers what else belongs in a written estimate."),
     faq("Does a garden wall in a Sanford historic district have to match the house?",
         f"Yes. The design guidelines call for brick or stucco garden walls matching the principal building, at least 8 inches wide with a capped top, and they prohibit chain link or vinyl fencing anywhere inside the historic districts "
         f"({ext(SCHEDULE_S_URL, 'City of Sanford, LDR Schedule S')})."),
 ]
 
-HUB = page("/sanford-fl/", "city", "Concrete, Pavers & Turf Contractor in Sanford, FL",
+HUB = page("/sanford-fl/", "city", "Concrete, Pavers & Turf Company in Sanford, FL",
            "Opera pours concrete, sets pavers and installs turf in Sanford, FL, where Schedule F counts turf toward the city's 50% impervious cap, as of October 2026.",
            "Concrete, Pavers and Artificial Turf for Sanford Homes",
            capsule(f"As of October 2026, Opera builds concrete driveways, pavers and artificial turf across Sanford, a Seminole County city on Lake Monroe with about 67,483 residents, roughly {str(__import__('_data').CITIES['sanford']['miles'])} miles from the Orlando unit's base. "
@@ -93,7 +93,7 @@ LOCAL = {}
 # 1. concrete-driveways ------------------------------------------------------
 LOCAL["concrete-driveways"] = {
     "title": "Concrete Driveways in Sanford, FL – Schedule N",
-    "meta": "Concrete driveway contractors in Sanford, FL: the city's $250 right-of-way fee and Schedule N's 10-foot driveway spacing rule, October 2026.",
+    "meta": "Concrete driveway companies in Sanford, FL: the city's $250 right-of-way fee and Schedule N's 10-foot driveway spacing rule, October 2026.",
     "h1": "Pouring a Concrete Driveway in Sanford",
     "lede": capsule(f"A new concrete driveway in Sanford costs {price('concrete-driveway')} per {per('concrete-driveway')} as of October 2026. "
                      "The city's LDR Schedule N sets the layout rules for anything touching the right-of-way: a $250 permit fee, at least 10 feet of separation from the neighbor's driveway, and an apron poured at 3,000 psi minimum."),
@@ -152,7 +152,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -----------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Sanford, FL – Flatwoods Ground",
-    "meta": "Concrete patio contractors in Sanford, FL: drainage on Seminole County's flatwoods soil and the city's 1994 median build year, October 2026.",
+    "meta": "Concrete patio companies in Sanford, FL: drainage on Seminole County's flatwoods soil and the city's 1994 median build year, October 2026.",
     "h1": "Building a Concrete Patio in Sanford",
     "lede": capsule(f"A concrete patio in Sanford runs {price('concrete-patio')} per {per('concrete-patio')} as of October 2026. "
                      "With the city's typical home dating to 1994, plenty of original backyard pads are approaching three decades on flatwoods ground that holds water close to the surface for part of a typical year."),
@@ -270,7 +270,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete ---------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Sanford, FL – Historic Brick Look",
-    "meta": "Stamped concrete contractors in Sanford, FL: matching the city's brick-paved downtown streetscape with a decorative driveway or walkway, October 2026.",
+    "meta": "Stamped concrete companies in Sanford, FL: matching the city's brick-paved downtown streetscape with a decorative driveway or walkway, October 2026.",
     "h1": "Stamped Concrete Driveways and Walkways in Sanford",
     "lede": capsule(f"Stamped concrete work in Sanford falls between {price('stamped-concrete')} per {per('stamped-concrete')} as of October 2026, depending on pattern complexity and color count. "
                      "Downtown Sanford's own 2004 streetscaping project set brick pavers and wider sidewalks along its historic core, a look homeowners near that district often try to echo in a stamped driveway or front walk."),

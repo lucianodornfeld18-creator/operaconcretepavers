@@ -54,13 +54,13 @@ HUB_FAQS = [
         "The Architectural Review Committee is a private association body that reviews the look of exterior changes, meeting monthly at Town Hall. The Community Development District is a public special district created under state law that funds and maintains shared infrastructure; neither one replaces the county's own permit review."),
     faq("Why do some Celebration homes not have a normal front driveway?",
         "A number of the community's original blocks were designed with garages on rear alleys and front porches facing the street, a New Urbanism layout that puts the paved vehicle access behind the house rather than in front of it."),
-    faq("How do I find a good concrete contractor for a Celebration home?",
-        f"Check the contractor on the state's license-lookup tool, then ask how the bid handles Osceola County's 24-foot driveway cap and whether the design has already cleared, or needs to clear, Celebration's monthly architectural review. {post('how-to-choose-a-concrete-contractor-orlando', 'A ten-point checklist for vetting a concrete contractor')} has the rest of what to ask."),
+    faq("How do I find a good concrete company for a Celebration home?",
+        f"Ask for the company's certificate of insurance from its agent, then ask how the bid handles Osceola County's 24-foot driveway cap and whether the design has already cleared, or needs to clear, Celebration's monthly architectural review. {post('osceola-county-kissimmee-st-cloud-permits', 'The Osceola County permit guide')} explains the county's side of that review."),
     faq("Does the Celebration CDD maintain the lakes near downtown?",
         "The CDD funds and maintains shared community infrastructure under its Chapter 190 charter, which commonly includes stormwater and common-area features, but a specific maintenance assignment for Lake Rianhard or Lake Evalyn is worth confirming directly with the district rather than assuming."),
 ]
 
-HUB = page("/celebration-fl/", "city", "Concrete, Pavers & Turf Contractor in Celebration, FL",
+HUB = page("/celebration-fl/", "city", "Concrete, Pavers & Turf Company in Celebration, FL",
            "Concrete, pavers and turf in Celebration, FL: Osceola County's driveway cap, the ARC versus the CDD, rear-alley garages and Lake Rianhard soil, October 2026.",
            "Concrete, pavers and artificial turf for Celebration, Florida homes",
            capsule("Celebration isn't a city; it's an unincorporated Osceola County community the Walt Disney Company began developing in 1994. "
@@ -82,7 +82,7 @@ LOCAL = {}
 # 1. concrete-driveways ------------------------------------------------------
 LOCAL["concrete-driveways"] = {
     "title": "Concrete Driveways in Celebration, FL – Permits",
-    "meta": "Concrete driveway contractors in Celebration, FL: Osceola County's 24-foot cap, the conditional-use path, and the HB 803 disclosure form, Oct. 2026.",
+    "meta": "Concrete driveway companies in Celebration, FL: Osceola County's 24-foot cap, the conditional-use path, and the HB 803 disclosure form, Oct. 2026.",
     "h1": "Concrete Driveways for Celebration Homes",
     "lede": capsule(f"{price('concrete-driveway')} per {per('concrete-driveway')} is the Florida range for a concrete driveway in Celebration, as of October 2026. "
                      "Because Celebration sits in unincorporated Osceola County, Code §22-50.6 caps an ordinary residential driveway at 24 feet wide, and a wider one needs a conditional-use approval before the county's Building Office signs off."),
@@ -140,7 +140,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -----------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Celebration, FL – ARC Review",
-    "meta": "Concrete patio contractors in Celebration, FL: why a patio goes to the ARC, not the CDD, and the community's younger housing stock, October 2026.",
+    "meta": "Concrete patio companies in Celebration, FL: why a patio goes to the ARC, not the CDD, and the community's younger housing stock, October 2026.",
     "h1": "Concrete Patios for Celebration Backyards",
     "lede": capsule(f"A concrete patio in Celebration falls in the {price('concrete-patio')} per {per('concrete-patio')} range, the Florida figure as of October 2026. "
                      "The Architectural Review Committee, not the Community Development District, is the body that reviews a new patio's appearance, on top of whatever Osceola County's own permit process requires for the slab itself."),
@@ -257,7 +257,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete -----------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Celebration, FL",
-    "meta": "Stamped concrete contractors in Celebration, FL: the ARC's review of pattern and color, and a 17-mile drive from Orlando, October 2026.",
+    "meta": "Stamped concrete companies in Celebration, FL: the ARC's review of pattern and color, and a 17-mile drive from Orlando, October 2026.",
     "h1": "Stamped Concrete Driveways and Patios in Celebration",
     "lede": capsule(f"Stamped concrete in Celebration costs {price('stamped-concrete')} per {per('stamped-concrete')}, Florida's range as of October 2026. "
                      "Because Celebration's streetscapes were platted with a coordinated look in mind, a new stamped pattern or integral color on a visible driveway, alley apron or walk is the kind of change the Architectural Review Committee reviews monthly."),

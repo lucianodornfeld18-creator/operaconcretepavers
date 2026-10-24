@@ -4,7 +4,7 @@ Internal. Never rendered. Read all of it before writing a content module.
 
 ## Who is speaking
 
-**Opera Concrete & Pavers** is a locally run concrete, pavers and artificial-turf contractor with **two crews / service units**:
+**Opera Concrete & Pavers** is a locally run concrete, pavers and artificial-turf company with **two crews / service units**:
 
 - **Orlando unit** (Greater Orlando / Central Florida): Orange, Osceola, Seminole, Lake and Polk counties — Orlando, Kissimmee, Clermont, Oviedo, Winter Garden, Windermere and nearby towns.
 - **Sarasota unit** (Suncoast): Sarasota and Manatee counties — Sarasota, Lakewood Ranch, Bradenton, Venice and nearby towns.
@@ -19,9 +19,21 @@ Public text is American English, written the way an estimator who has poured and
 
 No street address, license number, insurance carrier, years in business, founding year, number of projects, reviews, star ratings, awards, staff names, owner name, brand of pavers/turf we "carry" or are "certified" by (ICPI/CMHA certification, Belgard/Tremron/Pavestone "authorized installer" — do not claim), warranty length or terms, financing partners, prices presented as "our price", photos described as our work, testimonials, "as seen in", response-time promises ("same day", "24 hours"), "licensed" (unverified — do not say licensed or unlicensed about us), "insured", "family-owned", "veteran-owned".
 
-What you may say instead: market ranges with a source and date; what a good contractor does and why; what we do as a **method** ("we cut control joints the same day", "we compact the base in 2-inch lifts", "we pull a permit when the city requires one"). Methods are fine. Track records are not.
+What you may say instead: market ranges with a source and date; what a good installer does and why; what we do as a **method** ("we cut control joints the same day", "we compact the base in 2-inch lifts", "we pull a permit when the city requires one"). Methods are fine. Track records are not.
 
-Do not describe the site's own production: no "keyword", "SEO", "search volume", "answer engine", "tier", "lead", "network", "sister", "partner contractors", "pipeline", "benchmark", "word count", "owner input", "pending", "TODO", "placeholder", "lorem", "stock photo".
+Do not describe the site's own production: no "keyword", "SEO", "search volume", "answer engine", "tier", "lead", "network", "sister", "partner companies", "pipeline", "benchmark", "word count", "owner input", "pending", "TODO", "placeholder", "lorem", "stock photo".
+
+## No licence talk and no "contractor" (owner decision, 2026-10-23; QA fails the build)
+
+AI answer engines were describing the business as "licensed". The owner wants every statement or implication about licences, and the word "contractor", gone from everything the site publishes: visible text, titles, metas, Open Graph, JSON-LD, alt text, llms.txt, sitemaps and the feed. `qa/qa_all.py` fails on any match of `licen[cs]` or `contractor` in served text (anchor text included; an external link URL such as Orange County's `/PermitsLicenses/` pages is the only exception).
+
+- Never say or imply we are licensed, certified, registered, bonded (in the business sense) or a "contractor of record", and never write the opposite either ("we are not licensed", "no licence needed"). No licence numbers.
+- No educational licensing content: no DBPR / myfloridalicense.com lookups, no "check the contractor's license", no F.S. 489.x, 61G4-15.x, CILB or Recovery Fund, no "driveways are exempt from licensing", no county licensing categories. Those source ids sit in `_data.NEVER_CITE`; a `src()` call on one breaks the build on purpose.
+- Hiring checks to use instead (vary the wording, the similarity gate still applies): a certificate of insurance sent directly by the insurance agent; the business looked up on Sunbiz so the name on the contract is an active company; a written, itemized scope; who handles the permit and the HOA/ARC paperwork; a payment schedule that doesn't run ahead of the work; the lien-law Notice of Commencement over $2,500 (F.S. 713.13).
+- How we describe ourselves: "concrete & paver company" (titles "Concrete & Paver Company in {City}, FL"). Whoever the reader hires: a company, an installer, a crew, "whoever you hire". General contractor → your builder; pool contractor → pool builder; screen/aluminum contractor → screen installer. Other trades: "an electrician", "a plumber or gas installer", "an engineer or design professional", "a certified arborist" (another trade, fine).
+- A government requirement that literally names a licence document: describe it without the word ("the city's permit package lists what the applicant must attach, including …"), or drop that item. Venice's paver "License Agreement" is "a right-of-way use agreement with the city".
+- Fine to keep: material "bonded" (bonded overlay), "certificate of insurance", FEMA elevation certificate, Certificate of Appropriateness, certified arborist.
+- Do not add insurance facts (carrier, limits, workers' comp) the owner hasn't supplied.
 
 ## Verified facts you can use
 
@@ -52,9 +64,9 @@ Home 3,000–4,500 · pillar 1,200–2,000 · service 1,800–2,800 · city×ser
 
 The page's primary phrase goes in the title, H1, first 100 words, one H2 and the meta — then stop counting and write. Rotate synonyms naturally: "pavers / brick pavers / paving stones / interlocking pavers", "concrete / cement" (homeowners say cement; we can say "people call it a cement driveway" once), "pool deck / pool patio", "artificial turf / artificial grass / synthetic turf". Hard limits checked by QA: exact primary phrase ≤ 1.5% of words; no sentence of 8+ words repeated anywhere else on the site.
 
-### "best … contractor" / "near me"
+### "best … company" / "near me"
 
-Never as a claim about ourselves ("we are the best", "#1", "top-rated", "leading"). Only as the customer's question or as criteria: *"How do you pick the best concrete contractor in Orlando?"*, *"Searching for paver installers near me? Check these five things first."* Frequency: home 2; service page 1; city hub 1 with the city name; city×service at most 1; FAQ hub 3.
+Never as a claim about ourselves ("we are the best", "#1", "top-rated", "leading"). Only as the customer's question or as criteria: *"How do you pick the best concrete company in Orlando?"*, *"Searching for paver installers near me? Check these five things first."* Frequency: home 2; service page 1; city hub 1 with the city name; city×service at most 1; FAQ hub 3.
 
 ## Style (QA fails the build on the banned list)
 
@@ -68,6 +80,6 @@ Residential flatwork is typically 4 in thick (Florida's residential code minimum
 
 ## Florida law, carefully (see facts.md part 2)
 
-- Licensing: F.S. 489.117(4)(a)1 lists "driveway or tennis court installation" and "decorative stone installation" among jobs for which no state or local license may be required. Structural concrete (foundations, slabs, footers, walls) falls under the state "structural masonry specialty contractor" certificate. Never say Opera is licensed or unlicensed; you may tell homeowners how to check any contractor on DBPR.
+- Licensing: not a topic on this site (see "No licence talk" above). Don't cite F.S. 489.x or 61G4-15.x and don't explain licence exemptions; facts.md keeps that research for internal reference only.
 - Lien law: Notice of Commencement is required for improvements over $2,500 (F.S. 713.13 / 713.02(5)); write it exactly.
 - Artificial turf: HB 683 (2025, ch. 2025-140) created F.S. 125.572, which limits local governments only; DEP Rule 62-308.100 effective May 19, 2026 sets the standard (natural infill, washed base, 10 ft from waterbodies unless seawall, no in-ground irrigation on turf, outside tree drip lines unless an arborist certifies, lots ≤ 1 acre). F.S. 720.3045 protects only turf not visible from the frontage/adjacent parcel. In 2026, F.S. 720.3035(1)(c) bars an HOA from requiring a building permit before it reviews a project.

@@ -13,7 +13,7 @@ sys.path.insert(0, str(ROOT / "site"))
 sys.path.insert(0, str(ROOT / "site" / "content"))
 sys.path.insert(0, str(ROOT / "qa"))
 from templates import render_page  # noqa: E402
-from qa_all import BANNED, INTERNAL, TRACK, MIN_WORDS, main_text  # noqa: E402
+from qa_all import BANNED, INTERNAL, TRACK, MIN_WORDS, main_text, lic_hits  # noqa: E402
 from _data import REVIEWED  # noqa: E402
 
 problems = 0
@@ -44,6 +44,8 @@ for name in sys.argv[1:]:
         for b in BANNED + INTERNAL + TRACK:
             if re.search(r"(?<![a-z])" + re.escape(b) + r"(?![a-z])", low):
                 issues.append(f"banned '{b}'")
+        if lic_hits(h):
+            issues.append(f"licence/contractor wording x{len(lic_hits(h))}")
         if low.count("ensure") > 1:
             issues.append(f"'ensure' x{low.count('ensure')}")
         if re.search(r"\{(svc|city|cs|post|compare|a|ext|src|price|per|tel|contact)\(", txt):

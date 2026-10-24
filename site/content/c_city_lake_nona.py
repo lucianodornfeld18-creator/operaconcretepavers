@@ -61,7 +61,7 @@ HUB_FAQS = [
         "Parts of it, yes. Orlando approved a new community development district covering almost 380 acres in the area in March 2026, specifically to build roads, drainage and utilities ahead of new construction, which is why some Lake Nona streets sit on recently placed fill rather than long-settled ground."),
 ]
 
-HUB = page("/lake-nona-fl/", "city", "Concrete, Pavers & Turf Contractor in Lake Nona, FL",
+HUB = page("/lake-nona-fl/", "city", "Concrete, Pavers & Turf Company in Lake Nona, FL",
            "Concrete, pavers and turf in Lake Nona, Orlando, FL: City of Orlando permits, four HOA-reviewed villages, and the 587-acre lake's turf setback, October 2026.",
            "Concrete, Pavers and Artificial Turf for Lake Nona Homes",
            capsule(f"Opera pours concrete and lays pavers and artificial turf for Lake Nona, a roughly 17-square-mile community inside the City of Orlando, about 14 miles from downtown. "
@@ -142,7 +142,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -----------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Lake Nona, FL – Builder Lots",
-    "meta": "Concrete patio contractors in Lake Nona, FL: adding onto a builder-grade lanai, Orlando's engineering permit, and village drainage, October 2026.",
+    "meta": "Concrete patio companies in Lake Nona, FL: adding onto a builder-grade lanai, Orlando's engineering permit, and village drainage, October 2026.",
     "h1": "Building a Concrete Patio in Lake Nona",
     "lede": capsule(f"A concrete patio in Lake Nona runs {price('concrete-patio')} per {per('concrete-patio')} as of October 2026. "
                      "A lot of homes here were sold with a small builder-grade lanai slab, so the most common patio job isn't new construction from bare ground; it's extending that original pour into a full-size patio."),
@@ -258,7 +258,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete ---------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Lake Nona, FL – HOA Review",
-    "meta": "Stamped concrete contractors in Lake Nona, FL: why pattern and color changes go to the village's architectural board, October 2026.",
+    "meta": "Stamped concrete companies in Lake Nona, FL: why pattern and color changes go to the village's architectural board, October 2026.",
     "h1": "Stamped Concrete Driveways and Patios in Lake Nona",
     "lede": capsule(f"Stamped concrete in Lake Nona falls in the {price('stamped-concrete')} {per('stamped-concrete')} range as of October 2026, set by the pattern and the number of colors used. "
                      "With no historic district here the way parts of older Orlando have, the review that actually governs a stamped pattern or integral color is each village's own architectural board, not a city preservation rule."),

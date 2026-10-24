@@ -31,7 +31,7 @@ SRC = [
 
 HUB = page(
     "/sarasota-fl/", "city",
-    "Concrete & Paver Contractor in Sarasota, FL",
+    "Concrete & Paver Company in Sarasota, FL",
     "Opera builds concrete driveways, pavers and turf in Sarasota, FL, where the city permits curb cuts under Sec. 29.5-7 and homes date to 1976, as of October 2026.",
     "Concrete, Pavers and Turf for Sarasota Homes",
     capsule(
@@ -587,7 +587,7 @@ LOCAL = {
         "sections": [
             (
                 "How the state turf rule and the city's tree rule line up",
-                "<p>Florida Administrative Code Rule 62-308.100, effective May 19, 2026, sets the statewide installation standard for synthetic turf: natural infill, a washed base, a 10-foot setback from any waterbody without a seawall, no in-ground irrigation beneath it, and turf kept clear of a tree's canopy edge unless a licensed arborist approves a closer install " + src("dep-rule") + ". That last piece lines up with a rule Sarasota already runs on its own: root pruning near a protected tree has to be finished and inspected by the city arborist before building-permit inspections proceed, and a Grand Tree, a live oak 24 inches across or wider, carries its own 20-foot barricade distance " + src("sarasota-tree") + ". On a lot with mature canopy, one arborist visit tends to cover both requirements rather than two separate approvals.</p>"
+                "<p>Florida Administrative Code Rule 62-308.100, effective May 19, 2026, sets the statewide installation standard for synthetic turf: natural infill, a washed base, a 10-foot setback from any waterbody without a seawall, no in-ground irrigation beneath it, and turf kept clear of a tree's canopy edge unless a certified arborist approves a closer install " + src("dep-rule") + ". That last piece lines up with a rule Sarasota already runs on its own: root pruning near a protected tree has to be finished and inspected by the city arborist before building-permit inspections proceed, and a Grand Tree, a live oak 24 inches across or wider, carries its own 20-foot barricade distance " + src("sarasota-tree") + ". On a lot with mature canopy, one arborist visit tends to cover both requirements rather than two separate approvals.</p>"
             ),
             (
                 "Watering restrictions turf doesn't have to live with",
@@ -601,7 +601,7 @@ LOCAL = {
         "faqs": [
             faq(
                 "Does artificial turf under a live oak in Sarasota need special approval?",
-                "Yes. State Rule 62-308.100 keeps turf off a tree's canopy edge unless a licensed arborist signs off on a closer layout, which lines up with the city's own root-pruning and arborist-inspection rule for work near protected trees."
+                "Yes. State Rule 62-308.100 keeps turf off a tree's canopy edge unless a certified arborist signs off on a closer layout, which lines up with the city's own root-pruning and arborist-inspection rule for work near protected trees."
             ),
             faq(
                 "Can my Sarasota HOA ban artificial turf in the front yard?",

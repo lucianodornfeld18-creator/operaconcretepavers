@@ -73,12 +73,12 @@ HUB_FAQS = [
     faq("When is a Lake Mary homeowner allowed to irrigate a fresh lawn?",
         f"The district's year-round calendar assigns a watering day by the last digit of the address, odd and no-number households on Wednesday and Saturday, even-numbered ones on Thursday and Sunday, and blocks irrigation entirely from 10 a.m. to 4 p.m. "
         f"({src('sjrwmd-watering', 'SJRWMD, Watering Restrictions')}). A brand-new lawn is exempt from that calendar for its first 30 days, then moves to an every-other-day schedule for another 30 before settling onto the regular two-day rotation."),
-    faq("How do I find the best concrete contractor for a Lake Mary project?",
-        f"Confirm a bid already accounts for which office reviews the job, since a Heathrow-area address changes that answer, and check the contractor against the state's license-lookup tool before signing anything. "
-        f"{post('how-to-choose-a-concrete-contractor-orlando', 'Our broader guide to vetting a contractor')} covers what else belongs in a written estimate."),
+    faq("How do I find the best concrete company for a Lake Mary project?",
+        f"Confirm a bid already accounts for which office reviews the job, since a Heathrow-area address changes that answer, and check the business name against Sunbiz before signing anything. "
+        f"{post('how-to-compare-concrete-and-paver-quotes', 'Our broader guide to comparing quotes')} covers what else belongs in a written estimate."),
 ]
 
-HUB = page("/lake-mary-fl/", "city", "Concrete, Pavers & Turf Contractor in Lake Mary, FL",
+HUB = page("/lake-mary-fl/", "city", "Concrete, Pavers & Turf Company in Lake Mary, FL",
            "Opera builds concrete driveways, pavers and turf in Lake Mary, FL, where site permits run 1.25% of contract value, as of October 2026.",
            "Concrete, Pavers and Artificial Turf for Lake Mary Homes",
            capsule(f"Opera pours concrete, sets pavers and installs turf for homeowners in Lake Mary, a built-out Seminole County city of about 16,789 residents on the Interstate 4 corridor, {str(__import__('_data').CITIES['lake-mary']['miles'])} miles from the Orlando unit's base. "
@@ -100,7 +100,7 @@ LOCAL = {}
 # 1. concrete-driveways ------------------------------------------------------
 LOCAL["concrete-driveways"] = {
     "title": "Concrete Driveways in Lake Mary, FL – Permit Cost",
-    "meta": "Concrete driveway contractors in Lake Mary, FL: how the city's 1.25% site permit fee is figured, and when HB 803 applies, October 2026.",
+    "meta": "Concrete driveway companies in Lake Mary, FL: how the city's 1.25% site permit fee is figured, and when HB 803 applies, October 2026.",
     "h1": "Pouring a Concrete Driveway in Lake Mary",
     "lede": capsule(f"Budget {price('concrete-driveway')} per {per('concrete-driveway')} for a new concrete driveway in Lake Mary as of October 2026. "
                      "The city's own Site Construction Permit prices the review itself as a percentage of the job, 1.25 percent of the contract with a $250 floor, rather than the flat per-driveway fee some nearby cities charge."),
@@ -158,7 +158,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -----------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Lake Mary, FL – 1997 Homes",
-    "meta": "Concrete patio contractors in Lake Mary, FL: drainage on flatwoods soil and why the city's 1997 median build year matters, October 2026.",
+    "meta": "Concrete patio companies in Lake Mary, FL: drainage on flatwoods soil and why the city's 1997 median build year matters, October 2026.",
     "h1": "Building a Concrete Patio in Lake Mary",
     "lede": capsule(f"A concrete patio in Lake Mary falls between {price('concrete-patio')} per {per('concrete-patio')} as of October 2026. "
                      "With the typical home here dating to 1997 and the city largely built out since, original backyard slabs from that late-1990s wave of construction are common enough that a resurfacing decision comes up almost as often as a new pour."),
@@ -276,7 +276,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete ---------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Lake Mary, FL – I-4 Corridor",
-    "meta": "Stamped concrete contractors in Lake Mary, FL: matching a decorative driveway to the city's 1980s-90s office-corridor housing stock, October 2026.",
+    "meta": "Stamped concrete companies in Lake Mary, FL: matching a decorative driveway to the city's 1980s-90s office-corridor housing stock, October 2026.",
     "h1": "Stamped Concrete Driveways and Patios in Lake Mary",
     "lede": capsule(f"Stamped concrete work in Lake Mary falls between {price('stamped-concrete')} per {per('stamped-concrete')} as of October 2026. "
                      "Unlike Sanford or Oviedo, Lake Mary has no old downtown core; most of its housing stock grew up alongside the office parks that filled in along Interstate 4 during the late 1980s and 1990s, which shapes what a decorative driveway is usually matched against."),

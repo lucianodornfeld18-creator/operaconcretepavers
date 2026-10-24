@@ -78,8 +78,8 @@ def driveways():
             f"a root is the problem ({src('orlando-tree-ord', 'Orlando tree ordinance')}, {src('sarasota-tree', 'City of Sarasota tree protection')}). "
             "Routing the base around a known root zone is usually more realistic than fighting the tree for the space.</p>"),
         sec("Permits for a paver driveway in Orlando, Orange County and Manatee County",
-            "<p>Florida law exempts driveway installation from needing a state or local contractor license, but it never exempts the permit "
-            f"itself ({src('fs489-117', 'F.S. 489.117')}). What's required, and from whom, changes block by block.</p>"
+            "<p>Some permit almost always applies to a paver driveway, even where a building permit doesn't. "
+            "What's required, and from whom, changes block by block.</p>"
             + table("Paver driveway permits, selected jurisdictions (checked October 2026)", ["Jurisdiction", "What's required", "Notes"],
                     [["Orange County (unincorporated)", "Zoning permit only for pavers", "$38 permit fee plus $38 engineering review; about 4 business days"],
                      ["City of Orlando", "Engineering permit", "Apron: 6 in, 3,000 psi minimum; pavers in the right-of-way need a Paver's MOU"],
@@ -103,14 +103,14 @@ def driveways():
             "the odd ant colony; topping it off and compacting it back in before the joints visibly open keeps the field interlocked. "
             f"{svc('paver-sealing', 'Our paver sealing service')} covers cleaning, re-sanding, sealing and releveling a driveway that's drifted off this schedule.</p>"
             + (photo(pids[2], "Close-up of interlocking concrete pavers set tight against each other.") if len(pids) > 2 else "")),
-        sec("How do you choose the best paver driveway contractor near you?",
-            "<p>Searching for paver driveway contractors near me turns up a long list; narrowing it comes down to paperwork and method, not photos.</p>"
+        sec("How do you choose the best paver driveway company near you?",
+            "<p>Searching for paver driveway companies near me turns up a long list; narrowing it comes down to paperwork and method, not photos.</p>"
             + ul([f"Ask who applies for the permit and confirm it covers both the driveway and any work in the right-of-way apron.",
                   "Get the base depth and compaction standard in writing, not just a square-footage price; a bid that skips this skipped the step that fails first.",
                   "Confirm paver thickness for the load: 60 mm for a standard car driveway, 80 mm if an RV, boat trailer or work truck will use it regularly.",
-                  f"Check the business on the {src('dbpr-search', 'DBPR license search')} if the scope includes anything beyond flatwork, since structural concrete work falls under a different category than driveway installation.",
+                  "Ask for a certificate of insurance sent by the insurance agent, and look the business name up on Sunbiz before any deposit changes hands.",
                   "Ask whether the estimate includes edge restraint as a line item; it's invisible once the job is done and easy to leave off a cheap bid."])
-            + f"<p>{post('how-to-choose-a-paver-contractor-orlando', 'Our Orlando paver contractor checklist')} and {post('how-to-compare-concrete-and-paver-quotes', 'how to compare quotes line by line')} go further.</p>"),
+            + f"<p>{post('paver-installation-process-florida', 'How pavers are installed in Florida')} and {post('how-to-compare-concrete-and-paver-quotes', 'how to compare quotes line by line')} go further.</p>"),
         sec("Where we build paver driveways",
             f"<p>We lay paver driveways across Greater Orlando and Sarasota–Manatee, each quoted by the crew that knows that county's permit desk. "
             f"Related towns: {cs('orlando', K)}, {cs('kissimmee', K)}, {cs('sarasota', K)} and {cs('lakewood-ranch', K)}.</p><!--AUTO:service-cities-->"),
@@ -135,8 +135,8 @@ def driveways():
                         "more than concrete but repairable one unit at a time. We build to that spec across Greater Orlando and Sarasota–Manatee."),
                 body, faqs=faqs,
                 sources=["icpi-ts2", "icpi-ts3", "icpi-ts5", "homeguide-driveway-pavers", "angi-paver-driveway", "nrcs-candler-osd", "nrcs-myakka-osd",
-                         "ncei-annual-prcp", "orlando-tree-ord", "sarasota-tree", "fs489-117", "fs713-13", "fs720-3035", "orange-residential-pavers",
-                         "orlando-esm", "manatee-paver-driveway-inspections", "sarasota-county-row-permit", "dbpr-search"],
+                         "ncei-annual-prcp", "orlando-tree-ord", "sarasota-tree", "fs713-13", "fs720-3035", "orange-residential-pavers",
+                         "orlando-esm", "manatee-paver-driveway-inspections", "sarasota-county-row-permit"],
                 related=[("/paver-driveway-cost/", "paver driveway cost guide"), ("/compare/pavers-vs-concrete-driveway/", "pavers vs. concrete driveway"),
                          ("/compare/clay-brick-vs-concrete-pavers/", "clay brick vs. concrete pavers"),
                          ("/blog/paver-driveway-ideas-florida/", "paver driveway ideas"), ("/blog/why-pavers-sink-in-florida/", "why pavers sink, and the fix"),
@@ -241,14 +241,14 @@ def patios():
             f"travertine, being more porous, benefits from staying on that schedule more than concrete pavers do. {svc('paver-sealing', 'Our paver sealing service')} "
             "handles cleaning, re-sanding, sealing and resetting pavers that have sunk or shifted.</p>"
             + (photo(pids[2], "A covered paver patio furnished with a dining table and a sectional sofa.") if len(pids) > 2 else "")),
-        sec("How do you choose the best paver patio contractor near you?",
-            "<p>Paver patio contractors near me is a long list in both service areas; a few questions narrow it to the ones worth a quote.</p>"
+        sec("How do you choose the best paver patio installer near you?",
+            "<p>Paver patio installers near me is a long list in both service areas; a few questions narrow it to the ones worth a quote.</p>"
             + ul(["Ask for the base depth in writing, not just a square-footage price. A patio quoted with no stated base depth is a patio quoted on hope.",
                   "If a fire pit or a screen-enclosure tie-in is part of the scope, ask specifically how that section's base and edge restraint differ from the open field.",
                   f"Confirm who pulls any required permit, and ask directly whether your jurisdiction needs one; Manatee County's non-structural exemption doesn't apply everywhere.",
                   "Get the paver brand, color and thickness specified, not just 'pavers,' so a second bid can be compared on the same material.",
                   "Ask how the crew handles a downpour mid-install, since an open base or screeded sand left exposed to a storm often has to be redone."])
-            + f"<p>{post('how-to-choose-a-paver-contractor-orlando', 'Our paver contractor checklist')} and {post('concrete-and-paver-warranty-what-it-should-cover', 'what a paver warranty should cover')} go further.</p>"),
+            + f"<p>{post('how-to-compare-concrete-and-paver-quotes', 'Comparing paver quotes line by line')} and {post('concrete-and-paver-warranty-what-it-should-cover', 'what a paver warranty should cover')} go further.</p>"),
         sec("Where we build paver patios and walkways",
             f"<p>We lay paver patios, walkways and fire-pit areas across Greater Orlando and Sarasota–Manatee. Related towns: {cs('orlando', K)}, "
             f"{cs('winter-garden', K)}, {cs('sarasota', K)} and {cs('bradenton', K)}.</p><!--AUTO:service-cities-->"),

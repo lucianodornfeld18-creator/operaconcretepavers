@@ -57,11 +57,11 @@ HUB_FAQS = [
         "No. The city's own worksheet leaves that figure blank and tells applicants to call the Planning Division, because the allowed ratio depends on the specific zoning district and subdivision rather than one citywide number."),
     faq("Does a Groveland patio have different rules than a driveway?",
         "Yes. The vernacular code requires patios to be built in permeable pavers and reviewed by the Community Development Director or a designee, a step that's separate from the driveway material list even on the same lot."),
-    faq("How do you pick a concrete contractor for a Groveland driveway?",
-        f"Start by checking the contractor's standing with the state's license lookup, then make sure the bid treats the job as a zoning permit with an impervious-surface worksheet rather than a standard building-permit quote, and confirm who's gathering the HOA approval letter before material gets ordered. For the rest of what to check, see {post('how-to-choose-a-concrete-contractor-orlando', 'Ten criteria for choosing a concrete contractor')}."),
+    faq("How do you pick a concrete company for a Groveland driveway?",
+        f"Start by asking for a certificate of insurance sent directly by the insurance agent, then make sure the bid treats the job as a zoning permit with an impervious-surface worksheet rather than a standard building-permit quote, and confirm who's gathering the HOA approval letter before material gets ordered. For the rest of what to check, see {post('how-to-compare-concrete-and-paver-quotes', 'how to compare quotes line by line')}."),
 ]
 
-HUB = page("/groveland-fl/", "city", "Concrete, Pavers & Turf Contractor in Groveland, FL",
+HUB = page("/groveland-fl/", "city", "Concrete, Pavers & Turf Company in Groveland, FL",
            "Concrete driveways, paver patios and turf in Groveland, FL: the city's zoning permit, its banned-materials list and the Lake County watering order, Oct. 2026.",
            "Concrete, Pavers and Artificial Turf for Groveland, Florida Homes",
            capsule(f"Groveland is a fast-growing Lake County city of roughly 22,012 people, about 29 miles southwest of Orlando, where Opera installs concrete driveways, paver patios and artificial turf. "
@@ -83,9 +83,9 @@ LOCAL = {}
 # 1. concrete-driveways ------------------------------------------------------
 LOCAL["concrete-driveways"] = {
     "title": "Concrete Driveways in Groveland, FL – Permit Rules",
-    "meta": "Concrete driveway contractors in Groveland, FL: the city's zoning-permit checklist and its approved-materials list under Article 6, Oct. 2026.",
+    "meta": "Concrete driveway companies in Groveland, FL: the city's zoning-permit checklist and its approved-materials list under Article 6, Oct. 2026.",
     "h1": "Pouring a Concrete Driveway in Groveland",
-    "lede": capsule(f"A new or replacement concrete driveway in Groveland is pricing at {price('concrete-driveway')} per {per('concrete-driveway')} heading into late 2026, by current Florida contractor figures. "
+    "lede": capsule(f"A new or replacement concrete driveway in Groveland is pricing at {price('concrete-driveway')} per {per('concrete-driveway')} heading into late 2026, by current Florida installer figures. "
                      "City Hall treats the job as a zoning permit rather than a building permit, built around an impervious-surface worksheet, and concrete is only one of several surfaces the Florida Vernacular code names as approved."),
     "sections": [
         ("A zoning application and an impervious-surface worksheet replace a flat permit fee",

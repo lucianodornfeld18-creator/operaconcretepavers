@@ -18,12 +18,9 @@ def p_extend_patio_under_screen_enclosure():
             "the aluminum structure overhead, are built by different trades on different schedules, and most of what goes wrong on this kind of "
             "project traces back to one side moving ahead of the other rather than to the paving itself.</p>"
             + (photo(pid, "A circular paver patio bordered by granite edging stones among garden shrubs and tall grass.") if pid else "")),
-        sec("Who Pours the Footers: the Paving Crew or the Aluminum Contractor?",
-            "<p>Florida treats aluminum screen and patio enclosures as their own specialty trade, and that trade's own rule draws the line: an "
-            "aluminum specialty contractor may build \"foundations, slabs and block kneewalls incidental to\" its enclosure work, but it may not "
-            "perform any work that alters a structure's load-bearing elements or foundations "
-            f"({src('fac61g4-15-015', 'Fla. Admin. Code R. 61G4-15.015')}). In practice that means the enclosure's own post footers are usually "
-            "set by the aluminum crew as part of its own scope, sized for wind uplift on the aluminum frame rather than for foot traffic, while "
+        sec("Who Pours the Footers: the Paving Crew or the Aluminum Installer?",
+            "<p>Aluminum screen and patio enclosures are a specialty trade of their own, and the footers belong to that trade's scope: "
+            "the enclosure's own post footers are usually set by the aluminum crew as part of its work, sized for wind uplift on the aluminum frame rather than for foot traffic, while "
             "the surrounding patio slab or paver field is a separate pour built to the flatwork spec on the paver patio or concrete patio page. "
             "A new footer poured after the flooring is already down means cutting into finished concrete or pulling pavers back up, so the two "
             "trades plan the layout together before either one starts.</p>"),
@@ -63,7 +60,7 @@ def p_extend_patio_under_screen_enclosure():
             "footers with a flexible joint rather than pouring or setting pavers tight against them, since the two structures settle and expand "
             "at different rates and a rigid connection is what cracks first.</p>"
             + table("Who typically handles what", ["Element", "Usually handled by", "Note"],
-                    [["Enclosure posts and footers", "Aluminum / screen contractor", "Sized for wind uplift on the frame, not foot traffic"],
+                    [["Enclosure posts and footers", "Aluminum / screen enclosure crew", "Sized for wind uplift on the frame, not foot traffic"],
                      ["Patio slab or paver field", "Concrete or paver crew", "Built to the flatwork spec on the paver patio or concrete patio page"],
                      ["Isolation joint at the footer", "Paving crew, coordinated with the enclosure layout", "Lets the two structures move independently"],
                      ["Grading and downspout tie-ins", "Paving crew, using the enclosure's gutter plan", "Set before the final paver course or pour"]],
@@ -75,12 +72,12 @@ def p_extend_patio_under_screen_enclosure():
             f"is one example of a community that reviews enclosures on its own form, and {post('hoa-approval-for-pavers-and-concrete', 'our broader HOA approval guide')} "
             f"covers the submission basics that apply more generally. {a('/paver-patio-cost/', 'Our paver patio cost guide')} and "
             f"{a('/concrete-patio-cost/', 'our concrete patio cost guide')} break down pricing for the flooring side of a project like this once "
-            f"the layout with the enclosure contractor is settled.</p>"),
+            f"the layout with the enclosure installer is settled.</p>"),
     ])
     faqs = [faq("Can a patio be extended inside an existing screen enclosure without removing the cage?",
                 "Usually yes, if there is room to work around the existing posts and the footers are not in the way of the new paving's layout. A full re-screen is a different job and may be worth timing together with a flooring extension so the posts are only disturbed once."),
-            faq("Does the paving crew or the screen contractor pour the enclosure's footers?",
-                "Florida's aluminum specialty contractor rule lets that trade build foundations and slabs incidental to its own enclosure work, so the enclosure posts and their footers are usually set by the screen contractor, sized for wind load on the frame rather than for foot traffic. The surrounding patio slab or paver field is a separate pour."),
+            faq("Does the paving crew or the screen installer pour the enclosure's footers?",
+                "Usually the screen installer, since the enclosure's posts and their footers belong to the aluminum trade's own scope, sized for wind load on the frame rather than for foot traffic. The surrounding patio slab or paver field is a separate pour."),
             faq("Can pavers go directly over an old concrete lanai floor?",
                 "Often, as a thin overlay on a leveling bed rather than an excavated base, which keeps the finished height within an inch or two of the original slab. A slab with active cracking or a settled corner is usually worth replacing first, since those flaws tend to show through an overlay."),
             faq("Does a screened patio still need to drain properly?",
@@ -97,11 +94,11 @@ def p_extend_patio_under_screen_enclosure():
                 "Extending a patio under a pool screen enclosure in Florida: who pours the footers, overlay vs. tear-out, permits and drainage, as of October 2026.",
                 "Extending a Patio Under (or Beyond) a Pool Screen Enclosure",
                 capsule("Extending a patio under a Florida pool screen enclosure means coordinating two separate trades: the aluminum "
-                        "contractor's own footers for the cage posts, and a new concrete or paver surface built to meet the screen track's "
+                        "installer's own footers for the cage posts, and a new concrete or paver surface built to meet the screen track's "
                         "fixed height. As of October 2026, the two are usually permitted and built separately, with an isolation joint at "
                         "each footer so the structures can move independently."),
                 body, faqs=faqs,
-                sources=["fac61g4-15-015", "orlando-res-requirements", "orlando-hb803-guide", "manatee-no-permit-list", "fs713-13"],
+                sources=["orlando-res-requirements", "orlando-hb803-guide", "manatee-no-permit-list", "fs713-13"],
                 related=related, crumbs=[("Blog", "/blog/")], published="2026-10-01", service="paver-patios",
                 image=pid, form=False)
 
@@ -147,7 +144,7 @@ def p_fire_pit_on_pavers_florida():
         sec("Wood-Burning or Gas: What Changes About the Setup?",
             "<p>A wood-burning fire pit falls under the open-burning rules above regardless of what it is built from, since those rules track "
             "the fuel and the flame, not the material of the ring. A gas fire pit with a fixed line run from the house's natural gas or a buried "
-            "propane tank is plumbing and gas work, not flatwork, and needs a licensed gas or plumbing contractor to make that connection and "
+            "propane tank is plumbing and gas work, not flatwork, and needs a plumber or gas installer to make that connection and "
             "pull the gas permit, separate from whoever builds the pit's masonry or paver base. A portable propane fire table that runs off a "
             "swappable tank under the unit skips that gas-line permit step entirely, which is part of why portable units are the simpler choice "
             "on a patio where the exact final location is not locked in yet.</p>"),
@@ -169,7 +166,7 @@ def p_fire_pit_on_pavers_florida():
             faq("Does a fire pit need a denser base than the rest of the patio?",
                 "Yes. A masonry or steel insert concentrates weight in a tighter footprint than an open paver field, and repeated heat cycling adds stress a plain seating area never sees, so that section gets its own compacted base and its own edge restraint, separate from the restraint around the patio's outer perimeter."),
             faq("Does a gas fire pit need a permit?",
-                "A fixed line run from a natural gas supply or a buried propane tank is plumbing and gas work and needs a licensed gas or plumbing contractor to make the connection and pull the permit, separate from the masonry or paver work around it. A portable propane fire table that runs off a swappable tank under the unit skips that step."),
+                "A fixed line run from a natural gas supply or a buried propane tank is plumbing and gas work and needs a plumber or gas installer to make the connection and pull the permit, separate from the masonry or paver work around it. A portable propane fire table that runs off a swappable tank under the unit skips that step."),
             faq("Can a fire pit go on an existing paver patio, or does it need its own pad?",
                 "Either works. Setting it into the main field keeps the yard reading as one continuous space, which suits a smaller lot, while a separate pad with its own pattern or a seat wall around it reads as a distinct zone and works better where the main patio already has a full seating or dining layout."),
             faq("Does an HOA need to approve a fire pit before it is built?",
@@ -186,7 +183,7 @@ def p_fire_pit_on_pavers_florida():
                 capsule("A fire pit on a Florida paver patio needs a denser, separately restrained base section and a setback from the house "
                         "that depends on local rules: Orange County requires 25 feet unless the fire is contained in an outdoor fireplace, "
                         "grill or barbecue pit, and Sarasota County allows a contained fire pit as close as about 10 feet, as of October 2026. "
-                        "A gas line needs a licensed plumbing or gas contractor; a portable propane unit does not."),
+                        "A gas line needs a plumber or gas installer; a portable propane unit does not."),
                 body, faqs=faqs,
                 sources=["icpi-ts3",
                          ("Orange County, Open Burning FAQ", "https://www.orangecountyfl.net/Portals/0/Library/Environment/docs/Open%20Burning%20Frequently%20Asked%20Questions-CERT.pdf"),

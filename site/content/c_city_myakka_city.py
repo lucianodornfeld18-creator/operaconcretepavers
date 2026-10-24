@@ -85,21 +85,21 @@ HUB_FAQS = [
     ),
     faq(
         "Does a one-acre Myakka City lot need a bigger septic system or a bigger well?",
-        "That's a Florida Department of Health question tied to the home's size and soil, not something a concrete or turf contractor sizes, but we do grade a new driveway, patio or turf base to shed water away from an existing wellhead and drain field rather than toward them."
+        "That's a Florida Department of Health question tied to the home's size and soil, not something a concrete or turf company sizes, but we do grade a new driveway, patio or turf base to shed water away from an existing wellhead and drain field rather than toward them."
     ),
     faq(
         "Does the current water-shortage order affect a Myakka City lawn?",
         "Yes. Manatee County is under SWFWMD's Modified Phase III shortage order through March 31, 2027, cutting irrigation to one assigned day a week. New sod gets a short daily-watering window first; turf answers to no sprinkler day once it's installed."
     ),
     faq(
-        "How do you pick the best contractor for a driveway pour this far out from Sarasota?",
+        "How do you pick the best company for a driveway pour this far out from Sarasota?",
         "Ask directly whether the bid accounts for which office issues the permit on your road, state or county, and whether the crew has graded around a high water table before, rather than comparing a flat per-square-foot number against a closer-in job."
     ),
 ]
 
 HUB = page(
     "/myakka-city-fl/", "city",
-    "Concrete, Pavers & Turf Contractor in Myakka City, FL",
+    "Concrete, Pavers & Turf Company in Myakka City, FL",
     "Concrete, pavers and turf for unincorporated Myakka City, FL: Manatee County's access permit, State Road 70's separate FDOT rule and flatwoods soil, October 2026.",
     "Driveways, Patios and Turf for Myakka City Acreage",
     capsule(

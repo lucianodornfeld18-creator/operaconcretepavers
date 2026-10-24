@@ -57,12 +57,12 @@ HUB_FAQS = [
         f"{compare('clay-brick-vs-concrete-pavers', 'Clay brick vs. concrete pavers')} walks through the cost and upkeep difference between the two."),
     faq("Why are so many Winter Park driveways older than the ones in newer Orlando-area suburbs?",
         "The city's median home was built in 1976, decades before towns like Clermont or Winter Garden saw most of their construction, so a larger share of the original concrete here is well past the point where cracking and resurfacing are routine rather than unusual."),
-    faq("How do you pick the best concrete contractor for a Winter Park home?",
-        f"Confirm the quote accounts for both the lot permit and the separate right-of-way application where the work touches the street, ask how the bid handles a protected or landmark tree on the property, and check the contractor on the state's license-verification tool before signing anything. "
+    faq("How do you pick the best concrete company for a Winter Park home?",
+        f"Confirm the quote accounts for both the lot permit and the separate right-of-way application where the work touches the street, ask how the bid handles a protected or landmark tree on the property, and ask for a payment schedule that follows finished work before signing anything. "
         f"{post('hoa-approval-for-pavers-and-concrete', 'Getting HOA or ARC approval for pavers and concrete')} covers community-level review on top of the city's own process."),
 ]
 
-HUB = page("/winter-park-fl/", "city", "Concrete, Pavers & Turf Contractor in Winter Park, FL",
+HUB = page("/winter-park-fl/", "city", "Concrete, Pavers & Turf Company in Winter Park, FL",
            "Concrete, pavers and turf in Winter Park, FL: the city's 50% impervious-coverage cap, 30-inch landmark oaks, and 19 miles of brick streets, October 2026.",
            "Concrete, Pavers and Artificial Turf for Winter Park Homes",
            capsule("Opera pours concrete and lays pavers and artificial turf for Winter Park, an Orange County city of roughly 30,274 residents where the typical home dates to 1976, the oldest housing stock among the Orlando-unit towns covered here. "
@@ -145,7 +145,7 @@ LOCAL["paver-driveways"] = {
 # 3. concrete-patios -----------------------------------------------------------
 LOCAL["concrete-patios"] = {
     "title": "Concrete Patios in Winter Park, FL – Coverage & Trees",
-    "meta": "Concrete patio contractors in Winter Park, FL: why patios count in the citywide 50% cap, and planning around a landmark live oak, October 2026.",
+    "meta": "Concrete patio companies in Winter Park, FL: why patios count in the citywide 50% cap, and planning around a landmark live oak, October 2026.",
     "h1": "Building a Concrete Patio in Winter Park",
     "lede": capsule(f"A concrete patio in Winter Park runs {price('concrete-patio')} per {per('concrete-patio')} as of October 2026. "
                      "Unlike a coverage rule written only around the front yard, Winter Park's ordinance names patios directly inside a single citywide 50 percent impervious cap, so a backyard addition still gets checked against the whole lot's math."),
@@ -157,7 +157,7 @@ LOCAL["concrete-patios"] = {
         ("A landmark oak changes where the slab can go",
          f"<p>Any application tied to site work has to include a plan showing the proposed patio against the trees already on the lot "
          f"({src('winterpark-tree-ord', 'City of Winter Park Ordinance 3320-24')}). A live oak or bald cypress 30 inches or more in diameter, in fair to excellent condition, earns landmark status under the city's 2024 tree ordinance, a tier above the six-inch threshold that protects an ordinary tree "
-         f"({src('winterpark-tree-ord', 'Ordinance 3320-24')}). On a lot with a specimen like that near the back of the house, the patio footprint and the contractor's equipment path both work around the canopy's root zone before a shovel goes in.</p>"),
+         f"({src('winterpark-tree-ord', 'Ordinance 3320-24')}). On a lot with a specimen like that near the back of the house, the patio footprint and the crew's equipment path both work around the canopy's root zone before a shovel goes in.</p>"),
     ],
     "scenario": ("A backyard patio under a protected canopy, worked out in square feet",
                  f"<p>Say a 1970s-era Winter Park home adds a 16 by 12 foot back patio, 192 square feet, off the kitchen, on a lot shaded by a live oak measuring close to 30 inches across. At {price('concrete-patio')} per {per('concrete-patio')}, that lands between roughly $1,152 and $2,496 before any adjustment for working around the root zone. "
@@ -263,7 +263,7 @@ LOCAL["pool-deck-pavers"] = {
 # 7. stamped-concrete ---------------------------------------------------------
 LOCAL["stamped-concrete"] = {
     "title": "Stamped Concrete in Winter Park, FL – Overlays",
-    "meta": "Stamped concrete contractors in Winter Park, FL: why an overlay on existing concrete still needs a permit, and the triple-fee rule, October 2026.",
+    "meta": "Stamped concrete companies in Winter Park, FL: why an overlay on existing concrete still needs a permit, and the triple-fee rule, October 2026.",
     "h1": "Stamped Concrete for Winter Park Driveways and Patios",
     "lede": capsule(f"A stamped-concrete pattern on a Winter Park driveway or patio falls between {price('stamped-concrete')} {per('stamped-concrete')} this October, the exact figure set by the pattern and the colors chosen. "
                      "Because the work often goes on top of a slab that already exists, homeowners sometimes treat it as routine maintenance; the city's own guide treats it as permit work, triple-fee penalty included, the same as new construction."),
