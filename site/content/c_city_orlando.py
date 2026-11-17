@@ -412,7 +412,7 @@ LOCAL["concrete-repair"] = {
 LOCAL["paver-sealing"] = {
     "title": "Paver Sealing in Orlando, FL",
     "meta": "Paver sealing in Orlando, FL: why sealing day doesn't follow the SJRWMD watering schedule, and Baldwin Park's flush-porch-paver rule, October 2026.",
-    "h1": "Cleaning, Re-Sanding and Sealing Pavers in Orlando",
+    "h1": "Paver Sealing in Orlando: Wash, Re-Sand and Seal",
     "lede": capsule(f"Paver sealing in Orlando runs {price('paver-sealing')} per {per('paver-sealing')} as of October 2026, including the pressure-wash, re-sand and seal steps. "
                      "Orange County follows the St. Johns River Water Management District's year-round lawn-watering schedule, but a hose-fed pressure washer used to rinse pavers before sealing isn't irrigation, so the job doesn't have to wait for a particular watering day."),
     "sections": [

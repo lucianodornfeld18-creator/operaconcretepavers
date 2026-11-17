@@ -360,8 +360,8 @@ LOCAL["concrete-repair"] = {
 LOCAL["paver-sealing"] = {
     "title": "Paver Sealing in Lakewood Ranch, FL – Approved Colors",
     "meta": "Paver and driveway sealing in Lakewood Ranch, FL: the community's approved sealer colors and its Modification Request Form, as of October 2026.",
-    "h1": "Paver and Driveway Sealing in Lakewood Ranch",
-    "lede": capsule(f"Sealing a driveway or paver surface in Lakewood Ranch runs {price('paver-sealing')} per {per('paver-sealing')} as of October 2026. "
+    "h1": "Paver Sealing in Lakewood Ranch, Village Approval First",
+    "lede": capsule(f"Paver sealing in Lakewood Ranch, on a driveway, walkway or patio, runs {price('paver-sealing')} per {per('paver-sealing')} as of October 2026. "
                      "Country Club/Edgewater Village's manual requires a Modification Request Form for sealing a residential driveway or walkway and lists specific approved colors, a step worth planning before the cleaning crew even shows up."),
     "sections": [
         ("Sealing needs its own form, with a published list of approved colors",

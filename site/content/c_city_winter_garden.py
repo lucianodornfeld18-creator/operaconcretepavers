@@ -384,8 +384,8 @@ LOCAL["concrete-repair"] = {
 LOCAL["paver-sealing"] = {
     "title": "Paver Sealing in Winter Garden, FL",
     "meta": "Paver sealing in Winter Garden, FL: the normal twice-a-week SJRWMD watering calendar and cleaning pavers near Lake Apopka, Oct. 2026.",
-    "h1": "Sealing Pavers Near Lake Apopka",
-    "lede": capsule(f"A wash, re-sand and seal on Winter Garden pavers lands somewhere in {price('paver-sealing')} per {per('paver-sealing')}, the Florida figure this month. "
+    "h1": "Paver Sealing Near Lake Apopka",
+    "lede": capsule(f"Paver sealing in Winter Garden, a wash, re-sand and seal, lands somewhere in {price('paver-sealing')} per {per('paver-sealing')}, the Florida figure this month. "
                      "Unlike several counties farther north, Orange isn't under a one-day-a-week watering order right now, and that distinction matters less for a sealing job than homeowners expect, since a hose-fed washer was never on the sprinkler calendar to begin with."),
     "sections": [
         ("Orange County's sprinkler calendar and a pressure washer run on two different clocks",

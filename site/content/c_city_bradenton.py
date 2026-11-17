@@ -525,9 +525,9 @@ LOCAL = {
     "paver-sealing": {
         "title": "Paver Sealing in Bradenton, FL – Maintenance Rule",
         "meta": "Paver sealing in Bradenton, FL counts as maintenance under LUR 2.2, skipping the zoning permit; market range is " + price("paver-sealing") + " per " + per("paver-sealing") + ".",
-        "h1": "Cleaning, Re-Sanding and Sealing Pavers in Bradenton",
+        "h1": "Paver Sealing in Bradenton: Wash, Re-Sand and Seal",
         "lede": capsule(
-            "As of October 2026, cleaning, re-sanding and sealing pavers in Bradenton costs " + price("paver-sealing") + " per " + per("paver-sealing") + ". It's maintenance, not construction, under the city's own zoning code, "
+            "As of October 2026, paver sealing in Bradenton, the wash, the re-sanding and the coat itself, costs " + price("paver-sealing") + " per " + per("paver-sealing") + ". It's maintenance, not construction, under the city's own zoning code, "
             "though how soon it needs doing again depends heavily on whether the address sits near open water."
         ),
         "sections": [

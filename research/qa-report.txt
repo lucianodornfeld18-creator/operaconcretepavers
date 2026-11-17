@@ -1,6 +1,6 @@
 pages: 523
 FAIL: 0
-WARN: 62
+WARN: 61
 
 
 WARN  density 'artificial turf' 6.9%: /404/
@@ -16,7 +16,6 @@ WARN  density 'stamped concrete' 3.6%: /compare/stamped-concrete-vs-pavers/
 WARN  density 'pavers' 4.7%: /compare/travertine-vs-concrete-pavers/
 WARN  density 'pavers' 4.1%: /faq/pavers/
 WARN  density 'pavers' 3.8%: /nokomis-fl/paver-driveways/
-WARN  meta 99 chars: /venice-fl/paver-sealing/
 WARN  density 'pavers' 3.5%: /winter-springs-fl/paver-driveways/
 WARN  inlinks 0 < 3: /about/
 WARN  inlinks 0 < 3: /accessibility/

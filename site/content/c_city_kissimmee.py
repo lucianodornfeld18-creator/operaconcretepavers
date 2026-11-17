@@ -381,8 +381,8 @@ LOCAL["concrete-repair"] = {
 LOCAL["paver-sealing"] = {
     "title": "Paver Sealing in Kissimmee, FL",
     "meta": "Paver sealing in Kissimmee, FL: why Toho Water Authority's watering days don't apply to a pressure wash, October 2026.",
-    "h1": "Cleaning, Re-Sanding and Sealing Pavers in Kissimmee",
-    "lede": capsule(f"Cleaning, re-sanding and sealing pavers in Kissimmee costs {price('paver-sealing')} per {per('paver-sealing')}, a Florida market range as of October 2026. "
+    "h1": "Paver Sealing in Kissimmee: Wash, Re-Sand and Seal",
+    "lede": capsule(f"Paver sealing in Kissimmee, from the pressure wash through the final sealer coat, costs {price('paver-sealing')} per {per('paver-sealing')}, a Florida market range as of October 2026. "
                      "Toho Water Authority's twice-a-week schedule governs irrigation, not a hose-fed pressure washer, so cleaning pavers ahead of a seal doesn't have to wait for a particular day of the week."),
     "sections": [
         ("A pre-seal pressure wash doesn't follow Toho's watering calendar",
