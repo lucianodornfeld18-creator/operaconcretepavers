@@ -66,7 +66,7 @@ HUB = page("/avalon-park-fl/", "city", "Concrete, Pavers & Turf Company in Avalo
                     ("/orlando-fl/", "Concrete, pavers and turf in Orlando"),
                     ("/lake-nona-fl/", "Concrete, pavers and turf in Lake Nona"),
                     ("/blog/orange-county-orlando-driveway-patio-permits/", "Orlando and Orange County permits"),
-                    ("/compare/concrete-vs-pavers/", "Concrete vs. pavers")],
+                    ("/compare/pavers-vs-concrete-driveway/", "Pavers vs. concrete driveways")],
            eyebrow="Concrete · Pavers · Turf in Avalon Park, FL")
 
 # ---------------------------------------------------------------------- services

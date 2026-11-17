@@ -161,7 +161,7 @@ LOCAL["concrete-driveways"] = {
             "Manatee County's Public Works Infrastructure Engineering Division handles any driveway on a county-maintained road. A driveway connecting directly to State Road 70 instead needs a Florida Department of Transportation connection permit."
         ),
         faq(
-            "How wide can a residential driveway be in unincorporated Manatee County?",
+            "What width does Manatee County allow where a Myakka City driveway meets the road?",
             "The county's own application sets a 12-foot minimum and a 24-foot maximum width, measured at the edge of the road pavement, with the culvert's grade and size set by county staff before the pour."
         ),
         faq(

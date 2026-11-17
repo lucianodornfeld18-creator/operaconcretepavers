@@ -195,7 +195,7 @@ def pavers_pillar():
         sec("Five paver services, one base system",
             f"<p>Every paver job on this site is built the same way, from the ground up: a compacted aggregate base, a screeded layer of bedding sand, individual units set and compacted together, and edge restraint locking the field at every border. What changes between services is the load the base has to carry and the material on top. "
             f"{svc('paver-driveways', 'Paver driveways')} get the deepest base, since a car is the heaviest thing most residential paving ever carries. {svc('paver-patios', 'Paver patios and walkways')} carry foot traffic and furniture on a thinner base. {svc('pool-deck-pavers', 'Pool deck pavers')} add the coping detail and lean toward travertine or lighter-colored units. "
-            f"{svc('paver-sealing', 'Paver sealing and restoration')} isn't a new install at all, it's cleaning, re-sanding, sealing and releveling units that have already been down for a while. And {svc('retaining-walls', 'retaining walls')} share the idea of a compacted base but carry soil pressure instead of foot or vehicle traffic, which changes the detail behind the wall more than the detail under it. "
+            f"{svc('paver-restoration', 'Paver restoration')} isn't a new install at all, it's cleaning, re-sanding, sealing and releveling units that have already been down for a while. And {svc('retaining-walls', 'retaining walls')} share the idea of a compacted base but carry soil pressure instead of foot or vehicle traffic, which changes the detail behind the wall more than the detail under it. "
             f"{svc('artificial-turf', 'Artificial turf')} fits into this family too, wherever it runs as an accent strip inside a paver field rather than across an open lawn.</p>"),
         sec("How do you choose among them?",
             "<p>The table below maps the common starting points to the service that covers them.</p>"
@@ -203,7 +203,7 @@ def pavers_pillar():
                     [["A new or replacement driveway", svc("paver-driveways", "paver driveways"), "60 mm pavers standard, 80 mm for RVs, boats or work trucks, over a 6-in. base"],
                      ["A back patio, walkway or fire-pit area", svc("paver-patios", "paver patios and walkways"), "60 mm pavers over a 4-in. base; lighter foot-traffic load"],
                      ["The surface around a pool", svc("pool-deck-pavers", "pool deck pavers"), "Travertine or concrete pavers set to the coping; cooler underfoot than dark concrete"],
-                     ["A sunken, stained or shifted paver surface", svc("paver-sealing", "paver sealing and restoration"), "Cleaning, re-sanding, sealing and releveling, not a new install"],
+                     ["A sunken, stained or shifted paver surface", svc("paver-restoration", "paver restoration"), "Cleaning, re-sanding, releveling and optional sealing, not a new install"],
                      ["A retaining wall, raised planter or seat wall", svc("retaining-walls", "retaining walls"), "Segmental block with drainage behind the wall, not just under it"],
                      ["A turf accent inside a paver field", svc("artificial-turf", "artificial turf"), "Same washed-rock base as a full lawn, tied into the paver's edge restraint"]])),
         sec("Materials: concrete, travertine, clay brick and porcelain",

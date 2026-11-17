@@ -68,7 +68,7 @@ HUB = page("/belle-isle-fl/", "city", "Concrete, Pavers & Turf Company in Belle 
                     ("/orlando-fl/", "Concrete, pavers and turf in Orlando"),
                     ("/winter-park-fl/", "Concrete, pavers and turf in Winter Park"),
                     ("/blog/orange-county-orlando-driveway-patio-permits/", "Orlando and Orange County permits"),
-                    ("/compare/concrete-vs-pavers/", "Concrete vs. pavers")],
+                    ("/compare/pavers-vs-concrete-driveway/", "Pavers vs. concrete driveways")],
            eyebrow="Concrete · Pavers · Turf in Belle Isle, FL")
 
 # ---------------------------------------------------------------------- services

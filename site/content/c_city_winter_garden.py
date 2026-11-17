@@ -382,9 +382,9 @@ LOCAL["concrete-repair"] = {
 
 # 11. paver-sealing -------------------------------------------------------------
 LOCAL["paver-sealing"] = {
-    "title": "Paver Sealing & Restoration in Winter Garden, FL",
+    "title": "Paver Sealing in Winter Garden, FL",
     "meta": "Paver sealing in Winter Garden, FL: the normal twice-a-week SJRWMD watering calendar and cleaning pavers near Lake Apopka, Oct. 2026.",
-    "h1": "Paver Sealing and Restoration Near Lake Apopka",
+    "h1": "Sealing Pavers Near Lake Apopka",
     "lede": capsule(f"A wash, re-sand and seal on Winter Garden pavers lands somewhere in {price('paver-sealing')} per {per('paver-sealing')}, the Florida figure this month. "
                      "Unlike several counties farther north, Orange isn't under a one-day-a-week watering order right now, and that distinction matters less for a sealing job than homeowners expect, since a hose-fed washer was never on the sprinkler calendar to begin with."),
     "sections": [

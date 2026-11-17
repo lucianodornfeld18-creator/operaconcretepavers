@@ -75,7 +75,7 @@ HUB = page("/maitland-fl/", "city", "Concrete, Pavers & Turf Company in Maitland
                     ("/winter-park-fl/", "Concrete, pavers and turf in Winter Park"),
                     ("/orlando-fl/", "Concrete, pavers and turf in Orlando"),
                     ("/blog/orange-county-orlando-driveway-patio-permits/", "Orlando and Orange County permits"),
-                    ("/compare/concrete-vs-pavers/", "Concrete vs. pavers")],
+                    ("/compare/pavers-vs-concrete-driveway/", "Pavers vs. concrete driveways")],
            eyebrow="Concrete · Pavers · Turf in Maitland, FL")
 
 # ---------------------------------------------------------------------- services

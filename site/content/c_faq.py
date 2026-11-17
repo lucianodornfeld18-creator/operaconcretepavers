@@ -123,7 +123,7 @@ def faq_pavers():
             f"{post('why-pavers-sink-in-florida', 'Why pavers sink in Florida')} and {post('ants-and-weeds-in-paver-joints', 'ants and weeds between pavers')} go deeper on what happens when either one fails.</p>"),
         sec("Heat, reuse and cleaning",
             f"<p>Upkeep questions come up almost as often as installation ones: whether pavers get too hot to walk on barefoot, whether old units are worth saving during a remodel, and how to clean them without damaging the joints. None of the three has a one-size answer, since color, material and how a surface gets used all change the result. "
-            f"{svc('paver-sealing', 'Our paver sealing and restoration page')} and {post('how-to-clean-pavers-without-damage', 'how to clean pavers without ruining the joints or sealer')} cover routine care beyond the three questions below.</p>"),
+            f"{svc('paver-restoration', 'Our paver restoration page')} and {post('how-to-clean-pavers-without-damage', 'how to clean pavers without ruining the joints or sealer')} cover routine care beyond the three questions below.</p>"),
     ])
     faqs = [
         faq("How long do pavers last?",

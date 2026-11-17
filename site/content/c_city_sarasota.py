@@ -503,7 +503,7 @@ LOCAL = {
     "paver-sealing": {
         "title": "Paver Sealing in Sarasota, FL – Salt-Air Upkeep",
         "meta": "Paver sealing in Sarasota, FL runs faster near salt air off the bay and Gulf; market range is " + price("paver-sealing") + " per " + per("paver-sealing") + ", as of October 2026.",
-        "h1": "Paver Sealing and Restoration in Sarasota",
+        "h1": "Cleaning, Re-Sanding and Sealing Pavers in Sarasota",
         "lede": capsule(
             "Cleaning, re-sanding and sealing pavers in Sarasota runs " + price("paver-sealing") + " per " + per("paver-sealing") + " as of October 2026. Lots within a couple thousand feet of "
             "Sarasota Bay or the Gulf sit in what FDOT classifies as a marine environment, which is part of why sealing comes up sooner there than on an inland lot."

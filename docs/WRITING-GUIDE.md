@@ -6,10 +6,10 @@ Internal. Never rendered. Read all of it before writing a content module.
 
 **Opera Concrete & Pavers** is a locally run concrete, pavers and artificial-turf company with **two crews / service units**:
 
-- **Orlando unit** (Greater Orlando / Central Florida): Orange, Osceola, Seminole, Lake and Polk counties — Orlando, Kissimmee, Clermont, Oviedo, Winter Garden, Windermere and nearby towns.
+- **Orlando unit = "Kissimmee & Greater Orlando"** (based in Kissimmee; Greater Orlando / Central Florida): Orange, Osceola, Seminole, Lake and Polk counties — Orlando, Kissimmee, Clermont, Oviedo, Winter Garden, Windermere and nearby towns.
 - **Sarasota unit** (Suncoast): Sarasota and Manatee counties — Sarasota, Lakewood Ranch, Bradenton, Venice and nearby towns.
 
-First person plural ("we"). Service-area business: **no street address, no showroom**. Each unit will get its own phone number later; until then, never print a phone number — use `tel("orlando")` / `tel("sarasota")` (they fall back to the estimate form automatically) or `contact()`. Never print an e-mail address.
+First person plural ("we"). Service-area business: **no street address, no showroom**. Each unit has its own phone (since 2026-11-17): Kissimmee & Greater Orlando unit (689) 354-0025, Sarasota unit (941) 207-7585. Never type a number by hand: use `tel("orlando")` / `tel("sarasota")` or `contact()`, which read `_data.UNITS`. The Orlando unit's Google Business Profile is in Kissimmee and the Sarasota unit's is in Sarasota, so the Orlando unit is written "Kissimmee & Greater Orlando". Never print an e-mail address.
 
 **Never mention or link** ocoeeconcrete.com, lakewoodranchconcretefl.com, sarasotaconcrete.com, windermereconcrete.com, grovelandconcrete.com, kissimmeeconcrete.com, kissimmeeartificialturf.com, GCM Best Services, or any "sister", "partner" or "network" company. Do not cite any of those sites as a source either.
 

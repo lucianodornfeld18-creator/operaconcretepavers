@@ -76,7 +76,7 @@ HUB = page("/longwood-fl/", "city", "Concrete, Pavers & Turf Company in Longwood
                     ("/winter-springs-fl/", "Concrete, pavers and turf in Winter Springs"),
                     ("/altamonte-springs-fl/", "Concrete, pavers and turf in Altamonte Springs"),
                     ("/blog/seminole-county-driveway-patio-permits/", "Seminole County driveway and patio permits"),
-                    ("/compare/concrete-vs-pavers/", "Concrete vs. pavers")],
+                    ("/compare/pavers-vs-concrete-driveway/", "Pavers vs. concrete driveways")],
            eyebrow="Concrete · Pavers · Turf in Longwood, FL")
 
 # ---------------------------------------------------------------------- services

@@ -61,6 +61,14 @@ def paver_patio_cost():
                   "Edge restraint as its own line item; it's invisible once the job is finished and easy to leave off a cheap bid",
                   "Whether removal and haul-off of an existing slab, sod or landscaping is included or billed separately",
                   f"Who applies for any required permit, and whether the fee is in the price; a contract over $2,500 also triggers Florida's Notice of Commencement paperwork, recorded with the county clerk before anyone breaks ground ({src('fs713-13', 'F.S. 713.13')})"])),
+        sec("What restoration adds to a sealing quote",
+            f"<p>Sealing prices assume a surface that's already sound. When it isn't, the extra work is priced by the area it touches, not by the whole patio. Releveling and repair run {price('paver-restoration')} {per('paver-restoration')}, with {price('paver-restoration', True)} as the typical band, per market data as of October 2026 "
+            f"({src('homeguide-driveway-repair', 'HomeGuide')}; {src('outdoorlifepros-paver-repair-capecoral', 'Outdoor Life Pros, Cape Coral')}). That sits on top of the sealing figure, not inside it.</p>"
+            + ul(["Releveling: pulling units, correcting the base and bedding sand, resetting and compacting. Cost climbs with depth of the problem and how hard it is to get a plate compactor in.",
+                  "Replacing pavers: priced per unit area, with matching availability the swing factor, since an older line may be discontinued.",
+                  "Stripping sealer: only when a coat has failed. A cloudy or peeling acrylic is a different job from a urethane, which can't simply be recoated.",
+                  "Refilling joints: usually part of the clean-and-seal package, though a large washout can add sand and time."])
+            + f"<p>Which steps your surface needs, and in what order, is on the {svc('paver-restoration', 'paver restoration page')}. A written quote after a walk-through splits these lines out so you can see what each one buys.</p>"),
         sec("Related reading",
             f"<p>For the full build spec, see {svc('paver-patios', 'our paver patios and walkways page')}, which covers base depth, drainage slope and the step-by-step install. If concrete is still on the table, {compare('stamped-concrete-vs-pavers', 'our stamped concrete vs. pavers comparison')} and {compare('travertine-vs-concrete-pavers', 'travertine vs. concrete pavers')} go through the trade-offs. "
               f"{post('paver-patio-ideas-florida', 'Paver patio ideas for Florida backyards')} and {post('extend-patio-under-screen-enclosure', 'extending a patio under a screen enclosure')} are worth a look before the first bid, and {post('how-to-compare-concrete-and-paver-quotes', 'how to compare quotes line by line')} covers what to ask for in writing. The {a('/cost/', 'cost guide hub')} rounds up current pricing for every other service we quote.</p>"),
@@ -148,7 +156,7 @@ def paver_sealing_cost():
                   "Square footage measured on site, not estimated from a driveway's listed width alone",
                   "Whether a minimum job fee applies, and what square footage it covers"])),
         sec("Related reading",
-            f"<p>For the full service scope, see {svc('paver-sealing', 'our paver sealing and restoration page')}, which covers the order of steps and why releveling comes first. {compare('polymeric-sand-vs-joint-sand', 'Polymeric sand vs. regular joint sand')} and {compare('wet-look-vs-natural-paver-sealer', 'wet-look vs. natural-finish sealer')} go through the material choices. "
+            f"<p>For the full service scope, see {svc('paver-sealing', 'the paver sealing page')} for sealer types and timing, and {svc('paver-restoration', 'the paver restoration page')} for the order of steps and why releveling comes first. {compare('polymeric-sand-vs-joint-sand', 'Polymeric sand vs. regular joint sand')} and {compare('wet-look-vs-natural-paver-sealer', 'wet-look vs. natural-finish sealer')} go through the material choices. "
               f"{post('why-pavers-sink-in-florida', 'Why pavers sink in Florida')} and {post('mold-and-algae-on-pavers-florida', 'stopping mold and algae on pavers')} cover the causes behind the two most common calls, and {post('ants-and-weeds-in-paver-joints', 'ants and weeds between pavers')} rounds out the maintenance picture. The {a('/cost/', 'cost guide hub')} has current pricing for every other service we offer.</p>"),
     ])
     faqs = [

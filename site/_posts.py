@@ -65,6 +65,8 @@ POSTS = {
     'how-to-budget-a-backyard-hardscape-project-in-phases': ('How to Budget a Backyard Hardscape Project in Phases', 'c_posts_k', ['paver-patios', 'artificial-turf', 'retaining-walls'], 'both'),
     'artificial-turf-water-savings-florida': ('How Much Water and Money Does Artificial Turf Save in Florida?', 'c_posts_l', ['artificial-turf'], 'both'),
     'best-pavers-for-florida': ('What Are the Best Pavers for Florida Homes? Concrete, Clay, Travertine, Porcelain and Shellstone', 'c_posts_l', ['paver-driveways', 'paver-patios', 'pool-deck-pavers'], 'both'),
+    'paver-sealer-turned-white-or-cloudy': ("Why Paver Sealer Turns White or Cloudy in Florida, and How It's Fixed", 'c_posts_m', ['paver-sealing', 'paver-restoration'], 'both'),
+    'restore-or-replace-old-pavers': ('Restore or Replace? How to Tell if Old Pavers Can Be Saved', 'c_posts_m', ['paver-restoration', 'paver-driveways', 'paver-patios'], 'both'),
 }
 
 COMPARES = {
@@ -98,14 +100,14 @@ COST_PAGES = {
 }
 
 FAQ_PAGES = {"/faq/": "FAQ", "/faq/concrete/": "Concrete questions", "/faq/pavers/": "Paver questions", "/faq/artificial-turf/": "Artificial turf questions", "/faq/cost-and-permits/": "Cost, permit and HOA questions"}
-CORE = ["/", "/concrete/", "/pavers/", "/cost/", "/service-areas/", "/central-florida/", "/sarasota-manatee/", "/blog/", "/compare/", "/permits/", "/about/", "/contact/", "/process/", "/privacy/", "/terms/", "/accessibility/"]
+CORE = ["/", "/concrete/", "/pavers/", "/paver-restoration/", "/cost/", "/service-areas/", "/central-florida/", "/sarasota-manatee/", "/blog/", "/compare/", "/permits/", "/about/", "/contact/", "/process/", "/privacy/", "/terms/", "/accessibility/"]
 
 
 def posts_for(service, n=3):
     return [(f"/blog/{s}/", POSTS[s][0]) for s in POSTS if service in POSTS[s][2]][:n]
 
 
-COST_ALIAS = {"pool-deck-pavers": "/pool-deck-cost/"}
+COST_ALIAS = {"pool-deck-pavers": "/pool-deck-cost/", "paver-restoration": "/paver-sealing-cost/"}
 
 
 def cost_for(service):

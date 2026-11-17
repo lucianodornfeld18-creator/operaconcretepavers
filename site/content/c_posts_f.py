@@ -53,7 +53,7 @@ def p_how_to_clean_pavers_without_damage():
             faq("Do I need to reseal every time I clean pavers?",
                 "No. A routine clean, sweep and rinse doesn't remove a sound sealer coat, so resealing after every wash isn't necessary. Reseal when the surface itself tells you it's due: water that no longer beads, a color that's gone flat, or a sealer that looks worn in high-traffic areas, not on a fixed cleaning schedule."),
             ]
-    related = [("/paver-sealing/", "Paver sealing & restoration"), ("/paver-sealing-cost/", "Paver sealing cost guide"),
+    related = [("/paver-sealing/", "Paver sealing"), ("/paver-restoration/", "Paver restoration"), ("/paver-sealing-cost/", "Paver sealing cost guide"),
                ("/compare/polymeric-sand-vs-joint-sand/", "Polymeric sand vs. joint sand"),
                ("/blog/mold-and-algae-on-pavers-florida/", "Black mold and algae on pavers"),
                ("/blog/oil-and-tire-stains-on-driveways/", "Oil drips and tire marks on driveways")]

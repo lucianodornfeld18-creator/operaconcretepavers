@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Service pages: paver sealing & restoration, and retaining walls."""
+"""Service pages: paver sealing and retaining walls."""
 from _helpers import (page, capsule, sec, table, faq, ul, steps, note, cta, a, svc, city, cs, post, compare, src, ext,
                        price, per, price_note, tel, contact, photo, offer)
 from _photos import for_service
@@ -11,138 +11,146 @@ def sealing():
     K = "paver-sealing"
     pids = for_service(K, 4)
     body = "".join([
-        sec("What paver sealing and restoration covers",
-            "<p>This service bundles four separate jobs that usually get quoted and done together: pressure washing to strip algae and grime, "
-            "re-sanding the joints with dry or polymeric sand, a sealer coat, and, where a section has sunk or gone wavy, releveling the base "
-            "underneath the affected pavers. None of those steps is optional filler to pad a quote; a sealer applied over loose joint sand or a "
-            "low spot in the base just locks the problem under a glossy finish instead of fixing it, so the order in which they happen matters "
-            "as much as whether they happen at all. For the original install spec on a driveway, patio or pool deck, see "
-            f"{svc('paver-driveways', 'paver driveways')}, {svc('paver-patios', 'paver patios')} or {svc('pool-deck-pavers', 'pool deck pavers')}; "
-            f"this page covers what it takes to bring an existing paver surface back to that condition.</p>"
+        sec("What does paver sealing do, and what doesn't it do?",
+            "<p>A sealer is a liquid coating or penetrating treatment that goes onto a clean, dry paver surface. The paver industry's technical bulletin says it "
+            f"reduces the intrusion of water, stains, oils and dirt, and that most sealers darken the paver and intensify its color ({src('icpi-ts5', 'ICPI Tech Spec 5')}). "
+            "It also soaks into the top of the joint sand, so it gives the joints a little stabilization as a side effect.</p>"
+            "<p>What it doesn't do is fix anything underneath. A sealer adds no load-bearing strength, it won't raise a sunken corner, and it can't bind joints that "
+            "have already emptied out. Sealing is also optional: the same industry spec calls sealers and joint sand stabilizers refinements, not a requirement for a paver "
+            f"field to perform ({src('icpi-ts2', 'ICPI Tech Spec 2')}). People choose it for color, easier cleaning and fewer stained joints, and that's a fair reason. "
+            "Whatever is wrong with the surface itself belongs on the "
+            f"{svc('paver-restoration', 'paver restoration')} page, because coating over a problem only hides it for a season."
+            "</p>"
             + (photo(pids[0], "A worker in a hat and gloves pressure-washing a paver patio in front of a stucco house.") if pids else "")),
-        sec("Cleaning: what a pressure wash actually accomplishes",
-            "<p>Pressure washing alone runs about $0.35 to $0.80 per square foot and does more than make a dull surface look new; it strips the "
-            f"algae, grime and old sand haze that would otherwise get trapped under a fresh sealer coat ({src('homeguide-pressure-wash', 'HomeGuide')}). "
-            "It also doubles as an inspection pass. A wand held close and straight down into a joint pulls out whatever sand is still sitting there, "
-            "which defeats the point of a step meant to prep the surface rather than strip it bare, so the spray goes in at an angle across the "
-            "field, with direct pressure saved only for a stain that actually needs it. Walking the whole surface during this stage, not just the "
-            "obviously dirty sections, is how a soft spot or a rocking unit gets caught before any sand or sealer goes down over it.</p>"),
-        sec("Re-sanding: dry joint sand or polymeric sand",
-            "<p>Once the surface is clean and dry, the joints get swept full again. Dry sand and polymeric sand do the same basic job differently, "
-            "and the choice changes how often the next visit is needed.</p>"
-            + table("Dry joint sand vs. polymeric sand", ["", "Dry sand", "Polymeric sand"],
-                    [["How it's placed", "Swept in dry, compacted", "Swept in dry, then misted to activate a binder"],
-                     ["Resistance to washout", "Lower; can migrate with heavy rain or traffic", "Higher once cured, resists washout better"],
-                     ["Joint width it suits", "Any joint meeting the spec", "Any joint meeting the spec; wider joints need more sand per pass"],
-                     ["Required by spec", "No fixed material is mandated", "No fixed material is mandated"]],
-                    f"Joint sand and sealer are both optional refinements under the industry's own construction standard, not a requirement for a "
-                    f"paver field to perform ({src('icpi-ts2', 'ICPI Tech Spec 2')}).")
-            + "<p>Plain sand costs less upfront and is easier to top off by hand between full services. Polymeric sand costs more at the time of "
-              "installation and holds up better against washout, which matters more on a sloped patio, a driveway apron that sees runoff, or a "
-              f"pool deck that gets splashed daily. The full trade-off is in {compare('polymeric-sand-vs-joint-sand', 'polymeric sand vs. regular joint sand')}.</p>"),
-        sec("Sealing: wet-look, natural finish and why there's no fixed resealing interval",
-            "<p>A sealer coat deepens paver color, adds sheen if it's a wet-look product, and slows UV fading and staining, but the paver industry's own "
-            f"technical guidance gives no fixed number of years before a coat needs redoing, only that it \"requires reapplication after a period of "
-            f"wear and weather\" and that acrylic coatings typically hold up a few years before a recoat is worth it ({src('icpi-ts5', 'ICPI Tech Spec 5')}). "
-            "A driveway in full sun with daily car traffic wears through a coat faster than a shaded walkway on the same property ever will, so the real "
-            "clock is the surface itself: water that used to bead and roll off now soaks in, or a color that looked rich has gone flat. A wet-look "
-            "sealer darkens and adds noticeable shine compared with a natural matte finish, and there's no single standard dictating which one a given "
-            f"product produces, which is why we test a small, less visible section before committing a whole surface to it. {compare('wet-look-vs-natural-paver-sealer', 'Wet-look vs. natural-finish sealer')} "
-            "covers the look each one leaves behind.</p>"
-            + (photo(pids[1], "A close-up top-down view of gray interlocking concrete pavers fitted tightly together.") if len(pids) > 1 else "")),
-        sec("Releveling a sunken or rocking paver",
-            "<p>A paver that's sunk or started to rock almost always points to a problem underneath it, a soft spot or a void in the compacted "
-            "aggregate base, not something a surface coat can reach. The fix mirrors the original installation on a smaller scale rather than "
-            "patching over it.</p>"
-            + steps([("Pull the affected paver or pavers.", "The unit comes out intact in most cases so it can go back in the same spot."),
-                     ("Rebuild the bedding sand.", "The sand layer under the removed paver is restored to its original, uncompacted depth, not just topped off."),
-                     ("Reset the paver flush.", "The unit goes back in level with its neighbors and checked with a straightedge across the joint."),
-                     ("Sweep and compact fresh joint sand.", "New sand fills the joint around the reset paver and gets compacted into place."),
-                     ("Match the surrounding sealer and sand.", "A previously sealed area gets the reset section brought back into line with the rest of the field.")])
-            + f"<p>Paver repair work, priced by scope rather than a flat per-square-foot sealing rate, runs roughly $7 to $30 per sq ft nationally "
-              f"({src('angi-patio-repair', 'Angi')}), and a Southwest Florida installer quotes paver repair in Cape Coral at a narrower $4 to $8 per sq ft "
-              f"({src('outdoorlifepros-paver-repair-capecoral', 'Outdoor Life Pros')}). A small corrected area costs far less than letting several pavers in the "
-              "same spot sink before calling it in.</p>"),
-        sec("Why Florida ground makes joints and bases move",
-            "<p>Flatwoods soils common to both service areas, Myakka among them, hold a seasonal water table within about 18 inches of the surface for "
-            f"part of most years ({src('nrcs-myakka-osd', 'NRCS, Myakka series')}). When that water table rises into the base under a paver field, fine "
-            "material can migrate upward through the joints from below, not just wash out from above during a storm, which is one reason a patio or "
-            "driveway on this kind of ground often needs its joints checked more than once a season even without a change in traffic. Ridge sands "
-            "farther from the coast drain fast enough that the same joints tend to go longer between visits. Orlando averages 51.45 inches of rain a "
-            f"year and Sarasota–Bradenton about 49.05, most of it in a rainy season running roughly late May into mid-October ({src('ncei-annual-prcp', 'NOAA 1991–2020 normals')}); "
-            "scheduling cleaning and sealing for a dry stretch, rather than racing a forecast, keeps a sealer from going down on a surface that's still "
-            "damp underneath.</p>"),
-        sec("Cost of paver cleaning, re-sanding and sealing",
-            f"<p>Combined cleaning, re-sanding and sealing runs {price('paver-sealing')} per {per('paver-sealing')} in current Florida market data, "
-            f"typically {price('paver-sealing', True)} ({src('homeguide-seal-pavers', 'HomeGuide')}; {src('castle-paver-sealing-cfl', 'Castle Clean & Seal, Central Florida')}). "
-            "These are market ranges compiled from published installer pricing and cost guides, current as of October 2026; a written number for a "
-            f"given surface follows a site visit, not a guess from the square footage alone. The {a('/paver-sealing-cost/', 'paver sealing cost guide')} "
-            "breaks the range down by surface size and condition.</p>"),
-        sec("Permits for cleaning, sealing and releveling",
-            "<p>Cleaning, re-sanding and sealing an existing paver surface isn't new construction and doesn't touch the right-of-way, so none of the "
-            "jurisdictions in either service area treat it as permitted work. Releveling a small, localized section follows the same logic. A large "
-            "releveling job that amounts to pulling and rebuilding most of a driveway or patio's base, by contrast, is close enough to a new "
-            f"installation that it can trigger the same permit review a new paver surface would; {post('driveway-widening-and-extensions-florida', 'widening or rebuilding a driveway')} "
-            f"covers that line. On any contract over $2,500, Florida's lien law still requires a recorded Notice of Commencement before work starts "
-            f"({src('fs713-13', 'F.S. 713.13')}), and since 2026 an HOA can't require a government permit as a condition of reviewing a project "
-            f"({src('fs720-3035', 'F.S. 720.3035')}), which can matter if a different sealer finish changes how a paver surface reads from the street.</p>"),
-        sec("Caring for pavers between professional visits",
-            "<p>A light sweep and an occasional rinse between full sealing visits keeps windblown sand and grit from scratching a sealed surface "
-            "underfoot, since that slow abrasion does more cumulative damage than any single storm. A handful of joints losing sand faster than the "
-            "rest, often near a downspout or a shaded corner that stays damp, can usually be topped off by hand rather than left until the whole "
-            "surface needs attention again. Acidic or ammonia-heavy household cleaners can dull or strip a sealer coat faster than ordinary sun and "
-            "rain ever would, so checking a product's label against paver compatibility before using it on a stain is worth the extra minute. "
-            f"{post('how-to-clean-pavers-without-damage', 'How to clean pavers without ruining the joints or sealer')} goes further.</p>"
-            + (photo(pids[2], "A herringbone-pattern paver driveway and walkway leading to a garage.") if len(pids) > 2 else "")),
+        sec("Which paver sealer type fits: water-based, solvent-based, acrylic or urethane?",
+            "<p>There are two separate questions folded into that one. First is the carrier: a sealer is either water-based or solvent-based. Second is the resin: acrylic, urethane, "
+            "silane, siloxane or a water-based epoxy blend. Tech Spec 5 gives the working differences, and it says the supplier should confirm any product for the environment it's going into.</p>"
+            + table("Sealer types for concrete pavers (from ICPI Tech Spec 5)", ["Type", "Look when cured", "Good to know"],
+                    [["Acrylic (solvent or water-based)", "Gloss, strong color enhancement", "Good stain resistance; a few years between coats; can be cleaned and recoated; made-for-paver acrylics don't yellow"],
+                     ["Urethane (solvent or water-based)", "High gloss", "More chemical-resistant than acrylic; aromatic types need a UV inhibitor; can't be refreshed by recoating, and removal is difficult"],
+                     ["Silane or siloxane", "Flat, no gloss, slight color deepening at first", "Penetrates rather than coating; breathable; can deter efflorescence; doesn't resist oil unless it has an additive for that"],
+                     ["Water-based epoxy blend", "Slight sheen", "Open surface that breathes; generally doesn't change skid resistance; meant for heavy-use areas"]],
+                    "Alkyd, ester and polyvinyl acetate sealers are not recommended for pavers, and epoxies and silicones are generally not used on them, per the same bulletin.")
+            + "<p>The solvent-versus-water split matters for how it behaves on the day. Solvent carries its solids as deep as the solvent will go and flashes off fast. Water-based "
+              "sealers are emulsions: the particles can't go as deep, and they dry more slowly, with cure time that swings with temperature, wind and humidity. Solvent products are also the ones "
+              "that tend to run into VOC rules and need good ventilation, with no flame or sparks nearby; most water-based sealers meet those limits, per the same source.</p>"
+              "<p>So which one fits? There's no single answer. A residential driveway that sees tires and oil leans acrylic. A pool deck facing chlorine leans penetrating silane or siloxane. "
+              "A urethane is the one to think hardest about, because the day you want a different finish it can't just be recoated. We name the product and its type in the written scope so you "
+              "can read its manufacturer data sheet before anything is opened.</p>"),
+        sec("Wet-look or natural finish: how will it look?",
+            "<p>Almost every sealer changes the surface, so the real choice is how much. Gloss acrylics and urethanes give the dark, glossy wet-look. Siloxane and silane products leave a flat "
+            "finish, and some acrylics and water-based blends sit in between at a low sheen. The bulletin notes that over-applying a sealer can leave the surface slippery once cured, so a heavy gloss "
+            "coat isn't automatically better, particularly around a pool. Ask for a test patch in a corner, let it cure, and look at it in morning and late-afternoon light before the whole field gets "
+            f"coated. The side-by-side is in {compare('wet-look-vs-natural-paver-sealer', 'wet-look vs. natural-finish paver sealer')}.</p>"
+            + (photo(pids[1], "Herringbone-pattern paver driveway and walkway leading to a modern house garage.") if len(pids) > 1 else "")),
+        sec("Joint-stabilizing and sand-binding sealers",
+            "<p>The industry bulletin treats joint sand stabilizers and sealers as two products with overlapping jobs. A liquid stabilizer is often built from the same resins as a sealer, with a "
+            "higher solids content (typically 18% to 28%), and it's meant to soak at least three-quarters of an inch into the joint sand. Dry stabilizers get mixed into the sand and activated "
+            f"with water. Either way, the goal is to keep sand from washing, blowing or getting scuffed out, and to discourage seeds and insects from moving in ({src('icpi-ts5', 'Tech Spec 5')}).</p>"
+            "<p>The spec says stabilizing joints is generally optional, since silt and fines settle into the sand and firm it up over time. It does recommend it on slopes over 7% or "
+            "under 1.5%, and it names two spots where it earns its keep at a house: downspouts and under the eaves, where concentrated water keeps stripping sand. Which you'd choose between "
+            f"plain sand and a binder is covered in {compare('polymeric-sand-vs-joint-sand', 'polymeric sand vs. regular joint sand')}.</p>"),
+        sec("When should you seal new pavers?",
+            "<p>Wait for the first bloom to show and fade. Efflorescence is a whitish calcium carbonate film that can appear immediately or within months and can peak in as short as 60 days; it "
+            "doesn't affect the strength or durability of the pavers, and some of it wears off. If the job was installed in the dry season, the first stretch of wet weather may be what brings it up "
+            f"({src('icpi-ts5', 'ICPI Tech Spec 5')}).</p>"
+            "<p>The reason to wait is trapping. The same bulletin lists conditions that make a sealer turn white: a surface or joints that aren't dry, pavers that haven't had enough exposure to moisture, "
+            "a source of efflorescence in the sand, base or soil, and a sealer that can't breathe. Florida adds a twist, because a paver patio installed in the dry winter months hasn't been through a "
+            f"summer storm cycle. See {post('efflorescence-on-pavers-and-concrete', 'the white haze on new pavers')} for what that looks like, and "
+            f"{post('paver-sealer-turned-white-or-cloudy', 'why sealer turns cloudy')} for what happens when it gets sealed too early.</p>"),
+        sec("Sealing pool decks and travertine",
+            "<p>A pool deck gets a harder life than a driveway: chlorine, splash-out, bare feet and constant wet-dry cycles. For concrete pavers, the bulletin says silanes and siloxanes are "
+            "useful around pool decks to limit chlorine damage and are suited to salt exposure. An acrylic still earns its place when color depth matters more than breathability. Because over-applied "
+            "sealer can go slick, we keep the coat thin on a deck and ask the manufacturer for slip performance wet and dry.</p>"
+            "<p>Travertine is natural stone, not concrete, and the paver industry bulletin covers concrete pavers only. The sealer you'd pick for one isn't automatically right for the other, "
+            "so read the data sheet for a rating on natural stone, and test a loose corner first. Travertine's open pores and filled holes bring their own care questions, which are laid out in "
+            f"{post('travertine-pool-deck-care', 'travertine pool deck care in Florida')}, and the {post('saltwater-pools-and-coastal-salt-air-hardscape', 'saltwater pool and salt air guide')} "
+            "goes into what a salt system does to a deck.</p>"),
+        sec("Salt air on the coast, sandy ridge soil inland",
+            "<p>The two service areas ask different things of a sealer. Near the Gulf in Sarasota and Manatee counties, salt air and a high water table are the main factors; the "
+            "bulletin points to silane and siloxane for chloride and salt-air exposure, and says a poorly draining base can leave a sealer cloudy. Inland around Kissimmee and Orlando, the "
+            f"ridge sands such as Candler and Astatula drain fast ({src('nrcs-candler-osd', 'NRCS, Candler series')}), while flatwoods ground such as Myakka holds water close to the surface for "
+            f"part of the year ({src('nrcs-myakka-osd', 'NRCS, Myakka series')}). Wet sand under a paver field is exactly the situation where trapped moisture clouds a coat, so drainage under the "
+            "pavers is part of how we judge whether a surface is ready.</p>"),
+        sec("Weather window: when can pavers be sealed in Florida?",
+            "<p>The surface and joints must be dry through, and the bulletin asks for at least 24 hours without moisture or surface dampness before application, with calm wind so the product "
+            "doesn't drift or lay on unevenly. Turn off the sprinklers during cleaning, sealing and drying too. Rain totals are close in the two areas, 51.45 inches a year at Orlando's airport against 49.05 at Sarasota-Bradenton's, "
+            f"and the wet months run roughly late May into mid-October ({src('ncei-annual-prcp', 'NOAA 1991-2020 normals')}). That doesn't make summer impossible, but it makes the "
+            "late-October-to-May stretch easier, and it explains why we reschedule rather than seal a field that's damp underneath.</p>"
+            "<p>Once the coat is down, keep all traffic off until the sealer is completely dry, typically 24 hours per the same bulletin. Plan for cars to wait longer, and check the label.</p>"),
+        sec("How we apply sealer",
+            "<p>This is the method, in the order it happens. Stains come out first, then the efflorescence and dirt. The joints are checked, and if they're low, they get topped up before coating.</p>"
+            + steps([("Protect what's nearby.", "Plants, stucco and door thresholds get covered, and sprinklers get switched off."),
+                     ("Confirm the surface is dry.", "We allow a full dry period after washing instead of trusting how the top looks."),
+                     ("Test a small area.", "A corner patch shows the finish and the absorption rate of that particular paver."),
+                     ("Spread and squeegee.", "A roller or low-pressure sprayer lays the product down, then a rubber squeegee moves surplus off the surface so it doesn't build up and so joint sand isn't pulled out."),
+                     ("Let the chamfers and joints soak.", "The goal is penetration into the joint sand, not a thick film on top; generally one coat is enough."),
+                     ("Keep traffic off.", "Feet and wheels wait for the cure time on the label.")])),
+        sec("How often does a paver sealer need redoing?",
+            "<p>No fixed number. Tech Spec 5 says sealers normally need reapplication after a period of wear and weather, depending on use, climate and the quality of the sealer, and that acrylics "
+            "generally last for a few years before recoating. Watch the surface: water that used to bead now soaks in, or color goes flat. A full-sun driveway wears through a coat sooner than a shaded walk. "
+            f"The {post('how-to-clean-pavers-without-damage', 'how to clean pavers without damaging them')} guide helps you keep it going between visits.</p>"),
+        sec("Cleaning, releveling, stripping and replacing pavers: the short version",
+            "<p>Sealing goes last. If the surface has black algae, rust stains, a failed hazy coat, rocking pavers or broken units, those get dealt with first, and that's a separate scope with its own "
+            f"steps. Everything about it is on the {svc('paver-restoration', 'paver restoration')} page, so it isn't repeated here.</p>"),
+        sec("What does paver sealing cost in Florida?",
+            f"<p>Combined cleaning, re-sanding and sealing runs {price('paver-sealing')} per {per('paver-sealing')} in current market data, typically {price('paver-sealing', True)} "
+            f"({src('homeguide-seal-pavers', 'HomeGuide')}; {src('castle-paver-sealing-cfl', 'Castle Clean & Seal, Central Florida')}). Those are market ranges as of October 2026, not a quote. "
+            "A written number follows a look at the surface, since size, joint condition and stains change it more than a ZIP code does. Line by line, see the "
+            f"{a('/paver-sealing-cost/', 'paver sealing cost guide')}.</p>"),
+        sec("Permits and paperwork for sealing",
+            "<p>Sealing an existing surface isn't new construction and doesn't touch the right-of-way, so it isn't treated as permitted work. On a contract over $2,500, Florida's lien law still "
+            f"calls for a recorded Notice of Commencement before work begins ({src('fs713-13', 'F.S. 713.13')}). In an HOA community, a color or sheen change can be an architectural "
+            "review item, so check the covenants before you pick a gloss. Since 2026 an HOA can't make a government permit a condition of reviewing a project "
+            f"({src('fs720-3035', 'F.S. 720.3035')}).</p>"),
         sec("How do you choose the best paver sealing company near you?",
-            "<p>Paver sealing companies near me turns up plenty of results in both service areas; a few questions sort the ones who inspect the "
-            "base from the ones who just spray and go.</p>"
-            + ul(["Ask whether the crew checks for sunken or rocking pavers before cleaning, not after the sealer's already down.",
-                  "Get the sand type specified, dry or polymeric, rather than a generic line item that just says \"re-sand.\"",
-                  "Ask to see a sample of the sealer finish, wet-look or natural, on a small test area before committing the whole surface.",
-                  "Ask for a certificate of insurance sent straight from the insurance agent before the crew starts pressure washing.",
-                  "Confirm the order of operations in writing: any releveling first, then cleaning, then sand, then sealer, not sealer first."])
-            + f"<p>{post('why-pavers-sink-in-florida', 'Why pavers sink in Florida, and how it gets fixed')} and {post('efflorescence-on-pavers-and-concrete', 'the white haze on new pavers')} go into the causes behind two of the most common calls.</p>"),
-        sec("Where we clean, re-sand and seal pavers",
-            f"<p>We clean, re-sand, seal and relevel paver surfaces across Greater Orlando and Sarasota–Manatee. Related towns: {cs('orlando', K)}, "
-            f"{cs('windermere', K)}, {cs('sarasota', K)} and {cs('bradenton', K)}.</p><!--AUTO:service-cities-->"),
+            "<p>Searching for paver sealing near me turns up a long list in both areas. A few criteria separate a crew that coats a surface from one that just sprays it.</p>"
+            + ul(["The product named in writing, with its type (acrylic, urethane, silane or siloxane) and a link to its data sheet.",
+                  "A dry period after washing stated in the scope, not a same-hour pressure wash and seal.",
+                  "A test patch before the whole surface is committed.",
+                  "A certificate of insurance sent directly by the agent, and the company looked up on Sunbiz so the name on the contract is active.",
+                  "A coat rate or coverage figure, so you can tell a thin coat from a flooded one.",
+                  "Who handles HOA paperwork if a finish change needs approval."])),
+        sec("Where we seal pavers",
+            f"<p>We seal pavers across Kissimmee and Greater Orlando, with the {a('/central-florida/', 'Kissimmee & Greater Orlando crew')} reached at {tel('orlando')}, and across Sarasota, "
+            f"Lakewood Ranch and Bradenton, with the {a('/sarasota-manatee/', 'Sarasota crew')} at {tel('sarasota')}. Town pages: {cs('orlando', K)}, {cs('kissimmee', K)}, {cs('sarasota', K)} "
+            f"and {cs('bradenton', K)}.</p><!--AUTO:service-cities-->"),
     ])
     faqs = [faq("How often should pavers be sealed in Florida?",
-                "There's no fixed number of years written into the sealer's own specification, only that acrylic coatings typically hold up a few years before a recoat is worth doing. A driveway in full sun with daily traffic wears through a coat sooner than a shaded walkway, and a pool deck or coastal surface facing more water, chlorine or salt spray tends to need attention sooner too. Watching the surface, rather than a date on a calendar, is the more reliable signal."),
+                "There's no fixed number of years in the sealer specification. It says sealers need reapplication after wear and weather, and that acrylics typically last a few years. A sunny driveway with daily traffic wears a coat sooner than a shaded walkway, and a pool deck or coastal surface takes more water, chlorine or salt. Watch for water soaking in rather than beading, or color going flat, instead of marking a date."),
             faq("How long should I wait to seal new pavers?",
-                "New concrete pavers can show a whitish efflorescence bloom within about 60 days of installation; it's cosmetic and typically fades on its own with normal weathering. Sealing over an active bloom before it's had a chance to clear can trap it under the coat instead, so waiting roughly a season before the first sealing visit usually gives a better result than sealing on a fixed schedule regardless of the paver's age."),
+                "Efflorescence can peak in as short as 60 days and may only show after the first wet weather if pavers went in during the dry season. Sealing over an active bloom can trap it. Waiting for the first wet season to pass, then cleaning, usually gives a clearer result than sealing on a fixed schedule."),
             faq("How long after sealing can I walk or drive on my pavers?",
-                "Most sealers are dry to the touch, and safe for foot traffic, within a few hours; manufacturers generally recommend waiting a day or two before parking a vehicle on the surface so the coat has time to cure fully. Cure time varies by product, humidity and temperature, so checking the specific sealer's label is worth doing before moving furniture or a car back onto a freshly sealed area."),
-            faq("Can sunken pavers be re-leveled without new pavers?",
-                "Yes, in most cases the same pavers come back out, get reset on rebuilt bedding sand, and go back in flush with their neighbors; replacement units are only needed if a paver has cracked or chipped during removal. Releveling addresses the base problem that caused the sinking in the first place, which is why it has to happen before any cleaning or sealing on that section."),
-            faq("Can you replace a few cracked or stained pavers?",
-                "Yes, individual units can be pulled and swapped without disturbing the rest of the field, which is one of the practical advantages pavers have over a poured slab. The caveat is color match: if the original paver line is still in production, a close match is usually possible, but many lines get discontinued or re-blended within a few years, so an exact match isn't guaranteed on an older surface."),
+                "The industry bulletin says to keep traffic off until the sealer is completely dry, typically 24 hours. Many people allow foot traffic sooner and hold vehicles longer. Cure time moves with the product, humidity and temperature, so the label for the specific sealer is the final word before furniture or a car goes back."),
             faq("Does sealing pavers stop weeds and ants?",
-                "Sealing helps indirectly by locking compacted joint sand in place, which removes the loose, hospitable gap that weed seed and ants are drawn to in the first place. It isn't a pesticide or an herbicide, and a joint that's already lost its sand needs re-sanding before a sealer coat does much good against either problem."),
+                "It helps indirectly. Sealers and joint stabilizers soak into the sand and hold it in place, which reduces the loose gap seeds and insects use. It isn't a herbicide or an ant treatment, and joints that have already lost their sand need refilling before a coat does much. More in the post on ants and weeds in paver joints."),
             faq("Why did my pavers turn white or cloudy after sealing?",
-                "A cloudy or whitish film right after a sealer goes down is usually blushing, moisture trapped underneath the coat before it fully cured, often from sealing a surface that wasn't completely dry or from applying it during high humidity. It's a different issue from efflorescence, which is a mineral deposit that shows up before sealing, not after; a blushed coat typically needs to be stripped and reapplied under drier conditions rather than left to clear on its own.")]
-    return page("/paver-sealing/", "service", "Paver Sealing & Restoration | Orlando & Sarasota, FL",
-                "Paver cleaning, re-sanding with dry or polymeric sand, sealing and releveling sunken pavers. Florida market range $1.50-$3.25/sq ft as of October 2026.",
-                "Clean, Re-Sand, Seal and Relevel: Paver Restoration in the Right Order",
-                capsule("Paver sealing and restoration combines pressure washing, re-sanding with dry or polymeric joint sand, a sealer coat and, where "
-                        "pavers have sunk or shifted, releveling the base underneath them. As of October 2026, Florida installers price the combined "
-                        "service at $1.50–$3.25 per square foot. We handle all four steps, in that order, across Greater Orlando and Sarasota–Manatee."),
+                "Usually moisture or efflorescence got trapped: damp joints, a thick coat, a base that drains poorly, or a sealer that can't breathe. It is different from the white film on new pavers that appears before sealing. The fix typically means removing or re-dissolving the coat under drier conditions. The full explanation is in the post on why paver sealer turns white or cloudy."),
+            faq("Is a wet-look sealer slippery?",
+                "It can be if too much goes on. The industry bulletin warns against over-applying sealer because the surface can turn slick once cured, and it points to the manufacturer for wet and dry slip performance. On a pool deck, a thin coat or a flat-finish penetrating sealer is the cautious route."),
+            faq("Can I seal travertine with the same product as concrete pavers?",
+                "Not automatically. The paver industry's sealer guidance covers concrete pavers; travertine is natural stone with open pores. Check the data sheet for a natural-stone rating and test a hidden corner first. A sealer that looks fine on concrete can leave natural stone blotchy or darker than you wanted.")]
+    return page("/paver-sealing/", "service", "Paver Sealing in Kissimmee, Orlando & Sarasota, FL",
+                "Paver sealing types, wet-look vs natural, timing for new pavers and Florida weather. Market range $1.50-$3.25/sq ft as of October 2026.",
+                "Paver Sealing: Sealer Types, Finish, Timing and Cost in Florida",
+                capsule("Paver sealing is a protective coat over clean, dry, re-sanded pavers. As of October 2026, Florida installers price cleaning, re-sanding and sealing "
+                        "at $1.50–$3.25 per square foot. We apply sealer in Kissimmee, Orlando, Sarasota, Lakewood Ranch and Bradenton, "
+                        "choosing acrylic, urethane or penetrating types around the surface and the weather."),
                 body, faqs=faqs,
-                sources=["icpi-ts2", "icpi-ts5", "homeguide-seal-pavers", "homeguide-pressure-wash", "castle-paver-sealing-cfl", "angi-patio-repair",
-                         "outdoorlifepros-paver-repair-capecoral", "nrcs-myakka-osd", "ncei-annual-prcp", "fs713-13", "fs720-3035"],
-                related=[("/paver-sealing-cost/", "paver sealing cost guide"), ("/compare/polymeric-sand-vs-joint-sand/", "polymeric sand vs. joint sand"),
-                         ("/compare/wet-look-vs-natural-paver-sealer/", "wet-look vs. natural-finish sealer"),
-                         ("/blog/why-pavers-sink-in-florida/", "why pavers sink, and the fix"), ("/blog/mold-and-algae-on-pavers-florida/", "black mold and algae on pavers"),
-                         ("/blog/ants-and-weeds-in-paver-joints/", "ants and weeds in paver joints"),
-                         ("/central-florida/", "the Orlando unit"), ("/sarasota-manatee/", "the Sarasota unit")],
+                sources=["icpi-ts2", "icpi-ts5", "homeguide-seal-pavers", "castle-paver-sealing-cfl", "nrcs-myakka-osd", "nrcs-candler-osd", "ncei-annual-prcp", "fs713-13", "fs720-3035"],
+                related=[("/paver-restoration/", "paver restoration: cleaning, releveling and repair"), ("/paver-sealing-cost/", "paver sealing cost guide"),
+                         ("/compare/wet-look-vs-natural-paver-sealer/", "wet-look vs. natural-finish sealer"), ("/compare/polymeric-sand-vs-joint-sand/", "polymeric sand vs. joint sand"),
+                         ("/blog/paver-sealer-turned-white-or-cloudy/", "why paver sealer turns cloudy"),
+                         ("/blog/efflorescence-on-pavers-and-concrete/", "the white haze on new pavers"),
+                         ("/central-florida/", "the Kissimmee & Greater Orlando crew"), ("/sarasota-manatee/", "the Sarasota crew")],
                 crumbs=CRUMBS, crumb="Paver sealing", service=K,
-                hero_photo=pids[0] if pids else None, offer=offer("paver-sealing"), eyebrow="Pavers · Greater Orlando & Sarasota",
-                howto=("How paver sealing and restoration is done", [("Inspect the surface", "Walk the whole field to flag sunken, rocking or stained pavers before anything else starts."),
-                                                                      ("Relevel sunken pavers first", "Pull affected units, rebuild the bedding sand, and reset them flush before cleaning begins."),
-                                                                      ("Pressure wash the field", "Strip algae, grime and old sand haze at an angle, keeping the wand off the joints."),
-                                                                      ("Re-sand the joints", "Sweep in dry or polymeric sand and compact it into place."),
-                                                                      ("Let the surface dry fully", "Pause until the field is dry through, not just dry on top, before sealing."),
-                                                                      ("Apply the sealer", "Coat the dry, clean, re-sanded surface, working in cooler parts of the day to avoid flash-off.")]))
+                hero_photo=pids[0] if pids else None, offer=offer("paver-sealing"), eyebrow="Pavers · Kissimmee, Orlando & Sarasota",
+                howto=("How paver sealer is applied", [("Protect plants and trim", "Cover nearby plants and surfaces and switch off the sprinklers."),
+                                                      ("Confirm the surface is dry", "Allow a full dry period after washing, at least 24 hours without moisture."),
+                                                      ("Test a small area", "Check finish and absorption on a corner patch."),
+                                                      ("Spread and squeegee", "Lay the product with a roller or low-pressure sprayer and move surplus off with a rubber squeegee."),
+                                                      ("Let joints soak", "Allow the product to penetrate the joint sand; one coat is usually enough."),
+                                                      ("Keep traffic off", "Hold feet and wheels until the label's cure time passes.")]))
 
 
 def retaining_walls():

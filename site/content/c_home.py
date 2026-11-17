@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """Home page."""
 from _data import SERVICES, SERVICE_ORDER, PRICES, UNITS
-from _helpers import page, capsule, sec, table, faq, ul, steps, note, a, svc, city, cs, post, compare, src, ext, price, per, price_note, contact, thumb
+from _helpers import page, capsule, sec, table, faq, ul, steps, note, a, svc, city, cs, post, compare, src, ext, price, per, price_note, contact, thumb, tel
 from _photos import for_service
 from _posts import cost_for
 
-H1 = "Concrete driveways, pavers and patios built for Florida ground"
+H1 = "Pavers, paver sealing and concrete <em>built for Florida ground</em>"
 
 
 def _cards(pillar):
@@ -24,18 +24,24 @@ def _cards(pillar):
 def get_pages():
     rows = [[a(SERVICES[k]["route"], SERVICES[k]["name"]), f"{price(SERVICES[k]['price'])}", per(SERVICES[k]["price"]), f"{price(SERVICES[k]['price'], True)}"] for k in SERVICE_ORDER]
     body = "".join([
+        sec("Pavers, retaining walls and artificial turf", f"<p>Interlocking pavers flex where a slab cracks, and a single damaged unit can be lifted and reset. We lay {svc('paver-driveways', 'paver driveways')}, "
+            f"patios and walkways, travertine and concrete-paver pool decks, segmental block walls, and {svc('artificial-turf', 'artificial turf')} for yards where sod keeps failing. "
+            f"See the {a('/pavers/', 'paver services overview')} for base depths and materials.</p>" + _cards("pavers")),
+        sec("Paver sealing and paver restoration",
+            "<p>Most paver surfaces in Florida don't fail all at once. Joint sand washes out in the rainy season, black algae creeps in from the shady side of the house, "
+            "a corner by the downspout drops half an inch, and a sealer coat that looked rich two summers ago has gone chalky. Those are two different jobs, and we price them separately. "
+            f"{svc('paver-sealing', 'Paver sealing')} is the finish: a water- or solvent-based sealer, wet-look or natural, laid on a clean, dry, re-sanded surface, at {price('paver-sealing')} per {per('paver-sealing')} in current Florida market data. "
+            f"{svc('paver-restoration', 'Paver restoration')} is the repair underneath it: lifting and releveling sunken sections, swapping cracked or stained units, stripping a failed coat and refilling the joints, at {price('paver-restoration')} per {per('paver-restoration')}. "
+            f"Kissimmee and Orlando owners can start with {cs('kissimmee', 'paver-sealing', 'paver sealing in Kissimmee')} or {cs('orlando', 'paver-restoration', 'paver restoration in Orlando')}; on the Suncoast, {cs('sarasota', 'paver-sealing', 'paver sealing in Sarasota')} and {cs('lakewood-ranch', 'paver-restoration', 'paver restoration in Lakewood Ranch')} cover the salt-air and village-approval side of it.</p>"),
         sec("Concrete work we pour", "<p>Concrete is still the most common driveway surface in Florida subdivisions, and most of what goes wrong with it starts below the surface. "
             f"We pour new and replacement {svc('concrete-driveways', 'concrete driveways')}, back patios and lanai extensions, {svc('concrete-pool-decks', 'pool decks')}, "
             f"decorative {svc('stamped-concrete')}, front walks and right-of-way sidewalk sections, pads for sheds, RVs and AC units, and the {svc('concrete-repair', 'repair and resurfacing')} that keeps an older slab in service. "
             f"The {a('/concrete/', 'concrete services overview')} explains how we choose thickness, reinforcement and joint spacing for each.</p>" + _cards("concrete")),
-        sec("Pavers, retaining walls and artificial turf", f"<p>Interlocking pavers flex where a slab cracks, and a single damaged unit can be lifted and reset. We lay {svc('paver-driveways', 'paver driveways')}, "
-            f"patios and walkways, travertine and concrete-paver pool decks, segmental block walls, and {svc('artificial-turf', 'artificial turf')} for yards where sod keeps failing. "
-            f"Old pavers that have sunk, stained or lost their joint sand usually need {svc('paver-sealing', 'cleaning, releveling and sealing')} rather than replacement. See the {a('/pavers/', 'paver services overview')} for base depths and materials.</p>" + _cards("pavers")),
         sec("Two crews: Greater Orlando and Sarasota–Manatee",
             "<p>We run the business as two service units so the people who quote a job are the people who know that county's permit desk and that soil. "
-            "The Orlando unit covers Orange, Osceola, Seminole and Lake counties and Davenport on the Polk County side. The Sarasota unit covers Sarasota and Manatee counties, from Palmetto and Parrish down to Venice and Englewood.</p>"
-            f'<div class="units"><div class="unit"><h3>{UNITS["orlando"]["name"]}</h3><p>Orlando, {city("kissimmee")}, {city("clermont")}, {city("oviedo")}, {city("winter-garden")}, {city("windermere")}, {city("st-cloud")}, {city("winter-park")} and nearby towns.</p><p><a href="/central-florida/">The Orlando unit</a></p></div>'
-            f'<div class="unit"><h3>{UNITS["sarasota"]["name"]}</h3><p>{city("sarasota")}, {city("lakewood-ranch")}, {city("bradenton")}, {city("venice")}, {city("parrish")}, {city("north-port")} and the barrier islands.</p><p><a href="/sarasota-manatee/">The Sarasota unit</a></p></div></div>'),
+            f"The Kissimmee & Greater Orlando unit is based in Kissimmee and covers Orange, Osceola, Seminole and Lake counties and Davenport on the Polk County side; call it at {tel('orlando')}. The Sarasota unit is based in Sarasota and covers Sarasota and Manatee counties, from Palmetto and Parrish down to Venice and Englewood; call it at {tel('sarasota')}.</p>"
+            f'<div class="units"><div class="unit"><h3>{UNITS["orlando"]["name"]}</h3><p>Orlando, {city("kissimmee")}, {city("clermont")}, {city("oviedo")}, {city("winter-garden")}, {city("windermere")}, {city("st-cloud")}, {city("winter-park")} and nearby towns.</p><p><a href="/central-florida/">The Kissimmee &amp; Greater Orlando crew</a> · <a href="tel:{UNITS["orlando"]["phone_e164"]}">{UNITS["orlando"]["phone_display"]}</a></p></div>'
+            f'<div class="unit"><h3>{UNITS["sarasota"]["name"]}</h3><p>{city("sarasota")}, {city("lakewood-ranch")}, {city("bradenton")}, {city("venice")}, {city("parrish")}, {city("north-port")} and the barrier islands.</p><p><a href="/sarasota-manatee/">The Sarasota crew</a> · <a href="tel:{UNITS["sarasota"]["phone_e164"]}">{UNITS["sarasota"]["phone_display"]}</a></p></div></div>'),
         sec("What does concrete or paver work cost in Florida in 2026?",
             f"<p>As of October 2026, published Florida and national cost data put an installed concrete driveway at about {price('concrete-driveway')} per square foot, a paver driveway at {price('paver-driveway')}, a paver patio at {price('paver-patio')} and artificial turf at {price('artificial-turf')}. "
             f"Angi's Orlando data, updated May 2026, puts the average concrete driveway project near $6,490 ({src('angi-driveway-orlando', 'Angi, Orlando')}). Prices don't change by ZIP code; demolition, access, base work, permits and HOA requirements do.</p>"
@@ -123,16 +129,16 @@ def get_pages():
         sec("Where we work", "<p>These are the towns with their own local pages, grouped by county. If yours isn't listed, send the address with your request and we'll tell you which crew covers it.</p><!--AUTO:all-areas-->"),
     ])
     faqs = [
-        faq("Do you work in both Orlando and Sarasota?", "Yes. Opera Concrete & Pavers runs two service units. The Orlando unit covers Orange, Osceola, Seminole and Lake counties plus northeast Polk; the Sarasota unit covers Sarasota and Manatee counties. Pick your area on the estimate form and the right crew gets the request."),
+        faq("Do you work in both Orlando and Sarasota?", "Yes. Opera Concrete & Pavers runs two service units. The Kissimmee & Greater Orlando unit, based in Kissimmee at (689) 354-0025, covers Orange, Osceola, Seminole and Lake counties plus northeast Polk; the Sarasota unit, at (941) 207-7585, covers Sarasota and Manatee counties. Pick your area on the estimate form and the right crew gets the request."),
         faq("Are estimates free?", "Yes. We measure on site, look at drainage, trees, access and the existing surface, and then send a written scope and price. There is no charge for the visit or the estimate in either service area."),
         faq("Can one company handle concrete, pavers and turf on the same project?", "Yes, and it often saves a step. A typical backyard project pairs a paver patio or pool deck with turf, and the paver edge doubles as the turf border. Scheduling one crew avoids a second excavation and keeps the grading consistent."),
         faq("Do you remove the old driveway or patio?", "Yes. Demolition, haul-off and disposal are part of most replacement jobs and are listed as a separate line in the estimate. Removal typically adds $3 to $8 per square foot in national cost data, depending on thickness and reinforcement."),
         faq("Will my HOA need to approve the work?", "In most master-planned communities, yes: driveways, pavers, pool decks and visible turf usually need architectural review approval before work starts. We supply the material specs, colors and site sketch that the application asks for."),
         faq("What areas do you serve outside the main cities?", "The service-area pages list every town with its own page, from Montverde and Groveland to Myakka City and Anna Maria Island. If your town isn't listed, include the address on the form and we'll confirm coverage."),
     ]
-    return [page("/", "home", "Concrete & Paver Company | Orlando & Sarasota, FL", "Concrete driveways, pavers, pool decks, stamped concrete and turf in Greater Orlando and Sarasota–Manatee. Free on-site estimates and 2026 Florida price ranges.",
+    return [page("/", "home", "Opera Concrete & Pavers | Kissimmee, Orlando & Sarasota FL", "Pavers, paver sealing and restoration, concrete driveways, pool decks and turf in Kissimmee, Orlando and Sarasota. Free estimates: (689) 354-0025 or (941) 207-7585.",
                  H1,
-                 capsule(f"Opera Concrete & Pavers pours concrete driveways, patios and pool decks and installs pavers, retaining walls and artificial turf in Greater Orlando and in Sarasota, Lakewood Ranch and Bradenton. As of October 2026, Florida market data puts installed concrete driveways at {price('concrete-driveway')} per sq ft and paver driveways at {price('paver-driveway')}; every price we give follows a site visit."),
+                 capsule(f"Opera Concrete & Pavers installs paver driveways, patios and pool decks, seals and restores existing pavers, and pours concrete in Kissimmee, Greater Orlando, Sarasota, Lakewood Ranch and Bradenton. As of October 2026, Florida market data puts paver driveways at {price('paver-driveway')} per sq ft and paver sealing at {price('paver-sealing')}; every price we give follows a site visit."),
                  body, faqs=faqs, faq_title="Questions homeowners ask first", wide=True, hero_photo="home-hero",
-                 hero_extra='<ul class="ticks"><li>Concrete driveways &amp; patios</li><li>Pavers &amp; travertine</li><li>Pool decks</li><li>Artificial turf</li></ul>',
+                 hero_extra='<ul class="ticks"><li>Paver driveways &amp; patios</li><li>Paver sealing &amp; restoration</li><li>Pool deck pavers &amp; travertine</li><li>Concrete &amp; artificial turf</li></ul>',
                  sources=["angi-driveway-orlando", "homeguide-driveway-pavers", "homeguide-paver-patio", "homeguide-artificial-grass", "nrcs-myakka-osd", "aci-faq-maxtemp", "ncei-annual-prcp", "nrmca-cip6", "fs713-13", "fs720-3035", "flrules62-308-100", "fs720-3045"])]

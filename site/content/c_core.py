@@ -92,12 +92,45 @@ COMPARE = page("/compare/", "index", "Concrete vs. Pavers and Other Comparisons 
                "<p>When two materials could both do the job, these pages put cost, lifespan, upkeep, heat and storm behavior side by side for Florida conditions.</p>",
                '<ul class="grid">' + "".join(f'<li class="card"><h3><a href="/compare/{s}/">{h}</a></h3></li>' for s, (h, m) in COMPARES.items()) + "</ul>",
                crumb="Comparisons", form=False, wide=True)
-AREAS = page("/service-areas/", "index", "Service Areas: Greater Orlando & Sarasota–Manatee | Opera",
-             "Every town Opera Concrete & Pavers serves, by county: Orange, Osceola, Seminole, Lake, Polk, Sarasota and Manatee, with local permit and HOA notes.",
-             "Where we work",
-             "<p>Two crews cover two regions. Each town below has a page with its permit office, soil, HOA notes and the services we offer there.</p>",
-             f'<div class="units"><div class="unit"><h3><a href="/central-florida/">{UNITS["orlando"]["name"]}</a></h3><p>Orange, Osceola, Seminole, Lake and northeast Polk counties.</p></div><div class="unit"><h3><a href="/sarasota-manatee/">{UNITS["sarasota"]["name"]}</a></h3><p>Sarasota and Manatee counties.</p></div></div><!--AUTO:all-areas-->',
-             crumb="Service areas", form=False, wide=True)
+AREAS = page("/service-areas/", "index", "Service Areas: Greater Orlando & Sarasota–Manatee",
+             "Which Opera Concrete & Pavers crew covers your county: Kissimmee & Greater Orlando for five counties, Sarasota for two, with both phone numbers.",
+             "Where we work: two crews, seven counties",
+             capsule("Opera Concrete & Pavers runs two crews on opposite sides of Florida. The Kissimmee & Greater Orlando crew covers Orange, Osceola, Seminole, Lake and Polk counties; the Sarasota crew covers Sarasota and Manatee counties. As of November 2026 each has its own phone line and free on-site estimates."),
+             "".join([
+                 sec("Which crew to call",
+                     f'<div class="units"><div class="unit"><h3><a href="/central-florida/">{UNITS["orlando"]["name"]}</a></h3><p>Based in Kissimmee. Orange, Osceola, Seminole, Lake and Polk counties. Phone: {tel("orlando")}.</p></div>'
+                     f'<div class="unit"><h3><a href="/sarasota-manatee/">{UNITS["sarasota"]["name"]}</a></h3><p>Based in Sarasota. Sarasota and Manatee counties. Phone: {tel("sarasota")}.</p></div></div>'
+                     "<p>The rule of thumb is the county your property sits in, not the distance from where a crew is based. Look up the county on your tax bill or property appraiser record if you're unsure, and call the crew that lists it. "
+                     "Neither crew's list overlaps the other's: no county appears on both.</p>"),
+                 sec("Where the line falls",
+                     f"<p>The split follows county lines. On the Central Florida side the crew starts in Orange County (Orlando, {city('winter-garden')}, {city('windermere')}, {city('apopka')}), takes in Osceola ({city('kissimmee')}, {city('st-cloud')}, {city('celebration')}, {city('poinciana')}), "
+                     f"Seminole ({city('oviedo')}, {city('sanford')}, {city('lake-mary')}), Lake ({city('clermont')}, {city('minneola')}, {city('groveland')}) and Polk, where the town on our list is {city('davenport')}. "
+                     f"On the Gulf side the crew works Manatee ({city('bradenton')}, {city('palmetto')}, {city('parrish')}) and Sarasota ({city('sarasota')}, {city('venice')}, {city('north-port')}).</p>"
+                     f"<p>{city('lakewood-ranch')} is the one place where a single community crosses a county line, with homes in both Manatee and Sarasota. It belongs to the Sarasota crew either way. "
+                     "Counties that sit between or beside the two regions, such as Hillsborough and Charlotte, aren't on either crew's list; the last section below says what to do if your property is there.</p>"),
+                 sec("How the two coasts differ",
+                     "<p>The same installation steps apply on both sides, but the ground and the rules around it don't match. The table sums up the differences that change a quote.</p>"
+                     + table("Central Florida versus the Suncoast", ["Factor", "Kissimmee & Greater Orlando", "Sarasota, Lakewood Ranch & Bradenton"],
+                             [["Soil", "Excessively drained ridge sand in Lake County; flatwoods through Orlando and Kissimmee", "Flatwoods sand almost everywhere, with groundwater often within 6 to 18 inches"],
+                              ["Annual rainfall (NOAA 1991–2020)", "51.45 in. at Orlando International", "49.05 in. at Sarasota–Bradenton airport"],
+                              ["Salt air and flood zones", "Not a factor inland", "Gulf and bay shoreline, FEMA zones AE and VE, a state setback line on the beaches"],
+                              ["Watering orders, 2026", "St. Johns River district schedule; Lake County under a tighter order", "Southwest Florida district once-a-week order through March 31, 2027"],
+                              ["HOA density", "Baldwin Park, Lake Nona, Celebration and many village boards", "Lakewood Ranch villages, Palmer Ranch, Venetian Golf & River Club"]],
+                             "Soil and rainfall figures are explained, with sources, on each crew's own page.")
+                     + f"<p>Soil series and flood zones are cited on the {a('/central-florida/', 'Kissimmee & Greater Orlando page')} and the {a('/sarasota-manatee/', 'Sarasota page')}. "
+                     f"The ICPI paver guide adds 2 to 4 inches of base on wet soils, which is why a Lakewood Ranch paver base is often deeper than one in Clermont ({src('icpi-ts2', 'ICPI Tech Spec 2')}). "
+                     f"Rainfall figures come from NOAA's normals ({src('ncei-annual-prcp', 'NOAA 1991–2020 normals')}).</p>"),
+                 sec("What both crews do",
+                     f"<p>The services are the same on both sides, in this order of emphasis: {svc('paver-driveways', 'paver driveways')}, {svc('paver-patios', 'patios')} and {svc('pool-deck-pavers', 'pool decks')}; "
+                     f"{svc('paver-sealing', 'paver sealing')} and {svc('paver-restoration', 'paver restoration')}; then {svc('concrete-driveways', 'concrete driveways')}, other flatwork, {svc('artificial-turf', 'artificial turf')} and {svc('retaining-walls', 'retaining walls')}. "
+                     f"Prices are market ranges on the {a('/cost/', 'cost pages')}, and the {a('/permits/', 'permits and HOA hub')} lists who handles approvals in each county. "
+                     f"The sequence from visit to walkthrough is on the {a('/process/', 'process page')}.</p>"),
+                 sec("Do you work outside these towns?",
+                     f"<p>Possibly. The lists below are the towns each crew has a page for, not a fence. If your property is in a nearby town or county that isn't listed, ask: call the crew closest to you ({tel('orlando')} for Central Florida, {tel('sarasota')} for the Suncoast) "
+                     f"or describe the address in the {contact('estimate form')}, and the answer comes back before anyone books a visit.</p>"),
+                 "<!--AUTO:all-areas-->",
+             ]),
+             crumb="Service areas", form=False, wide=True, sources=["icpi-ts2", "ncei-annual-prcp"])
 
 
 def get_pages():

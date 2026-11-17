@@ -25,16 +25,16 @@ STOCK = {
     "paver-patio-circle": ("s05.jpg", "circular-paver-patio-garden", (0.5, 0.55), None, "Circular paver patio", ["paver-patios", "retaining-walls"]),
     "covered-patio": ("s06.jpg", "covered-patio-outdoor-dining", (0.5, 0.55), None, "Covered patio with dining set", ["concrete-patios", "paver-patios"]),
     "paver-patio-firepit": ("s07.jpg", "paver-patio-stone-fire-pit", (0.5, 0.6), None, "Paver patio with a fire pit", ["paver-patios", "paver-sealing"]),
-    "paver-driveway-herringbone": ("s08.jpg", "herringbone-paver-driveway-walkway", (0.5, 0.6), None, "Herringbone paver driveway", ["paver-driveways", "paver-sealing"]),
+    "paver-driveway-herringbone": ("s08.jpg", "herringbone-paver-driveway-walkway", (0.5, 0.6), None, "Herringbone paver driveway", ["paver-driveways", "paver-sealing", "paver-restoration"]),
     "pool-deck-pavers": ("s09.jpg", "paver-pool-deck-palms-fire-pit", (0.5, 0.6), None, "Paver pool deck with palms", ["pool-deck-pavers"]),
     "concrete-pool-deck": ("s10.jpg", "concrete-pool-deck-modern-home", (0.5, 0.6), None, "Concrete pool deck and spa", ["concrete-pool-decks"]),
-    "interlocking-pavers": ("s11.jpg", "interlocking-concrete-pavers-close-up", (0.5, 0.5), None, "Interlocking concrete pavers, close up", ["paver-driveways", "paver-sealing", "pool-deck-pavers"]),
+    "interlocking-pavers": ("s11.jpg", "interlocking-concrete-pavers-close-up", (0.5, 0.5), None, "Interlocking concrete pavers, close up", ["paver-driveways", "paver-sealing", "pool-deck-pavers", "paver-restoration"]),
     "finishing-concrete": ("s12.jpg", "finishing-fresh-concrete-slab", (0.5, 0.5), None, "Finishing a freshly poured slab", ["concrete-slabs", "concrete-repair", "concrete-walkways"]),
     "retaining-wall-crib": ("s13.jpg", "modular-concrete-retaining-wall-slope", (0.5, 0.5), None, "Modular concrete retaining wall on a slope", ["retaining-walls"]),
     "turf-pavers-pool": ("s14.jpg", "artificial-turf-concrete-pavers-pool", (0.5, 0.6), None, "Artificial turf between large pavers by a pool", ["artificial-turf", "pool-deck-pavers"]),
     "green-lawn-patio": ("s15.jpg", "green-lawn-covered-patio-home", (0.5, 0.6), None, "Green lawn beside a covered patio", ["artificial-turf", "concrete-patios"]),
     "stepping-stone-walkway": ("s16.jpg", "paver-stepping-stone-front-walkway", (0.5, 0.6), None, "Stepping-stone walkway to a front door", ["concrete-walkways", "paver-patios"]),
-    "pressure-washing-pavers": ("s17.jpg", "pressure-washing-paver-patio", (0.5, 0.55), None, "Pressure-washing a paver patio", ["paver-sealing"]),
+    "pressure-washing-pavers": ("s17.jpg", "pressure-washing-paver-patio", (0.5, 0.55), None, "Pressure-washing a paver patio", ["paver-sealing", "paver-restoration"]),
 }
 
 

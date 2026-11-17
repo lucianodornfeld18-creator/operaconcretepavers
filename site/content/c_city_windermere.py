@@ -623,8 +623,8 @@ LOCAL["concrete-repair"] = {
 # 11. paver-sealing --------------------------------------------------------------------------
 LOCAL["paver-sealing"] = {
     "title": "Paver Sealing in Windermere, FL – Sand Street Dust",
-    "meta": "Paver sealing and restoration in Windermere, FL: why proximity to the town's sand streets and lakes changes the cleaning cycle, Oct. 2026.",
-    "h1": "Paver Sealing and Restoration in Windermere",
+    "meta": "Paver sealing in Windermere, FL: why proximity to the town's sand streets and lakes changes the cleaning cycle, Oct. 2026.",
+    "h1": "Cleaning, Re-Sanding and Sealing Pavers in Windermere",
     "lede": capsule(
         "Cleaning, re-sanding and sealing pavers in Windermere runs " + price("paver-sealing") + " per " + per("paver-sealing") + " as of October 2026. A paver surface close to one of the town's unpaved "
         "sand streets collects more grit between cleanings than one set back from the road, which is a bigger factor here than it is in most of the unit's fully paved towns."

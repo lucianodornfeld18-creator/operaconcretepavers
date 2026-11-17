@@ -24,6 +24,13 @@ DIST = ROOT / "dist"
 SECTIONS = ["core", "services", "areas", "city-services", "blog", "faq", "cost"]
 
 
+# Pages rewritten or created on a given day (dateModified, sitemap lastmod and the "Updated" line follow it).
+_T = "2026-11-17"
+TOUCHED = {r: _T for r in ["/", "/paver-sealing/", "/paver-restoration/", "/paver-sealing-cost/", "/central-florida/", "/sarasota-manatee/", "/service-areas/",
+                           "/kissimmee-fl/paver-restoration/", "/orlando-fl/paver-restoration/", "/sarasota-fl/paver-restoration/", "/lakewood-ranch-fl/paver-restoration/",
+                           "/blog/paver-sealer-turned-white-or-cloudy/", "/blog/restore-or-replace-old-pavers/"]}
+
+
 def load_pages():
     pages, seen = [], {}
     import os
@@ -39,7 +46,7 @@ def load_pages():
                 raise SystemExit(f"[build] BAD ROUTE {p['route']} in {name}")
             seen[p["route"]] = name
             p["_module"] = name
-            p.setdefault("_lastmod", p.get("updated", REVIEWED))
+            p.setdefault("_lastmod", max(p.get("updated", REVIEWED), p.get("published", REVIEWED), TOUCHED.get(p["route"], REVIEWED)))
             pages.append(p)
         print(f"[build] {name:<28} {len(got):>4} page(s)")
     return pages
@@ -172,12 +179,19 @@ def write_llms(pages, rendered):
     def block(title, ps):
         return [f"## {title}", ""] + [f"- [{re.sub('<[^>]+>', '', p['h1'])}]({BASE_URL}{p['route']}): {p['meta']}" for p in ps] + [""]
     units = []
+    loc = ["## Locations (two crews, each with its own phone)", ""]
     for u in UNIT_ORDER:
         U = UNITS[u]
         units.append(f"- {U['name']} crew: {BASE_URL}{U['route']}" + (f" (phone {U['phone_display']})" if U["phone_display"] else ""))
+        towns = ", ".join(CITIES[s]["name"] for s in CITY_ORDER if CITIES[s]["unit"] == u and CITIES[s]["tier"] == 1)
+        loc += [f"### {PUBLIC_NAME} – {U['name']}", f"- Based in: {U['base_city']}, Florida (service-area business; crews come to the property, no storefront)",
+                f"- Phone: {U['phone_display']}" if U["phone_display"] else "- Phone: use the estimate form", f"- Page: {BASE_URL}{U['route']}",
+                "- Counties: " + ", ".join(COUNTIES[c]["name"] for c in U["counties"]), f"- Main towns: {towns}",
+                "- Services: paver driveways, paver patios and walkways, pool deck pavers and travertine, paver sealing, paver restoration, retaining walls, concrete driveways, patios, pool decks, stamped concrete, slabs, concrete repair, artificial turf",
+                "- Estimates: free, on site", ""]
     facts = [f"- {SERVICES[k]['name']}: {price_range(SERVICES[k]['price'])} per {PRICES[SERVICES[k]['price']][4]} ({PRICE_DATE} Florida market range, not a quote)" for k in SERVICE_ORDER if SERVICES[k]["price"] in PRICES]
     lines = [f"# {PUBLIC_NAME}", "", f"> {BUSINESS['blurb']}", "", f"- Website: {BASE_URL}"] + ([f"- Email: {EMAIL}"] if EMAIL else []) + units + \
-            [f"- Service area: {BUSINESS['service_area_short']}.", f"- Facts last reviewed: {REVIEWED}", "", "## Price ranges published on this site (sources on each page)", ""] + facts + [""]
+            [f"- Service area: {BUSINESS['service_area_short']}.", f"- Facts last reviewed: {REVIEWED}", ""] + loc + ["## Price ranges published on this site (sources on each page)", ""] + facts + [""]
     lines += block("Services", by_kind.get("pillar", []) + by_kind.get("service", []))
     lines += block("Cost guides", by_kind.get("price", []) + by_kind.get("tool", []))
     lines += block("Permits and HOA rules", by_kind.get("permit", []))

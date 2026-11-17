@@ -168,7 +168,7 @@ def p_tree_roots_under_driveway_florida():
             f"to resist the lift; {svc('concrete-walkways', 'our sidewalk and walkway page')} covers that scope specifically. Under a paver "
             "surface, the same root doesn't crack a single rigid panel the way it would in poured concrete; instead it pushes individual units "
             "up out of level one at a time, which often reads as a low or uneven patch rather than a crack. That's a releveling job over the "
-            f"affected pavers once the root issue is addressed, not a patch-and-fill repair; {svc('paver-sealing', 'our paver sealing and restoration service')} "
+            f"affected pavers once the root issue is addressed, not a patch-and-fill repair; {svc('paver-restoration', 'our paver restoration service')} "
             "covers how a sunken or lifted section gets pulled, reset and brought back level with its neighbors.</p>"),
     ])
     faqs = [faq("Can I just cut the root that's lifting my driveway myself?",
@@ -181,7 +181,7 @@ def p_tree_roots_under_driveway_florida():
                 "A root-caused crack tends to lift one side of the slab rather than let it sink, often with the raised section tracing a line toward the nearest large tree. A settlement crack goes the other way, with one side dropping lower than the rest, usually over a soft spot in the base rather than anything growing underneath it. Our guide to driveway cracking in Florida covers both patterns side by side."),
     ]
     related = [("/concrete-repair/", "Concrete repair & resurfacing"), ("/concrete-walkways/", "Sidewalks & walkways"),
-               ("/paver-sealing/", "Paver sealing & restoration"),
+               ("/paver-restoration/", "Paver restoration"), ("/paver-sealing/", "Paver sealing"),
                ("/blog/concrete-driveway-cracks-florida/", "Why concrete cracks, and which cracks are normal"),
                ("/blog/why-pavers-sink-in-florida/", "Why pavers sink in Florida"),
                ("/permits/", "Permits and HOA hub")]
@@ -208,7 +208,7 @@ def p_why_pavers_sink_in_florida():
             "through the joints or an unsealed edge, leaving a void the paver eventually settles into under its own weight and foot or car "
             "traffic. It's rarely the paver itself failing, since a concrete, travertine or porcelain unit is far harder than the sand and "
             f"aggregate holding it up. {svc('paver-driveways', 'Paver driveways')} and {svc('paver-patios', 'paver patios')} are both built on a "
-            f"compacted aggregate base specifically to resist this; {svc('paver-sealing', 'our paver sealing and restoration service')} is the "
+            f"compacted aggregate base specifically to resist this; {svc('paver-restoration', 'our paver restoration service')} is the "
             "page for fixing a section once it's already happened.</p>"
             + (photo(pid, "A herringbone-pattern paver driveway leading up to a garage.") if pid else "")),
         sec("How Does the Base Actually Fail?",
@@ -271,7 +271,7 @@ def p_why_pavers_sink_in_florida():
             faq("Does a sunken driveway or patio always need a full rebuild?",
                 "No. A localized low spot is usually a releveling job limited to the affected pavers, not a full tear-out of the surface. A field that's sunk broadly across most of its area, rather than in one or two spots, is the case where rebuilding the base under the whole surface actually makes more sense than repeated spot repairs."),
     ]
-    related = [("/paver-sealing/", "Paver sealing & restoration"), ("/paver-sealing-cost/", "Paver sealing cost guide"),
+    related = [("/paver-restoration/", "Paver restoration"), ("/paver-sealing/", "Paver sealing"), ("/paver-sealing-cost/", "Paver sealing cost guide"),
                ("/compare/pavers-vs-concrete-driveway/", "Pavers vs. concrete driveway"),
                ("/pool-deck-pavers/", "Pool deck pavers"),
                ("/blog/efflorescence-on-pavers-and-concrete/", "The white haze on new pavers and concrete"),
@@ -296,7 +296,7 @@ def p_efflorescence_on_pavers_and_concrete():
             "<p>That white haze is efflorescence, a deposit of soluble mineral salts, mostly calcium carbonate, carried to the surface by "
             "moisture moving through the paver or concrete and left behind once the water evaporates. It isn't dirt, mold or a sealer failure, "
             "and the industry's own technical guidance is direct that it has no effect on how the material performs structurally, only on how "
-            f"it looks ({src('icpi-ts5', 'ICPI Tech Spec 5')}). {svc('paver-sealing', 'Our paver sealing and restoration service')} includes the "
+            f"it looks ({src('icpi-ts5', 'ICPI Tech Spec 5')}). {svc('paver-sealing', 'Our paver sealing service')} includes the "
             "cleaning step that handles an efflorescence bloom once it's run its course; this page is about what causes it and when it's safe "
             "to clean.</p>"
             + (photo(pid, "Closely fitted interlocking concrete pavers forming a paved surface.") if pid else "")),
@@ -355,7 +355,7 @@ def p_efflorescence_on_pavers_and_concrete():
             faq("Can I pressure wash efflorescence off pavers myself?",
                 "For a light bloom, yes, with the wand held at an angle rather than straight down into the joints so it doesn't blast out the joint sand along with the mineral deposit. A heavier bloom that doesn't budge with water alone usually needs a cleaner made for the job rather than stronger pressure, since cranking up the pressure risks etching the surface before it actually removes the deposit."),
     ]
-    related = [("/paver-sealing/", "Paver sealing & restoration"), ("/concrete-patios/", "Concrete patios"),
+    related = [("/paver-restoration/", "Paver restoration"), ("/paver-sealing/", "Paver sealing"), ("/concrete-patios/", "Concrete patios"),
                ("/blog/mold-and-algae-on-pavers-florida/", "Black mold and algae on Florida pavers and concrete"),
                ("/blog/how-to-clean-pavers-without-damage/", "How to clean pavers without damage"),
                ("/blog/why-pavers-sink-in-florida/", "Why pavers sink in Florida")]
@@ -379,7 +379,7 @@ def p_mold_and_algae_on_pavers_florida():
             "<p>A dark, often black or greenish film on pavers or concrete almost always comes down to moisture that doesn't dry out between "
             "rain or irrigation cycles, so the fix starts with removing that growth and ends with changing whatever is keeping the spot damp "
             "longer than the rest of the surface around it. Pressure washing strips the existing film; it doesn't stop it from coming back if the "
-            f"shade, drainage or splash pattern that caused it in the first place doesn't change too. {svc('paver-sealing', 'our paver sealing and restoration service')} "
+            f"shade, drainage or splash pattern that caused it in the first place doesn't change too. {svc('paver-restoration', 'our paver restoration service')} "
             "includes the cleaning step as part of a full visit; this page is about why the staining shows up and "
             "what actually keeps it from returning.</p>"
             + (photo(pid, "A gloved worker directs a pressure washer across paver joints in front of a stucco house.") if pid else "")),
@@ -437,7 +437,7 @@ def p_mold_and_algae_on_pavers_florida():
             faq("Can mold or algae make a pool deck slippery or unsafe?",
                 "Yes, a slick algae film in particular can make a wet pool deck noticeably more slippery underfoot than the same surface clean, which matters more right at the coping where people are walking in and out of the water barefoot. Our guide to making a slippery pool deck safer covers texture and traction options beyond routine cleaning."),
     ]
-    related = [("/paver-sealing/", "Paver sealing & restoration"), ("/concrete-pool-decks/", "Concrete pool decks"),
+    related = [("/paver-restoration/", "Paver restoration"), ("/paver-sealing/", "Paver sealing"), ("/concrete-pool-decks/", "Concrete pool decks"),
                ("/blog/how-to-clean-pavers-without-damage/", "How to clean pavers without damage"),
                ("/blog/slippery-pool-deck-fixes/", "Making a slippery pool deck safer"),
                ("/blog/efflorescence-on-pavers-and-concrete/", "The white haze on new pavers and concrete")]
@@ -459,7 +459,7 @@ def p_ants_and_weeds_in_paver_joints():
         sec("Why Do I Have Ants and Weeds Between My Pavers?",
             "<p>Both problems start from the same root cause: a paver joint that's lost some of its sand leaves a loose, open gap that's "
             "sheltered, holds moisture and collects windblown soil and organic debris, which is close to an ideal spot for a weed seed to "
-            f"germinate or a fire ant colony to dig into. {svc('paver-sealing', 'Our paver sealing and restoration service')} includes "
+            f"germinate or a fire ant colony to dig into. {svc('paver-restoration', 'Our paver restoration service')} includes "
             "re-sanding the joints as one of its core steps for exactly this reason, since a tight, compacted joint gives both problems far "
             "less to work with than an open one does.</p>"
             + (photo(pid, "Close-up of interlocking concrete pavers with sand-filled joints between them.") if pid else "")),
@@ -517,7 +517,7 @@ def p_ants_and_weeds_in_paver_joints():
             faq("Why does regular joint sand wash out faster than polymeric sand?",
                 "Plain dry sand isn't bonded to anything once it's compacted into the joint, so rain, overspray and traffic all gradually carry a little of it away or pack it down over time. Polymeric sand contains a binder that hardens once it's activated with water, which resists that same washout far better, though it costs more upfront and takes more care to install correctly."),
     ]
-    related = [("/paver-sealing/", "Paver sealing & restoration"), ("/paver-patios/", "Paver patios & walkways"),
+    related = [("/paver-restoration/", "Paver restoration"), ("/paver-sealing/", "Paver sealing"), ("/paver-patios/", "Paver patios & walkways"),
                ("/compare/polymeric-sand-vs-joint-sand/", "Polymeric sand vs. joint sand"),
                ("/blog/how-to-clean-pavers-without-damage/", "How to clean pavers without damage"),
                ("/blog/why-pavers-sink-in-florida/", "Why pavers sink in Florida")]

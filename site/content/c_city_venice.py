@@ -636,8 +636,8 @@ LOCAL["concrete-repair"] = {
 # 11. paver-sealing --------------------------------------------------------------------------
 LOCAL["paver-sealing"] = {
     "title": "Paver Sealing in Venice, FL – Island Salt Air",
-    "meta": "Paver sealing and restoration in Venice, FL: why Venice Island salt air shortens the resealing clock, October 2026.",
-    "h1": "Paver Sealing and Restoration in Venice",
+    "meta": "Paver sealing in Venice, FL: why Venice Island salt air shortens the resealing clock, October 2026.",
+    "h1": "Cleaning, Re-Sanding and Sealing Pavers in Venice",
     "lede": capsule(
         "Cleaning, re-sanding and sealing pavers in Venice runs " + price("paver-sealing") + " per " + per("paver-sealing") + " as of October 2026. Proximity to the Gulf or the Intracoastal Waterway "
         "is the biggest variable in how soon that work comes due, since FDOT classifies the air around Venice Island as a marine environment."

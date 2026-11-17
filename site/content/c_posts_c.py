@@ -120,7 +120,7 @@ def slippery_pool_deck_fixes():
                          ("Florida Residential Code, Private Swimming Pools, Ch. 45 (up.codes copy)", "https://up.codes/viewer/florida/fl-residential-code-2023/chapter/45/private-swimming-pools"),
                          ("F.A.C. Chapter 64E-9, Public Swimming Pools and Bathing Places", "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=64E-9"),
                          ("Tile Council of North America, ANSI A326.3 pool and spa slip-resistance testing", "https://tcnatile.com/critical-product-testing-for-new-uniform-swimming-pool-spa-and-hot-tub-slip-resistance-code/")],
-                related=[("/concrete-pool-decks/", "concrete pool decks"), ("/paver-sealing/", "paver sealing and restoration"),
+                related=[("/concrete-pool-decks/", "concrete pool decks"), ("/paver-sealing/", "paver sealing"), ("/paver-restoration/", "paver restoration"),
                          ("/blog/mold-and-algae-on-pavers-florida/", "stopping mold and algae"), ("/compare/resurface-vs-replace-concrete/", "resurface or replace"),
                          ("/blog/how-hot-do-pool-decks-get-florida/", "the coolest pool deck surface")],
                 crumbs=[("Blog", "/blog/")], published="2026-10-01", service="concrete-pool-decks", image="concrete-pool-deck", form=False)
@@ -170,7 +170,7 @@ def saltwater_pools_and_coastal_salt_air():
                 sources=["fdot-sdg", "icpi-ts5", "homeguide-travertine",
                          ("TroubleFreePool, saltwater pool salt levels vs. ocean salinity", "https://www.troublefreepool.com/wiki/index.php?title=Salt")],
                 related=[("/pool-deck-pavers/", "pool deck pavers"), ("/concrete-pool-decks/", "concrete pool decks"),
-                         ("/paver-sealing/", "paver sealing and restoration"), ("/blog/travertine-pool-deck-care/", "travertine pool deck care"),
+                         ("/paver-sealing/", "paver sealing"), ("/paver-restoration/", "paver restoration"), ("/blog/travertine-pool-deck-care/", "travertine pool deck care"),
                          ("/compare/travertine-vs-concrete-pavers/", "travertine vs. concrete pavers")],
                 crumbs=[("Blog", "/blog/")], published="2026-10-01", service="pool-deck-pavers", image=None, form=False)
 

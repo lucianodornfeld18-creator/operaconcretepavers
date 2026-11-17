@@ -73,7 +73,7 @@ HUB = page("/casselberry-fl/", "city", "Concrete, Pavers & Turf Company in Casse
                     ("/winter-springs-fl/", "Concrete, pavers and turf in Winter Springs"),
                     ("/longwood-fl/", "Concrete, pavers and turf in Longwood"),
                     ("/blog/seminole-county-driveway-patio-permits/", "Seminole County driveway and patio permits"),
-                    ("/compare/concrete-vs-pavers/", "Concrete vs. pavers")],
+                    ("/compare/pavers-vs-concrete-driveway/", "Pavers vs. concrete driveways")],
            eyebrow="Concrete · Pavers · Turf in Casselberry, FL")
 
 # ---------------------------------------------------------------------- services

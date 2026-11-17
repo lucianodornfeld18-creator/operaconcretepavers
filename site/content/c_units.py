@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
-"""The two service-unit pages: /central-florida/ (Orlando crew) and /sarasota-manatee/ (Sarasota crew)."""
+"""The two service-unit pages: /central-florida/ (Kissimmee & Greater Orlando crew) and /sarasota-manatee/ (Sarasota crew).
+Each page is the entity page its Google Business Profile links to: brand + place + phone + counties + services."""
 from _data import SERVICES
-from _helpers import page, capsule, sec, table, faq, a, svc, city, cs, post, src
+from _helpers import page, capsule, sec, table, faq, ul, a, svc, city, cs, post, src, tel, price, per
 from _photos import for_service
 
 ORLANDO_PID = (for_service("concrete-driveways", 1) or [None])[0]
@@ -9,167 +10,210 @@ SARASOTA_PID = (for_service("pool-deck-pavers", 1) or [None])[0]
 
 ORLANDO_TOWNS = ["orlando", "kissimmee", "clermont", "oviedo", "winter-garden", "windermere"]
 SARASOTA_TOWNS = ["sarasota", "lakewood-ranch", "bradenton", "venice"]
-TABLE_SERVICES = ["concrete-driveways", "paver-patios", "pool-deck-pavers", "artificial-turf"]
+TABLE_SERVICES = ["paver-patios", "pool-deck-pavers", "paver-sealing", "concrete-driveways"]
 
 
-def _service_table(caption, towns):
+def _service_table(caption, towns, note):
     headers = ["Town"] + [SERVICES[s]["name"] for s in TABLE_SERVICES]
     rows = [[city(slug)] + [cs(slug, s) for s in TABLE_SERVICES] for slug in towns]
-    return table(caption, headers, rows, "Every tier-1 town in the unit has a dedicated page for each service; smaller towns nearby share the county's service and permit pages.")
+    return table(caption, headers, rows, note)
 
 
 def central_florida():
+    contact_block = ul([
+        "<strong>Business name:</strong> Opera Concrete &amp; Pavers",
+        "<strong>Unit:</strong> Kissimmee &amp; Greater Orlando",
+        "<strong>Based in:</strong> Kissimmee, FL (a service-area business: no storefront and no street address, the crew comes to your property)",
+        f"<strong>Phone:</strong> {tel('orlando')}",
+        "<strong>Counties served:</strong> Orange, Osceola, Seminole, Lake and Polk",
+        f"<strong>Main towns:</strong> {city('kissimmee')}, {city('orlando')}, {city('clermont')}, {city('oviedo')}, {city('winter-garden')} and {city('windermere')}",
+        "<strong>What we do:</strong> pavers first (driveways, patios, pool decks), paver sealing and paver restoration, then concrete and artificial turf",
+        "<strong>Estimates:</strong> free, on site",
+    ])
     body = "".join([
-        sec("Counties and towns the Orlando crew covers",
-            "<p>The Orlando unit is the crew behind every job between Winter Garden and St. Cloud. It covers five counties: Orange, Osceola, Seminole, Lake and the northeast corner of Polk, built around "
-            f"{city('orlando')}, {city('kissimmee')}, {city('clermont')}, {city('oviedo')} and {city('winter-garden')}, the town of {city('windermere')}, and smaller communities such as {city('apopka')} and {city('davenport')}, with that address's permit office, soil and HOA rules already factored into the estimate.</p>"
-            "<!--AUTO:unit-cities-->"),
-        sec("Sand ridges and flatwoods: the ground changes by the mile",
-            "<p>Lake County's ridge towns sit on different ground, literally, than the flatwoods covering most of Orange, Osceola and Seminole. Around Clermont and Minneola, near Sugarloaf Mountain, the peninsula's highest point at 312 feet "
-            f"({src('wiki-sugarloaf', 'Wikipedia, citing USGS GNIS')}), the dominant soils are Candler and Astatula: excessively drained sand with a water table deeper than 80 inches ({src('nrcs-candler-osd', 'NRCS, Candler series')}). Drop into Orlando, Kissimmee or St. Cloud "
-            f"and the soils switch to Myakka, Florida's official state soil, with Smyrna, Pomona and Basinger, where the seasonal high water table can sit within 18 inches of the surface part of the year "
-            f"({src('nrcs-myakka-osd', 'NRCS, Myakka series')}; {src('fl-dos-state-soil', 'Florida Dept. of State, state soil')}). ICPI's paver spec calls for 2 to 4 inches more compacted base on soil that stays wet than the 6 inches it calls for on well-drained ground, "
-            "so a Clermont ridge base and a Kissimmee flatwoods base rarely match, which is why the site visit checks soil first.</p>"),
-        sec("A wet season on a schedule, heat that fights the cure, and Orange County's sinkhole history",
-            f"<p>Orlando International Airport averages 51.45 inches of rain a year, most of it between late May and mid-October ({src('ncei-annual-prcp', 'NOAA 1991–2020 normals')}; {src('nws-mlb-wetdry', 'NWS Melbourne')}), which is why "
-            f"{post('pouring-concrete-in-florida-rainy-season', 'pouring concrete in the rainy season')} starts early in the day. Heat works against the same pour: ACI hot-weather guidance flags concrete above 95°F and an evaporation rate past 0.2 "
-            f"pounds per square foot an hour as the point where plastic shrinkage cracking gets likely, a bar a July afternoon clears easily, and {post('concrete-curing-in-florida-heat', 'how concrete cures in Florida heat')} covers the countermeasures.</p>"
-            "<p>Orange County also carries a reputation worth naming. A 2010 Florida Senate interim report found that more than 88 percent of sinkhole claims filed between 2006 and 2009 landed in eleven counties, Orange among them, alongside the better-known \"sinkhole alley\" counties of Hernando, Pasco and Hillsborough "
-            f"({src('fl-senate-2011-104', 'Florida Senate Interim Report 2011-104')}). Most settling slabs trace back to ordinary causes (loose fill, a leaking pipe, a rotted root); {post('sinkholes-and-settlement-central-florida', 'what a sunken slab usually means')} separates that from the rarer geological event, which Florida's insurance law (F.S. 627.706) treats on its own terms, and {svc('concrete-repair', 'concrete repair and resurfacing')} covers the fix either way.</p>"),
-        sec("Permit desks across the Orlando unit",
-            "<p>Every jurisdiction here treats the driveway apron as right-of-way work requiring a permit. What happens on the rest of the lot varies more, from a flat no-permit answer to a full engineering review; the table below is a snapshot, so call the desk listed before you design anything.</p>"
-            + table("Permit desk by jurisdiction (checked October 2026)", ["Jurisdiction", "Driveway or apron", "Patio, slab or pavers on your lot", "Permit desk"],
-                    [["City of Orlando", "Engineering permit; apron at least 6 in., 3,000 psi", "Same engineering permit covers patios, pool decks and pavers; artificial turf needs one too", "407-246-2271"],
-                     ["Orange County (unincorporated)", "Right-of-way permit for the apron", "Permit required for poured concrete; pavers need a zoning permit only", "407-836-5550"],
-                     ["City of Kissimmee", "Driveway/Sidewalk Construction permit through EnerGov", "“Slab With/Without Footer” permit type exists; pavers aren’t listed on their own", "407-518-2278"],
-                     ["City of Clermont", "Zoning approval and a $45 fee, no building permit", "“Concrete/Driveway/Patio” permit type for slabs on grade", "352-394-4081"],
-                     ["Lake County (unincorporated)", "County driveway permit; apron 10 to 24 ft at the property line", "Driveways and sidewalks under 30 in. above grade skip the building permit", "352-253-6019"],
-                     ["City of Oviedo", "Right-of-Way Type I application, about $104 in combined fees", "Notarized slab/paver permit package with two site plans and insurance on file", "407-971-5755"],
-                     ["City of Winter Garden", "Right-of-way utilization under Orange County's adopted regulations", "Impervious-area worksheet required; the city's own form states “pavers are impervious”", "407-656-4111"],
-                     ["Town of Windermere", "Right-of-Way Use Application, $75 plus a $50 inspection fee", "No town rule published for patios or pavers on private lots", "407-277-9795"]],
-                    "Summarized from each office's own pages. HB 803 (effective July 1, 2026) waives the single-family building permit for work under $7,500; it reaches none of the zoning, engineering or right-of-way reviews in this table.")
-            + f"<p>County-by-county detail, including the statute citations, lives in {post('orange-county-orlando-driveway-patio-permits', 'Orlando and Orange County permits')}, {post('osceola-county-kissimmee-st-cloud-permits', 'Kissimmee, St. Cloud and Osceola County')}, "
-            f"{post('seminole-county-driveway-patio-permits', 'Seminole County')} and {post('lake-and-polk-county-driveway-permits', 'Lake and Polk counties')}, and the {a('/permits/', 'permits and HOA hub')} rounds up every jurisdiction we serve.</p>"),
-        sec("HOAs and master-planned communities",
-            "<p>A city permit is often the easier approval. Several of the unit's larger communities run their own architectural review on top of it, with a deadline that usually falls weeks before the city's. "
-            f"Baldwin Park's Residential Owners Association reviews every driveway change through an Architectural Review Committee that meets twice monthly and caps applications at 25 per meeting; its guidelines cap a front driveway's width at the garage door opening "
-            f"and require the first 7 feet of an alley driveway to stay solid concrete, no pavers ({src('bp-network', 'Baldwin Park Network, ROA/ARC')}; {src('bp-guidelines', 'Baldwin Park Residential Guidelines, 2024')}). "
-            f"In Lake Nona, the Laureate Park Master Association requires its Architectural Review Board to sign off on any property improvement, submitted by email before work starts ({src('laureatepark-faq', 'Laureate Park HOA FAQ')}; {src('lakenona-about', 'Lake Nona, About')}), and "
-            f"Celebration's Architectural Review Committee meets monthly with a posted deadline ({src('celebration-arc', 'Celebration, Architectural Review Committee')}). Horizon West, bordering Windermere and Winter Garden, is unincorporated Orange County rather than one HOA, so its villages set their own rules "
-            f"({src('ocfl-horizonwest', 'Orange County, Horizon West')}). As of 2026, none of these boards can require a building permit before reviewing your application "
-            f"({src('fs720-3035', 'F.S. 720.3035')}), and for artificial turf, state law only protects the turf a neighbor or the street can't see ({src('fs720-3045', 'F.S. 720.3045')}). "
-            f"{post('hoa-approval-for-pavers-and-concrete', 'Getting HOA approval for a driveway or pavers')} and {post('florida-hoa-artificial-turf-law', 'what Florida law says about HOAs and turf')} go further.</p>"),
-        sec("Water restrictions in 2026: what SJRWMD allows",
-            "<p>Most of the Orlando unit falls under the St. Johns River Water Management District, which runs a year-round twice-a-week watering schedule by address, with no watering between 10 a.m. and 4 p.m. and a one-hour, three-quarter-inch limit per zone "
-            f"({src('sjrwmd-watering', 'SJRWMD Watering Restrictions')}). Lake County sits under something tighter: SJRWMD's Phase III Extreme Water Shortage order cuts watering to one day a week by address, 8 a.m. to 6 p.m. off-limits; Orange, Osceola and Seminole follow the standard schedule. "
-            f"{svc('artificial-turf', 'Artificial turf')} sidesteps that schedule entirely, and {post('artificial-turf-water-savings-florida', 'how much water turf actually saves')} runs the numbers.</p>"),
-        sec("Services in our main Orlando-area towns",
-            "<p>Every tier-1 town below has its own page for each core service, with that town's soil and permit office covered in detail; smaller towns lean on the county-level permit guide above.</p>"
-            + _service_table("Concrete, paver and turf services by town", ORLANDO_TOWNS)
-            + f"<p>The full catalog, including {svc('stamped-concrete')}, {svc('concrete-slabs', 'concrete slabs and pads')}, {svc('retaining-walls')} and {svc('paver-sealing', 'paver cleaning and sealing')}, is on the "
-            f"{a('/concrete/', 'concrete services overview')} and the {a('/pavers/', 'pavers and turf overview')}.</p>"),
+        sec("Contact this crew",
+            contact_block + "<p>Calls go straight to the Kissimmee &amp; Greater Orlando crew. If the project is on the Gulf side, the "
+            f"{a('/sarasota-manatee/', 'Sarasota crew')} has its own line.</p>", sid="contact-crew"),
+        sec("What this crew builds and repairs",
+            f"<p>Pavers are the center of the work here. That means {svc('paver-driveways', 'paver driveways')}, {svc('paver-patios', 'paver patios and walkways')} and {svc('pool-deck-pavers', 'pool deck pavers')}, "
+            f"including travertine. Next to new installs, the crew does the upkeep that keeps a paver surface looking right: {svc('paver-sealing', 'paver cleaning and sealing')} and {svc('paver-restoration', 'paver restoration')}, "
+            "which covers deep cleaning, stripping a failed sealer, releveling sunken spots, swapping cracked units and re-filling the joints.</p>"
+            f"<p>Poured work comes after that: {svc('concrete-driveways', 'concrete driveways')}, {svc('concrete-patios', 'patios')}, {svc('stamped-concrete', 'stamped concrete')}, {svc('concrete-slabs', 'slabs')} and {svc('concrete-repair', 'repair and resurfacing')}. "
+            f"The crew also lays {svc('artificial-turf', 'artificial turf')} and builds {svc('retaining-walls', 'segmental retaining walls')}. "
+            f"Around Kissimmee the most common paver questions are about {cs('kissimmee', 'paver-sealing', 'sealing in Kissimmee')} and {cs('kissimmee', 'paver-restoration', 'restoring tired pavers in Kissimmee')}; "
+            f"in town and in the northern suburbs they come up as {cs('orlando', 'paver-restoration', 'paver restoration in Orlando')}.</p>"
+            + table("Central Florida market ranges, pavers first (not a quote)", ["Service", "Market range", "Unit"],
+                    [[svc("paver-sealing", "Paver cleaning, re-sanding and sealing"), price("paver-sealing"), per("paver-sealing")],
+                     [svc("paver-restoration", "Paver restoration (releveling, repairs)"), price("paver-restoration"), per("paver-restoration")],
+                     [svc("pool-deck-pavers", "Pool deck pavers, installed"), price("pool-deck-pavers"), per("pool-deck-pavers")]],
+                    "Ranges as of October 2026, drawn from installer price lists and national cost guides. Price tracks demolition, drainage and approvals rather than the ZIP code.")),
+        sec("Paver sealing and restoration: when a surface needs which",
+            "<p>Sealing is for pavers that are sound but dull, stained or losing sand from the joints. The surface gets washed, the joints get re-filled and a sealer goes on. Restoration is for pavers that have moved: a dip where the base settled, "
+            "a corner that rocks, a puddle that never drains. Sealer can't fix any of that, because the problem sits under the surface.</p>"
+            f"<p>On timing, the industry guide doesn't give a number of years. ICPI's Tech Spec 5 says sealers need re-coating after a period of wear and weather, and acrylics generally last a few years ({src('icpi-ts5', 'ICPI Tech Spec 5')}). "
+            "So we look at the surface rather than a calendar: water that no longer beads, joint sand washed out after a summer of storms, or color that has faded unevenly. "
+            "That same guide notes that a whitish bloom called efflorescence can appear within about 60 days of an install and doesn't hurt the pavement's structure, so a fresh patio with a white haze isn't automatically a defect.</p>"),
+        sec("What changes when you build in Central Florida",
+            "<p>The ground under a Clermont driveway and the ground under a Kissimmee driveway are not the same. Lake County's ridge towns sit on Candler and Astatula sand, drained so well that the water table lies below 80 inches "
+            f"({src('nrcs-candler-osd', 'NRCS, Candler series')}). Through Orlando, Kissimmee and St. Cloud the common series are Myakka, Smyrna and Pomona, where water can stand within a foot and a half of the surface part of the year "
+            f"({src('nrcs-myakka-osd', 'NRCS, Myakka series')}). ICPI's driveway spec starts at 6 inches of compacted aggregate on well-drained ground and adds 2 to 4 inches where the soil stays wet "
+            f"({src('icpi-ts2', 'ICPI Tech Spec 2')}), so two paver bases a few miles apart can legitimately differ by a third.</p>"
+            f"<p>Rain and heat set the calendar. Orlando International averages 51.45 inches a year, most of it from late May to mid-October ({src('ncei-annual-prcp', 'NOAA 1991–2020 normals')}), which is why "
+            f"{post('pouring-concrete-in-florida-rainy-season', 'rainy-season concrete work')} starts at sunrise. "
+            f"Orange County also appears on the Florida Senate's list of eleven counties holding most sinkhole claims ({src('fl-senate-2011-104', 'Florida Senate Interim Report 2011-104')}); a sunken paver field is far more often a washed-out base than a geological event, and "
+            f"{post('sinkholes-and-settlement-central-florida', 'this guide to settlement')} explains how to tell the difference.</p>"),
+        sec("Permits: who handles what in Osceola, Orange and the rest",
+            "<p>The apron where a driveway meets the street is public right-of-way, and nearly every office here wants a permit for it. Beyond the apron the answers split. "
+            "The City of Kissimmee runs driveway permits through the engineering division's online system, while Osceola County caps a residential driveway at 24 feet wide unless a conditional use is approved. "
+            "Unincorporated Orange County treats residential pavers as a zoning permit rather than a building permit.</p>"
+            + table("Where to call before the work starts (checked October 2026)", ["Jurisdiction", "What it asks for", "Desk"],
+                    [["City of Kissimmee", "Driveway or sidewalk permit, filed online", "407-518-2278"],
+                     ["Osceola County", "Driveway permit; 24 ft width limit without conditional use", "407-742-0200"],
+                     ["City of Orlando", "Engineering permit, pavers included", "407-246-2271"],
+                     ["Orange County (unincorporated)", "Zoning permit for pavers", "407-836-5550"],
+                     ["City of Clermont", "Zoning approval for a driveway", "352-394-4081"]],
+                    "Phone numbers belong to each government office, not to us. HB 803 (effective July 1, 2026) removes the single-family building permit below $7,500 but leaves zoning, engineering and right-of-way reviews in place.")
+            + f"<p>Per-county detail lives in the posts on {post('osceola-county-kissimmee-st-cloud-permits', 'Osceola County and Kissimmee')}, {post('orange-county-orlando-driveway-patio-permits', 'Orange County and Orlando')} and "
+            f"{post('lake-and-polk-county-driveway-permits', 'Lake and Polk counties')}, and the {a('/permits/', 'permits and HOA hub')} covers the full list.</p>"),
+        sec("HOA and architectural review in this region",
+            "<p>Many neighborhoods here answer to an architectural board before the city ever sees the plan. Baldwin Park's review committee meets twice a month and takes at most 25 applications per meeting; "
+            f"its guidelines hold a front driveway to the width of the garage door ({src('bp-network', 'Baldwin Park Network, ROA/ARC')}; {src('bp-guidelines', 'Baldwin Park Residential Guidelines, 2024')}). "
+            f"Lake Nona's Laureate Park wants its board's sign-off on any improvement, sent by email ahead of time ({src('laureatepark-faq', 'Laureate Park HOA FAQ')}), and "
+            f"Celebration's committee works from a monthly posted deadline ({src('celebration-arc', 'Celebration, Architectural Review Committee')}). "
+            f"Florida law now stops an association from demanding a building permit before it reviews your request ({src('fs720-3035', 'F.S. 720.3035')}). "
+            f"The step-by-step version is in {post('hoa-approval-for-pavers-and-concrete', 'this HOA approval guide')}.</p>"),
+        sec("How an estimate works",
+            f"<p>You call {tel('orlando')} or send the form with your address and a few photos. We schedule a visit, measure, check the slope, the soil and where the water goes, and note the HOA or permit questions. "
+            f"The written scope that follows lists base depth, paver type and pattern, joints, sealer, permits and cleanup, so two bids can be compared line by line. The full sequence is on the {a('/process/', 'process page')}; "
+            f"{post('how-to-compare-concrete-and-paver-quotes', 'comparing quotes')} shows what to check in anyone's bid. Visits and estimates are free.</p>"),
+        sec("Services in the main Kissimmee and Orlando-area towns",
+            "<p>Each of the six towns below has its own page for pavers, sealing and concrete. The list underneath it covers every other town the crew reaches, by county.</p>"
+            + _service_table("Pavers, sealing and concrete by town", ORLANDO_TOWNS,
+                             "Smaller towns nearby use the county-level permit and soil notes above.")
+            + "<!--AUTO:unit-cities-->"),
     ])
     faqs = [
-        faq("Which counties does the Orlando crew serve?",
-            "Orange, Osceola, Seminole and Lake counties in full, plus the northeast corner of Polk County around Davenport. That covers Orlando, Kissimmee, Clermont, Oviedo, Winter Garden, Windermere, Sanford, Apopka, Winter Park, St. Cloud and the smaller towns between them."),
-        faq("How do I know if my lot is on ridge sand or flatwoods soil?",
-            "Elevation and the neighborhood's age are rough clues: the Clermont and Minneola ridge drains fast and rarely floods a yard, while older flatwoods subdivisions through Orlando and Kissimmee can hold water near the surface for months. The USDA Web Soil Survey gives an exact series for any address, and we check it on the site visit."),
-        faq("Does Orange County's sinkhole history mean my driveway could be at risk?",
-            "Not in the way most people picture it. Orange made an 11-county list for sinkhole insurance claims, but most sunken concrete near Orlando comes from ordinary settlement (soft fill, a leaking pipe, a decayed root), not a geological collapse. A crew that has seen both can usually tell which one a sunken slab is."),
-        faq("Is my town under a water restriction in 2026?",
-            "Most of the unit follows SJRWMD's standard twice-weekly schedule, but Lake County is under the district's Phase III Extreme order, which limits lawn watering to one day a week. Orange, Osceola and Seminole follow the standard district schedule."),
-        faq("Can my HOA stop me from resealing or changing my driveway?",
-            "It can require its own approval first, but as of 2026 it can't make a building permit a precondition for reviewing your request, under F.S. 720.3035. Communities like Baldwin Park, Lake Nona and Celebration run their own architectural review on top of whatever the city requires, often on a monthly meeting schedule."),
-        faq("Do I need a permit to add pavers in unincorporated Orange County?",
-            "Yes, but it's a lighter one than poured concrete. Orange County requires a zoning permit for residential pavers rather than a full building permit, with a dimensioned site plan and, if the pavers sit in an easement, an Easement Acknowledgement form."),
+        faq("Where is the Kissimmee & Greater Orlando crew based?",
+            "In Kissimmee, Florida. It's a service-area business with no storefront or street address, so the crew drives to your property. The Google Business Profile for this unit is set in Kissimmee, and the same crew covers Orange, Osceola, Seminole, Lake and Polk counties."),
+        faq("Do you work in Celebration, Poinciana, Lake Nona or Windermere?",
+            f"Yes. {city('celebration')} and {city('poinciana')} are in Osceola County, {city('lake-nona')} and {city('windermere')} in Orange. Each has a page here with its own permit and HOA notes. If your community isn't listed, call {tel('orlando')} and ask."),
+        faq("Who pulls the permit in Osceola County versus Orange County?",
+            "We pull a permit when the work requires one. The offices differ: Osceola County issues a driveway permit with a 24-foot width limit for unincorporated lots, while unincorporated Orange County treats residential pavers as a zoning permit. A city address follows its own desk."),
+        faq("My HOA wants plans first. Can you help with that?",
+            "Yes. Associations like Baldwin Park, Laureate Park and Celebration each have their own review steps and deadlines. We can supply the dimensions, material and color the application asks for, and the approval comes from the association's board."),
+        faq("Is my paver driveway too far gone to just seal?",
+            "If the surface is level and only faded or stained, cleaning and sealing is the right call. If sections have sunk, rock underfoot or hold standing water, the base has moved, and restoration (lifting, re-compacting, relaying) comes before any sealer."),
+        faq("Does the Kissimmee crew also work on the Gulf coast?",
+            f"No, that's the other crew. Sarasota and Manatee counties are handled by the {a('/sarasota-manatee/', 'Sarasota crew')}, which has its own phone line and knows that coast's salt air and water table."),
     ]
-    return page("/central-florida/", "unit", "Concrete, Pavers & Turf in Greater Orlando, FL", "Opera's Orlando crew covers Orange, Osceola, Seminole, Lake and northeast Polk counties: soils, permits, HOAs and 2026 water rules, by town.",
-                "The Orlando crew: concrete, pavers and turf across Central Florida",
-                capsule("Opera's Orlando unit pours concrete and lays pavers and artificial turf across Orange, Osceola, Seminole, Lake and the northeast corner of Polk County, from Winter Garden to St. Cloud. "
-                        "As of October 2026, the area spans excessively drained ridge sand near Clermont, flatwoods soil through Orlando and Kissimmee with a water table that can sit within 18 inches of the surface, and eight separate permit desks."),
+    return page("/central-florida/", "unit", "Opera Concrete & Pavers – Kissimmee & Orlando, FL",
+                "Opera Concrete & Pavers, based in Kissimmee, FL. Pavers, sealing, restoration, concrete and turf in Orange, Osceola, Seminole, Lake and Polk. (689) 354-0025.",
+                "Kissimmee & Greater Orlando: pavers, paver sealing and concrete",
+                capsule("Opera Concrete & Pavers' Kissimmee & Greater Orlando crew is based in Kissimmee, FL and answers at (689) 354-0025. "
+                        "As of November 2026 it installs pavers, seals and restores them, and pours concrete and lays artificial turf across Orange, Osceola, Seminole, Lake and Polk counties, with free on-site estimates."),
                 body, faqs=faqs, crumbs=[("Service areas", "/service-areas/")], unit="orlando",
-                related=[("/sarasota-manatee/", "The Sarasota–Manatee unit"), ("/concrete/", "Concrete services overview"), ("/pavers/", "Pavers and turf overview"), ("/permits/", "Permits and HOA hub")],
-                hero_photo=ORLANDO_PID, eyebrow="Service area",
-                sources=["nrcs-candler-osd", "nrcs-myakka-osd", "nrcs-tavares-osd", "nrcs-astatula-osd", "nrcs-pomona-osd", "nrcs-basinger-osd", "nrcs-smyrna-osd", "fl-dos-state-soil", "wiki-sugarloaf",
-                         "ncei-annual-prcp", "nws-mlb-wetdry", "fl-senate-2011-104", "fs-627-706", "sjrwmd-watering", "orlando-engineering-permit", "orlando-esm", "orange-do-i-need-permit", "orange-residential-pavers",
-                         "kissimmee-driveway-sidewalk", "clermont-permit-types", "lake-exempt", "lake-driveway-apron", "oviedo-row-type1", "oviedo-slab-paver",
-                         "wintergarden-isr-worksheet", "wintergarden-row-app", "windermere-row-app", "bp-network", "bp-guidelines", "lakenona-about", "laureatepark-faq", "celebration-arc",
-                         "ocfl-horizonwest", "fs720-3035", "fs720-3045"])
+                related=[("/sarasota-manatee/", "The Sarasota crew"), ("/kissimmee-fl/", "Kissimmee, FL"), ("/pavers/", "Pavers and turf overview"), ("/permits/", "Permits and HOA hub")],
+                hero_photo=ORLANDO_PID, eyebrow="Kissimmee & Greater Orlando",
+                sources=["icpi-ts2", "icpi-ts5", "nrcs-candler-osd", "nrcs-myakka-osd", "nrcs-smyrna-osd", "nrcs-pomona-osd", "nrcs-astatula-osd", "ncei-annual-prcp", "fl-senate-2011-104",
+                         "kissimmee-driveway-sidewalk", "osceola-parking-ord", "orange-residential-pavers", "orlando-engineering-permit", "clermont-permit-types",
+                         "bp-network", "bp-guidelines", "laureatepark-faq", "celebration-arc", "fs720-3035"])
 
 
 def sarasota_manatee():
+    contact_block = ul([
+        "<strong>Business name:</strong> Opera Concrete &amp; Pavers",
+        "<strong>Unit:</strong> Sarasota, Lakewood Ranch &amp; Bradenton",
+        "<strong>Based in:</strong> Sarasota, FL (a service-area business: no storefront and no street address, the crew comes to your property)",
+        f"<strong>Phone:</strong> {tel('sarasota')}",
+        "<strong>Counties served:</strong> Sarasota and Manatee",
+        f"<strong>Main towns:</strong> {city('sarasota')}, {city('lakewood-ranch')}, {city('bradenton')} and {city('venice')}",
+        "<strong>What we do:</strong> pavers first (driveways, patios, pool decks), paver sealing and paver restoration, then concrete and artificial turf",
+        "<strong>Estimates:</strong> free, on site",
+    ])
     body = "".join([
-        sec("Counties and towns the Sarasota crew covers",
-            f"<p>The Sarasota unit is the crew behind every job on the Suncoast side of the business, covering Sarasota and Manatee counties from {city('palmetto')} and {city('parrish')} in the north to {city('venice')} and {city('north-port')} in the south. "
-            f"The main towns are {city('sarasota')}, {city('lakewood-ranch')} (a master-planned community that straddles the Sarasota–Manatee line) and {city('bradenton')}, with the barrier islands ({city('siesta-key')}, {city('longboat-key')} and {city('anna-maria-island')}) "
-            "and inland communities like Myakka City and Englewood covered by the same crew.</p>"
-            "<!--AUTO:unit-cities-->"),
-        sec("Flatwoods soil and a water table close to the surface",
-            "<p>Sarasota and Manatee sit almost entirely on flatwoods soil, which means most lots hold water closer to the surface than the ridge towns on the Orlando side of the business. EauGallie and Immokalee, the two most common series here, both carry a seasonal high water table "
-            f"within 6 to 18 inches of the surface for part of the year, and Myakka, Florida's official state soil, covers both counties as well ({src('nrcs-eaugallie-osd', 'NRCS, EauGallie series')}; {src('nrcs-immokalee-osd', 'NRCS, Immokalee series')}; {src('nrcs-myakka-osd', 'NRCS, Myakka series')}). "
-            f"Pomello, a somewhat better-drained sand found on some of the higher ground, and Felda, a very poorly drained series with water within a foot of the surface for part of the year, round out the list ({src('nrcs-pomello-osd', 'NRCS, Pomello series')}; {src('nrcs-felda-osd', 'NRCS, Felda series')}). "
-            "ICPI's paver spec treats wet, poorly drained ground as its own case: 2 to 4 inches more compacted base than the 6 inches it calls for on well-drained lots, which in this unit is closer to the rule than the exception.</p>"),
-        sec("Salt air, flood zones and the Coastal Construction Control Line",
-            "<p>Proximity to the Gulf and the bay changes how a project is built on the barrier islands and much of the mainland shoreline. FDOT treats any structure within 2,500 feet of water carrying more than 2,000 parts per million of chloride as a marine environment, a bridge standard rather than a residential code, "
-            f"but a useful marker for how much salt is in the air near Siesta Key or along the bay ({src('fdot-sdg', 'FDOT Structures Design Guidelines')}). FEMA's flood maps add their own layer: Zone AE carries at least a 1-percent annual flood chance with wave heights under 3 feet, and the Coastal High Hazard "
-            f"Zone VE adds wave action strong enough to cause structural damage in a base flood event, both common on the barrier islands and low-lying stretches of Venice and North Port ({src('fema-coastal-firm', 'FEMA, Coastal FIRM features')}). Building seaward of the state's Coastal Construction Control Line "
-            f"needs its own DEP permit on top of any city or county approval, and Sarasota County layers an additional Gulf Beach Setback Line on its own beaches ({src('fdep-cccl-program', 'FDEP CCCL Program')}; {src('sarasota-county-54-723-gbsl', 'Sarasota County Code §54-723')}). "
-            f"Salt and humidity are also why coastal pool decks get more sealer attention than inland ones; {post('saltwater-pools-and-coastal-salt-air-hardscape', 'saltwater pools and salt air on hardscape')} and {svc('paver-sealing', 'paver sealing and restoration')} cover the upkeep.</p>"),
-        sec("Permit desks across the Sarasota unit",
-            "<p>As on the Orlando side, a permit for the driveway apron in the right-of-way is nearly universal; what a patio or a set of pavers on private ground needs varies from an outright exemption to a full zoning review. The table below summarizes each office; confirm specifics before you design.</p>"
-            + table("Permit desk by jurisdiction (checked October 2026)", ["Jurisdiction", "Driveway or apron", "Patio, slab or pavers on your lot", "Permit desk"],
-                    [["City of Sarasota", "City engineer permit to cut a curb or build a driveway (Sec. 29.5-7)", "No flatwork exemption published; impervious coverage runs 60–75% by zone, 70% on coastal islands", "(941) 263-6494"],
-                     ["Sarasota County (unincorporated)", "Right-of-Way Use Permit, plus a culvert permit where drainage is open", "Not published for patios; retaining walls over 4 ft need engineered drawings", "941-861-5000"],
-                     ["City of Venice", "Right-of-Way Use Permit before any work in city right-of-way", "Older guidance exempts on-grade patios without footers; confirm it's still current", "941-882-7547"],
-                     ["Manatee County (unincorporated)", "Access and Drainage permit; 12 to 24 ft wide, 6 in. thick to the right-of-way line", "Non-structural concrete or paver patios are permit-exempt; slabs with footers are not", "311 / 311@mymanatee.org"],
-                     ["City of Bradenton", "Public Works approval plus a signed driveway/sidewalk affidavit", "Zoning permit required for paved areas; impervious coverage 50–70% by zone", "(941) 932-9414"],
-                     ["Town of Longboat Key", "Rights-of-way use permit for any work in, on or above the right-of-way", "Driveways and patios on grade skip the building permit with zoning sign-off", "941-316-1966"]],
-                    "Summarized from each office's own pages. HB 803 waives only the single-family building permit for work under $7,500 and never reaches a right-of-way, zoning or engineering permit.")
-            + f"<p>Full detail and statute citations are in {post('sarasota-county-driveway-patio-permits', 'Sarasota, Venice and North Port permits')} and {post('manatee-county-driveway-permits', 'Bradenton, Lakewood Ranch, Parrish and Palmetto permits')}, "
-            f"and the {a('/permits/', 'permits and HOA hub')} covers every jurisdiction we serve on both coasts.</p>"),
-        sec("HOAs and master-planned communities",
-            "<p>Lakewood Ranch drives the most HOA questions on this coast. Its Country Club/Edgewater Village Association requires a Modification Request Form before a homeowner seals, repaints, overlays or changes the material of a residential driveway or walkway, and the "
-            f"homeowners' manual names the approved sealer colors, including Sherwin-Williams Silverplate and Gray Clouds; painting a driveway outright isn't permitted at all ({src('lwr-ceva-manual', 'Lakewood Ranch Town Hall, CEVA Homeowners’ Manual')}). The same modification process runs across most of the roughly 35,000-acre master plan, "
-            f"since the IDA's board draws one member from each of its five community development districts ({src('lwr-about', 'Lakewood Ranch / SMR, About Us')}). Palmer Ranch, the roughly 60-square-mile community off I-75 in unincorporated Sarasota County, runs a Master Association that maintains common "
-            f"grounds across more than 90 subdivisions, with architectural review handled neighborhood by neighborhood ({src('palmerranch', 'Palmer Ranch Master Association')}). In North Venice, the Venetian Golf & River Club's Architectural Control Committee requires written approval before any "
-            f"exterior change, with applications due by noon on the last Monday of the month and approvals valid for six months ({src('venetian-acc-app', 'Venetian Golf & River Club POA, ACC Application')}). As of 2026, F.S. 720.3035 keeps any of these boards from requiring a building permit as a "
-            f"condition of review, and F.S. 720.3045 protects artificial turf only where it can't be seen from the street or an adjoining lot. {post('lakewood-ranch-arc-approval-hardscape', 'Lakewood Ranch ARC approval for driveways and pavers')} and {post('hoa-approval-for-pavers-and-concrete', 'getting HOA approval for pavers or a driveway')} go further.</p>"),
-        sec("Water restrictions in 2026: SWFWMD's Modified Phase III order",
-            "<p>Sarasota and Manatee counties both fall under the Southwest Florida Water Management District, which has placed them under a Modified Phase III “Extreme” Water Shortage order running April 3, 2026 through March 31, 2027. Watering drops to one day a week, assigned by the last digit of the street address, "
-            f"in one of two windows: 12:01 to 4 a.m. or 8 p.m. to 11:59 p.m. ({src('swfwmd-restrictions', 'SWFWMD District Water Restrictions')}). Manatee County has posted fines of $100, $250 and $500 for a first, second and third violation ({src('manatee-phase3', 'Manatee County Utilities')}), and the City of "
-            f"Sarasota confirmed the same schedule through March 2027 ({src('sarasota-city-phase3', 'City of Sarasota')}). {svc('artificial-turf', 'Artificial turf')} sidesteps that schedule entirely, and {post('artificial-turf-water-savings-florida', 'how much water and money it saves')} runs the comparison against sod.</p>"),
-        sec("Services in our main Sarasota-area towns",
-            "<p>Each tier-1 town below has its own page for every core service, covering that town's soil, flood zone and permit office. Nearby towns in the same county use the county-level permit guide above instead.</p>"
-            + _service_table("Concrete, paver and turf services by town", SARASOTA_TOWNS)
-            + f"<p>The rest of the catalog, including {svc('stamped-concrete')}, {svc('concrete-walkways', 'sidewalks and walkways')}, {svc('retaining-walls')} and {svc('concrete-repair', 'concrete repair and resurfacing')}, is on the "
-            f"{a('/concrete/', 'concrete services overview')} and the {a('/pavers/', 'pavers and turf overview')}.</p>"),
+        sec("Contact this crew",
+            contact_block + "<p>Calls go straight to the Sarasota crew. A project in Orlando, Kissimmee or elsewhere inland goes to the "
+            f"{a('/central-florida/', 'Kissimmee &amp; Greater Orlando crew')} instead.</p>", sid="contact-crew"),
+        sec("What this crew builds and repairs",
+            f"<p>On the Suncoast the work starts with pavers: {svc('paver-driveways', 'paver driveways')}, {svc('paver-patios', 'paver patios and walkways')} and {svc('pool-deck-pavers', 'pool deck pavers')}, "
+            f"with travertine and other stone for decks. The same crew handles {svc('paver-sealing', 'paver cleaning and sealing')} and {svc('paver-restoration', 'paver restoration')}, "
+            "meaning stripping a worn sealer, lifting and relaying settled areas, replacing broken units and re-sanding the joints.</p>"
+            f"<p>After pavers come {svc('concrete-driveways', 'concrete driveways')}, {svc('concrete-pool-decks', 'concrete pool decks')}, {svc('concrete-walkways', 'walkways')}, {svc('stamped-concrete', 'stamped concrete')} and {svc('concrete-repair', 'concrete repair')}, "
+            f"plus {svc('artificial-turf', 'artificial turf')} and {svc('retaining-walls', 'retaining walls')}. "
+            f"Homeowners in Sarasota proper usually ask about {cs('sarasota', 'paver-sealing', 'sealing pavers in Sarasota')} and {cs('sarasota', 'paver-restoration', 'restoring pavers in Sarasota')}; "
+            f"east in the master-planned communities the same requests show up as {cs('lakewood-ranch', 'paver-restoration', 'paver restoration in Lakewood Ranch')}.</p>"
+            + table("Suncoast market ranges, pavers first (not a quote)", ["Service", "Market range", "Unit"],
+                    [[svc("paver-sealing", "Paver cleaning, re-sanding and sealing"), price("paver-sealing"), per("paver-sealing")],
+                     [svc("paver-restoration", "Paver restoration (releveling, repairs)"), price("paver-restoration"), per("paver-restoration")],
+                     [svc("pool-deck-pavers", "Pool deck pavers, installed"), price("pool-deck-pavers"), per("pool-deck-pavers")]],
+                    "Ranges as of October 2026, drawn from installer price lists and national cost guides. Access, drainage and approvals move a final number more than the town does, so the written quote comes after the visit.")),
+        sec("Sealing near salt water, and when pavers need restoring instead",
+            "<p>Gulf air and pool chemistry are hard on a paver surface, and a coastal patio tends to show it sooner than an inland one. A sealer slows staining and keeps joint sand in place; it won't level a field that has dropped. "
+            "When the surface is flat and only dull, wash, re-sand and seal. When it dips, rocks or pools water, the base needs attention first, and restoration is the job.</p>"
+            f"<p>The paver industry's own guide gives no fixed interval for re-coating; it says sealers need renewing after a period of wear and weather ({src('icpi-ts5', 'ICPI Tech Spec 5')}). "
+            f"Near the water we inspect more often and judge by what the surface is doing. {post('saltwater-pools-and-coastal-salt-air-hardscape', 'This post on salt air and saltwater pools')} covers the coastal upkeep in more detail.</p>"),
+        sec("What changes when you build around Sarasota and Manatee",
+            "<p>Nearly every lot in both counties is flatwoods sand with groundwater close to the surface. EauGallie and Immokalee, the two most common series, hold a seasonal high water table within about 6 to 18 inches "
+            f"({src('nrcs-eaugallie-osd', 'NRCS, EauGallie series')}; {src('nrcs-immokalee-osd', 'NRCS, Immokalee series')}), and Felda holds water within a foot for part of the year ({src('nrcs-felda-osd', 'NRCS, Felda series')}). "
+            f"For pavers that points to the thicker end of ICPI's range: 6 inches of compacted aggregate as the starting point, with 2 to 4 inches added where the soil stays wet ({src('icpi-ts2', 'ICPI Tech Spec 2')}).</p>"
+            "<p>The coast adds layers. FEMA's Zone AE marks at least a 1-percent annual flood chance, and Zone VE adds wave action strong enough to damage structures "
+            f"({src('fema-coastal-firm', 'FEMA, Coastal FIRM features')}). Building seaward of the state's Coastal Construction Control Line needs a DEP permit on top of local approvals, and Sarasota County keeps its own Gulf Beach Setback Line "
+            f"({src('fdep-cccl-program', 'FDEP CCCL Program')}; {src('sarasota-county-54-723-gbsl', 'Sarasota County Code §54-723')}). Siesta Key, Longboat Key and Anna Maria Island are where those lines come up most.</p>"
+            "<p>Rain is similar on both sides of the state. The Sarasota–Bradenton airport normal is 49.05 inches a year "
+            f"({src('ncei-annual-prcp', 'NOAA 1991–2020 normals')}), concentrated between late May and mid-October. Watering rules are tighter than usual right now: the Southwest Florida Water Management District has both counties under a once-a-week order through March 31, 2027 "
+            f"({src('swfwmd-restrictions', 'SWFWMD District Water Restrictions')}), one reason {post('artificial-turf-water-savings-florida', 'turf versus sod')} is a live question.</p>"),
+        sec("Permits: Sarasota County, Manatee County and the cities",
+            "<p>As on the other coast, the driveway apron needs a right-of-way permit almost everywhere. Patios and pavers on private ground range from exempt to a zoning review, depending on which office has the address.</p>"
+            + table("Where to call before the work starts (checked October 2026)", ["Jurisdiction", "What it asks for", "Desk"],
+                    [["City of Sarasota", "City engineer permit to cut a curb or build a driveway", "(941) 263-6494"],
+                     ["Sarasota County", "Right-of-Way Use Permit for the apron", "941-861-5000"],
+                     ["City of Venice", "Right-of-way use permit before any work in the right-of-way", "941-882-7547"],
+                     ["Manatee County", "Access and Drainage permit; non-structural paver patios are on its no-permit list", "311"],
+                     ["City of Bradenton", "Public Works approval and a zoning permit for paved areas", "(941) 932-9414"]],
+                    "These numbers belong to each government office. HB 803 waives only the single-family building permit for work under $7,500 and doesn't touch right-of-way, zoning or engineering reviews.")
+            + f"<p>Detail and statute citations: {post('sarasota-county-driveway-patio-permits', 'Sarasota, Venice and North Port permits')}, {post('manatee-county-driveway-permits', 'Manatee County, Bradenton and Parrish permits')} and the {a('/permits/', 'permits and HOA hub')}.</p>"),
+        sec("HOAs and architectural approvals in Lakewood Ranch and beyond",
+            "<p>Lakewood Ranch generates the most paperwork questions. In the Country Club and Edgewater villages, a Modification Request Form has to be approved before a homeowner reseals, repaints or changes the material of a driveway or walkway, "
+            f"and the manual lists approved sealer colors ({src('lwr-ceva-manual', 'Lakewood Ranch Town Hall, CEVA Homeowners’ Manual')}). "
+            f"In North Venice, the Venetian Golf &amp; River Club's committee takes applications until noon on the last Monday of the month ({src('venetian-acc-app', 'Venetian Golf & River Club POA, ACC Application')}), and "
+            f"Palmer Ranch leaves architectural review to its individual neighborhoods ({src('palmerranch', 'Palmer Ranch Master Association')}). "
+            f"State law bars an HOA from requiring a building permit before it reviews your request ({src('fs720-3035', 'F.S. 720.3035')}). "
+            f"{post('lakewood-ranch-arc-approval-hardscape', 'This Lakewood Ranch ARC guide')} walks through the steps.</p>"),
+        sec("How an estimate works",
+            f"<p>Call {tel('sarasota')} or use the form with the address and a few photos. The crew visits, measures, checks slope, soil and drainage, and flags permit and HOA questions on the spot. "
+            f"The written scope lists base depth, paver type, joint material, sealer, approvals and cleanup, and is built so it can sit next to another bid. See the {a('/process/', 'six-step process')} for the whole sequence. "
+            "Estimates are free.</p>"),
+        sec("Services in the main Sarasota-area towns",
+            "<p>The four towns below each have their own page for pavers, sealing and concrete. Below them, every other town the crew reaches is listed by county.</p>"
+            + _service_table("Pavers, sealing and concrete by town", SARASOTA_TOWNS,
+                             "Nearby towns in the same county use the county-level permit and soil notes above.")
+            + "<!--AUTO:unit-cities-->"),
     ])
     faqs = [
-        faq("Which towns does the Sarasota crew serve?",
-            "Sarasota and Manatee counties in full: Sarasota, Lakewood Ranch, Bradenton, Venice, North Port, Palmetto, Parrish and the barrier islands (Siesta Key, Longboat Key and Anna Maria Island), along with inland communities like Myakka City and Englewood."),
-        faq("Does Lakewood Ranch require approval before I reseal my driveway?",
-            "Yes, for homes inside Country Club/Edgewater Village. A Modification Request Form has to be approved before sealing, repainting, overlaying or changing the material of a concrete driveway or walkway, and the homeowners' manual lists the sealer colors the association has already approved."),
-        faq("Can I add a pool deck seaward of the Coastal Construction Control Line?",
-            "Only with a DEP permit on top of whatever the city or county requires, and on Sarasota County beaches the county's own Gulf Beach Setback Line applies as well. Longboat Key, Siesta Key and Anna Maria are the barrier islands in this unit where that extra layer comes up most often."),
-        faq("Is Sarasota or Manatee County under a water restriction in 2026?",
-            "Both counties are under SWFWMD's Modified Phase III Extreme Water Shortage order, in effect through March 31, 2027. Lawn watering is limited to one day a week, assigned by the last digit of the street address, in an overnight or late-evening window."),
-        faq("Do I need a permit for a patio in unincorporated Manatee County?",
-            "A non-structural concrete or paver patio is on the county's own no-permit list, but a concrete slab with footers and any work tying into the right-of-way, such as the driveway connection, still need a permit through Manatee's Access and Drainage process."),
-        faq("Does building near the Gulf change how concrete or pavers are built?",
-            "The construction method stays the same, but upkeep changes: salt-laden air and a high water table push more homeowners on the barrier islands and the bay shoreline toward sealed pavers and more frequent joint and sealer checks than an inland Bradenton or Parrish lot typically needs."),
+        faq("Where is the Sarasota crew based?",
+            "In Sarasota, Florida. It's a service-area business with no storefront or street address, so the crew comes to you. The unit's Google Business Profile is set in Sarasota, and the crew covers Sarasota and Manatee counties."),
+        faq("Do you work in Lakewood Ranch, Venice, North Port and the islands?",
+            f"Yes. {city('lakewood-ranch')} straddles the Sarasota–Manatee line, {city('venice')} and {city('north-port')} are in Sarasota County, and {city('siesta-key')}, {city('longboat-key')} and {city('anna-maria-island')} are covered too. For a town that isn't listed, call {tel('sarasota')} and ask."),
+        faq("Does sealing matter more near the Gulf?",
+            "Salt air, pool chemicals and a high water table are tough on a paver surface, so coastal owners often check theirs more often. There's no fixed re-seal date in the industry guide, so we judge by the surface: water no longer beading, joint sand gone, color fading unevenly."),
+        faq("Do I need approval before changing a Lakewood Ranch driveway?",
+            "In the Country Club and Edgewater villages, yes. A Modification Request Form comes first for sealing, repainting or overlaying a driveway or walkway. We can supply dimensions and materials for it; the association decides."),
+        faq("Do pavers near the beach need a state permit?",
+            "Seaward of the Coastal Construction Control Line, a DEP permit applies in addition to local approvals, and Sarasota County has its own Gulf Beach Setback Line on county beaches. We'll tell you at the visit if your lot falls near either line."),
+        faq("Does the Sarasota crew also work in Orlando?",
+            f"No. Central Florida jobs go to the {a('/central-florida/', 'Kissimmee &amp; Greater Orlando crew')}, which is based in Kissimmee and has a separate phone line."),
     ]
-    return page("/sarasota-manatee/", "unit", "Concrete, Pavers & Turf in Sarasota & Manatee, FL", "Opera's Sarasota crew covers Sarasota and Manatee counties: soils, salt air, flood zones, permits and the 2026 SWFWMD watering order, by town.",
-                "The Sarasota crew: concrete, pavers and turf for the Suncoast",
-                capsule("Opera's Sarasota unit builds concrete, pavers and artificial turf across Sarasota and Manatee counties, from Palmetto and Lakewood Ranch to Venice and the barrier islands. "
-                        "As of October 2026, the area combines flatwoods soil with a water table within 18 inches of the surface, salt air and flood zones near the Gulf, and a once-a-week SWFWMD watering order that runs through March 31, 2027."),
+    return page("/sarasota-manatee/", "unit", "Opera Concrete & Pavers – Sarasota & Manatee, FL",
+                "Opera Concrete & Pavers, based in Sarasota, FL. Pavers, paver sealing and restoration, concrete and turf across Sarasota and Manatee counties. (941) 207-7585.",
+                "Sarasota, Lakewood Ranch & Bradenton: pavers, sealing and concrete",
+                capsule("Opera Concrete & Pavers' Sarasota crew is based in Sarasota, FL and answers at (941) 207-7585. "
+                        "As of November 2026 it installs pavers, seals and restores them, and pours concrete and lays artificial turf across Sarasota and Manatee counties, including Lakewood Ranch and Bradenton, with free on-site estimates."),
                 body, faqs=faqs, crumbs=[("Service areas", "/service-areas/")], unit="sarasota",
-                related=[("/central-florida/", "The Greater Orlando unit"), ("/concrete/", "Concrete services overview"), ("/pavers/", "Pavers and turf overview"), ("/permits/", "Permits and HOA hub")],
-                hero_photo=SARASOTA_PID, eyebrow="Service area",
-                sources=["nrcs-eaugallie-osd", "nrcs-immokalee-osd", "nrcs-pomello-osd", "nrcs-felda-osd", "nrcs-myakka-osd", "fdot-sdg", "fema-coastal-firm", "fdep-cccl-program", "fdep-cccl-apply",
-                         "sarasota-county-54-723-gbsl", "city-sarasota-engineering-row", "sarasota-county-row-permit", "sarasota-county-124-255-culverts", "sarasota-county-22-63-retaining-walls",
-                         "venice-ldr-9.1-row-definition", "venice-bp-guidelines-3rdparty", "manatee-ldc-1004.2-access-drainage-permit", "manatee-driveway-application",
-                         "manatee-no-permit-list", "bradenton-lur-4.1-access-sidewalks", "bradenton-lur-2.2-zoning-permit", "lbk-code-57.03-row-permit",
-                         "lwr-ceva-manual", "lwr-about", "palmerranch", "venetian-acc-app", "swfwmd-restrictions", "manatee-phase3", "sarasota-city-phase3", "fs720-3035", "fs720-3045"])
+                related=[("/central-florida/", "The Kissimmee & Greater Orlando crew"), ("/sarasota-fl/", "Sarasota, FL"), ("/pavers/", "Pavers and turf overview"), ("/permits/", "Permits and HOA hub")],
+                hero_photo=SARASOTA_PID, eyebrow="Sarasota, Lakewood Ranch & Bradenton",
+                sources=["icpi-ts2", "icpi-ts5", "nrcs-eaugallie-osd", "nrcs-immokalee-osd", "nrcs-felda-osd", "fema-coastal-firm", "fdep-cccl-program", "sarasota-county-54-723-gbsl",
+                         "ncei-annual-prcp", "swfwmd-restrictions", "city-sarasota-engineering-row", "sarasota-county-row-permit", "venice-ldr-9.1-row-definition", "manatee-no-permit-list",
+                         "manatee-ldc-1004.2-access-drainage-permit", "bradenton-lur-2.2-zoning-permit", "lwr-ceva-manual", "venetian-acc-app", "palmerranch", "fs720-3035"])
 
 
 def get_pages():

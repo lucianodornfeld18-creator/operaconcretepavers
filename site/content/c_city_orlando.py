@@ -212,8 +212,8 @@ LOCAL["paver-patios"] = {
     "faqs": [
         faq("Do paver patios need a separate permit from a paver driveway in Orlando?",
             "They go through the same engineering permit category, covering pavers, asphalt and concrete together, but a patio that stays on private property skips the City Paver's Memorandum of Understanding that applies only where pavers extend into the right-of-way."),
-        faq("Does Laureate Park require approval for a new patio?",
-            "Yes. The Master Association's Architectural Review Board reviews property improvements, including patios, landscaping and pool areas, with requests submitted by email before work starts. That review runs alongside the city's engineering permit, not in place of it."),
+        faq("Does an Orlando HOA approval replace the city's engineering permit?",
+            "No. Where a neighborhood has an architectural review board, Laureate Park's Master Association being one example, the board's sign-off on patios, landscaping and pool areas runs alongside the city's engineering permit rather than in place of it, so both go in before the first paver is set."),
         faq("What is Baldwin Park's rule about flush porch pavers?",
             "A 2024 update to the neighborhood's design guidelines requires pavers on the front porch and walkway to sit flush with the surrounding surface rather than raised or recessed, a detail worth planning for when releveling or replacing porch pavers there."),
     ],
@@ -410,9 +410,9 @@ LOCAL["concrete-repair"] = {
 
 # 11. paver-sealing -------------------------------------------------------------
 LOCAL["paver-sealing"] = {
-    "title": "Paver Sealing & Restoration in Orlando, FL",
-    "meta": "Paver sealing and restoration in Orlando, FL: why sealing day doesn't follow the SJRWMD watering schedule, and Baldwin Park's flush-porch-paver rule, October 2026.",
-    "h1": "Paver Sealing and Restoration in Orlando",
+    "title": "Paver Sealing in Orlando, FL",
+    "meta": "Paver sealing in Orlando, FL: why sealing day doesn't follow the SJRWMD watering schedule, and Baldwin Park's flush-porch-paver rule, October 2026.",
+    "h1": "Cleaning, Re-Sanding and Sealing Pavers in Orlando",
     "lede": capsule(f"Paver sealing in Orlando runs {price('paver-sealing')} per {per('paver-sealing')} as of October 2026, including the pressure-wash, re-sand and seal steps. "
                      "Orange County follows the St. Johns River Water Management District's year-round lawn-watering schedule, but a hose-fed pressure washer used to rinse pavers before sealing isn't irrigation, so the job doesn't have to wait for a particular watering day."),
     "sections": [

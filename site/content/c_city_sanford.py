@@ -54,8 +54,8 @@ HUB_FAQS = [
     faq("Does Sanford or Seminole County review my driveway permit?",
         f"It depends on which road the driveway fronts. Sanford's Building Division reviews anything touching city right-of-way through its Citizenserve portal, a Seminole County permit applies on a county road, and an FDOT permit applies on a state road "
         f"({src('sanford-schedule-n', 'City of Sanford, LDR Schedule N')}; {src('seminole-driveway-app', 'Seminole County, Residential Driveway Construction Application')})."),
-    faq("Does artificial turf count toward Sanford's impervious surface limit?",
-        f"Yes. Schedule F names \"artificial turf\" directly alongside concrete, pavers, asphalt, compacted gravel and mulch as impervious surface for ISR purposes, so a turf lawn uses up the same 50 percent lot allowance a driveway or patio would "
+    faq("Which yard surfaces does Sanford count as impervious?",
+        f"More than most owners expect. Schedule F lists concrete, pavers, asphalt, compacted gravel, mulch and even artificial turf as impervious for ISR purposes, so a new patio, a turf lawn and a gravel parking strip all draw on the same 50 percent lot allowance "
         f"({src('sanford-schedule-f', 'City of Sanford, LDR Schedule F')})."),
     faq("Can I pour a plain concrete driveway inside one of Sanford's historic districts?",
         f"Yes, poured concrete is one of the surfaces the historic district guidelines allow for a driveway visible from the right of way, alongside pavers, gravel and natural mulch, as long as it's confined by curbing and doesn't add a new curb cut on a lot with alley access "

@@ -379,9 +379,9 @@ LOCAL["concrete-repair"] = {
 
 # 11. paver-sealing -------------------------------------------------------------
 LOCAL["paver-sealing"] = {
-    "title": "Paver Sealing & Restoration in Clermont, FL",
+    "title": "Paver Sealing in Clermont, FL",
     "meta": "Paver sealing in Clermont, FL: why the state's once-a-week watering order doesn't cover a pressure washer, and ridge sand's drying effect, Oct. 2026.",
-    "h1": "Paver Sealing and Restoration in Clermont",
+    "h1": "Cleaning, Re-Sanding and Sealing Pavers in Clermont",
     "lede": capsule(f"Cleaning, re-sanding and sealing pavers in Clermont falls between {price('paver-sealing')} per {per('paver-sealing')}, Florida pricing current for this October. "
                      "Lake County's current once-a-week watering order governs lawn irrigation, not a hose-fed pressure washer, and the excessively drained ridge sand under most Clermont yards dries a cleaned paver surface faster than flatwoods ground would elsewhere."),
     "sections": [

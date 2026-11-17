@@ -391,9 +391,9 @@ LOCAL["concrete-repair"] = {
 
 # 11. paver-sealing -------------------------------------------------------------
 LOCAL["paver-sealing"] = {
-    "title": "Paver Sealing & Restoration in Oviedo, FL",
-    "meta": "Paver sealing and restoration in Oviedo, FL: why SJRWMD's watering schedule doesn't govern a pre-seal pressure wash, October 2026.",
-    "h1": "Paver Sealing and Restoration in Oviedo",
+    "title": "Paver Sealing in Oviedo, FL",
+    "meta": "Paver sealing in Oviedo, FL: why SJRWMD's watering schedule doesn't govern a pre-seal pressure wash, October 2026.",
+    "h1": "Cleaning, Re-Sanding and Sealing Pavers in Oviedo",
     "lede": capsule(f"As of October 2026, cleaning, re-sanding and sealing pavers in Oviedo costs {price('paver-sealing')} per {per('paver-sealing')} in the Florida market. "
                      "A hose-fed pressure washer isn't the same category of water use as lawn irrigation under St. Johns River Water Management District's rules, so scrubbing pavers ahead of a seal doesn't have to wait for a particular address day."),
     "sections": [

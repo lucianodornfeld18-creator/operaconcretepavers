@@ -105,8 +105,8 @@ LOCAL["concrete-driveways"] = {
     "faqs": [
         faq("Does Kissimmee require a permit for a concrete driveway?",
             "Inside the city limits, yes: the Engineering Division reviews it through EnerGov, with routing taking at least two business days once the application and required documents are in. Outside the city, the same lot goes through Osceola County's Building Office instead."),
-        faq("How wide can a driveway be in unincorporated Osceola County?",
-            "County Code §22-50.6 caps a residential driveway at 24 feet wide unless the county approves a conditional use for something wider. That figure applies outside the Kissimmee city limits; the city itself hasn't published a comparable stand-alone width cap."),
+        faq("Does Osceola County's 24-foot driveway cap apply inside Kissimmee city limits?",
+            "Not directly. County Code §22-50.6 limits a residential driveway to 24 feet wide, with anything wider needing a county conditional use, but that rule governs unincorporated Osceola. The City of Kissimmee hasn't published a comparable stand-alone width cap, so a lot inside the city follows the city's own engineering review."),
         faq("Who do I call if I'm not sure whether my lot is inside Kissimmee city limits?",
             "Either office can usually tell you from the address: the city's Engineering Division at 407-518-2278, or Osceola County's Building Office at 407-742-0200. Confirming jurisdiction before a design is finalized avoids submitting a driveway plan to the office that doesn't actually review that parcel."),
     ],
@@ -379,9 +379,9 @@ LOCAL["concrete-repair"] = {
 
 # 11. paver-sealing -------------------------------------------------------------
 LOCAL["paver-sealing"] = {
-    "title": "Paver Sealing & Restoration in Kissimmee, FL",
-    "meta": "Paver sealing and restoration in Kissimmee, FL: why Toho Water Authority's watering days don't apply to a pressure wash, October 2026.",
-    "h1": "Paver Sealing and Restoration in Kissimmee",
+    "title": "Paver Sealing in Kissimmee, FL",
+    "meta": "Paver sealing in Kissimmee, FL: why Toho Water Authority's watering days don't apply to a pressure wash, October 2026.",
+    "h1": "Cleaning, Re-Sanding and Sealing Pavers in Kissimmee",
     "lede": capsule(f"Cleaning, re-sanding and sealing pavers in Kissimmee costs {price('paver-sealing')} per {per('paver-sealing')}, a Florida market range as of October 2026. "
                      "Toho Water Authority's twice-a-week schedule governs irrigation, not a hose-fed pressure washer, so cleaning pavers ahead of a seal doesn't have to wait for a particular day of the week."),
     "sections": [

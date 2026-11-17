@@ -98,7 +98,7 @@ HUB = page(
             "Yes, the Sarasota unit serves West Bradenton along with the incorporated city. The difference is which office reviews the driveway: a city curb cut goes through the Public Works director under LUR §4.1, while West Bradenton, part of unincorporated Manatee County, uses the county's access and drainage permit instead."
         ),
         faq(
-            "Do I need a permit for a straight driveway replacement in Bradenton?",
+            "What paperwork does Bradenton want before a driveway is repaved?",
             "Yes. Building, altering or repaving a driveway needs a zoning permit with a scaled site plan under LUR §2.2.1, and any part of the work in the public right-of-way also needs a signed Driveway/Sidewalk Affidavit on file with Public Works & Utilities."
         ),
         faq(
@@ -525,7 +525,7 @@ LOCAL = {
     "paver-sealing": {
         "title": "Paver Sealing in Bradenton, FL – Maintenance Rule",
         "meta": "Paver sealing in Bradenton, FL counts as maintenance under LUR 2.2, skipping the zoning permit; market range is " + price("paver-sealing") + " per " + per("paver-sealing") + ".",
-        "h1": "Paver Sealing and Restoration in Bradenton",
+        "h1": "Cleaning, Re-Sanding and Sealing Pavers in Bradenton",
         "lede": capsule(
             "As of October 2026, cleaning, re-sanding and sealing pavers in Bradenton costs " + price("paver-sealing") + " per " + per("paver-sealing") + ". It's maintenance, not construction, under the city's own zoning code, "
             "though how soon it needs doing again depends heavily on whether the address sits near open water."

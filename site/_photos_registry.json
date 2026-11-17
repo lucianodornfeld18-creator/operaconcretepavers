@@ -211,7 +211,8 @@
   "name": "Herringbone paver driveway",
   "services": [
    "paver-driveways",
-   "paver-sealing"
+   "paver-sealing",
+   "paver-restoration"
   ],
   "w": 1600,
   "h": 1068,
@@ -288,7 +289,8 @@
   "services": [
    "paver-driveways",
    "paver-sealing",
-   "pool-deck-pavers"
+   "pool-deck-pavers",
+   "paver-restoration"
   ],
   "w": 1600,
   "h": 992,
@@ -443,7 +445,8 @@
   "alt": "Worker in hat and gloves pressure-washing a paver patio in front of a stucco house, face shadowed and not the focus",
   "name": "Pressure-washing a paver patio",
   "services": [
-   "paver-sealing"
+   "paver-sealing",
+   "paver-restoration"
   ],
   "w": 1600,
   "h": 1392,

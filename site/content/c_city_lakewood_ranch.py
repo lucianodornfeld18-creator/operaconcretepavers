@@ -50,7 +50,7 @@ HUB_FAQS = [
         "It depends on which side of the community line your lot sits on. Roughly three-quarters of the CDP is in Manatee County, where an access and drainage permit covers the driveway; the rest is in Sarasota County, where the same work falls under a Right-of-Way Use Permit."),
     faq("What is a Modification Request Form, and do I need one?",
         "It's the community's own design review, separate from the county permit, processed by Community Association Services out of the community's Town Hall. The specific form depends on your village, so confirming which association covers your address is the first step before submitting anything."),
-    faq("Can I paint my concrete driveway in Lakewood Ranch?",
+    faq("Is painting a driveway allowed in Country Club/Edgewater Village?",
         f"In Country Club/Edgewater Village, the homeowners' manual states that painting residential driveways and sidewalks isn't permitted there. Integral color added during a {svc('stamped-concrete', 'stamped concrete')} pour is a different method from painting an existing surface, and it's worth asking your own village's committee how that distinction applies before ordering materials."),
     faq("How close to a pond can artificial turf be installed in Lakewood Ranch?",
         "No closer than 10 feet under the state's 2026 turf rule, unless the turf backs onto a seawall. That setback applies on top of whichever county permit and community Modification Request Form the lot otherwise needs."),

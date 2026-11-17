@@ -236,7 +236,7 @@ def polymeric_vs_regular_sand():
             "Polymeric sand tends to sit at the upper end of that range because of the material cost and the extra care needed during installation; plain sand sits closer to the lower end. "
             f"Either way, {svc('paver-sealing', 'a paver sealing visit')} is also the point where loose, weedy or ant-infested joints from years of regular sand usually get swept out and replaced, which is a natural time to switch to polymeric if washout has been a recurring problem.</p>"),
         sec("Related reading",
-            f"<p>{svc('paver-sealing', 'Our paver sealing and restoration page')} covers the cleaning, re-sanding and sealing process together, and the {a('/paver-sealing-cost/', 'paver sealing cost guide')} breaks the pricing down further. "
+            f"<p>{svc('paver-sealing', 'Our paver sealing page')} covers the sealer side, and the {svc('paver-restoration', 'paver restoration page')} covers cleaning and re-sanding together, and the {a('/paver-sealing-cost/', 'paver sealing cost guide')} breaks the pricing down further. "
             f"{svc('paver-driveways', 'Paver driveways')} and {svc('paver-patios', 'paver patios')} cover the base and bedding sand that goes in underneath, separate from the joint sand on top. "
             f"{compare('wet-look-vs-natural-paver-sealer', 'Wet-look vs. natural-finish paver sealer')} is the companion decision for the sealer itself, and {post('ants-and-weeds-in-paver-joints', 'ants and weeds between pavers')} and {post('why-pavers-sink-in-florida', 'why pavers sink in Florida')} go deeper into the problems joint sand choice is trying to prevent.</p>"),
     ])
@@ -300,7 +300,7 @@ def wet_look_vs_natural_sealer():
             "<p>Say you have a 500 square foot travertine pool deck near Lakewood Ranch and a 500 square foot concrete-paver driveway entry at the same property. The pool deck is a clear case for a natural or low-gloss sealer with a traction additive, both for bare feet and because a matte finish keeps the deck from reading noticeably hotter in full sun. "
             "The driveway entry, seeing shoes rather than bare feet and acting as the first visual impression of the house, is a reasonable place for a wet-look sealer if the deeper color is worth the slightly higher glare. Both jobs fall in the same per-square-foot sealing range; the difference is the product chosen, not the labor involved.</p>"),
         sec("Related reading",
-            f"<p>{svc('paver-sealing', 'Our paver sealing and restoration page')} covers the cleaning and re-sanding steps that come before any sealer goes down, and the {a('/paver-sealing-cost/', 'paver sealing cost guide')} has the full pricing breakdown. "
+            f"<p>{svc('paver-restoration', 'Our paver restoration page')} covers the cleaning and re-sanding steps that come before any sealer goes down, and the {a('/paver-sealing-cost/', 'paver sealing cost guide')} has the full pricing breakdown. "
             f"{compare('polymeric-sand-vs-joint-sand', 'Polymeric sand vs. regular joint sand')} is the companion decision for what happens inside the joints before sealing. "
             f"{svc('pool-deck-pavers', 'Pool deck pavers')} and {post('travertine-pool-deck-care', 'travertine pool deck care in Florida')} go deeper into deck-specific upkeep, and {post('how-to-clean-pavers-without-damage', 'how to clean pavers without ruining the joints or sealer')} covers the maintenance side once a sealer is down.</p>"),
     ])

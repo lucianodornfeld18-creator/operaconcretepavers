@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Single source of truth for operaconcretepavers.com. Nothing here is invented: facts carry a source id
 (see SOURCES, merged from research/sources.json) and the date they were checked.
-Phones and e-mail are intentionally blank until the owner supplies them; templates hide every element that needs them."""
+Phones came from the owner on 2026-11-17; e-mail stays blank until an inbox exists, and templates hide every element that needs it."""
 import json
 import math
 import pathlib
@@ -17,13 +17,13 @@ REVIEWED = "2026-10-01"          # date the facts on the site were last checked
 REVIEWED_HUMAN = "October 2026"
 OPERA_ENDPOINT = "https://opera-portal.lucianodornfeld18.workers.dev/api/lead"
 
-# Two units. Phone fields stay empty until the owner sends the numbers; the site then shows them everywhere at once.
+# Two units, each with its own Google Business Profile and Twilio line (both lines ring through operaportal.app since 2026-11-17).
 UNITS = {
-    "orlando": {"name": "Orlando & Central Florida", "short": "Orlando", "route": "/central-florida/", "brand": "opera-orlando",
-                "phone_e164": "", "phone_display": "", "base_city": "Orlando", "center": (28.5384, -81.3789),
+    "orlando": {"name": "Kissimmee & Greater Orlando", "short": "Kissimmee/Orlando", "route": "/central-florida/", "brand": "opera-orlando",
+                "phone_e164": "+16893540025", "phone_display": "(689) 354-0025", "base_city": "Kissimmee", "center": (28.2920, -81.4076),
                 "counties": ["orange", "osceola", "seminole", "lake", "polk"]},
     "sarasota": {"name": "Sarasota, Lakewood Ranch & Bradenton", "short": "Sarasota", "route": "/sarasota-manatee/", "brand": "opera-sarasota",
-                 "phone_e164": "", "phone_display": "", "base_city": "Sarasota", "center": (27.3364, -82.5307),
+                 "phone_e164": "+19412077585", "phone_display": "(941) 207-7585", "base_city": "Sarasota", "center": (27.3364, -82.5307),
                  "counties": ["sarasota", "manatee"]},
 }
 UNIT_ORDER = ["orlando", "sarasota"]
@@ -39,8 +39,8 @@ def any_phone():
 
 
 BUSINESS = {
-    "blurb": "Opera Concrete & Pavers builds concrete driveways, patios and pool decks, stamped concrete, paver driveways and patios, retaining walls and artificial turf for homes in the Orlando area and in Sarasota, Lakewood Ranch and Bradenton.",
-    "service_area_short": "Orlando, Kissimmee, Clermont, Oviedo, Winter Garden, Windermere and Central Florida; Sarasota, Lakewood Ranch, Bradenton, Venice and the Suncoast",
+    "blurb": "Opera Concrete & Pavers installs paver driveways, patios and pool decks, seals and restores existing pavers, and builds concrete driveways, patios and pool decks, stamped concrete, retaining walls and artificial turf for homes in Kissimmee and Greater Orlando (crew based in Kissimmee) and in Sarasota, Lakewood Ranch and Bradenton (crew based in Sarasota).",
+    "service_area_short": "Kissimmee, Orlando, Clermont, Oviedo, Winter Garden, Windermere and Central Florida; Sarasota, Lakewood Ranch, Bradenton, Venice and the Suncoast",
 }
 
 # ---------------------------------------------------------------- services
@@ -66,25 +66,29 @@ SERVICES = {
                      "short": "Patios, walkways, fire-pit areas and lanai extensions in concrete pavers or travertine.", "price": "paver-patio", "noun": "a paver patio"},
     "pool-deck-pavers": {"name": "Pool Deck Pavers", "route": "/pool-deck-pavers/", "pillar": "pavers", "kw": "pool deck pavers",
                          "short": "Pool decks in travertine, shell stone and concrete pavers, including overlays on an old deck.", "price": "pool-deck-pavers", "noun": "a paver pool deck"},
-    "paver-sealing": {"name": "Paver Sealing & Restoration", "route": "/paver-sealing/", "pillar": "pavers", "kw": "paver sealing",
-                      "short": "Cleaning, re-sanding with polymeric sand, sealing and releveling sunken or shifted pavers.", "price": "paver-sealing", "noun": "paver sealing"},
+    "paver-sealing": {"name": "Paver Sealing", "route": "/paver-sealing/", "pillar": "pavers", "kw": "paver sealing",
+                      "short": "Wet-look or natural sealer, water- or solvent-based, applied to a clean, dry, re-sanded paver surface.", "price": "paver-sealing", "noun": "paver sealing"},
+    "paver-restoration": {"name": "Paver Restoration", "route": "/paver-restoration/", "pillar": "pavers", "kw": "paver restoration",
+                          "short": "Deep cleaning, stripping failed sealer, releveling sunken areas, swapping broken pavers and re-sanding joints.", "price": "paver-restoration", "noun": "paver restoration"},
     "retaining-walls": {"name": "Retaining Walls", "route": "/retaining-walls/", "pillar": "pavers", "kw": "retaining wall installation",
                         "short": "Segmental block walls, raised planters and seat walls, with drainage behind the wall.", "price": "retaining-wall", "noun": "a retaining wall"},
     "artificial-turf": {"name": "Artificial Turf", "route": "/artificial-turf/", "pillar": "turf", "kw": "artificial turf installation",
                         "short": "Lawns, pet areas, putting greens and turf between pavers, built on a washed-rock base.", "price": "artificial-turf", "noun": "artificial turf"},
 }
 SERVICE_ORDER = ["concrete-driveways", "paver-driveways", "concrete-patios", "paver-patios", "concrete-pool-decks", "pool-deck-pavers",
-                 "stamped-concrete", "concrete-walkways", "concrete-slabs", "concrete-repair", "paver-sealing", "retaining-walls", "artificial-turf"]
+                 "stamped-concrete", "concrete-walkways", "concrete-slabs", "concrete-repair", "paver-sealing", "paver-restoration", "retaining-walls", "artificial-turf"]
 PILLARS = {
     "concrete": {"name": "Concrete", "route": "/concrete/", "h": "Concrete services"},
     "pavers": {"name": "Pavers", "route": "/pavers/", "h": "Paver services"},
     "turf": {"name": "Artificial Turf", "route": "/artificial-turf/", "h": "Artificial turf"},
 }
+# paver-restoration has hand-written city pages only where CITY_SERVICE_EXTRA says so (content/c_restoration_cities.py).
 TIER_SERVICES = {
-    1: SERVICE_ORDER,
+    1: [k for k in SERVICE_ORDER if k != "paver-restoration"],
     2: ["concrete-driveways", "paver-driveways", "concrete-patios", "paver-patios", "concrete-pool-decks", "pool-deck-pavers", "stamped-concrete", "artificial-turf"],
     3: ["concrete-driveways", "paver-patios", "artificial-turf"],
 }
+CITY_SERVICE_EXTRA = {"paver-restoration": ["kissimmee", "orlando", "sarasota", "lakewood-ranch"]}
 
 # ---------------------------------------------------------------- prices (market ranges, not quotes)
 # key -> (low, high, typical_low, typical_high, unit, source ids). Filled from research/facts.md.

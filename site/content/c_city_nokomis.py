@@ -274,7 +274,7 @@ LOCAL["concrete-patios"] = {
             "A secondary summary of county guidance suggests an on-grade patio without footings may be exempt, but since the county's own page couldn't be confirmed directly, we check with the Building Division before pricing a job as permit-free."
         ),
         faq(
-            "Does grass or shell count against my lot's coverage limit?",
+            "Does grass or shell count against a Nokomis lot's coverage limit?",
             "No, under the county's nonconforming-lot rule. Grass, shell and other surfaces that let water penetrate are specifically excluded from the 50 percent impervious-coverage calculation that catches concrete, pavers and asphalt."
         ),
     ],

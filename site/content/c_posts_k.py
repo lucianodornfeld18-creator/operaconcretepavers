@@ -168,7 +168,7 @@ def p_how_to_compare_concrete_and_paver_quotes():
             f"included on the other two, turns three numbers that aren't really comparable into a fair comparison. {a('/paver-patio-cost/', 'Our paver patio cost guide')} "
             "covers where Florida market pricing typically lands for a patio that size.</p>"),
     ])
-    faqs = [faq("Why do estimates for the same driveway vary so much?",
+    faqs = [faq("Why can two bids for the same paver or concrete job be thousands of dollars apart?",
                 "Because the bids usually aren't describing the same job underneath the same number. Base depth, demolition and haul-off, reinforcement, permit handling and deposit structure all move the price independently of square footage, so a lower bid is far more often a thinner spec than a better deal. Comparing the line items, not just the total, is what explains the gap."),
             faq("Is the lowest quote usually the best deal?",
                 "Not reliably. The lowest number on a page often turns out to specify a thinner base, skip the haul-off fee, or leave reinforcement and joint sand unmentioned, none of which shows up until the written scopes are compared side by side. A fair price for a thinner job isn't the same thing as a good price for the job actually wanted."),
