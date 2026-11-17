@@ -194,7 +194,7 @@ def stamped_cost():
     pids = for_service(K, 1)
     body = "".join([
         sec("How much does stamped concrete cost per square foot in Florida?",
-            f"<p>Stamped concrete runs {price(pk)} per square foot installed in Florida as of {PRICE_DATE}, with most jobs falling nearer {price(pk, True)} ({src('homeguide-stamped', 'HomeGuide, Dec 2025')}). "
+            f"<p>Expect {price(pk)} per square foot for stamped concrete in Florida as of {PRICE_DATE}; most projects land near {price(pk, True)} ({src('homeguide-stamped', 'HomeGuide, Dec 2025')}). "
             "That range covers both patios and driveways; HomeGuide's own numbers show a 20 × 20 ft stamped patio at $3,200 to $7,600 and a stamped driveway running $12 to $18 per square foot once the heavier driveway-grade mix and traffic-rated finish are factored in. "
             f"A Homewyse national figure quotes a much higher $26.27 to $31.94 per square foot starting point; it's an outlier against every other guide checked for this page and shouldn't be treated as the Florida market number ({src('homewyse-stamped', 'Homewyse, Sep 2026')}).</p>"),
         sec("Why does stamped concrete cost more than plain concrete?",
@@ -257,7 +257,7 @@ def stamped_cost():
     ])
     faqs = [
         faq("How much does stamped concrete cost per square foot in Florida?",
-            f"Stamped concrete runs {price(pk)} per square foot installed, with most jobs closer to {price(pk, True)}. The low end covers a single-pattern, single-color basic job; the high end covers multi-color, hand-tooled work, and a stamped driveway typically prices a bit higher than a stamped patio of the same tier."),
+            f"The market range for stamped concrete is {price(pk)} per square foot installed, and most jobs come closer to {price(pk, True)}. The low end covers a single-pattern, single-color basic job; the high end covers multi-color, hand-tooled work, and a stamped driveway typically prices a bit higher than a stamped patio of the same tier."),
         faq("Why does stamped concrete cost more than plain concrete?",
             "The texturing has to happen in a narrow window right after the slab is poured, while it's still soft enough to take a mold impression but firm enough to hold the pattern. That compressed labor window, plus integral color, a release agent and a sealer coat, is what separates stamped pricing from plain broom concrete, not the base concrete itself."),
         faq("Does a stamped pool deck cost more than a stamped patio?",
@@ -271,7 +271,7 @@ def stamped_cost():
     return page("/stamped-concrete-cost/", "price", "Stamped Concrete Cost in Florida (2026)",
                 f"Stamped concrete cost in Florida as of {PRICE_DATE}: {price(pk)} per sq ft, basic-to-high-end tier pricing, and why stamped costs more than plain concrete.",
                 "What Stamped Concrete Costs Over Plain Concrete in Florida",
-                capsule(f"As of {PRICE_DATE}, stamped concrete in Florida runs {price(pk)} per square foot installed, closer to {price(pk, True)} for most jobs ({src('homeguide-stamped', 'HomeGuide')}). "
+                capsule(f"Stamped concrete in Florida costs {price(pk)} per square foot installed as of {PRICE_DATE}, with {price(pk, True)} common for most jobs ({src('homeguide-stamped', 'HomeGuide')}). "
                         "A basic single-color pattern starts around $8 per square foot; multi-color, hand-tooled work runs $19 or more, roughly double the cost of plain broom concrete."),
                 body, faqs=faqs,
                 sources=["homeguide-stamped", "homeguide-concrete-patio", "homewyse-stamped", "nrmca-cip6", "angi-driveway-orlando"],

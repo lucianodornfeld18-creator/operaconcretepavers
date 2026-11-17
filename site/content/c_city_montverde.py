@@ -67,7 +67,7 @@ HUB = page("/montverde-fl/", "city", "Concrete, Pavers & Turf Company in Montver
            "Concrete, pavers and turf in Montverde, FL: the town's driveway apron code, its hillside lots near Bella Collina, and the Lake County watering order, Oct. 2026.",
            "Concrete, Pavers and Artificial Turf for Montverde, Florida Homes",
            capsule(f"Montverde is a small, hilly Lake County town of about 2,249 residents on the south shore of Lake Apopka, roughly 18 miles from Orlando, where grades of 50 feet or more aren't unusual. "
-                   f"Opera builds concrete driveways, paver patios and artificial turf here; a new concrete driveway runs {price('concrete-driveway')} per {per('concrete-driveway')}, October 2026 Florida pricing, reviewed under the town's own apron and driveway code."),
+                   f"Opera works in Montverde on concrete driveways, paver patios and artificial turf; for a new concrete driveway, October 2026 Florida pricing is {price('concrete-driveway')} per {per('concrete-driveway')}, reviewed under the town's own apron and driveway code."),
            HUB_BODY, faqs=HUB_FAQS, sources=SRC, city=SLUG,
            crumbs=[("Service areas", "/service-areas/"), ("Orlando & Central Florida", "/central-florida/")], crumb="Montverde",
            related=[("/central-florida/", "The Orlando-unit coverage page"),

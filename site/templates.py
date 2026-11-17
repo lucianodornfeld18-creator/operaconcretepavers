@@ -21,7 +21,6 @@ MARK = '<svg class="mk" viewBox="-10 0 400 300" aria-hidden="true"><path fill="c
 CSS = """
 @font-face{font-family:Montserrat;src:url(/static/fonts/montserrat-latin.woff2) format("woff2");font-weight:500 900;font-style:normal;font-display:swap}
 @font-face{font-family:"Playfair Display";src:url(/static/fonts/playfair-latin.woff2) format("woff2");font-weight:500 800;font-style:normal;font-display:swap}
-@font-face{font-family:"Playfair Display";src:url(/static/fonts/playfair-italic-latin.woff2) format("woff2");font-weight:500 700;font-style:italic;font-display:swap}
 :root{--ink:#0B0B0B;--ink2:#161513;--ink3:#24211C;--text:#26241F;--mute:#5E5950;--line:#E7E0D2;--bg:#FFFFFF;--soft:#F8F5EF;--gold:#C29B4E;--gold-l:#E2C27F;--gold-d:#8A6420;--gold-t:#EFE0BD;--r:4px;--w:1200px;
 --gold-g:linear-gradient(135deg,#F3DD9F 0%,#D9B567 34%,#BE8F3F 68%,#9E742B 100%);--gold-h:linear-gradient(90deg,rgba(194,155,78,0),#C29B4E 18%,#F0D898 50%,#C29B4E 82%,rgba(194,155,78,0));
 --serif:"Playfair Display",Georgia,"Times New Roman",serif;--head:Montserrat,"Arial Black",Arial,sans-serif;--body:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
@@ -31,7 +30,7 @@ img,svg{max-width:100%;height:auto}a{color:var(--gold-d);text-underline-offset:3
 ::selection{background:#E9D6A6;color:#0B0B0B}
 :focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:3px}
 h1,h2,h3{font-family:var(--serif);color:var(--ink);line-height:1.14;margin:0 0 .5em;letter-spacing:-.005em}
-h1{font-weight:700;font-size:clamp(2.1rem,4.7vw,3.45rem)}h1 em,h2 em{font-style:italic;color:var(--gold-d)}
+h1{font-weight:700;font-size:clamp(2.1rem,4.7vw,3.45rem)}h1 em,h2 em{font-style:normal;color:var(--gold-d)}
 h2{font-weight:700;font-size:clamp(1.5rem,3vw,2.15rem);margin-top:1.8em}
 h2:after{content:"";display:block;width:64px;height:2px;background:var(--gold-g);margin-top:.5em}
 .ctr h2:after,.band h2:after{margin-left:auto;margin-right:auto}
@@ -387,7 +386,7 @@ def render_page(p):
     return f"""<!doctype html>
 <html lang="en-US"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(p["title"])}</title><meta name="description" content="{esc(p["meta"])}"><meta name="robots" content="{robots}"><link rel="canonical" href="{url}">
-<link rel="preload" href="/static/fonts/playfair-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/static/fonts/montserrat-latin.woff2" as="font" type="font/woff2" crossorigin>{_preload(p)}
+{_preload(p)}
 <meta property="og:type" content="{og_type}"><meta property="og:site_name" content="{esc(PUBLIC_NAME)}"><meta property="og:title" content="{esc(p["title"])}"><meta property="og:description" content="{esc(p["meta"])}"><meta property="og:url" content="{url}"><meta property="og:image" content="{_og_abs(p)}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:locale" content="en_US"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/static/img/icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/static/img/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><meta name="theme-color" content="#0B0B0B">
 <link rel="alternate" type="application/rss+xml" title="{esc(PUBLIC_NAME)} blog" href="/feed.xml">

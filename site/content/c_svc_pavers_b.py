@@ -138,7 +138,7 @@ def sealing():
                         "choosing acrylic, urethane or penetrating types around the surface and the weather."),
                 body, faqs=faqs,
                 sources=["icpi-ts2", "icpi-ts5", "homeguide-seal-pavers", "castle-paver-sealing-cfl", "nrcs-myakka-osd", "nrcs-candler-osd", "ncei-annual-prcp", "fs713-13", "fs720-3035"],
-                related=[("/paver-restoration/", "paver restoration: cleaning, releveling and repair"), ("/paver-sealing-cost/", "paver sealing cost guide"),
+                related=[("/faq/pavers/", "more paver questions"), ("/paver-restoration/", "paver restoration: cleaning, releveling and repair"), ("/paver-sealing-cost/", "paver sealing cost guide"),
                          ("/compare/wet-look-vs-natural-paver-sealer/", "wet-look vs. natural-finish sealer"), ("/compare/polymeric-sand-vs-joint-sand/", "polymeric sand vs. joint sand"),
                          ("/blog/paver-sealer-turned-white-or-cloudy/", "why paver sealer turns cloudy"),
                          ("/blog/efflorescence-on-pavers-and-concrete/", "the white haze on new pavers"),
@@ -193,9 +193,9 @@ def retaining_walls():
             "daylights at grade instead of trapping it behind the wall. Native soil dug out of the trench isn't a substitute for that aggregate; "
             "it compacts differently and holds water against the wall rather than letting it pass through, and on a flatwoods lot the fines in that "
             "soil can migrate into a drain system within a season or two and clog it from the inside.</p>"
-            "<p>This matters more here than in a drier climate. Flatwoods soils common to both service areas, including Myakka, hold a seasonal "
-            f"water table within about 18 inches of the surface for part of most years ({src('nrcs-myakka-osd', 'NRCS, Myakka series')}), and "
-            f"Orlando and Sarasota–Bradenton both see roughly 50 inches of rain a year, most of it in a rainy season running late May into "
+            "<p>This matters more here than in a drier climate. Myakka and the other flatwoods soils found in both service areas let the "
+            f"seasonal water table come up to about 18 inches below the ground in most years ({src('nrcs-myakka-osd', 'NRCS, Myakka series')}), and "
+            f"annual rainfall at the Orlando and Sarasota–Bradenton airports is close to 50 inches, the bulk of it falling between late May and "
             f"mid-October ({src('ncei-annual-prcp', 'NOAA 1991–2020 normals')}). A wall with nowhere for that water to go is carrying the full "
             "weight of every storm's runoff against its back with no release, which is a leading cause of bulging, cracking or an outright toppled "
             "wall over time.</p>"),
@@ -221,9 +221,9 @@ def retaining_walls():
             "<p>Retaining walls sit in a different spot than a driveway. A wall holds back soil, so the permit office treats it as a structure, "
             "and past the local height threshold it needs engineered drawings before the permit is issued. That's a reason to ask, before signing, "
             "who's pulling the permit, who's drawing the plans if a drawing is required, and whose name goes on the application.</p>"
-            f"<p>On a contract over $2,500, Florida's lien law requires a recorded Notice of Commencement before work starts ({src('fs713-13', 'F.S. 713.13')}), "
-            "and since 2026 an HOA can't require a government permit as a precondition of reviewing a project, though it can still apply its own "
-            f"architectural-control review to a wall's location, height and materials ({src('fs720-3035', 'F.S. 720.3035')}). "
+            f"<p>A wall contract priced over $2,500 brings in the lien-law Notice of Commencement, recorded ahead of the first day of work ({src('fs713-13', 'F.S. 713.13')}). "
+            "Starting in 2026 an HOA is barred from demanding a government permit before it will look at a project, yet it keeps its own "
+            f"architectural-control review over where a wall sits, how tall it is and what it's made of ({src('fs720-3035', 'F.S. 720.3035')}). "
             f"{post('lake-and-polk-county-driveway-permits', 'Driveway and patio permits in Lake and Polk County')} and "
             f"{post('hoa-approval-for-pavers-and-concrete', 'getting HOA approval for hardscape')} go further on the paperwork side.</p>"),
         sec("Seat walls and raised planters: lighter structures, the same base rules",

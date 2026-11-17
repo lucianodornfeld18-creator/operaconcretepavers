@@ -54,8 +54,8 @@ HUB_BODY = "".join([
         "Does a bigger patio or pool deck push a Nokomis lot past its coverage limit?",
         "<p>It depends which number the county is measuring. The RSF districts that cover most of Nokomis cap *building* coverage at 35 percent of the lot, a figure that governs the house footprint, not "
         "the driveway or patio beside it " + src("sarasota-county-124-76-rsf-standards", "Sarasota County Code §124-76") + ". Older RMF-zoned parcels recorded on or before November 11, 1975, a plat date that catches "
-        "plenty of Nokomis's original mid-century lots, answer to a separate ceiling instead: 50 percent impervious coverage, counting 'roof structures, swimming pools and pool decks, as well as concrete, asphalt, "
-        "pavers,' while grass, shell and other water-permeable surfaces don't count against it " + src("sarasota-county-124-283-nonconforming-isr", "Sarasota County Code §124-283") + ". " + svc("concrete-pool-decks", "A concrete pool deck") +
+        "plenty of Nokomis's original mid-century lots, answer to a separate ceiling instead: 50 percent impervious coverage, a tally that includes roofed structures, pools and their decks, plus concrete, asphalt "
+        "and pavers, while grass, shell and other water-permeable surfaces stay off the count " + src("sarasota-county-124-283-nonconforming-isr", "Sarasota County Code §124-283") + ". " + svc("concrete-pool-decks", "A concrete pool deck") +
         " addition on one of those older platted lots is worth checking against that 1975 cutoff before the forms go up, since it can decide whether the project needs a variance first.</p>"
     ),
     sec(
@@ -393,8 +393,8 @@ LOCAL["pool-deck-pavers"] = {
         ),
         (
             "Two separate lines can both run through a Casey Key backyard",
-            "<p>Sarasota County's own Gulf Beach Setback Line prohibits construction or excavation seaward of it, or waterward of the Barrier Island Pass Hazard Line, anywhere on Casey Key, independent "
-            "of whatever Florida's own coastal program requires " + src("sarasota-county-54-723-gbsl", "Sarasota County Code §54-723") + ". A homeowner stretching a travertine overlay toward the Gulf can "
+            "<p>On Casey Key, the county's Gulf Beach Setback Line forbids building or digging on its seaward side, as well as on the water side of the Barrier Island Pass Hazard Line; that restriction stands apart "
+            "from whatever Florida's own coastal program requires " + src("sarasota-county-54-723-gbsl", "Sarasota County Code §54-723") + ". A homeowner stretching a travertine overlay toward the Gulf can "
             "find the county line and the state's own control line falling in two different spots on the same lot, which is why pinning down both before quoting a square-foot number matters more "
             "here than it would a mile inland " + src("fdep-cccl-apply", "FDEP's CCCL application page") + ". " + svc("concrete-pool-decks", "A plain concrete deck") + " expansion on the same parcel runs "
             "into both lines identically.</p>"

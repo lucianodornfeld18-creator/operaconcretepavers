@@ -109,8 +109,8 @@ LOCAL["concrete-driveways"] = {
          f"<p>Ocoee's right-of-way permit scope names \"driveway, culvert, drainage system, pavement\" directly among the work that needs that permit when it touches a city street, right-of-way or easement "
          f"({ext(ROW_URL, 'City of Ocoee, Right-of-Way Permitting')}). A driveway rebuilt inside its existing footprint on private ground typically needs only the Building Division's site-plan review; one that widens the curb cut or extends into the swale picks up the right-of-way application too, filed through Public Works at 407-905-3170.</p>"),
     ],
-    "scenario": ("Replacing a two-car driveway near the right-of-way line, worked out in square feet",
-                 f"<p>A 22 by 24 ft two-car driveway comes to 528 sq ft. At {price('concrete-driveway')} per {per('concrete-driveway')}, that pour runs roughly $3,168 to $7,920 before demolition of the old slab is added. "
+    "scenario": ("A two-car replacement pour near the right-of-way line, in numbers",
+                 f"<p>Take a 22 ft by 24 ft double-wide slab: 528 sq ft of concrete. Priced at {price('concrete-driveway')} per {per('concrete-driveway')}, the new pour alone is roughly $3,168 to $7,920, and tearing out the old one is extra. "
                  "If 40 of those 528 sq ft sit in the apron crossing toward the street, that section needs the right-of-way permit on top of the Building Division's standard site-plan review, a second application worth building into the project timeline from the start rather than discovering partway through.</p>"),
     "faqs": [
         faq("Does a concrete driveway need a permit in Ocoee?",
@@ -217,7 +217,7 @@ LOCAL["concrete-pool-decks"] = {
     "title": "Concrete Pool Decks in Ocoee, FL – New Builds",
     "meta": "Concrete pool deck builders in Ocoee, FL: growth along the Fifty West corridor and the city's site-plan permit rule, Oct. 2026.",
     "h1": "Concrete Pool Decks for Ocoee Homes",
-    "lede": capsule(f"A concrete pool deck in Ocoee falls between {price('concrete-pool-deck')} per {per('concrete-pool-deck')} under current October 2026 Florida pricing. "
+    "lede": capsule(f"In Ocoee this October, expect a concrete pool deck to cost {price('concrete-pool-deck')} per {per('concrete-pool-deck')} at current Florida market rates. "
                      "A meaningful share of new pool decks are going in around the newer subdivisions that have grown up along the SR 50 business corridor over the past two decades, rather than being poured as replacements near the older downtown core."),
     "sections": [
         ("New rooftops along the corridor bring new pools with them",
@@ -228,15 +228,15 @@ LOCAL["concrete-pool-decks"] = {
          f"({ext(BLDGFAQ_URL, 'City of Ocoee, Building FAQ')}). That review applies the same way whether the deck is going in with a freshly set pool shell or being poured around a pool that's been in the ground for years.</p>"),
     ],
     "scenario": ("A new pool deck on a corridor-area lot, worked out in square feet",
-                 f"<p>A newly built home near the SR 50 corridor pouring a 520 sq ft deck around a just-set pool shell prices out between roughly $2,600 and $7,800 once the {price('concrete-pool-deck')} per {per('concrete-pool-deck')} range is applied, trending higher for a cool-touch decorative finish. "
+                 f"<p>A newly built home near the SR 50 corridor pouring a 520 sq ft deck around a just-set pool shell comes to roughly $2,600 to $7,800 when the market range of {price('concrete-pool-deck')} per {per('concrete-pool-deck')} is multiplied out; a cool-touch decorative surface pushes toward the top of that spread. "
                  "Because the deck and the pool shell are going in together, the pour schedule typically coordinates with the pool builder's own timeline rather than fitting into a yard that's already landscaped.</p>"),
     "faqs": [
         faq("Are most new Ocoee pool decks near the SR 50 corridor or downtown?",
             "More often near the corridor, where residential growth has followed the Fifty West business development over the past two decades, putting a larger share of new pool construction in that part of the city."),
         faq("Does Ocoee's permit process differ for a new pool deck versus a replacement?",
             "No. Both go through the same site-plan-and-description requirement the city applies to any slab, with additional structural detail requested depending on the scope of the specific job."),
-        faq("What's the price range for a concrete pool deck in Ocoee?",
-            f"Figure {price('concrete-pool-deck')} per {per('concrete-pool-deck')} heading into the end of 2026, with a plain broom finish toward the lower end and a cool-touch decorative texture pushing it higher."),
+        faq("How much does a concrete pool deck cost in Ocoee?",
+            f"Late 2026 market data puts it at {price('concrete-pool-deck')} per {per('concrete-pool-deck')}. A plain broom finish sits near the bottom, while a cool-touch decorative texture moves the number up."),
     ],
     "sources": SRC,
 }
@@ -305,25 +305,25 @@ LOCAL["artificial-turf"] = {
     "title": "Artificial Turf in Ocoee, FL – Statewide Rules",
     "meta": "Artificial turf installers in Ocoee, FL: the state's 2026 turf rule, Orange County's sinkhole-claims history, and SJRWMD's schedule, Oct. 2026.",
     "h1": "Artificial Turf for Ocoee Yards",
-    "lede": capsule(f"Turf installers are pricing Ocoee jobs at {price('artificial-turf')} per {per('artificial-turf')} this fall. "
-                     "The statewide 2026 turf rule sets the same base, infill and water-edge buffer here as anywhere else in Florida, and Orange County's inclusion on the state's own sinkhole-claims list is one more reason that base gets built to spec rather than skipped."),
+    "lede": capsule(f"Ocoee turf jobs are quoted at {price('artificial-turf')} per {per('artificial-turf')} this fall. "
+                     "One 2026 state turf rule governs the base, the infill and the distance from open water in Ocoee exactly as it does elsewhere, and because Orange County appears on the state's sinkhole-claims list, there's added reason to build that base to spec."),
     "sections": [
         ("The 2026 turf rule applies the same way across Ocoee as anywhere else in the state",
          f"<p>Florida's synthetic turf rule, in effect since May 19, 2026, calls for a washed, permeable subgrade, bars any buried irrigation line under the turf, and requires the panel to stay at least 10 feet from the edge of a pond, lake or canal unless a seawall already separates the two "
-         f"({src('dep-rule', 'Florida Administrative Code, Rule 62-308.100')}). A 2025 law limits how much further a city or county can tighten that standard "
-         f"({src('fs125572', 'Florida Statutes §125.572')}). On a lot backing up to one of Ocoee's retention ponds or drainage canals, that buffer gets measured from the water's real edge, not from a fence line set back from it, before a {svc('artificial-turf', 'turf')} layout is finalized.</p>"),
+         f"({src('dep-rule', 'Florida Administrative Code, Rule 62-308.100')}). Under a 2025 statute, a city or county can't go much beyond that standard on its own "
+         f"({src('fs125572', 'Florida Statutes §125.572')}). If your lot backs onto an Ocoee retention pond or drainage canal, put the tape on the real waterline, not on a fence set back from it, before anyone finalizes a {svc('artificial-turf', 'turf')} layout.</p>"),
         ("A sound base matters on ground that sits inside the state's sinkhole-claims counties",
-         f"<p>A 2010 Florida Senate interim report, drawing on state insurance-regulator data, places Orange among the counties responsible for the bulk of Florida's sinkhole insurance claims filed between 2006 and 2009 "
-         f"({src('fl-senate-2011-104', 'Florida Senate Interim Report 2011-104')}). That history doesn't mean a soft patch of yard is a sinkhole, but it is a reason the compacted, washed-stone base the state turf rule already requires gets built carefully rather than rushed, since a weak base under turf can pond the same water it was supposed to shed.</p>"),
+         f"<p>Orange is one of the counties a 2010 Florida Senate interim report, built on state insurance-regulator data, links to most of the sinkhole insurance claims filed in the state during 2006 through 2009 "
+         f"({src('fl-senate-2011-104', 'Florida Senate Interim Report 2011-104')}). A soft spot in the yard isn't automatically a sinkhole. Still, the compacted washed-stone layer the turf rule demands deserves care instead of a rush job, because a weak layer under synthetic grass can hold the very water it should drain away.</p>"),
     ],
     "scenario": ("Laying out turf against a drainage canal setback",
-                 f"<p>Consider a 380 sq ft stretch of side yard that backs up to a drainage canal on an Ocoee lot: pulling the layout back the required 10 feet from the canal's edge trims off roughly 45 sq ft, leaving about 335 sq ft to actually turf. At {price('artificial-turf')} per {per('artificial-turf')}, that comes to somewhere between $3,350 and $8,375 depending on pile height and backing. "
-                 "Measuring from the canal's actual waterline, rather than guessing from where the grass currently stops, is what sets the real number before material gets ordered.</p>"),
+                 f"<p>Say an Ocoee side yard of 380 sq ft runs alongside a drainage canal. The required 10-foot setback from the canal's edge removes roughly 45 sq ft, so about 335 sq ft is left for turf. Multiply by the market range of {price('artificial-turf')} per {per('artificial-turf')} and the job spans $3,350 to $8,375, with pile height and backing deciding where in that band it falls. "
+                 "The measured waterline, not the spot where the grass happens to end today, fixes the final area before any rolls are ordered.</p>"),
     "faqs": [
-        faq("How close to a drainage canal can artificial turf go in Ocoee?",
-            "No closer than 10 feet from the water's actual edge under the statewide turf rule, unless a seawall or similar barrier already separates the lawn from the water."),
+        faq("What is the minimum distance between artificial turf and a canal in Ocoee?",
+            "Ten feet from the water's true edge is the floor under the state turf rule, unless the canal bank already has a seawall holding it back."),
         faq("Does Orange County's sinkhole-claims history affect turf installation in Ocoee?",
-            "Not as a direct rule, but it's a reason the washed, compacted base the state turf standard already requires gets built properly, since poorly draining ground is more likely to show problems on geology like this."),
+            "No rule changes, but it argues for building the washed, compacted base correctly, since ground that drains poorly tends to show trouble sooner on this kind of geology."),
         faq("Can an HOA in Ocoee still restrict artificial turf beyond the state rule?",
             "An HOA's own architectural guidelines sit outside the state law limiting city and county turf restrictions, so checking a specific community's rules is still worth doing before ordering material."),
     ],

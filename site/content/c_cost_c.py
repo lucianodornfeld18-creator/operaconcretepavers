@@ -62,7 +62,7 @@ def paver_patio_cost():
                   "Whether removal and haul-off of an existing slab, sod or landscaping is included or billed separately",
                   f"Who applies for any required permit, and whether the fee is in the price; a contract over $2,500 also triggers Florida's Notice of Commencement paperwork, recorded with the county clerk before anyone breaks ground ({src('fs713-13', 'F.S. 713.13')})"])),
         sec("What restoration adds to a sealing quote",
-            f"<p>Sealing prices assume a surface that's already sound. When it isn't, the extra work is priced by the area it touches, not by the whole patio. Releveling and repair run {price('paver-restoration')} {per('paver-restoration')}, with {price('paver-restoration', True)} as the typical band, per market data as of October 2026 "
+            f"<p>Sealing prices assume a surface that's already sound. When it isn't, the extra work is priced by the area it touches, not by the whole patio. Market data as of October 2026 puts releveling and repair at {price('paver-restoration')} for every square foot that gets releveled or repaired; most jobs fall in {price('paver-restoration', True)} "
             f"({src('homeguide-driveway-repair', 'HomeGuide')}; {src('outdoorlifepros-paver-repair-capecoral', 'Outdoor Life Pros, Cape Coral')}). That sits on top of the sealing figure, not inside it.</p>"
             + ul(["Releveling: pulling units, correcting the base and bedding sand, resetting and compacting. Cost climbs with depth of the problem and how hard it is to get a plate compactor in.",
                   "Replacing pavers: priced per unit area, with matching availability the swing factor, since an older line may be discontinued.",
@@ -277,8 +277,8 @@ def artificial_turf_cost():
     pids = for_service(K, 1)
     body = "".join([
         sec("How much does artificial turf cost in Florida?",
-            f"<p>Installed artificial turf in Florida runs {price(pk)} per square foot as of {PRICE_DATE}, with most lawns landing nearer {price(pk, True)} "
-            f"({src('homeguide-artificial-grass', 'HomeGuide')}; {src('angi-turf-national', 'Angi')}). Angi's Orlando-specific data puts the average project at $4,758, with a typical range of $2,811 to $6,950 covering excavation, base material and turf together "
+            f"<p>As of {PRICE_DATE}, a finished artificial lawn in Florida is priced at {price(pk)} per square foot, and most lawns end up nearer {price(pk, True)} "
+            f"({src('homeguide-artificial-grass', 'HomeGuide')}; {src('angi-turf-national', 'Angi')}). For Orlando specifically, Angi reports a $4,758 average project and a usual spread of $2,811 to $6,950, which takes in excavation, base material and the turf itself "
             f"({src('angi-turf-orlando', 'Angi, Orlando')}). That's a planning figure, not a quote. What a specific lawn costs depends on how much old sod and irrigation has to come out, how much the yard has to be regraded for drainage, and which backing and infill the project needs.</p>"),
         sec("Artificial turf cost by lawn size",
             f"<p>A straightforward lawn conversion scales close to linear with area, though a very small job can carry a higher effective rate because excavation equipment and crew time don't shrink proportionally with square footage.</p>"
@@ -297,13 +297,13 @@ def artificial_turf_cost():
                      ["Drainage system, if added", "$1,000–$4,000+", "Beyond the base grading every installation needs"]],
                     f"{src('angi-turf-orlando', 'Angi, Orlando')}; {src('angi-turf-tampa', 'Angi, Tampa')}; {src('angi-turf-national', 'Angi, national')}; {src('homeguide-artificial-grass', 'HomeGuide')}.")),
         sec("How much does a backyard putting green cost?",
-            "<p>A backyard putting green costs more per square foot than a lawn panel, commonly $15 to $40 depending on size, since a small green carries more shaping, screeding and edge work per square foot than an open lawn "
+            "<p>Per square foot, a putting green in the backyard is pricier than lawn turf, often $15 to $40 by size, as a compact green needs more shaping, screeding and edge detail for each square foot than a wide-open lawn does "
             f"({src('homeguide-putting-green', 'HomeGuide, putting greens')}). Angi's size bands run from $25 to $40 per square foot for a green under 400 square feet down to $15 to $25 for one over 2,000, with a typical project averaging about $4,300 "
             f"({src('angi-putting-green', 'Angi, putting greens')}). Each cup and flagstick adds roughly $150. DIY kits run far less, $5 to $20 per square foot, but skip the precisely screeded base a true putting surface needs to roll true.</p>"),
         sec("Does turf cost more in Orlando or Tampa/Sarasota?",
             f"<p>Published averages show a real gap: Orlando's typical project averages $4,758 against Tampa's $7,246 ({src('angi-turf-orlando', 'Angi, Orlando')}; {src('angi-turf-tampa', 'Angi, Tampa')}). We use Tampa as the closest published comparison for the Sarasota–Manatee side, since no Angi or HomeGuide page breaks out Sarasota turf pricing specifically. That difference more likely reflects the mix of project sizes each page's data draws from than a real cost gap between the two coasts; a 500 square foot pet run and a 2,000 square foot full-yard conversion average very differently even at the same per-square-foot rate. We quote by yard size and scope, not by which coast the address sits on.</p>"),
         sec("What Florida's 2026 turf rule adds to (and removes from) a quote",
-            f"<p>DEP Rule 62-308.100, effective May 19, 2026, sets a material floor every residential turf quote in Florida has to meet: a washed crushed-rock or crushed-concrete base, with the fines removed so water keeps moving through it, and infill limited to clean sand, rock, shell or coated silica sand, with rubber crumb allowed only inside a playground footprint "
+            f"<p>DEP Rule 62-308.100, effective May 19, 2026, sets the minimum materials any residential turf quote in Florida must meet. The base is washed crushed rock or crushed concrete with the fines taken out so water drains through, and infill can be only clean sand, rock, shell or coated silica sand; crumb rubber is permitted solely within a playground footprint "
             f"({src('rule62-308-100-text', 'DEP Rule 62-308.100')}). That standard removes some of the cheapest shortcuts a bid used to be able to take, limerock or road base with fines compacted underneath, or loose rubber infill swept in to save a material cost, which is worth knowing before comparing an unusually low bid against the ranges on this page. {svc('artificial-turf', 'Our artificial turf page')} has the complete rule, including the water setback and tree drip-line requirements that can affect where turf is installed on a given lot.</p>"),
         sec("Are there rebates for replacing grass with artificial turf in Florida?",
             "<p>No, not in the programs we could verify. Several utilities and water districts covering both service areas run Florida-Friendly Landscaping rebates that pay homeowners to replace irrigated turf grass, but each one we checked defines the replacement as living, drought-tolerant plants verified by an extension service or conservation staff, not a synthetic surface. "
@@ -323,16 +323,16 @@ def artificial_turf_cost():
         sec("What a turf quote should spell out",
             "<p>Ask every bidder for the same specifics so two quotes describe the same job:</p>"
             + ul(["Base material named specifically as washed crushed rock or crushed concrete, not just 'compacted base'",
-                  "Infill material named: clean sand, rock, shell or coated silica sand, with no rubber crumb outside a playground footprint",
-                  "Whether the project sits within 10 feet of a pond, canal or other waterbody, or inside a tree's drip line, and how the quote addresses either one",
-                  "The irrigation plan in writing: which heads get capped and where, since in-ground systems can't water turf directly",
+                  "The infill named in the quote: clean sand, rock, shell or coated silica sand, and no crumb rubber outside of a playground area",
+                  "A statement of whether the work comes within 10 feet of a pond, canal or other water, or under a tree canopy's drip line, and what the quote does about either",
+                  "A written irrigation plan, covering which heads are capped and where, because buried systems aren't allowed to water turf",
                   "Whether removal and haul-off of the old sod or landscaping is included in the price shown"])),
         sec("Related reading",
             f"<p>For the full material standard and installation steps, see {svc('artificial-turf', 'our artificial turf page')}. {compare('artificial-turf-vs-sod', 'Our turf vs. sod comparison')} runs the water-savings math in more depth, and {post('backyard-putting-green-florida', 'planning a backyard putting green')} and {post('artificial-turf-for-dogs-florida', 'turf for dogs')} go further on those two specific uses. The {a('/cost/', 'cost guide hub')} rounds up pricing for concrete, pavers and everything in between.</p>"),
     ])
     faqs = [
         faq("How much does artificial turf cost in Florida?",
-            f"Installed turf runs {price(pk)} per square foot, with most lawns landing nearer {price(pk, True)}. Angi's Orlando-specific data puts a typical project at $2,811 to $6,950 all-in, covering excavation, base and turf material together."),
+            f"Installed turf runs {price(pk)} per square foot, with most lawns landing nearer {price(pk, True)}. In Orlando, Angi lists a typical project between $2,811 and $6,950 in total, including excavation, the base and the turf material."),
         faq("How much does a backyard putting green cost?",
             "More per square foot than a standard lawn: commonly $15 to $40, with smaller greens under 400 square feet running toward $25 to $40 and larger ones over 2,000 square feet closer to $15 to $25. A typical project averages around $4,300, and each cup and flagstick adds roughly $150 more."),
         faq("Are there rebates for replacing grass with artificial turf in Florida?",
@@ -344,7 +344,7 @@ def artificial_turf_cost():
         faq("Does putting green pricing include the cups and flagsticks?",
             "Not always; published pricing often lists them separately. Each hole and flagstick adds roughly $150 on top of the per-square-foot green price, which covers the turf, the precisely screeded base and the fringe area around the cups."),
         faq("Does turf over an existing pool deck or patio cost less than a full yard?",
-            "It can, since there's no excavation or new base to build, just a drainage layer or pad between the hard surface and the turf. The washed-rock base rule for a ground-level lawn doesn't apply the same way on top of an existing slab, which is one reason turf set over a deck or patio sometimes runs toward the lower end of published ranges.")]
+            "It can. Nothing gets excavated and no new base is built; a pad or drainage layer goes between the existing hard surface and the turf. A ground-level lawn needs the washed-rock base, but that rule works differently over a slab already in place, and that is one reason turf set over a deck or patio sometimes runs toward the lower end of published ranges.")]
     return page("/artificial-turf-cost/", "price", "Artificial Turf Cost in Florida (2026)",
                 f"Florida artificial turf cost as of {PRICE_DATE}: {price(pk)} per sq ft installed, Orlando and Tampa averages, putting green pricing, and the rebate question answered.",
                 "What Artificial Turf Costs in Florida",

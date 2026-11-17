@@ -1,13 +1,12 @@
 pages: 523
 FAIL: 0
-WARN: 61
+WARN: 57
 
 
 WARN  density 'artificial turf' 6.9%: /404/
 WARN  density 'pavers' 3.7%: /blog/
 WARN  density 'concrete driveway' 5.0%: /compare/
 WARN  density 'pavers' 13.4%: /compare/
-WARN  em dashes x3: /blog/concrete-driveway-ideas-florida/
 WARN  density 'pavers' 4.8%: /blog/permeable-pavers-and-drainage-florida/
 WARN  density 'pavers' 3.6%: /blog/restore-or-replace-old-pavers/
 WARN  density 'pavers' 4.4%: /compare/clay-brick-vs-concrete-pavers/
@@ -16,13 +15,10 @@ WARN  density 'stamped concrete' 3.6%: /compare/stamped-concrete-vs-pavers/
 WARN  density 'pavers' 4.7%: /compare/travertine-vs-concrete-pavers/
 WARN  density 'pavers' 4.1%: /faq/pavers/
 WARN  density 'pavers' 3.8%: /nokomis-fl/paver-driveways/
-WARN  density 'pavers' 3.5%: /winter-springs-fl/paver-driveways/
+WARN  density 'pavers' 3.6%: /winter-springs-fl/paver-driveways/
 WARN  inlinks 0 < 3: /about/
 WARN  inlinks 0 < 3: /accessibility/
 WARN  inlinks 2 < 3: /blog/artificial-turf-in-florida-rain-and-storms/
-WARN  inlinks 2 < 3: /faq/artificial-turf/
-WARN  inlinks 1 < 3: /faq/concrete/
-WARN  inlinks 1 < 3: /faq/pavers/
 WARN  inlinks 0 < 3: /terms/
 WARN  sentence on 8 pages: "working a driveway around a protected oaks roots live oak roots can run well past the cano" e.g. ['/belle-isle-fl/concrete-driveways/', '/ellenton-fl/concrete-driveways/', '/montverde-fl/concrete-driveways/']
 WARN  sentence on 8 pages: "why ridge sand doesnt get a free pass on base work on the sandy ridge soils found west of " e.g. ['/belle-isle-fl/paver-patios/', '/ellenton-fl/paver-patios/', '/montverde-fl/paver-patios/']

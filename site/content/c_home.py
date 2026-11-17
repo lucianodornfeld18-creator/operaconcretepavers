@@ -16,13 +16,13 @@ def _cards(pillar):
             pid = (for_service(k, 1) or [None])[0]
             img = thumb(pid) if pid else ""
             cost = cost_for(k)
-            cl = f' · <a href="{cost}">cost guide</a>' if cost else ""
-            out.append(f'<li class="card">{img}<h3><a href="{S["route"]}">{S["name"]}</a></h3><p>{S["short"]}</p><p><small>Market range {price(S["price"])} per {per(S["price"])}{cl}</small></p></li>')
+            cl = f' · <a href="{cost}">full price breakdown</a>' if cost else ""
+            out.append(f'<li class="card">{img}<h3><a href="{S["route"]}">{S["name"]}</a></h3><p>{S["short"]}</p><p><small>Installed at {price(S["price"])} per {per(S["price"])}{cl}</small></p></li>')
     return '<ul class="grid">' + "".join(out) + "</ul>"
 
 
 def get_pages():
-    rows = [[a(SERVICES[k]["route"], SERVICES[k]["name"]), f"{price(SERVICES[k]['price'])}", per(SERVICES[k]["price"]), f"{price(SERVICES[k]['price'], True)}"] for k in SERVICE_ORDER]
+    rows = [[a(SERVICES[k]["route"], SERVICES[k]["name"]), f"{price(SERVICES[k]['price'])} per {per(SERVICES[k]['price'])}", f"{price(SERVICES[k]['price'], True)}"] for k in SERVICE_ORDER]
     body = "".join([
         sec("Pavers, retaining walls and artificial turf", f"<p>Interlocking pavers flex where a slab cracks, and a single damaged unit can be lifted and reset. We lay {svc('paver-driveways', 'paver driveways')}, "
             f"patios and walkways, travertine and concrete-paver pool decks, segmental block walls, and {svc('artificial-turf', 'artificial turf')} for yards where sod keeps failing. "
@@ -45,7 +45,7 @@ def get_pages():
         sec("What does concrete or paver work cost in Florida in 2026?",
             f"<p>As of October 2026, published Florida and national cost data put an installed concrete driveway at about {price('concrete-driveway')} per square foot, a paver driveway at {price('paver-driveway')}, a paver patio at {price('paver-patio')} and artificial turf at {price('artificial-turf')}. "
             f"Angi's Orlando data, updated May 2026, puts the average concrete driveway project near $6,490 ({src('angi-driveway-orlando', 'Angi, Orlando')}). Prices don't change by ZIP code; demolition, access, base work, permits and HOA requirements do.</p>"
-            + table("Florida market ranges by service, October 2026", ["Service", "Market range", "Unit", "Typical middle"], rows, price_note())
+            + table("What each service runs in Florida, October 2026", ["Service", "Range and unit", "Where most jobs land"], rows, price_note())
             + f"<p>The {a('/cost/', 'cost guides')} break each of these down by size, finish and site conditions, with worked examples for a one-, two- and three-car driveway.</p>"),
         sec("Why Florida concrete cracks, and what we do about it",
             "<p>Central and Southwest Florida are hard on flatwork for three reasons, and none of them is the concrete itself.</p>"

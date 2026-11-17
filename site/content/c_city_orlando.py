@@ -454,7 +454,7 @@ LOCAL["retaining-walls"] = {
          f"({src('laureatepark-faq', 'Laureate Park Master Association FAQ')}), language broad enough to cover a retaining or seat wall built to manage a sloped yard. On the gently rolling lots common around Lake Nona, a low seat wall is as often a landscape feature as a structural necessity, but either way the neighborhood's review happens before, not after, the city's own permit process.</p>"),
     ],
     "scenario": ("A sloped-yard retaining wall near Lake Nona, worked out in square feet",
-                 f"<p>Say a sloped lot near Laureate Park needs a 30 linear foot segmental block wall, 3 feet tall, 90 square feet of wall face. At {price('retaining-wall')} per {per('retaining-wall')}, that lands between roughly $1,350 and $3,600 before drainage behind the wall or an engineering review is added in. "
+                 f"<p>Take a sloped lot near Laureate Park where the plan calls for 30 linear feet of segmental block, 3 feet high, so 90 square feet of wall face. The market range of {price('retaining-wall')} per {per('retaining-wall')} turns that into roughly $1,350 to $3,600, and drainage behind the wall or an engineering review would come on top. "
                  "Because the wall stays under the 48-inch statewide threshold for unbalanced fill, it's less likely to need a sealed engineering drawing than a taller wall would, though confirming that with the city is still worth the phone call.</p>"),
     "faqs": [
         faq("Does Orlando publish a retaining wall height that requires a permit?",

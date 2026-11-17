@@ -104,7 +104,7 @@ def concrete_patios():
                 sources=["homeguide-concrete-patio", "angi-slab-orlando", "fbcr-2020-ch5", "fbcr-2020-ch4", "nrmca-cip6", "nrmca-cip12", "nrmca-cip5", "aci-faq-maxtemp", "aci-ci-evap-2007",
                          "nrcs-myakka-osd", "nrcs-smyrna-osd", "fl-dos-state-soil", "fcc-orlando-normals", "fcc-bradenton-normals", "sjrwmd-watering", "swfwmd-restrictions",
                          "clermont-permit-types", "manatee-no-permit-list", "city-sarasota-bp-guidelines", "winterpark-do-i-need-permit", "orlando-res-requirements", "fs713-13", "fs720-3035"],
-                related=[("/concrete-patio-cost/", "Concrete patio cost guide"), ("/compare/stamped-concrete-vs-pavers/", "Stamped concrete vs. pavers"),
+                related=[("/faq/concrete/", "Concrete questions, answered"), ("/concrete-patio-cost/", "Concrete patio cost guide"), ("/compare/stamped-concrete-vs-pavers/", "Stamped concrete vs. pavers"),
                          ("/blog/concrete-patio-ideas-florida/", "Concrete patio ideas for Florida homes"), ("/stamped-concrete/", "Stamped concrete"),
                          ("/paver-patios/", "Paver patios & walkways"), ("/permits/", "Permits & HOA hub")],
                 crumbs=[("Concrete", "/concrete/")], crumb="Concrete patios", service=K,

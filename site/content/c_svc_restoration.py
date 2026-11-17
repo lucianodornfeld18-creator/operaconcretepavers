@@ -136,7 +136,7 @@ def restoration():
                         "Kissimmee, Orlando, Sarasota and Lakewood Ranch."),
                 body, faqs=faqs,
                 sources=["icpi-ts2", "icpi-ts3", "icpi-ts5", "homeguide-driveway-repair", "outdoorlifepros-paver-repair-capecoral", "homeguide-seal-pavers", "nrcs-myakka-osd", "fs713-13"],
-                related=[("/paver-sealing/", "paver sealing: sealer types and timing"), ("/paver-sealing-cost/", "paver sealing and restoration cost guide"),
+                related=[("/faq/pavers/", "paver questions, answered"), ("/paver-sealing/", "paver sealing: sealer types and timing"), ("/paver-sealing-cost/", "paver sealing and restoration cost guide"),
                          ("/blog/why-pavers-sink-in-florida/", "why pavers sink in Florida"), ("/blog/restore-or-replace-old-pavers/", "restore or replace old pavers"),
                          ("/blog/mold-and-algae-on-pavers-florida/", "black mold and algae on pavers"),
                          ("/blog/rust-and-irrigation-stains-on-concrete-pavers/", "rust and irrigation stains"),

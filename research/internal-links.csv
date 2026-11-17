@@ -26,7 +26,7 @@ route,kind,inlinks_from_main,outlinks
 /apopka-fl/pool-deck-pavers/,cityservice,6,49
 /apopka-fl/stamped-concrete/,cityservice,7,49
 /artificial-turf-cost/,price,17,43
-/artificial-turf/,service,95,96
+/artificial-turf/,service,95,97
 /avalon-park-fl/,city,6,47
 /avalon-park-fl/artificial-turf/,cityservice,4,48
 /avalon-park-fl/concrete-driveways/,cityservice,4,48
@@ -162,7 +162,7 @@ route,kind,inlinks_from_main,outlinks
 /concrete-driveway-cost/,price,37,46
 /concrete-driveways/,service,112,96
 /concrete-patio-cost/,price,6,43
-/concrete-patios/,service,62,81
+/concrete-patios/,service,62,82
 /concrete-pool-decks/,service,82,86
 /concrete-repair-cost/,price,9,44
 /concrete-repair/,service,43,59
@@ -170,7 +170,7 @@ route,kind,inlinks_from_main,outlinks
 /concrete-slabs/,service,35,60
 /concrete-walkway-cost/,price,5,44
 /concrete-walkways/,service,24,57
-/concrete/,pillar,10,52
+/concrete/,pillar,10,53
 /contact/,contact,12,40
 /cost/,price,16,58
 /davenport-fl/,city,16,51
@@ -205,10 +205,10 @@ route,kind,inlinks_from_main,outlinks
 /englewood-fl/concrete-driveways/,cityservice,6,48
 /englewood-fl/paver-patios/,cityservice,6,48
 /faq/,faq,5,50
-/faq/artificial-turf/,faq,2,47
-/faq/concrete/,faq,1,44
+/faq/artificial-turf/,faq,3,47
+/faq/concrete/,faq,3,44
 /faq/cost-and-permits/,faq,8,50
-/faq/pavers/,faq,1,46
+/faq/pavers/,faq,4,46
 /groveland-fl/,city,9,47
 /groveland-fl/artificial-turf/,cityservice,6,48
 /groveland-fl/concrete-driveways/,cityservice,6,49
@@ -395,10 +395,10 @@ route,kind,inlinks_from_main,outlinks
 /paver-driveways/,service,86,85
 /paver-patio-cost/,price,15,45
 /paver-patios/,service,113,99
-/paver-restoration/,service,29,55
+/paver-restoration/,service,29,56
 /paver-sealing-cost/,price,16,45
-/paver-sealing/,service,44,58
-/pavers/,pillar,10,50
+/paver-sealing/,service,44,59
+/pavers/,pillar,10,51
 /permits/,permit,44,50
 /poinciana-fl/,city,7,47
 /poinciana-fl/artificial-turf/,cityservice,5,48

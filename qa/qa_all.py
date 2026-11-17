@@ -24,6 +24,9 @@ TRACK = ["most of our", "many of our", "our customers", "our clients", "we've in
 # Owner decision 2026-10-23: nothing the site serves may mention licences or use "contractor" (text, titles, metas, JSON-LD,
 # alt text, llms.txt, feeds, sitemaps). External link URLs are exempt (e.g. Orange County's /PermitsLicenses/ pages); anchor text is not.
 LIC = re.compile(r"licen[cs]|contractor", re.I)
+sys.path.insert(0, str(ROOT / "site"))
+from _data import PRICE_LABEL, PRICE_DATE  # noqa: E402
+PRICE_NOTE = f"{PRICE_LABEL}, {PRICE_DATE}, compiled from published installer pricing and national cost guides. A written quote follows a site visit."
 
 
 def lic_hits(text):
@@ -45,9 +48,11 @@ def main_text(h):
     t = m.group(0) if m else h
     t = re.sub(r'<p class="tnote">[^<]*compiled from published[^<]*</p>', " ", t)
     t = re.sub(r'<div class="fcard".*?</form></div>|<div class="sect-form">.*?</form></div></div></div>', " ", t, flags=re.S)
+    t = re.sub(r'<div class="hcall">.*?</div>', " ", t, flags=re.S)  # template phone strip under the hero, same on every page
     t = re.sub(r"<script.*?</script>|<style.*?</style>|<form.*?</form>|<nav.*?</nav>|<div class=\"src\">.*?</div>|<aside class=\"rel\">.*?</aside>|<section[^>]*class=\"auto\".*?</section>", " ", t, flags=re.S)
     t = re.sub(r"<[^>]+>", " ", t)
-    return htmlmod.unescape(re.sub(r"\s+", " ", t)).strip()
+    t = htmlmod.unescape(re.sub(r"\s+", " ", t)).strip()
+    return t.replace(PRICE_NOTE, " ")  # fixed disclaimer from _helpers.price_note(), template text like the form
 
 
 def main():

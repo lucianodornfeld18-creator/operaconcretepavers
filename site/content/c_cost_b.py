@@ -42,7 +42,7 @@ def slab_cost():
             "<p>Beyond thickness and mix, five factors routinely separate a low bid from a high one on the same footprint.</p>"
             + table("What changes a slab quote", ["Factor", "Why it matters in Florida", "Typical effect"],
                     [["Removing what's there now", "An old pad, a tree stump or a patch of dead sod all need clearing first", "Concrete removal runs $3–$8/sq ft including haul-off; a 10×10 slab removal is $300–$800 (HomeGuide)"],
-                     ["Base compaction", "Flatwoods soils hold a seasonal water table within about 18 inches of the surface across much of both service areas; loose fill left uncompacted settles under the slab within a year or two", "Adds labor and time, not usually a separate line item on a small pad"],
+                     ["Base compaction", "Over much of both service areas the groundwater in flatwoods soil rises to roughly 18 inches below grade in wet months, and loose fill that wasn't compacted settles under a slab inside a couple of years", "Adds labor and time, not usually a separate line item on a small pad"],
                      ["Access for the truck", "A backyard pad with no gate wide enough for a chute means pumping or wheelbarrowing concrete in by hand", "A pump truck or a wheelbarrow relay adds its own charge and a longer crew day"],
                      ["Minimum job charge", "Forming, mobilizing a crew and ordering a short load cost nearly the same whether the pad is 60 sq ft or 600", "Small pads carry a higher cost per sq ft than a large one at the same spec"],
                      ["Permit filing", "Whether the pad needs a permit, and who files it, changes the paperwork cost even when the concrete itself doesn't change", "See the permit section below"]],
@@ -53,15 +53,15 @@ def slab_cost():
             f"({src('homeguide-concrete-prices', 'HomeGuide, concrete prices')}). A 20×20 ft slab at 4 inches thick needs roughly 5 cubic yards before waste, so a small pad that only needs 1 or 2 yards is almost always hit with a short-load fee, which is part of why a tiny pour costs more per square foot than a full driveway does.</p>"),
         sec("Permits: when a pad needs one, and when it doesn't",
             "<p>Whether a slab needs a permit turns on its use and its size, not a single statewide rule. "
-            "Since July 1, 2026, Florida's HB 803 exempts single-family homeowners, and whoever they hire, from a local building permit on non-structural work valued under $7,500, outside a flood-hazard area, which covers plenty of shed, generator and utility pads, though a written exemption request still has to be filed "
+            "A new Florida law, HB 803, took effect July 1, 2026. It lets single-family homeowners, and anyone they hire, skip a local building permit for non-structural work under $7,500 that sits outside a flood-hazard area. That takes in many shed, generator and utility pads, but the owner still files a written exemption request "
             f"({src('orlando-hb803-guide', 'City of Orlando, HB 803 guide')}).</p>"
-            + table("Slab permit snapshot, selected jurisdictions (checked October 2026)", ["Jurisdiction", "What applies", "Notes"],
-                    [["City of Kissimmee", "Building permit, type \"Slab With/Without Footer\"", "A separate permit track from driveways and sidewalks"],
-                     ["City of Orlando", "Engineering permit covering concrete, pavers and asphalt pads", "Same track used for driveways"],
-                     ["Manatee County (unincorporated)", "No permit for a non-structural slab", "A slab with footers, or one that carries a structure, still needs one"],
-                     ["Statewide, HB 803", "No building permit under $7,500 for non-structural work outside flood zones", "Written exemption request required; doesn't cover a structural addition"]],
+            + table("Slab permit rules in four places we checked in October 2026", ["Place", "Rule", "Comment"],
+                    [["Kissimmee (city)", "A building permit filed under the \"Slab With/Without Footer\" type", "Driveways and sidewalks go through a different track"],
+                     ["Orlando (city)", "An engineering permit that covers concrete, paver and asphalt pads", "Driveways follow this same route"],
+                     ["Manatee (unincorporated)", "Non-structural slabs need no permit", "Footers, or a slab that supports a structure, bring the permit back"],
+                     ["HB 803 (statewide)", "Non-structural work valued below $7,500 and outside flood zones needs no building permit", "An exemption request must be filed in writing, and a structural addition is not covered"]],
                     f"{src('kissimmee-permit-types', 'City of Kissimmee')}; {src('orlando-res-requirements', 'City of Orlando')}; {src('manatee-no-permit-list', 'Manatee County')}; {src('orlando-hb803-guide', 'City of Orlando')}.")
-            + f"<p>On a contract over $2,500, Florida's lien law requires a recorded Notice of Commencement before work starts no matter which permit track applies ({src('fs713-13', 'F.S. 713.13')}). A garage addition tied into the house's structure sits outside any of the accessory-pad exemptions above and generally needs the full engineered permit path instead. "
+            + f"<p>Whichever permit track applies, a job priced above $2,500 triggers the Florida lien-law requirement to record a Notice of Commencement ahead of the first day of work ({src('fs713-13', 'F.S. 713.13')}). A garage addition tied into the house's structure sits outside any of the accessory-pad exemptions above and generally needs the full engineered permit path instead. "
               f"{post('shed-slab-guide-florida', 'Our shed slab guide')} and {post('concrete-pad-for-rv-or-boat-parking', 'RV and boat pad guide')} go deeper into size, thickness and permit questions for those specific pads.</p>"),
         sec("Two worked examples",
             "<p>These are planning illustrations built from the market range above, not jobs we've priced or a promise of what your pad will run.</p>"
@@ -118,9 +118,9 @@ def walkway_cost():
              ["Right-of-way crossing, 5 × 20 ft", "100", "$700–$1,700", "$800–$1,200"]]
     body = "".join([
         sec("What does a concrete sidewalk or walkway cost per square foot?",
-            f"<p>As of October 2026, a concrete walkway or sidewalk runs {price(PK)} per {per(PK)} installed, with a typical job nearer {price(PK, True)}, drawn from published national cost-guide data "
+            f"<p>Published national cost-guide data, as of October 2026, puts a concrete walkway or sidewalk at {price(PK)} per {per(PK)} installed, and a typical job nearer {price(PK, True)} "
             f"({src('homeguide-sidewalk', 'HomeGuide, concrete sidewalk')}). Priced per linear foot at a standard 4-foot width, that works out to $28 to $68 a running foot, the same figure HomeGuide publishes directly for a 4-foot sidewalk, which lines up with multiplying the per-square-foot range by the width. A short front walk costs less in total than a long side-yard run, but both price out at the same rate per square foot; what separates a cheap walk from an expensive one is usually what came before it, not how far it runs.</p>"
-            + (photo(pids[0], "Concrete paver stepping-stone path crossing a lawn toward a house entrance.") if pids else "")),
+            + (photo(pids[0], "Stepping stone path of concrete pavers across a lawn, leading to a front door.") if pids else "")),
         sec("Cost per linear foot by width", "<p>Narrower paths used for a side-yard trash run price lower per linear foot than a wider entry walk or right-of-way crossing, simply because less concrete goes into each foot of length.</p>"
             + table(f"Concrete walkway cost per linear foot, at {price(PK)} per sq ft", ["Width", "Cost per linear ft"], widths,
                     f"Width multiplied by the {price(PK)} per sq ft market range. {src('homeguide-sidewalk', 'HomeGuide')} publishes the 4-foot figure directly.")),
@@ -153,7 +153,7 @@ def walkway_cost():
                      ["City of Sarasota", "No published exemption; the Building Division is the point of contact", "Same"],
                      ["Sarasota County (unincorporated)", "Varies by scope", "Right-of-Way Use Permit required; no walkway may sit inside a drainage easement"]],
                     f"{src('clermont-permit-checklists', 'City of Clermont')}; {src('city-sarasota-bp-guidelines', 'City of Sarasota')}; {src('sarasota-county-row-permit', 'Sarasota County')}; {src('sarasota-county-124-255-culverts', 'Sarasota County Code §124-255')}.")
-            + f"<p>On any contract over $2,500, the lien-law Notice of Commencement applies regardless of which permit track the walk falls under ({src('fs713-13', 'F.S. 713.13')}); a small repair under that threshold is exempt from most of the same paperwork, though not from a city's permit requirement where one exists ({src('fs713-02', 'F.S. 713.02')}). {a('/permits/', 'Our permits and HOA hub')} has the full jurisdiction table.</p>"),
+            + f"<p>Lien law attaches a Notice of Commencement to any contract above $2,500, and that holds whichever permit track the walk follows ({src('fs713-13', 'F.S. 713.13')}); a minor repair below that figure avoids most of the same paperwork but not a city permit where the city asks for one ({src('fs713-02', 'F.S. 713.02')}). {a('/permits/', 'Our permits and HOA hub')} has the full jurisdiction table.</p>"),
         sec("Two worked examples",
             "<p>Both are planning illustrations, not a price for a specific job.</p>"
             f"<p><strong>Orlando area.</strong> Say you have a 4 × 30 ft front walk (120 sq ft) replacing a cracked original walk at a 1970s {city('winter-garden', 'Winter Garden')} home. At the remove-and-replace rate of $10 to $25 per square foot, that's roughly $1,200 to $3,000 for the full job, well above what the same walk would cost poured fresh on open ground.</p>"
@@ -190,7 +190,7 @@ def walkway_cost():
     return page("/concrete-walkway-cost/", "price", "Concrete Sidewalk & Walkway Cost (2026)",
                 "Florida and national market ranges for concrete walkway and sidewalk cost per square foot and per linear foot, as of October 2026, with size tables and permit notes.",
                 "What a Concrete Walkway or Sidewalk Costs",
-                capsule(f"As of October 2026, a concrete walkway or sidewalk runs {price(PK)} per square foot installed, or $28 to $68 per linear foot at a standard 4-foot width, based on published national cost-guide data. A 100 sq ft front walk lands near $700 to $1,700. Removing an old, cracked walk first, rather than pouring on clear ground, is what most often pushes a job toward the top of the range."),
+                capsule(f"Budget {price(PK)} per square foot installed for a concrete walkway or sidewalk as of October 2026, which is $28 to $68 per linear foot at a standard 4-foot width, based on published national cost-guide data. A 100 sq ft front walk lands near $700 to $1,700. Removing an old, cracked walk first, rather than pouring on clear ground, is what most often pushes a job toward the top of the range."),
                 body, faqs=faqs, sources=["homeguide-sidewalk", "homeguide-paver-walkway", "clermont-permit-checklists", "city-sarasota-bp-guidelines",
                                           "sarasota-county-row-permit", "sarasota-county-124-255-culverts", "fs713-13", "fs713-02"],
                 related=[("/concrete-walkways/", "Concrete walkway installation"), ("/concrete-repair-cost/", "Concrete repair cost"),
@@ -209,7 +209,7 @@ def repair_cost():
              ["Patio, 300 sq ft", "$900–$3,000", "$1,200–$2,100"]]
     body = "".join([
         sec("How much does it cost to repair a cracked concrete driveway?",
-            f"<p>As of October 2026, concrete repair and resurfacing together run {price(PK)} per {per(PK)} in current Florida market data, typically {price(PK, True)}. A single stable crack filled with sealant runs far less, $0.50 to $5 per linear foot, while a full cut-out-and-replace of a damaged section runs more, $10 to $15 per square foot in Orlando-area data, since it includes demolition and a full new pour rather than a surface treatment "
+            f"<p>Florida market data for October 2026 combines repair and resurfacing at {price(PK)} per {per(PK)}, with {price(PK, True)} as the usual figure. Filling one stable crack with sealant is much cheaper at $0.50 to $5 per linear foot; cutting out and replacing a damaged section costs more, $10 to $15 per square foot in Orlando-area data, because demolition and a full new pour are part of the job instead of a surface treatment "
             f"({src('angi-driveway-repair-orlando', 'Angi Orlando, driveway repair')}). The right number for your driveway depends on which of those four or five different repairs it actually needs, which is why repair pricing spreads so much wider than installation pricing for the same material.</p>"
             + (photo(pids[0], "A crew finishing a resurfaced section of concrete driveway.") if pids else "")),
         sec("Cost by repair method", "<p>\"Concrete repair\" covers several distinct jobs, each priced its own way rather than by square foot alone.</p>"
@@ -217,7 +217,7 @@ def repair_cost():
                     [["Crack sealing", "$0.50–$5 per linear ft", "A stable, narrow crack that isn't tied to a settled area"],
                      ["Pothole patch", "$105–$410 each", "Isolated surface damage, usually a spalled or chipped spot"],
                      ["Mudjacking (slab lifting)", "$3–$9/sq ft, $500 typical minimum", "A sunken panel over a void, on stable soil"],
-                     ["Polyurethane foam leveling", "$8–$25/sq ft", "A sunken panel on soft or saturated ground, where added weight is a concern"],
+                     ["Polyurethane foam leveling", "$8–$25/sq ft", "A sunken panel over soft or waterlogged ground, where extra weight is a worry"],
                      ["Resurfacing overlay, plain", "$3–$7/sq ft", "Cosmetic wear on a structurally sound slab"],
                      ["Resurfacing overlay, stamped or decorative", "$6–$20/sq ft", "Cosmetic wear plus a pattern or color change"],
                      ["Cut-out and replace a panel", "$10–$15/sq ft (Orlando); $6–$14 national", "A panel too cracked or damaged for any surface fix to hold"]],
@@ -230,7 +230,7 @@ def repair_cost():
         sec("How much does concrete leveling cost?",
             f"<p>Leveling, raising a sunken panel back toward grade rather than replacing it, runs $3 to $12 per square foot or $700 to $5,000 for a typical job depending on method and size "
             f"({src('homeguide-concrete-leveling', 'HomeGuide, concrete leveling')}). Mudjacking, pumping a cement-based slurry under the slab, is the cheaper of the two common methods at $3 to $9 per square foot with a roughly $500 minimum; Orlando data shows mudjacking jobs scaling from about $500 to $650 for 50 square feet up to $2,400 to $3,500 for 800 square feet "
-            f"({src('angi-mudjacking-orlando', 'Angi Orlando, mudjacking')}). Polyurethane foam injection costs more per square foot, $8 to $25, but adds far less weight to already-soft ground, which matters more on flatwoods soils with a shallow seasonal water table than it does on well-drained ridge sand.</p>"
+            f"({src('angi-mudjacking-orlando', 'Angi Orlando, mudjacking')}). Injected polyurethane foam is pricier at $8 to $25 per square foot, yet it loads already-soft ground with much less weight, an advantage that counts for more on flatwoods soil with a shallow seasonal water table than on well-drained ridge sand.</p>"
             "<p>Neither method is the right fit for a crack that's still actively moving or a panel that's cracked through rather than simply sunken; a crew should diagnose which situation you have before recommending either one, since quoting a leveling price before confirming there's an intact panel to lift is a guess dressed up as a number.</p>"),
         sec("What moves a repair quote, and why the diagnosis matters more than the method",
             "<p>A repair bid can swing widely for reasons that have little to do with the size of the visible crack.</p>"
@@ -240,9 +240,9 @@ def repair_cost():
                   "<strong>Whether the cause gets fixed, not just the symptom.</strong> Resurfacing over an active void looks finished on day one and often cracks again within a wet season, which turns a one-time repair cost into two.",
                   "<strong>Permits, on a full section replacement.</strong> A cut-out-and-replace job large enough to resemble new construction can trigger the same permit review a new driveway would, where a crack fill or a leveling job typically doesn't."])),
         sec("Permits and HOA notice for repair work",
-            "<p>A repair that stays within a slab's existing footprint, crack sealing, leveling by injection, or a resurfacing overlay, usually doesn't trigger the same permit review a new driveway does, though a large cut-out-and-replace of a right-of-way apron can fall back under the ordinary flatwork permit for that jurisdiction. Manatee County's published list of work that needs no permit covers routine, non-structural repair, while Orange County and the City of Orlando route larger section replacements through the same engineering permit used for new concrete "
-            f"({src('manatee-no-permit-list', 'Manatee County')}; {src('orange-do-i-need-permit', 'Orange County')}). On a contract over $2,500, the lien-law Notice of Commencement still applies regardless of whether the repair itself needs a building permit "
-            f"({src('fs713-13', 'F.S. 713.13')}). An HOA with architectural control over a driveway's appearance can generally require notice before color-matched resurfacing, even where the repair needs no government permit at all; {post('hoa-approval-for-pavers-and-concrete', 'our HOA approval guide')} covers that process.</p>"),
+            "<p>A repair that stays within a slab's existing footprint, crack sealing, leveling by injection, or a resurfacing overlay, usually doesn't trigger the same permit review a new driveway does, though a big cut-out-and-replace of a right-of-way apron may land back under the standard flatwork permit that the jurisdiction uses. Manatee County lists routine, non-structural repair among the work that needs no permit; in Orange County and the City of Orlando, a bigger section replacement goes through the engineering permit also used for new concrete "
+            f"({src('manatee-no-permit-list', 'Manatee County')}; {src('orange-do-i-need-permit', 'Orange County')}). Even when the repair needs no building permit, a contract above $2,500 still carries the lien-law Notice of Commencement "
+            f"({src('fs713-13', 'F.S. 713.13')}). Where an HOA controls how a driveway looks, it can usually ask for notice ahead of color-matched resurfacing even if no government permit is involved; {post('hoa-approval-for-pavers-and-concrete', 'our HOA approval guide')} covers that process.</p>"),
         sec("Two worked examples",
             "<p>Both are planning illustrations built from the ranges above, not a bid for an actual driveway.</p>"
             f"<p><strong>Orlando area.</strong> Say you have a 20 × 20 ft two-car driveway (400 sq ft) in a 1990s {city('kissimmee', 'Kissimmee')} subdivision, with hairline cracks along two joints and one settled corner about 100 square feet in size. Sealing roughly 30 linear feet of crack runs about $15 to $150; lifting the settled corner by mudjacking, going by Orlando's own 100 sq ft pricing band, runs about $650 to $950. Combined, the job lands in roughly the $700 to $1,100 range, well below what resurfacing or replacing the whole driveway would cost.</p>"
@@ -303,17 +303,17 @@ def paver_driveway_cost():
                  ["Natural stone", "$20–$35", "$11,520–$20,160"]]
     body = "".join([
         sec("How much does a paver driveway cost in Florida?",
-            f"<p>As of October 2026, installed paver driveways run {price(PK)} per {per(PK)} in current Florida market data, typically {price(PK, True)}, across the material options installers offer locally "
+            f"<p>Florida market data from October 2026 puts a finished paver driveway at {price(PK)} per {per(PK)}, usually around {price(PK, True)}, over the range of materials installers here offer "
             f"({src('homeguide-driveway-pavers', 'HomeGuide')}; {src('angi-paver-driveway', 'Angi')}). A South Florida paver installer's own published pricing lands in a similar $12 to $32 per square foot band depending on material "
             f"({src('craftpavers-fl-pricing', 'Craft Pavers')}). The material you choose moves the price more than anything else on the job, concrete pavers sit at the lower end, natural stone at the top, and whether an old driveway has to come out first is the other big swing factor.</p>"
-            + (photo(pids[0], "A row of paver driveways along a palm-lined Florida street.") if pids else "")),
+            + (photo(pids[0], "Paver-surfaced driveways lined up on a street with palm trees in Florida.") if pids else "")),
         sec("Paver driveway cost by size", "<p>These totals apply the full market range across common driveway footprints, from a single-car driveway to a three-car layout, on clear ground with no old driveway to remove.</p>"
             + table(f"Paver driveway totals by size, {price(PK)} per sq ft", ["Driveway", "Sq ft", "Market range", "Typical"], sizes,
                     f"Arithmetic on the {price(PK)} and {price(PK, True)} per sq ft figures. HomeGuide's own 2-car 24×24 ft example prices at $5,700 to $17,200, in line with this range ({src('homeguide-driveway-pavers', 'HomeGuide')}).")),
         sec("Cost by material, for a two-car driveway",
             "<p>The unit itself, not the base underneath it, is what separates a budget paver driveway from an expensive one. These totals apply Angi's published per-material rates to a 576 sq ft, two-car footprint.</p>"
             + table("Material cost for a 576 sq ft two-car paver driveway", ["Material", "Per sq ft", "Total"], materials,
-                    f"{src('angi-paver-driveway', 'Angi, paver driveway cost')}; labor runs $5–$15 per sq ft on top of material cost across all five options, so the base-and-labor share of the job narrows the spread between the cheapest and most expensive material shown here.")),
+                    f"{src('angi-paver-driveway', 'Angi, paver driveway cost')}; installation labor adds $5–$15 per sq ft to the material price whichever of the five you pick, and that shared base-and-labor portion shrinks the gap between the cheapest and costliest product listed.")),
         sec("Why removing old concrete first changes the number",
             f"<p>Replacing an existing concrete driveway with pavers, rather than installing on bare or landscaped ground, runs $12 to $35 per square foot including demolition, noticeably higher than new pavers on clear ground "
             f"({src('homeguide-driveway-pavers', 'HomeGuide')}). On a 400 sq ft driveway, that's the difference between roughly $4,800 and $14,000 with demolition against $4,000 to $12,000 without it. Breaking out and hauling off the old slab, then building the full paver base underneath where the concrete used to sit, is close to two jobs stacked into one, which is why a like-for-like swap from concrete to pavers rarely lands at the bottom of either range.</p>"
@@ -324,7 +324,7 @@ def paver_driveway_cost():
                   "<strong>Base depth.</strong> A wet, poorly drained flatwoods lot needs 2 to 4 inches more compacted aggregate than a free-draining ridge-sand lot, more material and more compaction passes for the same footprint.",
                   "<strong>Pattern and cutting.</strong> A running-bond layout wastes less material and labor than a herringbone or a layout with a custom border, both of which need more units cut to fit.",
                   "<strong>Edge restraint.</strong> It's invisible once the job is done, which is also why it's the line item most often left off a cheap bid; without it along the full perimeter, the field spreads under tire loads within a season or two.",
-                  "<strong>Permit and right-of-way work.</strong> The apron almost always sits in a right-of-way the city or county controls, and it can carry its own spec and fee separate from the rest of the driveway."])),
+                  "<strong>Permit and right-of-way work.</strong> Since the apron nearly always lies inside a right-of-way owned by the city or county, it may come with a separate specification and fee."])),
         sec("Are paver driveways more expensive than concrete?",
             f"<p>By published price alone, yes. Paver driveways run {price(PK)} per square foot against roughly $6 to $20 for concrete, including stamped finishes, in the same Florida and national data. That's a price-only comparison, though, not the full picture: pavers can be lifted and reset one unit at a time if a section settles or stains, where a concrete repair usually means cutting out and replacing a whole panel. "
             f"{compare('pavers-vs-concrete-driveway', 'Our pavers vs. concrete driveway comparison')} works through lifespan, repair cost over time and resale together, which matters more to most homeowners than the installed price alone.</p>"),
@@ -337,7 +337,7 @@ def paver_driveway_cost():
             "<p>Both are planning illustrations, not a quote for an actual driveway.</p>"
             f"<p><strong>Orlando area.</strong> Say you have a 24 × 24 ft two-car driveway (576 sq ft) in a {city('horizon-west', 'Horizon West')} subdivision, and you're replacing a cracked original concrete driveway with concrete pavers. At the $12 to $35 per square foot remove-and-replace range, that's roughly $6,912 to $20,160 for the full job, demolition included.</p>"
             f"<p><strong>Sarasota area.</strong> Say you have a 12 × 24 ft one-car driveway (288 sq ft) on a new-build lot in {city('parrish', 'Parrish')} with no existing driveway to remove. At the {price(PK)} new-install range, that's about $2,880 to $8,640, or $3,456 to $5,760 nearer the typical middle. The per-square-foot rate is the same one used in the Orlando example; what changed the total was demolition, not the county line.</p>"
-            + (photo(pids[1], "A herringbone-pattern paver driveway and walkway leading to a garage.") if len(pids) > 1 else "")),
+            + (photo(pids[1], "Herringbone paver driveway with a matching walkway running up to the garage.") if len(pids) > 1 else "")),
         sec("How to save money without cutting the base",
             "<p>Base depth and compaction are the one place a paver driveway should never be cut thin to save money; a few other choices bring the price down without touching either.</p>"
             + ul(["Choose concrete pavers over brick, porcelain or natural stone; the material itself, not the base underneath it, is the biggest swing in the price range.",

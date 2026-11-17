@@ -20,7 +20,7 @@ def slabs():
             f"For a driveway specifically, see {svc('concrete-driveways', 'our concrete driveway page')}; for a back patio, {svc('concrete-patios', 'concrete patios')}.</p>"
             + (photo(pids[0], "A broad concrete driveway runs up to a house with two garage doors.") if pids else "")),
         sec("Thickness, strength and reinforcement: it depends on what sits on the slab",
-            "<p>Florida's residential code sets 3½ inches as the minimum thickness for a slab on the ground, but that floor is written for an "
+            "<p>The minimum slab-on-ground thickness in Florida's residential code is 3½ inches, but that number was written with an "
             "ordinary interior room, not for what actually sits on an accessory pad. A shed floor or a generator pad carrying a light, evenly "
             "spread load can stay close to the common 4-inch, 3,000 to 4,000 psi pour used for most flatwork. A pad built for an RV, a boat "
             "trailer or a work truck needs the jump a driveway makes under those loads, 5 to 6 inches, because the weight concentrates on a "
@@ -70,7 +70,7 @@ def slabs():
               "explains how a pour gets scheduled around an afternoon storm.</p>"),
         sec("What Florida ground does to a small pad, and how we build around it",
             "<p>A shed or garage pad sits on the same ground a driveway would, and flatwoods soils common across both service areas, Myakka, "
-            "Smyrna and EauGallie among them, hold a seasonal water table within about 18 inches of the surface for part of most years. "
+            "Smyrna and EauGallie among them, can see the seasonal water table rise to roughly a foot and a half below grade in most years. "
             "Treating a small pad as too minor to need real subgrade work, skipping the removal of saturated native soil and the compacted fill "
             f"that replaces it, is how a light structure ends up with a door that no longer closes square a season or two later ({src('nrcs-myakka-osd', 'NRCS, Myakka series')}). "
             "On the drier sand-ridge soils west of Orlando, Candler and Astatula among them, the opposite problem shows up: loose, excessively "
@@ -85,7 +85,7 @@ def slabs():
             f"why an early start and a curing compound applied right after finishing matter on a shed pad the same as on a driveway ({src('nrmca-cip12', 'NRMCA CIP 12')}, "
             f"{src('nrmca-cip5', 'NRMCA CIP 5')}).</p>"),
         sec("Cost: what a slab runs in Florida",
-            f"<p>Installed concrete slabs run {price('concrete-slab')} per {per('concrete-slab')} in current Florida market data, typically "
+            f"<p>Current Florida market data puts an installed slab at {price('concrete-slab')} per {per('concrete-slab')}, usually "
             f"{price('concrete-slab', True)} depending on thickness, mix and site access; a plain 4-inch shed floor sits near the low end, a "
             f"6-inch RV pad with heavier reinforcement near the high end ({src('homeguide-concrete-slab', 'HomeGuide')}, {src('angi-slab-orlando', 'Angi Orlando')}). "
             "These are market ranges pulled from published Florida and national pricing as of October 2026, not a quote for a specific yard; what "
@@ -105,9 +105,9 @@ def slabs():
                      ["Statewide (HB 803)", "No building permit under $7,500 for non-structural work outside flood zones", "Written exemption request still required; doesn't cover structural additions"]],
                     f"{src('kissimmee-permit-types', 'City of Kissimmee')}; {src('orlando-res-requirements', 'City of Orlando')}; "
                     f"{src('manatee-no-permit-list', 'Manatee County')}; {src('orlando-hb803-guide', 'City of Orlando')}.")
-            + "<p>On a contract over $2,500, Florida's lien law requires a recorded Notice of Commencement before work starts regardless of which "
-              f"permit track applies ({src('fs713-13', 'F.S. 713.13')}), and since 2026 an HOA can't require a government permit as a condition of "
-              f"reviewing your application first ({src('fs720-3035', 'F.S. 720.3035')}). A county-by-county breakdown is in "
+            + "<p>Florida's lien law kicks in above $2,500: the Notice of Commencement has to be recorded before the first day of work, whichever "
+              f"permit track the pad falls under ({src('fs713-13', 'F.S. 713.13')}). Also new in 2026, an HOA may no longer make a government permit a precondition "
+              f"for starting its own review ({src('fs720-3035', 'F.S. 720.3035')}). A county-by-county breakdown is in "
               f"{post('orange-county-orlando-driveway-patio-permits', 'our Orange County and Orlando permit guide')} and "
               f"{post('manatee-county-driveway-permits', 'Manatee County permits')}; if your pad is already failing rather than new, "
               f"{compare('resurface-vs-replace-concrete', 'resurface or replace')} walks through that decision instead.</p>"),
@@ -125,12 +125,12 @@ def slabs():
             + ul(["Ask for the thickness and strength in writing, tied to what will actually sit on the pad, not a generic number.",
                   "Confirm whether the pad needs a permit, and if it falls under the HB 803 exemption, who files the written request.",
                   "For a garage addition tied into the house, confirm the scope is treated as structural work with the sign-off that requires.",
-                  "Ask for a certificate of insurance sent directly by the insurance agent, and a payment schedule that doesn't run ahead of the pour.",
+                  "Have the insurance agent deliver a certificate of insurance straight to you, and keep the payment schedule behind the pour, never ahead of it.",
                   "Ask how the crew handles a pad with no direct truck access, since that usually means a pump or wheelbarrow relay and a longer day."])
             + f"<p>{post('shed-slab-guide-florida', 'Our shed slab guide')} and "
               f"{post('sinkholes-and-settlement-central-florida', 'sinkholes vs. normal settlement in Central Florida')} go further into questions worth asking before a pour.</p>"),
         sec("Where we pour slabs",
-            f"<p>We pour slabs across Greater Orlando and Sarasota–Manatee, each quoted by the crew that knows that county's permit desk. "
+            f"<p>Slab work covers Greater Orlando and Sarasota–Manatee, with each estimate written by the crew familiar with that county's permit desk. "
             f"Related towns: {cs('orlando', K)}, {cs('kissimmee', K)}, {cs('sarasota', K)} and {cs('bradenton', K)}.</p><!--AUTO:service-cities-->"),
     ])
     faqs = [faq("What size slab do I need for my shed?",
